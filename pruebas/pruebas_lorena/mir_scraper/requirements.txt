@@ -1,0 +1,6 @@
+selenium
+webdriver-manager
+requests
+pymupdf
+PyPDF2
+pdfplumber

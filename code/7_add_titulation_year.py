@@ -2,8 +2,8 @@ import os
 import json
 import re
 
-carpeta_entrada = "5_json_type"
-carpeta_salida = "6_json_final"
+carpeta_entrada = "results/5_json_type"
+carpeta_salida = "results/6_json_final"
 os.makedirs(carpeta_salida, exist_ok=True)
 
 for nombre_archivo in os.listdir(carpeta_entrada):

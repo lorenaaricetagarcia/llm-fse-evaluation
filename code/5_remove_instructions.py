@@ -2,8 +2,8 @@ import os
 import json
 import re
 
-CARPETA_ENTRADA = "3_json_con_respuesta"
-CARPETA_SALIDA = "4_json_corregido"
+CARPETA_ENTRADA = "results/3_json_con_respuesta"
+CARPETA_SALIDA = "results/4_json_corregido"
 
 os.makedirs(CARPETA_SALIDA, exist_ok=True)
 

@@ -3,9 +3,9 @@ import json
 import re
 
 # Carpetas
-carpeta_preguntas = "1_json_por_titulacion"     # Donde están los JSON con las preguntas
-carpeta_respuestas = "2_respuestas_json"        # Donde están los JSON con las respuestas (solo versión 0)
-carpeta_salida = "3_json_con_respuesta"         # Carpeta donde se guardarán los JSON con respuestas añadidas
+carpeta_preguntas = "results/1_json_por_titulacion"     # Donde están los JSON con las preguntas
+carpeta_respuestas = "results/2_respuestas_json"        # Donde están los JSON con las respuestas (solo versión 0)
+carpeta_salida = "results/3_json_con_respuesta"         # Carpeta donde se guardarán los JSON con respuestas añadidas
 os.makedirs(carpeta_salida, exist_ok=True)      # Crear carpeta de salida si no existe
 
 # === CARGAR RESPUESTAS EN MEMORIA ===

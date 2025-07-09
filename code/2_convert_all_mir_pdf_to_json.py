@@ -79,7 +79,7 @@ def procesar_titulacion(titulacion_path, salida_dir):
 
 def main():
     base_dir = "examenes_mir_v_0"       # Carpeta raíz donde están las titulaciones
-    salida_dir = "1_json_por_titulacion"  # Carpeta de salida
+    salida_dir = "results/1_json_por_titulacion"  # Carpeta de salida
 
     for titulacion in os.listdir(base_dir):
         titulacion_path = os.path.join(base_dir, titulacion)

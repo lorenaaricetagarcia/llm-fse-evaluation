@@ -10,7 +10,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 
 # Carpeta de salida
-os.makedirs("2_respuestas_json", exist_ok=True)
+os.makedirs("results/2_respuestas_json", exist_ok=True)
 
 # Configuración del navegador (headless para evitar abrir ventanas)
 options = webdriver.ChromeOptions()

@@ -1,8 +1,8 @@
 import os
 import json
 
-input_dir = "4_json_corregido"
-output_dir = "5_json_type"
+input_dir = "results/4_json_corregido"
+output_dir = "results/5_json_type"
 
 os.makedirs(output_dir, exist_ok=True)
 

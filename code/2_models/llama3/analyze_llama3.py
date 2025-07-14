@@ -2,7 +2,7 @@ import json
 import os
 
 # Ruta al archivo JSON anotado con llama3
-archivo_json = "results/llama3/BIOLOGÍA_llama3.json"  
+archivo_json = "results/2_models/llama3/BIOLOGÍA_llama3.json"  
 
 # Cargar archivo
 with open(archivo_json, "r", encoding="utf-8") as f:

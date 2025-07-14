@@ -1,0 +1,2783 @@
+{
+  "titulacion": "BIOLOGÍA",
+  "preguntas": [
+    
+    {
+      "numero": 1,
+      "enunciado": "La velocidad de conducción de un potencial de  acción será mayor:",
+      "opciones": [
+        "Cuanto mayor sea el diámetro del axón.",
+        "En los axones sin mielina.",
+        "Cuanto mayor sea la longitud del axón.",
+        "Cuanto menor sea el diámetro del axón."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 2,
+      "enunciado": "Las sinapsis eléctricas se caracterizan por:",
+      "opciones": [
+        "Mostrar un retraso sináptico mayor que en las  sinapsis químicas.",
+        "Utilizar un neurotransmisor para transmitir la  información.",
+        "Utilizar  canales  para  transmitir  la  información.",
+        "Transmitir  la  información  de  manera  unidireccional."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 3,
+      "enunciado": "Los sistemas sensoriales codifican la intensidad  de los estímulos en función de:",
+      "opciones": [
+        "El tamaño de los potenciales de acción.",
+        "La frecuencia de los potenciales de acción.",
+        "La velocidad de transmisión del potencial de  acción.",
+        "La duración del potencial de acción."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 4,
+      "enunciado": "En las neuronas receptoras del olfato, las  proteínas receptoras de odorantes se localizan  en:",
+      "opciones": [
+        "El soma neuronal.",
+        "Los cilios.",
+        "El axón.",
+        "La terminal sináptica."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 5,
+      "enunciado": "Se llama unidad motora:",
+      "opciones": [
+        "Al conjunto de una motoneurona alfa y todas  las células musculares que inerva.",
+        "A un nervio y todos los músculos que inerva.",
+        "Al conjunto de músculos que mueven una  articulación.",
+        "Al conjunto de husos musculares que  contiene un músculo."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 6,
+      "enunciado": "Si el mecanismo de acción de una hormona se  produce a través de la activación de la  fosfolipasa C:",
+      "opciones": [
+        "El segundo mensajero implicado es el AMPc.",
+        "Se activa primero un receptor intracelular.",
+        "Se activa la adenilato ciclasa.",
+        "Se induce liberación de Ca2+ de los depósitos  intracelulares."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 7,
+      "enunciado": "¿Cuál de las siguientes hormonas se sintetiza en  la hipófisis?:",
+      "opciones": [
+        "Prolactina.",
+        "Hormona antidiurética.",
+        "Oxitocina.",
+        "Hormona liberadora de tirotropina."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 8,
+      "enunciado": "La hormona del crecimiento:",
+      "opciones": [
+        "Estimula la síntesis de proteínas.",
+        "Es un péptido de 10 aminoácidos.",
+        "Los productos de su degradación se llaman  somatomedinas.",
+        "Es hipoglucemiante."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 9,
+      "enunciado": "¿Cuál de los siguientes factores disminuye la  secreción de insulina?:",
+      "opciones": [
+        "Glucagón.",
+        "Sulfonilureas.",
+        "Somatostatina.",
+        "Obesidad."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 10,
+      "enunciado": "La secreción de hormonas tiroideas:",
+      "opciones": [
+        "Está controlada por el eje hipotálamo- hipofisario-adrenal.",
+        "Se inhibe por la hormona estimulante del  tiroides.",
+        "Se inhibe por las hormonas tiroideas.",
+        "No depende del control por retroalimentación."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 11,
+      "enunciado": "Durante la fase de despolarización del potencial de acción cardiaco ventricular se abren los  canales de:",
+      "opciones": [
+        "Ca2+.",
+        "Na+.",
+        "Na+ y K+.",
+        "K+."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 12,
+      "enunciado": "¿Qué le ocurre a la presión intraventricular  izquierda durante la fase de contracción  isovolumétrica?:",
+      "opciones": [
+        "Aumenta.",
+        "No varía.",
+        "Disminuye.",
+        "Baja y después sube."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 13,
+      "enunciado": "La diferencia entre el volumen telediastólico y  el volumen telesistólico se denomina:",
+      "opciones": [
+        "Volumen diastólico.",
+        "Volumen sistólico.",
+        "Volumen auricular.",
+        "Volumen residual."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 14,
+      "enunciado": "El flujo sanguíneo en la arteria coronaria  izquierda es más alto:",
+      "opciones": [
+        "Al inicio de la sístole.",
+        "Al inicio de la diástole.",
+        "Al final de la sístole.",
+        "Al final de la diástole.              FSE BIOLOGÍA 2020/21 - 2 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 15,
+      "enunciado": "¿Qué modificaciones vasculares se esperarían  cuando un sujeto se levanta desde una posición  de decúbito supino?:",
+      "opciones": [
+        "Aumento de la presión arterial media.",
+        "Hipotensión ortostática.",
+        "Síncope vasovagal.",
+        "Descenso de la presión venosa en las piernas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 16,
+      "enunciado": "Las células de Leydig:",
+      "opciones": [
+        "Sintetizan testosterona a partir de colesterol.",
+        "Establecen la barrera hemato-testicular.",
+        "Sintetizan estradiol a partir de testosterona.",
+        "Son la diana principal de la FSH."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 17,
+      "enunciado": "La progesterona estimula:",
+      "opciones": [
+        "Proliferación endometrial.",
+        "Contracción del miometrio.",
+        "Secreción de las glándulas endometriales.",
+        "Secreción de LH."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 18,
+      "enunciado": "Reduce la probabilidad de poliespermia la:",
+      "opciones": [
+        "Reacción acrosómica.",
+        "Exocitosis de los gránulos corticales del  óvulo.",
+        "Adhesión del espermatozoide a la zona  pelúcida.",
+        "Reducción del Ca2+ intracelular en el óvulo."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 19,
+      "enunciado": "La trombina:",
+      "opciones": [
+        "Inhibe la activación plaquetaria.",
+        "Convierte fibrinógeno en fibrina.",
+        "Inhibe la activación de protrombina.",
+        "Inhibe la activación de la proteína C."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 20,
+      "enunciado": "El valor del hematocrito:",
+      "opciones": [
+        "Disminuye por efecto de la eritropoyetina.",
+        "Aumenta en la mujer embarazada.",
+        "Indica la concentración de leucocitos en  sangre.",
+        "Aumenta durante la aclimatación a la altura."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 21,
+      "enunciado": "Del sistema nervioso entérico podemos afirmar  que:",
+      "opciones": [
+        "La estimulación parasimpática disminuye su  actividad.",
+        "El plexo mientérico controla las secreciones  del tubo digestivo.",
+        "El plexo mientérico se encuentra entre las  capas musculares lisas longitudinal y circular.",
+        "El plexo submucoso controla los movimientos  gastrointestinales."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 22,
+      "enunciado": "Sobre la secretina, es correcto que:",
+      "opciones": [
+        "El estímulo para su liberación es la presencia  de ácidos grasos y algunos aminoácidos en el  intestino delgado.",
+        "Estimula la evacuación gástrica y secreción  de ácido.",
+        "Estimula la secreción de enzimas pancreáticas  y la contracción de la vesícula biliar.",
+        "Estimula la secreción de bicarbonato y fluidos  por los conductos pancreáticos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 23,
+      "enunciado": "Respecto a la secreción biliar, es correcto que:",
+      "opciones": [
+        "Se produce en la vesícula biliar y se almacena  en el hígado.",
+        "Los pigmentos biliares, principalmente la  bilirrubina, son responsables de la emulsión  de grasas.",
+        "Se concentra en la vesícula biliar por  reabsorción de agua e iones.",
+        "Las sales biliares son indispensables para la  digestión enzimática y absorción de proteínas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 24,
+      "enunciado": "Para la absorción de grasas, el enterocito  reesterifica los componentes lipídicos y los  ensambla en:",
+      "opciones": [
+        "Triglicéridos.",
+        "Quilomicrones.",
+        "HDL.",
+        "LDL."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 25,
+      "enunciado": "Sobre la ultrafiltración de una sustancia en el  glomérulo renal es cierto que:",
+      "opciones": [
+        "Es independiente de su carga eléctrica.",
+        "Es independiente de su masa molecular.",
+        "Depende de su masa molecular y de su carga  eléctrica.",
+        "Depende de la circulación en la vasa recta."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 26,
+      "enunciado": "El valor del aclaramiento de creatinina es un  índice adecuado para estimar la tasa de:",
+      "opciones": [
+        "Secreción tubular.",
+        "Filtración glomerular.",
+        "Reabsorción en túbulo proximal.",
+        "Reabsorción en el tubo colector."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 27,
+      "enunciado": "Sobre la glucosa a nivel renal, es correcto que:",
+      "opciones": [
+        "Se reabsorbe exclusivamente en el túbulo  distal.",
+        "El glomérulo establece el límite de filtración  dependiendo de la tensión arterial.",
+        "Tiene un límite de reabsorción definido por el  concepto  denominado  transporte  tubular  máximo.",
+        "Se filtra dependiendo de la concentración  plasmática de insulina.        FSE BIOLOGÍA 2020/21 - 3 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 28,
+      "enunciado": "Sobre los fenómenos de reabsorción que  ocurren en el asa de Henle es correcto que:",
+      "opciones": [
+        "Los vasa recta son los responsables del  mecanismo de concentración de la orina.",
+        "Se produce reabsorción de Na+ en la rama  ascendente y agua en la descendente.",
+        "Se produce reabsorción de Na+ en la rama  descendente y agua en la ascendente.",
+        "Se produce el 90% de la reabsorción renal de  K+."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 29,
+      "enunciado": "Fisiológicamente, ¿cuándo aparecen valores  subatmosféricos en la presión intraalveolar?:",
+      "opciones": [
+        "Durante la inspiración.",
+        "Durante la espiración.",
+        "Durante una apnea.",
+        "Siempre."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 30,
+      "enunciado": "¿Cómo se denomina al volumen de aire que  queda en los pulmones tras un esfuerzo  espiratorio máximo?:",
+      "opciones": [
+        "Volumen residual.",
+        "Volumen corriente.",
+        "Volumen de reserva espiratoria.",
+        "No queda aire en los pulmones tras una  espiración forzada."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 31,
+      "enunciado": "¿Qué tipo de receptores median la respuesta  relajante del músculo liso bronquial?:",
+      "opciones": [
+        "Adrenérgicos alfa.",
+        "Muscarínicos.",
+        "Adrenérgicos beta.",
+        "Nicotínicos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 32,
+      "enunciado": "¿A las variaciones de qué compuesto responden  los quimiorreceptores del bulbo raquídeo en el  control de la ventilación?:",
+      "opciones": [
+        "Presión parcial de CO2 en el plasma  sanguíneo.",
+        "Presión parcial de CO2 en el líquido  cefalorraquídeo.",
+        "Concentración  de  H+  en  el  líquido  cefalorraquídeo.",
+        "Presión  parcial  de  O2 en  el  líquido  cefalorraquídeo."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 33,
+      "enunciado": "¿Con qué combinación de factores Yamanaka y  colaboradores consiguieron por primera vez la  reprogramación de células somáticas a células  madre pluripotentes inducidas iPSCs?:",
+      "opciones": [
+        "Oct4, Nanog, Bmp2 y Sox9.",
+        "Oct4, c-Myc, Klf4 y Sox2.",
+        "Nanog, Klf14, Fgf2 y Msx2.",
+        "Nanog, c-Myc, Fgf2 y Msx2."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 34,
+      "enunciado": "¿Cuál de los siguientes huesos se forman por  osificación intramembranosa?:",
+      "opciones": [
+        "El parietal.",
+        "Las vértebras cervicales.",
+        "El escafoides.",
+        "El peroné."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 35,
+      "enunciado": "El cristalino deriva de:",
+      "opciones": [
+        "La vesícula óptica.",
+        "El neuroectodermo.",
+        "El ectodermo de superficie.",
+        "El mesodermo cefálico."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 36,
+      "enunciado": "En el núcleo interfásico, la cadena lineal de  nucleosomas (nucleofilamento) corresponde a la  fibra de cromatina de:",
+      "opciones": [
+        "10 nm.",
+        "30 nm.",
+        "165 nm.",
+        "300 nm."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 37,
+      "enunciado": "La técnica enzimohistoquímica para localizar  lisosomas en la célula detecta la actividad  enzimática de la:",
+      "opciones": [
+        "Fosfatasa alcalina.",
+        "NADPH-diaforasa.",
+        "Peroxidasa.",
+        "Fosfatasa ácida."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 38,
+      "enunciado": "La célula utiliza “la inestabilidad dinámica” de  los microtúbulos en:",
+      "opciones": [
+        "El funcionamiento de los cilios y los flagelos.",
+        "La organización celular en la mitosis.",
+        "La fagocitosis.",
+        "La formación de las caveolas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 39,
+      "enunciado": "Las reacciones de detoxificación celular se  llevan a cabo en:",
+      "opciones": [
+        "Mitocondrias.",
+        "Retículo endoplasmático liso.",
+        "Lisosomas.",
+        "Aparato de Golgi."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 40,
+      "enunciado": "¿Cuál  de  los  siguientes  canales  y  transportadores es una ATP-asa?:",
+      "opciones": [
+        "Los transportadores de tipo ABC.",
+        "Las acuaporinas.",
+        "Los canales de Na+ voltaje-dependientes.",
+        "Los  co-transportadores  Na+-glucosa  de  células epiteliales que recubren el intestino."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 41,
+      "enunciado": "El péptido señal es una secuencia peptídica que:",
+      "opciones": [
+        "Se une a un receptor de tipo ionotrópico.",
+        "Se une a los proteasomas.",
+        "Se encuentra en la zona pelúcida del óvulo.",
+        "Determina el destino de una proteína.  FSE BIOLOGÍA 2020/21 - 4 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 42,
+      "enunciado": "Las dinaminas intervienen directamente en la:",
+      "opciones": [
+        "Fusión de vesículas con la membrana  plasmática.",
+        "Inserción del colesterol en la membrana  plasmática.",
+        "Translocación de proteínas mitocondriales.",
+        "Formación de vesículas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 43,
+      "enunciado": "Un homeodominio, así como un dominio básico  hélice-asa-hélice, es:",
+      "opciones": [
+        "Una parte estructural de las proteínas que les  permite acoplarse al ADN.",
+        "La parte central del cinetocoro.",
+        "La región codificante del ADN.",
+        "La región del ADN donde se unen los  factores  reguladores  de  transcripción  secundarios."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 44,
+      "enunciado": "Para que una proteína se transporte a los  lisosomas debe:",
+      "opciones": [
+        "Fijarse en la membrana del RER.",
+        "Ir marcada con la glucosa-6-fosfato.",
+        "Tener un grupo ácido.",
+        "Ir marcada con una manosa-6-fosfato."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 45,
+      "enunciado": "El organizador nucleolar contiene secuencias de  ADN:",
+      "opciones": [
+        "Repetidas para ARNr.",
+        "De copia única para ARNr.",
+        "Repetidas para ARNt.",
+        "De copia única para ARNm."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 46,
+      "enunciado": "¿Cuál de las  siguientes células  sintetiza  histamina y heparina?:",
+      "opciones": [
+        "Los eosinófilos.",
+        "Las células plasmáticas.",
+        "Los macrófagos.",
+        "Las células cebadas o mastocitos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 47,
+      "enunciado": "¿Qué células presentan un borde festoneado con  bombas protónicas que acidifican el exterior  celular, destruyendo el tejido próximo a ellas?:",
+      "opciones": [
+        "Osteocitos.",
+        "Osteoclastos.",
+        "Osteoblastos.",
+        "Condroblastos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 48,
+      "enunciado": "Los somas de las neuronas:",
+      "opciones": [
+        "Contienen gránulos basófilos (grumos o  corpúsculos de Nissl).",
+        "Se localizan en la sustancia blanca del sistema  nervioso central.",
+        "Segregan la mielina.",
+        "Presentan un núcleo de pequeño tamaño y  heterocromático,  con  nucléolo  poco  desarrollado."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 49,
+      "enunciado": "Las hidrolasas ácidas son enzimas propias de:",
+      "opciones": [
+        "Mitocondria.",
+        "Retículo endoplásmico.",
+        "Lisosomas.",
+        "Núcleo."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 50,
+      "enunciado": "En el glomérulo renal, la membrana basal implicada en la filtración está constituida por células:",
+      "opciones": [
+        "Endoteliales y podocitos.",
+        "Mesangiales y endoteliales.",
+        "Endoteliales y de la cápsula de Bowman.",
+        "Del asa de Henle y tejido conectivo circundante."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": null,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 51,
+      "enunciado": "En la piel, la queratina se origina en el stratum granulosum epidérmico y es la combinación de:",
+      "opciones": [
+        "Filarina y mucoitrin-sulfatos.",
+        "Filamentos gruesos y condroitina.",
+        "Desmina y filamentos gruesos.",
+        "Tonofibrillas y granulos kerato-hialinos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 52,
+      "enunciado": "En el acino del páncreas exocrino se acumulan gránulos de zimógeno cuyo contenido digestivo  es rico en:",
+      "opciones": [
+        "Endopeptidasas, entre otras enzimas.",
+        "Secretasas exclusivamente.",
+        "Exclusivamente tripsinógeno.",
+        "Fosfatasas alcalinas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 53,
+      "enunciado": "Es FALSO que los linfocitos:",
+      "opciones": [
+        "Th1 producen IL-",
+        "2. Th2 producen IL-4, IL-5 e IL-1",
+        "3. Th2 producen IFN gamma.",
+        "Th17 producen IL-17."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 54,
+      "enunciado": "¿Cuál de los siguientes órganos linfoides es primario?:",
+      "opciones": [
+        "Amígdalas.",
+        "Timo.",
+        "Placas de Peyer.",
+        "Ganglio linfático."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 55,
+      "enunciado": "La hipermutación somática es un proceso que afecta a:",
+      "opciones": [
+        "Los receptores de las células T.",
+        "Las células presentadores de antígenos.",
+        "Las  regiones  variables  de  las inmunoglobulinas.",
+        "Los  receptores  de  reconocimiento  de  patógenos.              FSE BIOLOGÍA 2020/21 - 5 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": null,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 56,
+      "enunciado": "¿Dónde podemos encontrar receptores tipo Toll  (TLR) en las células?:",
+      "opciones": [
+        "Libres en el citoplasma.",
+        "Dentro del núcleo.",
+        "En la membrana nuclear.",
+        "En la membrana plasmática."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 57,
+      "enunciado": "La molécula CD8:",
+      "opciones": [
+        "Interactúa parcialmente con el antígeno  presentado.",
+        "Se expresa en linfocitos B memoria.",
+        "Tiene homología estructural con TLR",
+        "4. Se expresa en linfocitos T citotóxicos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 58,
+      "enunciado": "¿Qué  inmunoglobulina  puede  formar  polímeros?:",
+      "opciones": [
+        "IgE.",
+        "IgD.",
+        "IgA.",
+        "IgG."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 59,
+      "enunciado": "¿Cómo se denomina un injerto trasplantado  entre sujetos de diferentes especies?:",
+      "opciones": [
+        "Aloinjerto.",
+        "Xenoinjerto.",
+        "Autoinjerto.",
+        "Isoinjerto."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 60,
+      "enunciado": "¿Qué receptor de quimioquinas usa el VIH  como receptor para infectar a los linfocitos?:",
+      "opciones": [
+        "CXCR4.",
+        "CCR6.",
+        "CXCR3.",
+        "CCR7."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 61,
+      "enunciado": "La IgE participa en la inmunidad contra:",
+      "opciones": [
+        "Parásitos helmínticos.",
+        "Bacterias.",
+        "Virus.",
+        "Hongos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 62,
+      "enunciado": "¿Qué células NO son de estirpe mieloide?:",
+      "opciones": [
+        "Basófilos.",
+        "Células NK.",
+        "Eritrocitos.",
+        "Monocitos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 63,
+      "enunciado": "NO  se  considera  una  inmunodeficiencia  primaria asociada a un defecto monogénico que  afecta a los linfocitos T:",
+      "opciones": [
+        "Síndrome de DiGeorge.",
+        "Síndrome de Wiskott-Aldrich.",
+        "Síndrome de Good.",
+        "Síndrome de Job o de Hiper IgE."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 64,
+      "enunciado": "¿En cuál de las siguientes enfermedades humanas NO se produce una reacción de hipersensibilidad de tipo I?:",
+      "opciones": [
+        "Anafilaxia por picadura de avispa.",
+        "Asma bronquial por ácaros.",
+        "Dermatitis de contacto por látex.",
+        "Fiebre del heno."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 65,
+      "enunciado": "NO se encuentra en la superficie de las células  dendríticas o macrófagos humanos:",
+      "opciones": [
+        "TLR1.",
+        "TLR2.",
+        "TLR3.",
+        "TLR4."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 66,
+      "enunciado": "Indique qué característica corresponde con la  respuesta inmune innata:",
+      "opciones": [
+        "Especificidad.",
+        "Memoria.",
+        "Expansión policlonal.",
+        "Fagocitosis."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 67,
+      "enunciado": "¿En qué fase de la respuesta inmunitaria  adaptativa tiene lugar la expansión clonal de los  linfocitos?:",
+      "opciones": [
+        "Reconocimiento de antígeno.",
+        "Activación del linfocito.",
+        "Eliminación del antígeno.",
+        "Memoria."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 68,
+      "enunciado": "¿En  qué  función  NO  participan  las quimioquinas?:",
+      "opciones": [
+        "Migración celular.",
+        "Organogénesis.",
+        "Hematopoiesis.",
+        "Procesamiento de antígeno."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 69,
+      "enunciado": "¿Qué  tipo  de  linfocitos  se  expanden  predominantemente y se asocian con la  respuesta inmunitaria adaptativa inicial a la  infección por el virus VIH?:",
+      "opciones": [
+        "Linfocitos B.",
+        "T CD4+.",
+        "NK.",
+        "T CD8+."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 70,
+      "enunciado": "Se expresa en la superficie de los linfocitos CD8:",
+      "opciones": [
+        "Receptor del linfocito B.",
+        "CD",
+        "3. CD",
+        "4. CD19.              FSE BIOLOGÍA 2020/21 - 6 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 71,
+      "enunciado": "¿Cuál  de  los  siguientes  isotipos  de  inmunoglobulinas es el más abundante en las  mucosas corporales?:",
+      "opciones": [
+        "IgG.",
+        "IgE.",
+        "IgM.",
+        "IgA."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 72,
+      "enunciado": "La selección positiva de los linfocitos T tiene  lugar en:",
+      "opciones": [
+        "El bazo.",
+        "El timo.",
+        "La médula ósea.",
+        "Tejido linfoide asociado a mucosas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 73,
+      "enunciado": "¿Cuál de las siguientes células NO es una célula  presentadora de antígenos?:",
+      "opciones": [
+        "Linfocito B.",
+        "Linfocito T.",
+        "Macrófago.",
+        "Célula dendrítica."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 74,
+      "enunciado": "¿Qué células epiteliales de la mucosa digestiva  transportan los antígenos a los linfocitos de  submucosa?:",
+      "opciones": [
+        "Enterocitos.",
+        "Macrófagos.",
+        "Células M.",
+        "Células dendríticas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 75,
+      "enunciado": "¿Qué característica del telómero es correcta?:",
+      "opciones": [
+        "Está constituido por repeticiones en tándem  de secuencias cortas.",
+        "Es una constricción cromosómica.",
+        "Es el sitio de unión de fibras del huso  mitótico.",
+        "El ADN que lo constituye codifica para el gen  de la telomerasa."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 76,
+      "enunciado": "Un ARN policistrónico:",
+      "opciones": [
+        "Tiene varias secuencias codificantes, en  tándem.",
+        "Es un ARN inmaduro, con intrones.",
+        "Resulta de un splicing alternativo.",
+        "Tiene varias secuencias repetidas, en tándem."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 77,
+      "enunciado": "Los gemelos monocigotos, a lo largo de los años,  desarrollan diferentes patrones de metilación de  citosinas y de acetilación de histonas. Esto  implica diferentes:",
+      "opciones": [
+        "Patrones de expresión génica.",
+        "Patrones de mutaciones.",
+        "Genotipos.",
+        "Dotación alélica para los mismos genes."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 78,
+      "enunciado": "¿Qué  mecanismo puede explicar que la  enfermedad de Huntington en una familia  pueda manifestarse a una edad cada vez más  temprana?:",
+      "opciones": [
+        "Expansión de un triplete de nucleótidos en la  secuencia codificante del gen.",
+        "Presencia de un elemento transponible en el  gen.",
+        "Hipermetilación del promotor.",
+        "Impronta génica."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 79,
+      "enunciado": "La presencia de dos cariotipos distintos en el  mismo individuo se denomina:",
+      "opciones": [
+        "Mosaicismo.",
+        "Heterocigosidad compuesta.",
+        "Aneuploidía.",
+        "Heterodisomía."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 80,
+      "enunciado": "¿Cuál de los siguientes métodos NO cuantifica  ADN de forma precisa?:",
+      "opciones": [
+        "Espectroscopía ultravioleta para medir la  absorbancia del ADN.",
+        "Cuantificación  absoluta  con  productos  basados en el sistema TaqMan.",
+        "Electroforesis en gel de agarosa.",
+        "Fluorometría con moléculas fluorescentes de  unión al ADN."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 81,
+      "enunciado": "En relación con los geles de agarosa en la  separación de fragmentos de ADN:",
+      "opciones": [
+        "Una concentración de agarosa del 0,7% es  adecuada para separar fragmentos pequeños  de ADN (<1 kb).",
+        "Los geles al 1% de agarosa son comunes para  muchas aplicaciones.",
+        "Una concentración de agarosa del 2%  produce  una  buena  resolución  para  fragmentos grandes de ADN (>5 kb).",
+        "El mejor método para separar fragmentos de  ADN muy pequeños son los geles de agarosa  de hasta un 0,3%."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": null,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 82,
+      "enunciado": "¿Qué  probabilidad  de  desarrollar  una  enfermedad con herencia recesiva ligada al  cromosoma X tendrán las hijas de una pareja  formada por un hombre sano y una mujer  heterocigota?:",
+      "opciones": [
+        "100 %.",
+        "50 %.",
+        "25 %.",
+        "0 %.                  FSE BIOLOGÍA 2020/21 - 7 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 83,
+      "enunciado": "Los individuos que portan translocaciones  cromosómicas  recíprocas  en  sus  células  germinales dan lugar a:",
+      "opciones": [
+        "Gametos genéticamente desequilibrados.",
+        "Gametos triploides.",
+        "Mayores tasas de recombinación meiótica.",
+        "Alelos recesivos con mayor frecuencia."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 84,
+      "enunciado": "¿Cuál  de  las  siguientes  afirmaciones  se  corresponde con la recombinación VDJ que  sufren los genes de inmunoglobulinas?:",
+      "opciones": [
+        "Implica la formación de intermediarios de  Holliday.",
+        "Tiene lugar durante la meiosis.",
+        "Ocurre en células somáticas.",
+        "Es un tipo especial de maduración de ARNm."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 85,
+      "enunciado": "¿Cuál de los siguientes procesos contribuye a  limitar las tasas de mutación espontánea?:",
+      "opciones": [
+        "La producción de radicales libres.",
+        "La actividad exonucleasa de las ADN  polimerasas en dirección de 3’ a 5’.",
+        "El incremento del nivel de poliploidía.",
+        "El ensamblaje cromatínico del ADN."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 86,
+      "enunciado": "¿Qué consecuencia tiene el procesamiento  alternativo de intrones en los precursores de los  ARNm?:",
+      "opciones": [
+        "Contrarresta la presencia de alelos no  funcionales.",
+        "Permite expresar más de una proteína  diferente a partir del mismo gen.",
+        "Contribuye a la reversión de mutaciones en  ese gen.",
+        "Permite la transcripción de un gen en  direcciones opuestas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 87,
+      "enunciado": "¿Cuál de estos sucesos ocurre durante la  meiosis?:",
+      "opciones": [
+        "Emparejamiento de cromosomas homólogos.",
+        "Circularización de cromosomas.",
+        "Eliminación de una de las dos cromátidas  hermanas.",
+        "Hipermutación programada del genoma."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 88,
+      "enunciado": "¿Qué puede decirse de los genes humanos en los  que opera la impronta genómica?:",
+      "opciones": [
+        "Mutan en cada generación.",
+        "Están ligados al cromosoma X.",
+        "Se expresan solo si el individuo es de sexo  masculino.",
+        "Se expresan en función del sexo del  progenitor del que provienen."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 89,
+      "enunciado": "La traducción de un ARNm ya procesado se inicia en el codón de metionina que corresponde  con:",
+      "opciones": [
+        "AUA.",
+        "AUG.",
+        "GUA.",
+        "UAG."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 90,
+      "enunciado": "El síndrome de Turner aparece en:",
+      "opciones": [
+        "Hombres YO.",
+        "Mujeres XO.",
+        "Hombres XXY.",
+        "Mujeres XXX."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 91,
+      "enunciado": "La heterocromatina corresponde al ADN:",
+      "opciones": [
+        "Condensado activo transcripcionalmente.",
+        "No enrollado activo transcripcionalmente.",
+        "Condensado inactivo transcripcionalmente.",
+        "No enrollado inactivo transcripcionalmente."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 92,
+      "enunciado": "El operón lac es un sistema inducible que está bajo control:",
+      "opciones": [
+        "Negativo en algunos procariotas.",
+        "Positivo en algunos procariotas.",
+        "Negativo en algunos eucariotas.",
+        "Positivo en algunos eucariotas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": null,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 93,
+      "enunciado": "El síndrome conocido como “maullido de gato”  se caracteriza por:",
+      "opciones": [
+        "Una duplicación en el cromosoma 5.",
+        "Una deleción en el cromosoma 5.",
+        "Una inversión en el cromosoma 5.",
+        "Una deleción en el cromosoma 6."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 94,
+      "enunciado": "¿Dónde son sintetizados los cebadores en la  cadena retrasada?:",
+      "opciones": [
+        "Al inicio de cada fragmento de Okazaki.",
+        "En varios sitios dentro de un fragmento de  Okazaki.",
+        "Sólo en el extremo 3’ de la cadena  recientemente sintetizada.",
+        "Sólo en el extremo 5’ de la cadena  recientemente sintetizada."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 95,
+      "enunciado": "¿Cuál será la proporción de la descendencia de  un hombre daltónico con una mujer de visión normal cuyo padre es daltónico?:",
+      "opciones": [
+        "Todos daltónicos.",
+        "Mitad de los varones y mitad de las hembras  daltónicas.",
+        "Todos los varones daltónicos y todas las hembras con visión normal.",
+        "Todos con visión normal.          FSE BIOLOGÍA 2020/21 - 8 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 96,
+      "enunciado": "El factor sigma de la ARN polimerasa es  necesario para:",
+      "opciones": [
+        "La unión de la polimerasa al promotor.",
+        "La estabilización de la enzima.",
+        "La elongación durante la transcripción.",
+        "La terminación de la transcripción."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 97,
+      "enunciado": "La replicación del ADN es:",
+      "opciones": [
+        "Conservativa.",
+        "Dispersiva.",
+        "Semiconservativa.",
+        "Conservativa  en  procariotas  y  semiconservativa en eucariotas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 98,
+      "enunciado": "Durante la replicación del ADN, la ADN  helicasa:",
+      "opciones": [
+        "Desenrrolla la horquilla de replicación.",
+        "Elimina la torsión de los superenrollamientos.",
+        "Inicia la replicación en el oriC.",
+        "No participa en la replicación del ADN."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 99,
+      "enunciado": "El error aleatorio:",
+      "opciones": [
+        "Afecta a la precisión o fiabilidad del estudio.",
+        "Se puede predecir.",
+        "No se puede cuantificar.",
+        "Se reduce disminuyendo el tamaño de la  muestra."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 100,
+      "enunciado": "La sensibilidad diagnóstica es la proporción de  verdaderos:",
+      "opciones": [
+        "Negativos entre los sanos.",
+        "Positivos entre los enfermos.",
+        "Negativos entre los que tienen un resultado  negativo.",
+        "Positivos entre los que tienen un resultado  positivo."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 101,
+      "enunciado": "El área bajo la curva ROC:",
+      "opciones": [
+        "De valor 1, indica que la prueba no tiene  poder diagnóstico.",
+        "De valor 0,5 representa una prueba con  escaso poder diagnóstico.",
+        "Presenta unos valores comprendidos entre 1 e  infinito.",
+        "Representa  la  concordancia  entre  observadores cuando la variable es categórica  a través de proporciones."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 102,
+      "enunciado": "¿Qué prueba estadística paramétrica se usará  para testar la  hipótesis de 2 variables  categóricas de una muestra independiente?:",
+      "opciones": [
+        "T de Student ANOVA.",
+        "Test de Cochran.",
+        "Ro de Spearman.",
+        "Ji-cuadrado."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": null,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 103,
+      "enunciado": "El índice de inconsistencia del 80% indica:",
+      "opciones": [
+        "Que hay baja heterogeneidad.",
+        "Heterogeneidad media.",
+        "Heterogeneidad sustancial.",
+        "Que no hay heterogeneidad."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 104,
+      "enunciado": "La afinidad de la hemoglobina por el O2:",
+      "opciones": [
+        "Aumenta cuando el valor de pH es inferior a  7,4.",
+        "Disminuye cuando el valor de pH es inferior a  7,4.",
+        "Se sitúa estructuralmente en el mismo sitio  catalítico que el ácido 2,3-bisfosfoglicérico.",
+        "No se modifica por el cambio de pH en los  tejidos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 105,
+      "enunciado": "En las proteínas, aquellos aminoácidos con  cadenas ionizables:",
+      "opciones": [
+        "Son todos esenciales, y deben tomarse en la  dieta.",
+        "Poseen grupos aromáticos que favorecen su  hidrofobicidad.",
+        "Tienden a agruparse en el interior de la  proteína, lejos del entorno acuoso de la célula.",
+        "Son capaces tanto de formar enlaces iónicos  como donar o aceptar protones para facilitar  reacciones."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 106,
+      "enunciado": "El colágeno es una proteína que:",
+      "opciones": [
+        "Forma una típica hélice-alfa.",
+        "Forma una estructura de hoja plegada beta  antiparalela de unos",
+        "000 Ángstrom de  longitud.  3. Forma una hélice diferente a la alfa, que se  denomina hélice de colágeno de triple hebra  que se estabiliza por repulsiones estéricas.",
+        "Se caracteriza por carecer del aminoácido  prolina en su composición."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 107,
+      "enunciado": "¿Cuál de las siguientes afirmaciones sobre la  descarboxilación  oxidativa  del  piruvato,  catalizada  por  el  complejo  piruvato  deshidrogenasa, es correcta?:",
+      "opciones": [
+        "Utiliza NAD+, ácido lipoico, fosfato de  piridoxal y FAD como coenzimas de la  reacción.",
+        "Uno de los productos de la reacción es un  tioéster de acetato.",
+        "El grupo metilo del piruvato se elimina como  CO2.",
+        "La reacción es tan importante que tiene lugar  a máxima velocidad en todas las condiciones  y en todas las células.              FSE BIOLOGÍA 2020/21 - 9 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 108,
+      "enunciado": "Las cadenas polipeptídicas de una proteína:",
+      "opciones": [
+        "Siempre forman estructuras en alfa-hélice.",
+        "Pueden  entrecruzarse  mediante  enlaces  disulfuro de dos cisteínas.",
+        "Se unen a otras cadenas polipeptídicas por su  extremo N-terminal mediante prolina o  hidroxiprolina.",
+        "Tienen una composición equimolecular de los  20 aminoácidos naturales."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 109,
+      "enunciado": "La lipoproteinalipasa participa en:",
+      "opciones": [
+        "La degradación de los triacilgliceroles de los  quilomicrones  para  proporcionar  ácidos  grasos a los diferentes tejidos.",
+        "El transporte intestinal de los lípidos de la  dieta.",
+        "La degradación de las lipoproteínas para  proporcionar aminoácidos.",
+        "La  degradación  de  los  triacilglicéridos  almacenados  intracelularmente  para  proporcionar ácidos grasos como combustible  energético."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 110,
+      "enunciado": "La carga que tiene la glicina en una disolución a  pH 13 es:",
+      "opciones": [
+        "Positiva (+1).",
+        "Sin carga.",
+        "Negativa (-1).",
+        "Negativa (-2)."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 111,
+      "enunciado": "La afirmación correcta sobre las enzimas y la  cinética enzimática es:",
+      "opciones": [
+        "La velocidad de una reacción enzimática es  independiente de la concentración de enzima.",
+        "Una enzima presenta mayor afinidad por el  sustrato cuanto mayor sea su valor de Km.",
+        "A concentraciones muy elevadas de sustrato  la velocidad de reacción es de orden cero con  respecto a la concentración de sustrato.",
+        "La pérdida de la actividad de un enzima lleva  consigo la pérdida de su estructura primaria."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 112,
+      "enunciado": "La afirmación correcta sobre la estructura  secundaria de las proteínas es:",
+      "opciones": [
+        "En la hélice α, los grupos –R de los  aminoácidos se sitúan hacia el interior de la  estructura helicoidal.",
+        "La conexión entre conformaciones α y  se  realiza mediante un giro que contiene Trp.",
+        "La hélice α se estabiliza por la formación de  puentes de hidrógeno intracatenarios entre  grupos NH y CO de la cadena principal.",
+        "Los aminoácidos prolina y glicina son muy  frecuentes en la α hélice."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 113,
+      "enunciado": "La afirmación correcta sobre la estructura de  los esfingolípidos es:",
+      "opciones": [
+        "La estructura básica de los esfingolípidos está  constituida por glicerol unido a un grupo  fosfato.",
+        "Las esfingomielinas, los gangliósidos y  cerebrósidos  son  diferentes  tipos  de  esfingolípidos.",
+        "En la estructura de los esfingolípidos  encontramos dos ácidos grasos esterificando a  dos grupos hidroxilo de la esfingosina.",
+        "La formación de un enlace éster entre un  grupo hidroxilo de la esfingosina y un grupo  carboxilo de un ácido graso da lugar a la  ceramida."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 114,
+      "enunciado": "Las causas más frecuentes en nuestro medio de  síndrome de Cushing son:",
+      "opciones": [
+        "Los tumores suprarrenales productores de  cortisol.",
+        "Los adenomas hipofisarios productores de  adrenocorticotropina.",
+        "Los tumores no hipofisarios productores de  adrenocorticotropina.",
+        "Los tumores suprarrenales productores de  adrenocorticotropina."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 115,
+      "enunciado": "El hiperaldosteronismo primario se relaciona  con:",
+      "opciones": [
+        "Hipotensión, retención de Na+ e incremento  de la excreción de K+.",
+        "Hipotensión, retención de K+ e incremento de  la excreción de Na+.",
+        "Hipertensión, retención de K+ e incremento  de la excreción de Na+.",
+        "Hipertensión, retención de Na+ e incremento  de la excreción de K+."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 116,
+      "enunciado": "La prediabetes se define como:",
+      "opciones": [
+        "Glucemia tras ayuno de 8 horas entre 100 y  125 mg/dL.",
+        "Valores  de  hemoglobina  glicosilada  superiores al 7%.",
+        "Glucemia a las 2 horas tras sobrecarga oral de  glucosa (75 g) superior a 200 mg/dL.",
+        "Detección de glucosa en orina tras sobrecarga  oral de glucosa (75 g)."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 117,
+      "enunciado": "El precursor común en la síntesis de los  esteroides sexuales (andrógenos y estrógenos)  es:",
+      "opciones": [
+        "Colesterol.",
+        "Aldosterona.",
+        "Progesterona.",
+        "Estrona.          FSE BIOLOGÍA 2020/21 - 10 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": null,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 118,
+      "enunciado": "Respecto al programa de cribado de cáncer de  colon NO es verdad que:",
+      "opciones": [
+        "La prueba inmunoquímica para cuantificación  de hemoglobina humana en heces es el  método más adecuado y eficiente en la  detección precoz de cáncer de colon.",
+        "La población diana es la de riesgo intermedio  entre 50 y 69 años.",
+        "El antecedente personal de presencia de  cáncer de colon es criterio de exclusión del  programa.",
+        "El método del guayaco es el utilizado en los  programas de cribado de cáncer de colon para  detección de hemoglobina en heces."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 119,
+      "enunciado": "El gen BRCA1 se estudia en la susceptibilidad al  cáncer de:",
+      "opciones": [
+        "Pulmón.",
+        "Mama.",
+        "Colon.",
+        "Tiroides."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 120,
+      "enunciado": "El marcador tumoral más adecuado para el  adenocarcinoma seroso de ovario es:",
+      "opciones": [
+        "Antígeno carcinoembrionario.",
+        "Proteína epididimal humana tipo 4.",
+        "Alfa-fetoproteína.",
+        "Ca 19.9."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 121,
+      "enunciado": "En un paciente sometido a tiroidectomía total  por un cáncer diferenciado de tiroides tipo  papilar, el marcador tumoral de elección en el  seguimiento es:",
+      "opciones": [
+        "Tirotropina.",
+        "Tiroxina libre.",
+        "Tiroglobulina.",
+        "Calcitonina."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 122,
+      "enunciado": "La inhibina B:",
+      "opciones": [
+        "Es una glicoproteína de 32 kDa.",
+        "Es secretada por las células de Leydig.",
+        "Inhibe la secreción de FSH.",
+        "Se puede emplear como marcador endocrino  de la espermatogénesis."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": null,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 123,
+      "enunciado": "NO se considera un valor normal en el  seminograma básico según los valores de  referencia de la OMS (2010):",
+      "opciones": [
+        "10%  de  formas  normales  en  los  espermatozoides.",
+        "Movilidad progresiva de los espermatozoides  del 52%.",
+        "Concentración de espermatozoides de 15  millones/mL.",
+        "Volumen de eyaculado de 0.8 mL."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 124,
+      "enunciado": "En relación a la disfunción eréctil es FALSO  que:",
+      "opciones": [
+        "El diagnóstico etiológico más frecuente es la  disfunción eréctil psicogénica.",
+        "Tras  evaluar  causas  neurológicas  y  vasculares, se deben estudiar entre otros  parámetros testosterona, LH y TSH.",
+        "Se define como la incapacidad persistente  para desarrollar o mantener una erección  suficiente para el coito y la eyaculación en el  15% de los intentos.",
+        "La  hiperprolactinemia  es  una  causa  infrecuente de disfunción eréctil, aunque debe  ser considerada."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 125,
+      "enunciado": "Con respecto a las inmunoglobulinas en plasma  de individuos sanos:",
+      "opciones": [
+        "La IgG supone el 70-75% del total.",
+        "La IgA supone el 50% del total.",
+        "La IgD constituye el 20% del total.",
+        "La IgE constituye el 35% del total."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 126,
+      "enunciado": "En relación a las proteínas del líquido  cefalorraquídeo:",
+      "opciones": [
+        "Niveles elevados de neurogranina tienen valor  predictivo negativo para enfermedad de  Alzheimer.",
+        "Las bandas oligoclonales son patognomónicas  de esclerosis múltiple.",
+        "La determinación de las concentraciones de  isoformas de la proteína β-amiloide y la  proteína Tau pueden ser útiles en el  diagnóstico de la enfermedad de Alzheimer.",
+        "La elevación de la proteína básica de la  mielina es un factor de buen pronóstico en  enfermedades neurológicas desmielinizantes."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 127,
+      "enunciado": "El punto de corte para la troponina cardíaca en  el diagnóstico del infarto agudo de miocardio  es:",
+      "opciones": [
+        "Percentil 68 del límite superior de la  población de referencia.",
+        "Percentil 90 del límite superior de la  población de referencia.",
+        "Percentil 95 del límite superior de la  población de referencia.",
+        "Percentil 99 del límite superior de la  población de referencia."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 128,
+      "enunciado": "El  biomarcador  que  tiene  una  mayor  sensibilidad diagnóstica en la detección del daño  cardiaco en las primeras horas de evolución de  un infarto agudo de miocardio es:",
+      "opciones": [
+        "Troponina I.",
+        "CK-MB.",
+        "Mioglobina.",
+        "Troponina T.      FSE BIOLOGÍA 2020/21 - 11 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": null,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 129,
+      "enunciado": "El método que se emplea normalmente en el  laboratorio clínico para determinar los niveles  de troponina en suero es:",
+      "opciones": [
+        "Enzimoinmunoanálisis.",
+        "Colorimetría.",
+        "Radioinmunoanálisis.",
+        "Inmunofluorescencia indirecta."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 130,
+      "enunciado": "Es correcto que para el diagnóstico de lesión  miocárdica el uso de la troponina tiene:",
+      "opciones": [
+        "Una elevada sensibilidad y especificidad  diagnóstica.",
+        "Una  baja  sensibilidad  y  especificidad  diagnóstica.",
+        "Una elevada sensibilidad diagnóstica y una  baja especificidad diagnóstica.",
+        "Una baja sensibilidad diagnóstica y una  elevada especificidad diagnóstica."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 131,
+      "enunciado": "A los oligonucleótidos de entre 18 y 25 bases,  utilizados en la PCR se les denomina con  cualquiera de estos términos EXCEPTO:",
+      "opciones": [
+        "Primers.",
+        "Cebadores.",
+        "Iniciadores.",
+        "Stutters."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 132,
+      "enunciado": "El término \"proofreading\" aplicado a las  polimerasas de ADN, se utiliza cuando:",
+      "opciones": [
+        "Están listas para su uso directo.",
+        "Están listas para hacer pruebas con ellas.",
+        "Tienen actividad correctora de errores de  replicación,  además  de  la  actividad  polimerasa.",
+        "No se pueden usar para amplificar vectores  virales, aunque se trate de virus ADN."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 133,
+      "enunciado": "Todas  las  siguientes  son  técnicas  de  secuenciación de ADN o ARN, EXCEPTO:",
+      "opciones": [
+        "Secuenciación química o de Maxham y  Gilbert.",
+        "Secuenciación basada en terminadores o de  Sanger.",
+        "Pirosecuenciación.",
+        "Secuenciación basada en el reactivo de  Edman."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 134,
+      "enunciado": "NO es/son componente/s indispensable/s de la  \"master mix\" en una reacción de PCR:",
+      "opciones": [
+        "Polimerasa.",
+        "Cebadores.",
+        "DMSO.",
+        "Desoxirribonucleótidos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 135,
+      "enunciado": "NO es un método de extracción de ADN el  basado en:",
+      "opciones": [
+        "Fenol-cloroformo.",
+        "Sulfato de amonio.",
+        "Soluciones hiperosmolares o \"salting-out\".",
+        "Bolitas paramagnéticas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 136,
+      "enunciado": "Las principales modificaciones epigenéticas  conocidas son:",
+      "opciones": [
+        "Errores en la transcripción del ADN a ARN.",
+        "Cambios en la estructura de la cromatina por  puentes disulfuro.",
+        "Metilación del ADN, regulación de la  conformación de cromatina a través de  modificaciones de histonas y los ARN no  codificantes.",
+        "Metilación de histonas y acetilación del ADN  provocando mutaciones irreversibles."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 137,
+      "enunciado": "En el análisis genético del ADN circulante en el  plasma de un paciente con cáncer metastásico:",
+      "opciones": [
+        "No se encuentra material genético en el  plasma de un paciente con cáncer.",
+        "Se encuentran mutaciones en el ADN  circulante procedente de la célula tumoral y  no circula ADN no mutado.",
+        "Sólo los marcadores tumorales clásicos  proteicos tienen utilidad clínica.",
+        "Se  pueden  encontrar  las  mutaciones  específicas del cáncer y, si se cuantifican, su  concentración es proporcional al tamaño del  tumor."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 138,
+      "enunciado": "Se determina el diagnóstico del sexo fetal  durante la gestación de forma no invasiva para  el feto:",
+      "opciones": [
+        "Únicamente en sangre de cordón umbilical.",
+        "No existe forma segura para el feto de  determinar su sexo antes del nacimiento.",
+        "En el plasma de la gestante por el análisis  molecular  de  regiones  genéticas  pertenecientes al cromosoma Y desde la  semana 7 de gestación.",
+        "Por análisis ecográfico en la semana 7 de  gestación.                                FSE BIOLOGÍA 2020/21 - 12 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 139,
+      "enunciado": "El test prenatal no invasivo en plasma de la  gestante para detectar una trisomía 21 del feto:",
+      "opciones": [
+        "Tiene muy poca sensibilidad y no se  recomienda  como  cribado  en  ningún  escenario clínico.",
+        "Se  puede  detectar  por  técnicas  de  secuenciación masiva del ADN circulante de  la madre desde la semana 10 de gestación  cuando la concentración de ADN fetal es  igual o superior al 4%.",
+        "Se  puede  detectar  por  técnicas  de  secuenciación masiva del ADN circulante de  la madre desde la semana 3 de gestación.",
+        "No existen datos suficientes para considerar  esta técnica como un test de utilidad clínica."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 140,
+      "enunciado": "Las  bacterias  del  género  Listeria,  morfológicamente son:",
+      "opciones": [
+        "Bacilos Gram negativos.",
+        "Cocos Gram positivos.",
+        "Bacilos Gram positivos.",
+        "Ninguna de los anteriores."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 141,
+      "enunciado": "Los  géneros  Escherichia,  Enterobacter  y  Klebsiella tienen en común:",
+      "opciones": [
+        "Son microorganismos anaerobios estrictos.",
+        "No poseen lipopolisacárido en su pared  celular.",
+        "Son  muy  sensibles  al  antibiótico  vancomicina.",
+        "Pertenecen a la familia Enterobacteriaceae y  se caracterizan por tener una membrana  externa extracitoplásmica."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 142,
+      "enunciado": "En relación al diagnóstico microbiológico de la  gripe estacional, es correcto:",
+      "opciones": [
+        "No existen métodos fiables en la actualidad.",
+        "Los tests serológicos nos permiten detectar la  infección en los 3-4 primeros días tras el  contagio.",
+        "Los tests basados en antígenos del virus  presentan una baja especificidad.",
+        "Los tests moleculares (PCR) presentan mayor  sensibilidad que los basados en antígenos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 143,
+      "enunciado": "La microdilución en caldo, el agar disco- difusión o el método de tira de gradiente de  concentración, son técnicas microbiológicas que  permiten:",
+      "opciones": [
+        "Determinar el mecanismo de acción de un  antibiótico.",
+        "Establecer  la  farmacocinética  de  un  antibiótico.",
+        "Conocer la actividad in vitro de un  antibiótico.",
+        "Ninguna de las anteriores."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 144,
+      "enunciado": "Respecto  a  la  especie  Corynebacterium  urealyticum es FALSO que:",
+      "opciones": [
+        "Es un bacilo Gram positivo de crecimiento  lento.",
+        "Es sensible a la vancomicina.",
+        "Posee una fuerte actividad ureásica.",
+        "Es una causa frecuente de infecciones de  transmisión sexual."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 145,
+      "enunciado": "¿Cuál de los siguientes antimicrobianos se  podría utilizar para el tratamiento de una  infección por Staphylococcus aureus resistente a  la meticilina?:",
+      "opciones": [
+        "Penicilina.",
+        "Imipenem.",
+        "Ceftarolina.",
+        "Cefotaxima."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 146,
+      "enunciado": "Es cierto que:",
+      "opciones": [
+        "Coxiella burnetii es el agente causal de la  fiebre botonosa mediterránea.",
+        "Rickettsia conorii es el agente causal de la  fiebre Q.",
+        "Coxiella burnetii es un parásito intracelular  obligado.",
+        "Rickettsia conorii no tiene capacidad de  sintetizar proteínas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 147,
+      "enunciado": "En relación con las infecciones causadas por  clamidias es FALSO que:",
+      "opciones": [
+        "Chlamydia psittaci produce conjuntivitis en  humanos.",
+        "Chlamydia pneumoniae es un agente causal  de neumonía.",
+        "Chlamydia trachomatis produce uretritis en el  varón.",
+        "Chalmydia trachomatis produce conjuntivitis  en humanos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 148,
+      "enunciado": "El  agente  causal  más  frecuente  de  las  infecciones relacionadas con el uso de catéteres  intravasculares en los hospitales es:",
+      "opciones": [
+        "Escherichia coli.",
+        "Enterococcus faecalis.",
+        "Staphylococcus coagulasa-negativa.",
+        "Staphylococcus aureus."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 149,
+      "enunciado": "Cuál  de  las  siguientes  bacterias  se  ha  encontrado en el interior de amebas de vida  libre:",
+      "opciones": [
+        "Bordetella.",
+        "Legionella.",
+        "Moraxella.",
+        "Mycoplasma.          FSE BIOLOGÍA 2020/21 - 13 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 150,
+      "enunciado": "El agente etiológico de la infección de  transmisión sexual denominada “chancroide” o  “chancro blando” es:",
+      "opciones": [
+        "Chlamydia trachomatis.",
+        "Neisseria gonorrhoeae.",
+        "Mycoplasma genitalium.",
+        "Haemophilus ducreyi."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 151,
+      "enunciado": "¿Cuál es el principal reservorio conocido de la  infección por Helicobacter pylori?:",
+      "opciones": [
+        "Los roedores.",
+        "Las aves salvajes.",
+        "Los reptiles.",
+        "El ser humano."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 152,
+      "enunciado": "La brucelosis es una zoonosis que NO se  trasmite por:",
+      "opciones": [
+        "Ingestión  de  derivados  lácteos  no  pasteurizados.",
+        "La picadura de un mosquito hematófago.",
+        "Inhalación del microrganismo.",
+        "Contacto directo a través de heridas en la piel."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 153,
+      "enunciado": "En  las  infecciones  gastrointestinales  por  Escherichia coli es FALSO:",
+      "opciones": [
+        "E. coli enterotoxigénico se asocia con la  producción de enterotoxinas termoestables y  termolábiles.",
+        "E. coli enteropatógeno es una causa frecuente  de diarrea del lactante.",
+        "E. coli enterohemorrágico se asocia con el  serotipo O157:H7.",
+        "E. coli enteroinvasivo se asocia con la  producción de la toxina Shiga."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 154,
+      "enunciado": "Respecto a las carbapenemasas, es cierto que:",
+      "opciones": [
+        "Pueden conferir resistencia a penicilinas,  cefalosporinas y carbapenemas.",
+        "Son características de las bacterias Gram  positivas.",
+        "Son  poco  frecuentes  en  Klebsiella  pneumoniae.",
+        "Nunca se localizan en elementos genéticos  transferibles."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 155,
+      "enunciado": "Una de las siguientes afirmaciones respecto a  Pseudomonas aeruginosa es FALSA:",
+      "opciones": [
+        "Es un bacilo Gram negativo no fermentador,  oxidasa negativa.",
+        "Causa infecciones pulmonares graves en  pacientes con fibrosis quística.",
+        "Causa otitis externa asociada a baño en  piscinas.",
+        "Suele ser resistente a gran parte de los  antibióticos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 156,
+      "enunciado": "Una de las siguientes parejas de antibiótico- mecanismo de resistencia no es frecuente en  Pseudomonas aeruginosa:",
+      "opciones": [
+        "Quinolonas-bombas de expulsión.",
+        "Carbapenemas-mutación de la porina OprD.",
+        "Aminoglicósidos-modificación de la ADN  girasa.",
+        "Cefalosporinas-beta-lactamasas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 157,
+      "enunciado": "¿Cuál de las siguientes características de  Mycobacterium tuberculosis es FALSA?:",
+      "opciones": [
+        "Es un bacilo aerobio estricto.",
+        "Se tiñe bien con la tinción de Gram, incluidas  las esporas.",
+        "Tiene un crecimiento lento en los medios de  cultivo.",
+        "La pared tiene muchos lípidos, incluyendo los  ácidos micólicos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 158,
+      "enunciado": "¿Cuál de las siguientes afirmaciones sobre la  tuberculosis es FALSA?:",
+      "opciones": [
+        "La tuberculosis pulmonar se transmite de  persona a persona por vía aérea.",
+        "El diagnóstico microbiológico definitivo se  basa en el aislamiento e identificación del  bacilo tuberculoso.",
+        "La prueba de la tuberculina (PPD) y/o la  producción de interferón-gamma por los  linfocitos (IGRA) sirven para conocer si una  persona es contagiosa.",
+        "Es una enfermedad cuyo índice de curación es  muy elevado cuando el tratamiento se realiza  correctamente."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 159,
+      "enunciado": "¿Cuál de las siguientes afirmaciones sobre el  género Nocardia es FALSA?:",
+      "opciones": [
+        "Son bacilos Gram positivos y aerobios.",
+        "Son  bacilos  débilmente  ácido-alcohol  resistentes.",
+        "El hábitat natural (reservorio primario) es el  hombre.",
+        "El tratamiento de elección es el cotrimoxazol  (trimetoprim-sulfametoxazol)."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 160,
+      "enunciado": "¿Cuál de las siguientes afirmaciones respecto a  los micoplasmas es verdadera?:",
+      "opciones": [
+        "Son ácido-alcohol resistentes.",
+        "Carecen de pared celular.",
+        "Son bacterias de crecimiento rápido (menos  de 24 horas).",
+        "El tratamiento de elección son los antibióticos  beta-lactámicos.                FSE BIOLOGÍA 2020/21 - 14 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 161,
+      "enunciado": "En la enfermedad de Lyme es verdadero que:",
+      "opciones": [
+        "Está causada por Leptospira interrogans.",
+        "Es una infección de transmisión sexual.",
+        "Enfermedad que se localiza en Australia.",
+        "El diagnóstico microbiológico se basa en la  serología."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 162,
+      "enunciado": "Respecto a Treponema pallidum es FALSO que:",
+      "opciones": [
+        "Es una bacteria móvil, visible en microscopía  de campo oscuro.",
+        "No crece en los medios de cultivo artificiales.",
+        "En el ser humano causa la psitacosis u  ornitosis.",
+        "El tratamiento de elección es la penicilina."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 163,
+      "enunciado": "Respecto al virus Toscana es FALSO que:",
+      "opciones": [
+        "Se trasmite por la picadura de un flebotomo  del género Phlebotomus spp.",
+        "Es un virus neurotrópico, que puede llegar a  ser un agente etiológico relevante de  meningitis vírica en algunas regiones de  España.",
+        "La  detección  por  PCR,  en  líquido  cefalorraquídeo, es el método de elección  para el diagnóstico de infección neurológica.",
+        "Raramente la serología tiene reacciones  cruzadas con otros flebovirus."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 164,
+      "enunciado": "Indique la asociación correcta entre familia y  virus ARN:",
+      "opciones": [
+        "Virus del sarampión – Paramixovirus.",
+        "Virus Ébola – Rabdovirus.",
+        "Virus Marburg – Reovirus.",
+        "Rotavirus – Filovirus."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 165,
+      "enunciado": "Respecto a los norovirus es cierto que:",
+      "opciones": [
+        "Se transmiten principalmente vía sanguínea.",
+        "Dos días después del período prodrómico  aparecen  unas  lesiones  típicas  en  las  membranas  mucosas  conocidas  como  manchas de Köplik.",
+        "No es posible la aplicación de la PCR para la  detección del genoma en muestras de heces.",
+        "Presentan  una  pequeña  cápside  cuya  morfología  permite  distinguirlos  por  microscopía electrónica."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 166,
+      "enunciado": "Respecto al citomegalovirus humano es cierto  que:",
+      "opciones": [
+        "Las fuentes de infección en el recién nacido  son la transmisión transplacentaria, infección  intrauterina y secreciones cervicales.",
+        "Pertenece a la subfamilia Alphaherpesvirinae.",
+        "La enfermedad recurrente no es fuente de  contagio.",
+        "La  infección  sintomática  se  produce  principalmente en inmunocompetentes."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 167,
+      "enunciado": "¿Cuál de los siguientes es un marcador de  infección aguda por virus de Epstein-Barr?:",
+      "opciones": [
+        "Antígeno RPR (reagina plasmática rápida).",
+        "Anticuerpos anti-nucleares (anti-EBNA).",
+        "Antígeno Australia.",
+        "Anticuerpos heterófilos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 168,
+      "enunciado": "La panencefalitis esclerosante subaguda es una  complicación tardía de la infección producida  por:",
+      "opciones": [
+        "Gripe.",
+        "Sarampión.",
+        "Rubeola.",
+        "Citomegalovirus."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 169,
+      "enunciado": "¿Cuál de los siguientes virus es un agente  defectivo que necesita de otro virus para su  replicación?:",
+      "opciones": [
+        "Virus de la hepatitis A.",
+        "Virus de la hepatitis B.",
+        "Virus de la hepatitis C.",
+        "Virus de la hepatitis D."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 170,
+      "enunciado": "Dentro de los grupos en los que se divide el  virus de la inmunodeficiencia humana tipo 1  (VIH-1), el que produce la mayor parte de las  infecciones y principal responsable de la  pandemia es:",
+      "opciones": [
+        "VIH-1 Grupo M.",
+        "VIH-1 Grupo N.",
+        "VIH-1 Grupo P.",
+        "VIH-1 Grupo O."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 171,
+      "enunciado": "En un individuo infectado por el virus de la  inmunodeficiencia humana tipo 1 (VIH-1), ¿Cuál es el primer marcador detectable en  sangre?:",
+      "opciones": [
+        "Anticuerpos de la clase IgM.",
+        "Anticuerpos de la clase IgG.",
+        "Antígeno p2",
+        "4. ARN vírico."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 172,
+      "enunciado": "En la evolución de la infección por el virus de la  inmunodeficiencia humana tipo 1 (VIH-1), ¿cuál es el nivel de linfocitos T CD4+ en sangre que  marca  la  aparición  de  la  inmunodeficiencia?:",
+      "opciones": [
+        "200 CD4+/µL.",
+        "350 CD4+/ µL.",
+        "500 CD4+/ µL.",
+        "1000 CD4+/ µL.                FSE BIOLOGÍA 2020/21 - 15 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 173,
+      "enunciado": "¿Qué patógeno sospecharía en un paciente que  presenta un cuadro de disentería con sangre y  moco, y fiebre alta a la vuelta de su viaje a  India?:",
+      "opciones": [
+        "Entamoeba coli.",
+        "Entamoeba hartmanni.",
+        "Entamoeba histolytica.",
+        "Entamoeba dispar."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 174,
+      "enunciado": "¿Cuál es el único protozoo ciliado patógeno  para el humano?:",
+      "opciones": [
+        "Balantidium coli.",
+        "Chilomastix mesnili.",
+        "Enteromonas hominis.",
+        "Trichomonas hominis."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 175,
+      "enunciado": "¿Cuál de las siguientes NO es una vía de  trasmisión de la tripanosomiasis americana o  enfermedad de Chagas?:",
+      "opciones": [
+        "Congénita.",
+        "Oral.",
+        "Por aerosoles.",
+        "Vectorial."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 176,
+      "enunciado": "¿En qué muestras NO se suelen encontrar  huevos o larvas de Ascaris?:",
+      "opciones": [
+        "Esputo.",
+        "Aspirado gástrico.",
+        "Orina.",
+        "Heces."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 177,
+      "enunciado": "La onda T del electrocardiograma corresponde  a:",
+      "opciones": [
+        "La despolarización de las aurículas.",
+        "La despolarización de los ventrículos.",
+        "La repolarización de las aurículas.",
+        "La repolarización de los ventrículos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 178,
+      "enunciado": "El término haustras o “batido haustral” se  refiere a:",
+      "opciones": [
+        "Una patología asociada con la pérdida de  grasas en heces.",
+        "Un reflejo gastroileal que intensifica el  peristaltismo en el íleon.",
+        "El grado de contracción del esfínter o válvula  ileocecal.",
+        "Contracciones de segmentación del intestino  grueso."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 179,
+      "enunciado": "El órgano tendinoso de Golgi está diseñado  para informar de:",
+      "opciones": [
+        "El tamaño del músculo en cada momento.",
+        "El ángulo que forman los huesos.",
+        "La velocidad de los cambios de posición del  cuerpo.",
+        "La tensión que genera un músculo al  contraerse."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 180,
+      "enunciado": "Respecto a la electroporación de bacterias para  su uso en clonación génica:",
+      "opciones": [
+        "Requiere el uso de una corriente eléctrica para  crear poros transitorios en la pared bacteriana  que se cierran al cortar la corriente, atrapando  el plásmido de ADN en el interior.",
+        "Con  la  electroporación  se  consiguen  eficiencias inferiores a las conseguidas por  transformación química.",
+        "Se realiza a 42ºC, para disminuir el daño  potencial al ADN.",
+        "Es un método más eficiente y barato que la  transformación química."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 181,
+      "enunciado": "¿Qué proteína forma parte del complejo TCR?:",
+      "opciones": [
+        "CD3.",
+        "CD19.",
+        "CD",
+        "4. CD8."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 182,
+      "enunciado": "La variable edad es recogida en un cuestionario  de la siguiente manera: <20, [20-50], >50. ¿Qué  tipo de variable es?:",
+      "opciones": [
+        "Cuantitativa discreta.",
+        "Cuantitativa continua.",
+        "Cualitativa ordinal.",
+        "Cualitativa politómica nominal."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 183,
+      "enunciado": "Un transposón es:",
+      "opciones": [
+        "Un fragmento proteico.",
+        "Un fragmento de ADN móvil.",
+        "Una enzima muy específica del metabolismo  proteico.",
+        "Una chaperona."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 184,
+      "enunciado": "La frase que NO es correcta es:",
+      "opciones": [
+        "El dogma central de la biología molecular, tal  y como fue postulado en principio por Crick,  propone que solo el ADN es transcrito en  ARN, y que solo el ARN es traducido a  proteína.",
+        "El dogma central de la biología molecular ha  sido sobrepasado por la realidad, tal y como  conocemos ahora: por ejemplo, hay virus que  pueden sintetizar ADN a partir de ARN.",
+        "La replicación del ADN, en eucariotas, se  produce durante la metafase, antes de que se  compacten los cromosomas.",
+        "La duplicación del ADN es semiconservativa."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    },
+    {
+      "numero": 185,
+      "enunciado": "Señale la asociación INCORRECTA:",
+      "opciones": [
+        "Escarlatina-Streptococcus pyogenes.",
+        "Sepsis neonatal-Streptococcus agalactiae.",
+        "Síndrome del shock tóxico- Enterococcus  faecalis.",
+        "Endocarditis- Enterococcus spp.      FSE BIOLOGÍA 2020/21 FSE BIOLOGÍA 2020/21 FSE BIOLOGÍA 2020/21"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto"
+    }
+      ],
+  "etiqueta_titulacion": "BIOLOGÍA",
+  "etiqueta_convocatoria": "2020"
+}

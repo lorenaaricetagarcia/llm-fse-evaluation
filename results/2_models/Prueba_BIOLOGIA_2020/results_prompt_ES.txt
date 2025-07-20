@@ -1,0 +1,104 @@
+📊 Resultados del modelo LLAMA3
+------------------------------------------------------------
+Total de preguntas        : 185
+Respondidas por el modelo : 185
+Aciertos                  : 116
+Errores                   : 69
+No respondió (None)       : 0
+📈 Porcentaje de acierto  : 62.70%
+
+🔍 Ejemplos de errores:
+  ➤ Pregunta 6: predijo 3, correcta 4
+    Si el mecanismo de acción de una hormona se  produce a través de la activación de la  fosfolipasa C:
+  ➤ Pregunta 7: predijo 4, correcta 1
+    ¿Cuál de las siguientes hormonas se sintetiza en  la hipófisis?:
+  ➤ Pregunta 8: predijo 3, correcta 1
+    La hormona del crecimiento:
+  ➤ Pregunta 10: predijo 2, correcta 3
+    La secreción de hormonas tiroideas:
+  ➤ Pregunta 12: predijo 2, correcta 1
+    ¿Qué le ocurre a la presión intraventricular  izquierda durante la fase de contracción  isovolumétrica?:
+
+📊 Resultados del modelo MISTRAL
+------------------------------------------------------------
+Total de preguntas        : 185
+Respondidas por el modelo : 185
+Aciertos                  : 108
+Errores                   : 77
+No respondió (None)       : 0
+📈 Porcentaje de acierto  : 58.38%
+
+🔍 Ejemplos de errores:
+  ➤ Pregunta 1: predijo 2, correcta 1
+    La velocidad de conducción de un potencial de  acción será mayor:
+  ➤ Pregunta 2: predijo 4, correcta 3
+    Las sinapsis eléctricas se caracterizan por:
+  ➤ Pregunta 6: predijo 3, correcta 4
+    Si el mecanismo de acción de una hormona se  produce a través de la activación de la  fosfolipasa C:
+  ➤ Pregunta 7: predijo 4, correcta 1
+    ¿Cuál de las siguientes hormonas se sintetiza en  la hipófisis?:
+  ➤ Pregunta 9: predijo 2, correcta 3
+    ¿Cuál de los siguientes factores disminuye la  secreción de insulina?:
+
+📊 Resultados del modelo GEMMA
+------------------------------------------------------------
+Total de preguntas        : 185
+Respondidas por el modelo : 185
+Aciertos                  : 112
+Errores                   : 73
+No respondió (None)       : 0
+📈 Porcentaje de acierto  : 60.54%
+
+🔍 Ejemplos de errores:
+  ➤ Pregunta 9: predijo 1, correcta 3
+    ¿Cuál de los siguientes factores disminuye la  secreción de insulina?:
+  ➤ Pregunta 10: predijo 2, correcta 3
+    La secreción de hormonas tiroideas:
+  ➤ Pregunta 14: predijo 3, correcta 2
+    El flujo sanguíneo en la arteria coronaria  izquierda es más alto:
+  ➤ Pregunta 15: predijo 1, correcta 2
+    ¿Qué modificaciones vasculares se esperarían  cuando un sujeto se levanta desde una posición  de decúbito supino?:
+  ➤ Pregunta 17: predijo 1, correcta 3
+    La progesterona estimula:
+
+📊 Resultados del modelo DEEPSEEK-CODER
+------------------------------------------------------------
+Total de preguntas        : 185
+Respondidas por el modelo : 16
+Aciertos                  : 6
+Errores                   : 10
+No respondió (None)       : 169
+📈 Porcentaje de acierto  : 37.50%
+
+🔍 Ejemplos de errores:
+  ➤ Pregunta 13: predijo 1, correcta 2
+    La diferencia entre el volumen telediastólico y  el volumen telesistólico se denomina:
+  ➤ Pregunta 38: predijo 1, correcta 2
+    La célula utiliza “la inestabilidad dinámica” de  los microtúbulos en:
+  ➤ Pregunta 41: predijo 1, correcta 4
+    El péptido señal es una secuencia peptídica que:
+  ➤ Pregunta 88: predijo 2, correcta 4
+    ¿Qué puede decirse de los genes humanos en los  que opera la impronta genómica?:
+  ➤ Pregunta 102: predijo 1, correcta None
+    ¿Qué prueba estadística paramétrica se usará  para testar la  hipótesis de 2 variables  categóricas de una muestra independiente?:
+
+📊 Resultados del modelo PHI3
+------------------------------------------------------------
+Total de preguntas        : 185
+Respondidas por el modelo : 112
+Aciertos                  : 56
+Errores                   : 56
+No respondió (None)       : 73
+📈 Porcentaje de acierto  : 50.00%
+
+🔍 Ejemplos de errores:
+  ➤ Pregunta 4: predijo 4, correcta 2
+    En las neuronas receptoras del olfato, las  proteínas receptoras de odorantes se localizan  en:
+  ➤ Pregunta 6: predijo 3, correcta 4
+    Si el mecanismo de acción de una hormona se  produce a través de la activación de la  fosfolipasa C:
+  ➤ Pregunta 7: predijo 4, correcta 1
+    ¿Cuál de las siguientes hormonas se sintetiza en  la hipófisis?:
+  ➤ Pregunta 8: predijo 3, correcta 1
+    La hormona del crecimiento:
+  ➤ Pregunta 10: predijo 2, correcta 3
+    La secreción de hormonas tiroideas:

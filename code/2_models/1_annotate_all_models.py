@@ -23,8 +23,6 @@ class DualOutput:
 # Redirigir salida estándar
 sys.stdout = DualOutput("results/3_analysis/1_resumen_completo.txt")
 
-# Tu código original comienza aquí ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-
 modelos = ["llama3", "mistral", "gemma", "deepseek-coder", "phi3"]
 carpeta_entrada = "results/1_data_preparation/6_json_final"
 archivos_json = [f for f in os.listdir(carpeta_entrada) if f.endswith(".json")]

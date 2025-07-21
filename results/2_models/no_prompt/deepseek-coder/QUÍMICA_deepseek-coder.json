@@ -1,0 +1,868 @@
+{
+  "preguntas": [
+    {
+      "numero": 1,
+      "enunciado": "En cuanto a las características estructurales del  DNA, señale la respuesta correcta:",
+      "opciones": [
+        "La forma A tiene 24 pares de bases por vuelta heli- coidal.",
+        "La estructura de la forma B es más corta y gruesa  que las formas A y Z.",
+        "En la forma B, el desplazamiento por residuo es de  unos 3.4 A.",
+        "La forma Z consiste en una doble hélice dextrógira."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento, pero como asistente de programación de IA basado en Deepseek y especializada en ciencias de la computación, no estoy equipado para responder a las consultas estructurales relacionadas con el DNA o cualquier otro tema méticuloso. Mi especialidad es proporcionar asistencia técnica y información útil sobre temas más genéricos de programación e informática, incluyendo ciencias biológicas como bases del humano (DNA). Por favor, hazme una pregunta relativamente relacionada con la ciencia biológica o estoy aquí para ayudar en cualquier otra temática."
+    },
+    {
+      "numero": 2,
+      "enunciado": "La hemólisis afecta sensiblemente a las concentra- ciones séricas de diferentes constituyentes. De las  siguientes, ¿cuál es la afirmación correcta?:",
+      "opciones": [
+        "Aumenta el potasio y bajan el sodio y la LDH.",
+        "Aumentan la LDH y el potasio y baja el sodio.",
+        "Aumentan el sodio, la LDH y el potasio.",
+        "Aumentan la LDH y bajan el sodio y el potasio."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "I'm sorry for any misunderstanding but as an AI developed by Deepseek based on the deep seek coder model, my speciality is in computer science and programming related questions. I do not have the capability to provide accurate information or answers about medical topics such as hemophilia symptoms that affect various components of a body's composition like potassium levels etc.."
+    },
+    {
+      "numero": 3,
+      "enunciado": "La mayor parte de los equivalente reductores que se  utilizan para la síntesis de ácidos grasos se generan  en:",
+      "opciones": [
+        "La ruta de las pentosas fosfato.",
+        "La glucólisis.",
+        "El ciclo del ácido cítrico.",
+        "La gluconeogénesis."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento, pero como asistente de programación AI diseñado para responder preguntas relacionadas con la ciencia de la computación y la informática, no he podido proporcionar una respuesta a esa pregunta porque solo tengo información sobre temas en el área de la computación."
+    },
+    {
+      "numero": 4,
+      "enunciado": "Si la secuencia de un fragmento de una cadena de  DNA es 5‘- AATGCCTACGGCTTA-3‘, ¿cuál será la  secuencia de la cadena complementaria?:",
+      "opciones": [
+        "5‘- TTACGGATGCCGAAT-3‘.",
+        "5‘- AATGCCTACGGCTTA-3‘.",
+        "5‘- TAAGCCGTAGGCATT-3‘.",
+        "5‘- UAAGCCGUAGGCAUU-3‘."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": 1,
+      "deepseek-coder_texto": "La secuencia complementaria de una cadena DNA se obtiene cambiando las adiciones y eliminaciones en la original (secuencia). Para obtener el primer fragmento, tenemos que remover 5' del ADN para encontrar su secuencia complementaria; por ende, le restamos los nucleótidos finales de un String \"AATGCCTACGG\" a getLength() -1. Así:\n```java   \r\npublic class Main {    \r\n   public static void main(String[] args) \r\n\t{       \t        \t   \t\t     \t \t\t\t\t\t\t\t\t\t      \t\t\t            \t     \t        }\t}}}}}}`; tamanoDeLaCadena = 5+getLength(); //tamaño de la cadena completa= nucleotidos en el ADN + longitud del primer fragmento -1. String secuenciaComplementaria = new string(base, 'complementary', (int)Math.pow((long)(nucleosEnADN + 2), tamanoDeLaCadena);\n``` 5' de la cadena completa es igual a nucleotidos en el ADN + longitud del primer fragmento -1 . Por lo tanto, nuestra secuencia complementaria tendrá una longitud (tamaño) que equivale al original + 2. Ahora solo resta concatenar 'ACGT', ya sea de la izquierda o derecha para obtener el resto de caracteres en base a su posición final y modificarlo según requierimientos adicionales si lo desea, este es un método simple que se basa en Math.pow (long) , getLength () ."
+    },
+    {
+      "numero": 5,
+      "enunciado": "¿Qué enzima NO interviene en la ruta de las pento- sas fosfato?:",
+      "opciones": [
+        "6-fosfogluconolactonasa.",
+        "Glucosa 6-fosfato deshidrogenasa.",
+        "6-fosfogluconato deshidrogenasa.",
+        "Fosfoglucosa isomerasa."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento, pero como asistente de programación especializado en ciencias de la computación y programación, no tengo información completa sobre la estructura del cuerpo humano o su interacción con el mundo externo (salvo bajo una norma particular)。 Estas preguntas son más relacionadas con biología animal que están fuera mi área de especialización. Si necesitas información técnica sobre la protección del cuerpo humano contra enfermedades o cualquier otra ciencia de la computación, te recomendaría utilizar recursos de aprendizaje informativo y médicamente adecuados para obtener más detalles en las áreas de biología animales."
+    },
+    {
+      "numero": 6,
+      "enunciado": "En referencia a la Somatostatina, señale la respuesta  FALSA:",
+      "opciones": [
+        "Es un tetradecapéptido que inhibe la hormona del  crecimiento.",
+        "Es una hormona hipotalámica.",
+        "Es una hormona que estimula la secreción de glu- cagón.",
+        "Es una hormona que inhibe la insulina pancreática."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento, pero como asistente de programación AI especializado en ciencias de la computación y matemáticas, no estoy equipado para proporcionar respuestas a preguntas médicas o similares. Te recomiendo que consultes un médico o una persona con la experiencia necesaria para responder a tus preguntas sobre medicamentos de fumar y sujetizantes."
+    },
+    {
+      "numero": 7,
+      "enunciado": "Una enzima que sigue una cinética clásica de Mi- chaelis-Menten presenta una Vmax= 100  μM/min y  una Km = 15 μM. ¿Cuál será la velocidad de reac- ción, V0, cuando [S] = 10 μM? :",
+      "opciones": [
+        "40 μM/min.",
+        "50 μM/min.",
+        "70 μM/min.",
+        "100 μM/min."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": 2,
+      "deepseek-coder_texto": "La velocidad de reacción, V0 (Velocidad inicial), se calcula utilizando la ecuación del tiempo general que relaciona el tamaño de la solución en un sistema constante de reacciones y su frecuencia fraccionaria respecto al tamaño total. La velocidad de reacción, V0 es dada por:\nV0 = Km / S = 15 μM/min * 2 (para que [S]=9) + 36 (/ para el caso restante).  \nEn este código en Python podemos calcularlo usando la ecuación proporcionada. La función sqrt() de math se puede utilizar a fin de obtener los valores y redondearlos al máximo decimal: \n```python\nimport math\nV0 = round(15*2 + 36*(9-4), -1) # Vmax = 8+7/min, Km=15μM/minute. S = 10 μM  = 9 (for [S] ) : Tiempo para reaccionar: \nprint(\"La velocidad de reacción es\",V0,\"µM / min\")```"
+    },
+    {
+      "numero": 8,
+      "enunciado": "¿Cuál de las siguientes afirmaciones es correcta para  el ciclo del ácido cítrico?:",
+      "opciones": [
+        "Produce varias moléculas de ATP en cada vuelta.",
+        "Se gastan varias moléculas de oxígeno directamen- te en la oxidación del acetil-CoA.",
+        "Sus intermediarios se pueden reponer por reaccio- nes anapleróticas.",
+        "El principal punto de control del ciclo es la primera  reacción del mismo, inhibida por ADP."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": 3,
+      "deepseek-coder_texto": "La respuesta correcta para el ciclo del ácido cítrico en las afirmaciones proporcionadas se encuentra en la opción 3 y la opción 4 de los que están relacionados con la reacción anaplerótica (reaccio-nes). Estas frases reflejan una intensidad de activación del mecanismo de reactivación, es decir, el proceso por el cual un gas puede ser inyectado en otro y absorbe su energía antes que pueda llegar a la vuelta. \n\nPor lo tanto:  2 no es correcta para este ciclo (ciclo del acid cis-trico), ya que reaccionan varias moléculas de oxígeno directamente en el procesamiento y absorben múltiples moléculas adicionales, respectivamente. \nEn cambio:  3 no es correcta para este ciclo (ciclo del acid cis-trico), ya que las reacciones se pueden reponer por la activación de reaction anaplerótica a través de los intermediarios y estos intervienen en el proceso. \nFinalmente:  4 no es correcta para este ciclo (ciclo del acid cis-trico), ya que solo produce una molécula ATP por vuelta, mientras que las otras frases reflejan varias reacciones de oxígeno y absorción."
+    },
+    {
+      "numero": 9,
+      "enunciado": "El término proteoma se refiere a:",
+      "opciones": [
+        "El conjunto de todos los genes codificantes de pro- teína de un organismo.",
+        "Las modificaciones post-traduccionales que sufren  las proteínas.",
+        "El conjunto de proteínas presentes en los lisoso- mas.",
+        "El conjunto de proteínas producido por el genoma  de una célula."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento, pero como asistente AI especializado en ciencias de la computación y programación, no estoy equipado para responder a preguntas sobre biología o biotecnología fácilmente relacionadas con el área proteica. Te recomendaríamos que consultes un expertos en esa área para una respuesta más precisa e informada."
+    },
+    {
+      "numero": 10,
+      "enunciado": "Los ácidos grasos trans:",
+      "opciones": [
+        "Constituyen la forma natural de los ácidos grasos  insaturados en los tejidos animales.",
+        "Promueven un aumento en la concentración de las  lipopotreínas de alta densidad (HDL)",
+        "Presentan una temperatura de fusión inferior a la de  sus equivalentes en configuración cis con el mismo  número de átomos de C y de insaturaciones.",
+        "Se generan mayoritariamente en procesos indus- triales de hidrogenación parcial."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento, pero parece que tu pregunta no está relacionada con la ciencia de la computación o el campo de la ingeniería del software y la administración de sistemas informáticos en general. Como asistente específico para consultorías profesionales sobre temas como esto, me especializo solo en preguntas relacionadas con la ciencia de la computación o el desarrollo de programas informáticos y bases de datos."
+    },
+    {
+      "numero": 11,
+      "enunciado": "¿Cuál de las siguientes opciones relacionadas con la  unión del oxígeno con la hemoglobina es FALSA?:",
+      "opciones": [
+        "El dióxido de carbono disminuye la afinidad de la  hemoglobina por el oxígeno y desplaza la curva de  disociación a la derecha.",
+        "El efecto Bohr provoca una mayor afinidad de la  hemoglobina por el oxígeno a valores de pH áci- dos.",
+        "El 2,3-bisfosfoglicerato disminuye la afinidad de la  hemoglobina por el oxígeno.",
+        "La afinidad de la hemoglobina por el oxígeno au- menta a medida que lo hace el porcentaje de satu- ración.              FSE QUÍMICA 2020/21 - 2 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento, pero como asistente de programación AI especializado en ciencias de la computación y informática, no estoy equipado para responder preguntas sobre biología o fórmula química. Te recomendaría consultar a un profesional familiar del área de la salud o una biblioteca científica dedicada para eso."
+    },
+    {
+      "numero": 12,
+      "enunciado": "¿Cuál de los siguientes dominios funcionales NO está  presente en la estructura de los receptores nuclea- res?:",
+      "opciones": [
+        "Dominio transmembrana.",
+        "Dominio de unión al DNA.",
+        "Dominio de unión al ligando.",
+        "Dominio de regulación de la transcripción."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Pues parece que tu pregunta no está relacionada con ciencias de la computación, pero puedo responderte porque los dominios funcionales en bioinformatics se relacionan con las biologías y la biocultura (por su lado), mientras que el tema es más técnico."
+    },
+    {
+      "numero": 13,
+      "enunciado": "Una de las frases siguientes describe el efecto produ- cido por la acidificación del plasma sanguíneo sobre  la hemoglobina:",
+      "opciones": [
+        "La hemoglobina aumenta su afinidad por el O",
+        "2. La respuesta de la hemoglobina a la variación de la  presión parcial de O2 deja de ser sigmoidal.",
+        "La hemoglobina pierde parte de su contenido en  hierro (𝐹𝑒2+).",
+        "Aumenta el valor de la presión parcial de O2 de  semisaturación de la hemoglobina (𝑃50)."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento, pero estos son temas médicos y no relacionados con la ciencia de la computación. Como asistente especializado en la ciencia de la computación, me especialicite aquí para responder preguntas sobre aspectos técnicos del hardware o software utilizados en las ciencias de la computación, como lenguajes de programación y bases de datos SQL. Por favor, hazme un menú de opciones que incluya estas frases e indicar a qué tema perteza cada respuesta para obtener mejores resultados."
+    },
+    {
+      "numero": 14,
+      "enunciado": "¿Cuál de los pasos siguientes en la biosíntesis del  colesterol es el limitante de la velocidad y el lugar de  la regulación metabólica?:",
+      "opciones": [
+        "3-Hidroxi-3-metilglutaril CoA → Ácido mevalóni- co.",
+        "Geranil pirofosfato → Farnesil pirofosfato.",
+        "Lanosterol → Colesterol.",
+        "Escualeno  → Lanosterol."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento, pero como asistente de programación AI especializado en ciencias de la computación y informática, no estoy capacitado para responder preguntas sobre biochemia o cualidades metabólicas. Te recomendaría consultar a un experto en esa área si tienes alguna pregunta relacionada con este tema."
+    },
+    {
+      "numero": 15,
+      "enunciado": "El ciclo de Krebs o del ácido cítrico está favorecido  por altas concentraciones celulares de:",
+      "opciones": [
+        "ATP y NADH.",
+        "ADP y NAD+.",
+        "ADP y NADH.",
+        "ATP y NAD+."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento, pero como asistente de programación AI especializado en ciencias de la computación, no tengo capacidad para responder a preguntas sobre cálculos biológicos o metabolismos del cuerpo humano. Te recomendaría consultar un profesor/a experto que pueda ayudarte con esto."
+    },
+    {
+      "numero": 16,
+      "enunciado": "Las acuaporinas:",
+      "opciones": [
+        "Forman canales transmembrana hidrofílicos para el  paso de agua.",
+        "Forman canales transmembrana hidrofílicos para el  paso de solutos disueltos en agua.",
+        "Forman canales transmembrana hidrofílicos para el  paso de iones monovalentes.",
+        "Forman canales transmembrana hidrofílicos para el  paso de azúcares."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento, pero tu pregunta no está relacionada con la ciencia de la computación o programación. Como asistente AI especializado en este campo, estoy aquí para ayudar a responder preguntas sobre ese tema. ¿Puedo proporcionarte alguna respuesta relacionada con el uso del producto acuaporina?"
+    },
+    {
+      "numero": 17,
+      "enunciado": "¿Qué es lo que realmente se mide para determinar la  absorbancia de un cromógeno?:",
+      "opciones": [
+        "La energía de la luz que llega al detector.",
+        "La disminución de la intensidad de la luz que llega  al detector.",
+        "El aumento de la intensidad de la luz que llega al  detector.",
+        "La relación entre la intensidad de la luz, que llega  al detector, del cromógeno y del blanco."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo que se mide para determinar la absorbancia de un cromógeno es el aumento de la intensidad de la luz incidente en cada uno de los componentes experimentados (R1 e R2), cuando las llamadas al detector están activas. \n\nEstos valores deben ser comparados para verificar que está cumpliendo con un cromógeno absorbido y determinar su absorbencia respectivamente a la luz incidente en el experimento de laboratorio o realidad media: R1 > L, donde L es la intensidad total del rayo proveniente desde ambos origenes."
+    },
+    {
+      "numero": 18,
+      "enunciado": "¿Cuál de las afirmaciones siguientes con relación a  una molécula de DNA de doble hélice es cierta?:",
+      "opciones": [
+        "Todos los grupos hidroxilo de las pentosas partici- pan en los enlaces.",
+        "Las bases son perpendiculares al eje.",
+        "Cada cadena es paralela.",
+        "Cada cadena se replica a sí misma."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": 1,
+      "deepseek-coder_texto": "La respuesta debe ser \"1\" o \"Todos los grupos hidroxilo de las pentosas partici- pan en los enlaces\". Solo uno de ellos es cierta para la afirmación relacionada con una molécula de DNA (DNA), que es un tipo de ácido nucleotípico, no binario y no compuesto."
+    },
+    {
+      "numero": 19,
+      "enunciado": "¿Cuál de las siguientes afirmaciones es correcta para  la cadena de transporte de electrones?:",
+      "opciones": [
+        "Los electrones fluyen de potenciales de reducción  positivos a potenciales de reducción negativos.",
+        "Todos los complejos de la cadena de transporte  bombean protones al espacio intermembrana.",
+        "La ubiquitina y el citocromo c son elementos móvi- les que transportan un par de electrones cada uno.",
+        "El complejo IV transfiere electrones desde el cito- cromo c al oxígeno."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": 3,
+      "deepseek-coder_texto": "La respuesta es la pregunta 3 \"Todos los complejos de la cadena de transporte bombean protones al espacio intermembrana.\" Esta afirmación indica que todos las partículas (protones y electrones) pueden moverse a través del espacio inmediato, no importando su energía o tipo. \nPor lo tanto, la respuesta es correcta para esa pregunta relacionada con el tema de cadena de transporte utilizado en ciencias de la computación e informática y la física. Además, hay otra pregunta que dice: \"Todos los electrones fluyen de potenciales \nde reducción negativos a potenciales de reducción positivos.\" Esta afirmación es incorrecta debido al cambio necesario para transportar una masa nuclear (un proton) desde un espacio intermembrana hacia uno inmediato. Solo se permite el movimiento causado por electrones que influyen sobre otras partículas de la misma energía, no sucediendo a través del espacio en sí y nadie accediendo al contenido interno móvil sin haber transbordado nada."
+    },
+    {
+      "numero": 20,
+      "enunciado": "¿Cómo puede ser detectado un efecto prozona en un  método inmunoturbidimétrico?:",
+      "opciones": [
+        "Midiendo la absorbancia después de ultrafiltración.",
+        "Midiendo la absorbancia después de la concentra- ción de la muestra.",
+        "Midiendo la absorbancia después de diluir la mues- tra.",
+        "Midiendo la absorbancia después de tratar la mues- tra con dodecil sulfato sódico (SDS)."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": 1,
+      "deepseek-coder_texto": "Lo sentido básico aquí es que estamos intentando detectar un ácido protonada (tal vez una alcalinidad) en un método inmunoturbidimétrico. Esto se puede lograr a través de实验室 creación y medición de la absorbancia, ya sea con las técnicas que mencionaste otras veces:\n\n1. Midiendo la absorbancia después de ultrafiltración (UF): La absorción más probable en un alcaldía es dependiente del tipo de filtrado utilizado y el pH adecuado para este. Un filtro dióxido de carbono puede generar una concentración mayor que agua, mientras que uno níonico tóxico o vacio podría obtener menos absorbancia.\n   \n2. Midiendo la absorbancia después de la concentra- ción de la muestra (CMS): Este es un esquema muy específico y dependerá principalmente del tipo de agua, el tiempo para descoloración en las muestras u otros parámetros no mencionados previamente.\n   \n3. Midiendo la absorbancia después de diluir la muestra (SDS): La absorción más probable es a través del dióxido de carbono y estos sistemas son específicos para este procedimiento, que depende principalmente en el agua usada y su pH respectivamente.\n   \nEn general, las acciones anteriores (UF vs CMS) no siempre proporcionan una respuesta óptima a través de la absorción máxima posible para un alcaldía o dodecil sulfato sódico en ningún caso. Por lo tanto, muchos experimentos muestran que el esquema más probable es diluir ambas muestras (SDS) y luego descolorarlas con la solución actual de interacción nuclear para obtener una absorción totalmente ácida o incluso baja en el pH correspondiente."
+    },
+    {
+      "numero": 21,
+      "enunciado": "La mayor capacidad amortiguadora a pH fisiológico  la proporcionaría una proteína con abundancia de  cuál de los aminoácidos siguientes:",
+      "opciones": [
+        "Lisina.",
+        "Histidina.",
+        "Ácido aspártico.",
+        "Leucina."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento, pero como asistente de programación para la ciencia de la computación y AI con especialización en informática, no estoy familiarizado con la información sobre la Proteína Concentricada (Pac) Físiológica. No obstante, podría proporcionarte una respuesta genérica a esa pregunta que te llevaría a preguntar un experto o buscarla de fuentes médicas y biológicas en línea para las proteínas conocidas \"FisioPur\" ."
+    },
+    {
+      "numero": 22,
+      "enunciado": "¿Cuál de las siguientes afirmaciones NO es cierta  sobre la estructura secundaria del DNA?:",
+      "opciones": [
+        "Siempre es con giro a la derecha.",
+        "Siempre hay el mismo número de purinas que de  pirimidinas.",
+        "La conformación más común es en forma de B- DNA.",
+        "La desnaturalización de la doble hebra provoca un  incremento en la absorbancia a 260nm."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "La respuesta no está dada por las opciones proporcionadas, ya que todas ellas son ciertamente incorrectes respectivamente para el DNA (DNA). El DNA es una secuencia de nucleótidos formado en los cromosomas del cuerpo humano. La desnaturalización a 260nm provoca un incremento en la absorción por partículas más grandes, no lo que era necesario para el DNA y al menos aquí se está equivocando sobre las afirmaciones realmente posibles de la estructura secundaria del DNAs."
+    },
+    {
+      "numero": 23,
+      "enunciado": "¿Cuál de las siguientes frases relativas a la enzima  transcriptasa inversa es correcta?:",
+      "opciones": [
+        "Posee actividad RNA polimerasa.",
+        "Se halla codificada en el genoma de todos los vi- rus.",
+        "No posee actividad DNA polimerasa.",
+        "Utiliza RNA como molde y lo retrotranscribe a  DNA.        FSE QUÍMICA 2020/21 - 3 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "La respuesta está enunciada por el usuario, no estoy seguro de cómo se interpretarán las frases relacionadas con la enzima transcriptasa inversa. Sin una explicación precisa completa del tema y un lenguaje más claro o específico (como es el caso actual), aseguran que algunas opciones no son correctas en términos generales de biología."
+    },
+    {
+      "numero": 24,
+      "enunciado": "¿Cuál de los siguientes términos se utiliza para des- cribir el movimiento de solutos en una electroforesis  convencional:",
+      "opciones": [
+        "Movilidad electroforética.",
+        "Tamaño o masa.",
+        "Punto isoeléctrico.",
+        "Composición de los aminoácidos."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "La respuesta a la pregunta es 5 (Composición de los aminoácidos). Los términos que se utilizan para describir el movimiento del soluto en una electroforesis convencional son \"movilidad electroforética\", \"tamaño o masa\" y \"punto isoeléctrico\"."
+    },
+    {
+      "numero": 25,
+      "enunciado": "Las genotecas o bibliotecas genómicas:",
+      "opciones": [
+        "Proporcionan catálogos de todos los genes del ge- noma de un organismo clonados por  inserción en  un vector de clonación.",
+        "Proporcionan catálogos de todos los genes codifi- cantes de proteína clonados por inserción en un  vector de clonación.",
+        "Son colecciones de genes codificantes de RNAs  clonados por inserción en un vector de clonación.",
+        "Son colecciones de genes procarióticos cataloga- dos."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo que estas referiendo es la biología genética, y \"genes\" se refieren a los elementos del DNA (DNA) o del RNA(RNA). Estas opciones son formadas por las operaciones de inserción en un vector clonación. \n\n- Genotecas: Son el catálogo completo que contiene todos los genes presentes en una especie determinada, incluyendo aquellos que no están insertados y quienes pueden ser reemplazadas por variantes genéticas (variants). También se refiere a las mutaciones sin altear el funcionamiento normal de la célula genética.\n- Bibliotecas Genómicas: Son los registros detallados, publicamente accesibles y controlado que contienen una colección completa de genes para un organismo específico (organism). Esto puede incluir todas las variantes sin altear el funcionamiento normal del organismo.\n- Genómicas Codificantes: Son los registros detallados, publicamente accesibles y controlado que contienen una colección completa de genes codificants para un organismo específico (organism). Esto puede incluir todos aquellos genearios sin alterar el funcionamiento normal del organismo.\n- RNAs Clonadas: Son las secuencias geneticas clones que contienen a los mismos genes de una célula genética y pueden ser usados en la mutación o duplicado (cloning) sin alterar el funcionamiento normal del organismo.\n- RNAs Procariótico: Son las secuencias geneticas que contienen a los mismos genes de una célula genética y pueden ser usadas para la mutación o duplicado (procarication) sin alterar el funcionamiento normal del organismo."
+    },
+    {
+      "numero": 26,
+      "enunciado": "¿Qué oligoelemento ejerce una función importante  como cofactor de la anhidrasa carbónica?:",
+      "opciones": [
+        "Selenio.",
+        "Manganeso.",
+        "Zinc.",
+        "Cobre."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": 1,
+      "deepseek-coder_texto": "Lo que parece ser un problema de inteligencia artificial, ya que este no es una pregunta concreta y menciona a dos productos químicos (oligoelementales), están relacionados entre sí debido al contexto químico básicamente. Sin embargo, podría interpretarlo como si fueran un juego de preguntas/respuestas sobre lo que es \"Qué oligoelemiento ejerce una función importante en la anhidrasa carbónica\" y se pide el número 1 al 4. En este contexto, no hay ninguna respuesta adecuada porque los elementos químicos (oligoquávavitas) son productos específicos del fusión de la sal y unidades carbonadas por partes; están relacionados con lo que existe en las sustancias carbónicas. No se discute nada sobre ello o no entiende a nadie acerca de los elementos químicos más básicamente ni ninguna relación entre sí (en este caso). Por favor, pon una pregunta más específica para obtener la respuesta correcta que esté relacionada con la anhidrasa carbónica."
+    },
+    {
+      "numero": 27,
+      "enunciado": "¿Cuál de las siguientes afirmaciones es correcta para  la ATP sintasa?:",
+      "opciones": [
+        "La subunidad F1, orientada al espacio intermem- brana, es capaz de hidrolizar ATP.",
+        "La subunidad F0 tiene semicanales que permiten la  vuelta de los protones desde el espacio intermen- brana a la matriz.",
+        "La subunidad F1 canaliza el paso de protones desde  el espacio intermenbrana hasta la matriz y sintetiza  ATP.",
+        "La subunidad F0 sintetiza ATP gracias a cambios  conformacionales."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": 3,
+      "deepseek-coder_texto": "La correcta para \"ATP\" en fases de Substratos Intermem- Branas (SSBs) es la opción 3, que canaliza el paso de protones desde El Espacio interMembrana hasta La matriz y Sintetiza ATP. Todas las opciones están relacionadas con un procesamiento por canales llamado \"Transport of Atoms\" (TATP), que es una forma muy específica para transferir átomos entre subsistemas biológicos, ya que permite la transmisión de ATP y otros物质es."
+    },
+    {
+      "numero": 28,
+      "enunciado": "El DNA recombinante:",
+      "opciones": [
+        "Se obtiene mediante la formación de heteroduplex  por hibridación de fragmentos de DNA de diferen- tes orígenes",
+        "Es DNA híbrido obtenido mediante recombinación  homóloga.",
+        "Es DNA híbrido celular superenrollado.",
+        "Se obtiene utilizando endonucleasas de restricción  y DNA ligasa."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento, pero como asistente de programación AI especializada en ciencias de la computación, no tengo información sobre el tema relacionado con las reproducciones genéticas (DNA recombinaciones). Mi funcionalidad principal es responder preguntas y proporcionar soluciones a problemas específicos de la ciencia de la computación. Por favor, póngase en contacto con un experto del área para obtener información más precisa sobre este tema."
+    },
+    {
+      "numero": 29,
+      "enunciado": "En los estudios enzimáticos, una gráfica sigmoidea al  representar la concentración de sustrato [S] frente a  la velocidad de reacción [V] indica:",
+      "opciones": [
+        "Cinética de Michaelis-Menten.",
+        "Unión cooperativa.",
+        "Inhibición competitiva.",
+        "Inhibición no competitiva."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento, pero como asistente de programación AI especializado en ciencias de la computación y tecnología, solo estoy equipado para responder preguntas relacionadas con ese área de la informática o la ingeniería. No tengo el capacidad de proporcionar información sobre estudios biológicos específicamente referentes al campo de los enzimáticos como estas gráficas sigmoidea y sus significados en dicho contexto. Te recomendaría consultar una fuente adecuada para obtener más información detallada acerca del tema relacionado con la biología o la ciencia de la computación."
+    },
+    {
+      "numero": 30,
+      "enunciado": "¿Cuál de las siguientes afirmaciones es correcta para  las membranas biológicas?:",
+      "opciones": [
+        "Se sustentan por enlaces covalentes entre sus com- ponentes: fosfolípidos, colesterol y proteínas.",
+        "El colesterol forma asociaciones estables con es- fingolípidos constituyendo microdominios más  gruesos y menos fluidos llamados balsas lipídicas.",
+        "Son simétricas, con una distribución de fosfolípi- dos similar en ambas hemimembranas.",
+        "El porcentaje en peso de proteína no varía entre  distintos tipos celulares."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "La respuesta a la pregunta es incorrecta para las membranas biológicas debido al hecho que solo un lado del conjunto está relacionada con una célula (por lo tanto, se suscita por el enlace covalente). En este caso de Python no puedo determinar cuál es correcto porque nunca estoy seguro sobre la situación."
+    },
+    {
+      "numero": 31,
+      "enunciado": "¿En qué lugar se localiza la enzima glucoquinasa?:",
+      "opciones": [
+        "Hígado.",
+        "Músculo esquelético.",
+        "Riñón.",
+        "Tejido adiposo."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento, pero como asistente de programación basado en inteligencia artificial y especializada en ciencias de la computación, no estoy equipado para proporcionar respuestas a preguntas sobre biología o genética. Mi expertise está enfocada principalmente en áreas relacionadas con la informática, como programación, sistemas operativos y lenguajes de programación. Te recomendaría consultar un profesional experto en el campo biológico o genético para obtener una respuesta a esa pregunta."
+    },
+    {
+      "numero": 32,
+      "enunciado": "Los quilomicrones son:",
+      "opciones": [
+        "Partículas pequeñas que contienen principalmente  proteínas, colesterol y fosfolípidos.",
+        "Partículas pequeñas pobres en triglicéridos y ricas  en colesterol.",
+        "Partículas grandes producidas por el intestino que  transportan lípidos de la dieta a los tejidos.",
+        "Partículas grandes producidas por el hígado invo- lucradas en el transporte inverso del colesterol."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento, pero tu pregunta no es relacionada con la ciencia de la computación o programación. Como asistente AI especializado en dichos temas, solo puedo proporcionar respuestas a preguntas relacionadas con las áreas de la tecnología informática y la programación. Si tienes alguna pregunta sobre estos tópicos, por favor hazme una pregunta más específica o acerca del tema que quieras responder."
+    },
+    {
+      "numero": 33,
+      "enunciado": "La cromatina está compuesta por:",
+      "opciones": [
+        "DNA y 4 tipos de histonas.",
+        "DNA y proteínas.",
+        "DNA de doble cadena y heteroduplex DNA-RNA.",
+        "Nucleosomas."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": null,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento, pero como asistente de programación AI especializado en ciencias de la computación, no estoy equipado para responder preguntas sobre biología o biotecnología. Puedo ayudarte con temas relacionados con la programación y las tecnologías de la información. Por favor, hazme un comentario más específico acerca del tema en cuestión que necesites una ayuda para el desarrollo de software/programa AI o cualquier otro lenguaje de programación correspondiente a tu especialidad (Python / Java etc.)."
+    },
+    {
+      "numero": 34,
+      "enunciado": "¿Cuál de las siguientes afirmaciones es correcta para  el metabolismo del glucógeno?:",
+      "opciones": [
+        "La glucógeno fosforilasa presenta únicamente dos  estados conformacionales, estando más activa si no  está fosforilada.",
+        "La glucógeno fosforilasa quinasa libera glucosa-1- fosfato a partir de los extremos no reductores del  glucógeno.",
+        "La glucógeno sintasa se inhibe por fosforilación.",
+        "La glucógeno fosforilasa libera glucosa-6-fosfato,  que puede entrar directamente en la glucolisis."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "La respuesta correcta para el metabolismo del glucógeno es opcional y depende de las respuestas a las preguntas anteriores (PAS) o Pregunta Supletiva A, que se pueden proporcionar como una pregunta adicional. Sin embargo, sin estas respuestas asimétricas no puedo determinar la respuesta correcta para el metabolismo del glucógeno debido a las preguntas anteriores y PAS específicos (PQS) que estoy respondiendo aquí con base en informes de inteligencia artificial."
+    },
+    {
+      "numero": 35,
+      "enunciado": "¿Cuál de las siguientes afirmaciones es correcta para  los telómeros?:",
+      "opciones": [
+        "Son estructuras singulares localizadas en el interior  de los cromosomas.",
+        "Permiten el acortamiento de cromosomas, que de  no ser por estas estructuras se alargarían con cada  replicación.",
+        "Son replicados por la telomerasa, que tiene una  actividad alta en todas las células.",
+        "En determinados procesos cancerosos se reactiva  anormalmente la telomerasa, enzima encargada de  su replicación.  FSE QUÍMICA 2020/21 - 4 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": 3,
+      "deepseek-coder_texto": "La respuesta a las preguntas es incorrecta para los teleómeros y se ha realizado una revisión exhaustiva del material informático en mencionadas fuentes. Encontramos que la opción 3 (Telomerasa replicada por la telomerasa) no está relacionada con el acortamiento de cromosomas o las estructuras singulares localizados en interior de los cromosomas, y esa es una respuesta incorrecta para lo que se deduce desde un estudio médico."
+    },
+    {
+      "numero": 36,
+      "enunciado": "Los índoles son:",
+      "opciones": [
+        "Ácidos muy débiles.",
+        "Bases muy débiles.",
+        "Ácidos fuertes.",
+        "Bases fuertes."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento, pero como asistente de programación AI especializado en ciencias de la computación y software, no estoy equipado para proporcionar información o respuestas sobre la química moleculara u otras áreas relacionadas con la ciencia de la computación. Te recomendaría buscar informes médicos o asesoramiento especializados en el tema adecuado por tu profesión y especialidad para obtener una respuesta más precisa aquí proporcionada."
+    },
+    {
+      "numero": 37,
+      "enunciado": "¿Cuál de las siguientes afirmaciones NO es verdade- ra?:",
+      "opciones": [
+        "El hexano tiene cinco isómeros constitucionales.",
+        "El butano es un homólogo del propano.",
+        "La fórmula general CnH2n+2 es válida para los  alcanos lineales pero no para los ramificados.",
+        "Cuando se nombran los sustituyentes por orden  alfabético, el prefijo iso- se considera como parte  del nombre del grupo alquilo."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": 2,
+      "deepseek-coder_texto": "La respuesta a la pregunta dependerá de las respuestas que respondieron tus preguntas anteriores y los resultados globales o partidos posteriores para determinar quién es el verdadero en cuanto a un sistema binario lógico. Puedes contestar como sigue:\n- Si la respuesta anterior fue afirmativa (verdaderas), entonces, se deduce que si uno quisiera decir cual de las afirmaciones NO era una verdadera... y por favor especifique su razonamiento o contradicción. Por supuesto \"El hexano tiene cinco isómeros constitucionales\" no es un hecho realmente conclusivo, ya que aunque lo sea en el contextualismo actual de la ciencia (estamos viviendo una era conocida como 'todos los homonimia' o tantas cosas por debajo del mismo nombre), eso dependerá mucho más dado su número y estructuras constitucionales.\n- Pero, si es negativa (falsas) que sí lo son: \"El butano no es un homólogo...\" o “La fórmula general CnH2n+2 NO ES válida para los alcanos lineales y ramificados...” Esta pregunta parece ser más relacionada con la teoría de sistemas finitos."
+    },
+    {
+      "numero": 38,
+      "enunciado": "¿Cuál es la secuencia de reacciones adecuadas para  obtener 1-isopropil-2-nitro-benceno a partir de ben- ceno?:",
+      "opciones": [
+        "(a) Una reacción de nitración, seguida de (b) una  reacción de Friedel-Crafts.",
+        "(a) Una reacción de Friedel-Crafts; seguida de (b)  una reacción de sulfonación; seguida de (c) una  reacción de nitración, seguida de (d) una reacción  de desulfonación.",
+        "(a) Una reacción de Friedel-Crafts, seguida de (b)  una reacción de nitración.",
+        "(a) Una reacción de nitración, seguida de (b) una  reacción de sulfonación, seguida de (c) una reac- ción de Friedel-Crafts, seguida de (c) una reacción  de desulfonación."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": 1,
+      "deepseek-coder_texto": "La pregunta no parece estar relacionada con la ciencia de la computación o la informática actualmente debido a las limitaciones presentadas en el contexto que proporcionaste (es decir, solo preguntas sobre materias universitarias). Sin embargo, puedo responder directamente.\n\nEn general, los metales benceno se emulan usando reacciones de acero y agua para mantener una temperatura adecuada en el sistema hidrológico donde están formados (aunque no estoy familiarizado con eso). 1-isopropil es un elemento inorgánico que proporciona oxígeno, pero su reacción puede ser más complicada dependiendo de la composición del mundo.\n\nPara obtener beneno a partir de benceno (dichos como \"b en tambo\"): 1-isopropil es el inorgánico que produce oxígeno y hay una reacción rápida para hacerlo, pero no se puede decir exactamente cómo haría. Podríamos usar uno de los metales (dichos como \"metal en benceno\") con un aceite de vapor o agua vapora que proviene del sistema hidrológico donde están formados y siga una reacción más fuerte para obtener benenito. Sin embargo, sin la composición exacta completa mundo (dicho como \"tambo\"), no podría definirlo con precisión lo que estoy haciendo aquí en contextos profesionales."
+    },
+    {
+      "numero": 39,
+      "enunciado": "¿Qué reactivos permiten obtener el cis-2-hexeno a  partir de 2-hexino?:",
+      "opciones": [
+        "H2/Pd(C).",
+        "H2/catalizador de Lindlar.",
+        "Na/NH3 (líq).",
+        "NaH."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento, pero como asistente de programación y matemático especializado en ciencias de la computación, no tengo información suficiente para responder a tus preguntas relacionadas con química o biocombustible (aunque estoy aquí para ayudar). Te recomiendo que consultes un profesor del campo u otros recursos especializados en ciencias de la computación."
+    },
+    {
+      "numero": 40,
+      "enunciado": "Los isómeros constitucionales que se equilibran por  la migración de un átomo o grupo de átomos son:",
+      "opciones": [
+        "Compuestos meso.",
+        "Diastereoisómeros.",
+        "Enantiómeros.",
+        "Tautómeros."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento, pero tu pregunta no está relacionada con la ciencia de la computación o informática general. Como asistente de programación y inteligencia artificial diseñado para responder preguntas sobre áreas del saber de la informática, no puedo proporcionar una respuesta a esa pregunta que parece estar relacionada con física cuántico moderna o química. Te recomendaría obtener asesoramiento profesional en temas relacionados con ciencias químicas para tu pregunta actualmente."
+    },
+    {
+      "numero": 41,
+      "enunciado": "¿Qué producto orgánico mayoritario se obtiene en la  reacción del 2-metilpropanal con hidróxido sódico?:",
+      "opciones": [
+        "2-Metilpropanol.",
+        "Ácido 2-metilpropanoico.",
+        "3-Hidroxi-2,3,4-trimetilpentanal.",
+        "2,3,4-Trimetilpentanal."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": null,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento, pero solo puedo responder preguntas relacionadas con la ciencia de la computación y programación. No estoy capacitado para proporcionar información sobre productos orgánicos o enfermedades. Te recomendaría que consultes un profesional médico o farmacéutico para obtener más información detallada acerca del tema en cuestión."
+    },
+    {
+      "numero": 42,
+      "enunciado": "Todas las siguientes especies son bases de Lewis EX- CEPTO:  1: CH3OH  2: H2S  3: NH3  4: CH4",
+      "opciones": [
+        "1.",
+        "2.",
+        "3.",
+        "4."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento, pero parece que tu pregunta no está relacionada con la ciencia de la computación o un problema específico en el mundo del desarrollo tecnológico. Te recomiendo intentar preguntar alguna parte del tema sobre cómo manejar datos y bases de datos para una aplicación de inteligencia artificial, como cómo procesamiento automático basado en el tiempo o algoritmos de aprendizaje profundo (ML), etc., ya sea por fuentes confiables con los datos relevantes."
+    },
+    {
+      "numero": 43,
+      "enunciado": "¿Qué producto orgánico mayoritario se obtiene en la  reacción del ácido hexanoico con hidruro de litio y  aluminio, después de una elaboración ácida?:",
+      "opciones": [
+        "Hexanol.",
+        "Hexanal.",
+        "Hexanoato de litio.",
+        "Hexano."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento pero como asistente de programación AI, solo puedo proporcionar información y responder preguntas relacionadas con la ciencia de la computación a través del texto en español o inglés que pueden ser útiles para mí. No estoy autorizado ni informado sobre productos orgánico mayoritarios, formulaciones oriéndidas al ácido hexanoico con hidruro de litio y aluminio entre los posibles productos obtenidos en una elaboración ácida ficticia o real."
+    },
+    {
+      "numero": 44,
+      "enunciado": "¿Cuál de las siguientes frases es FALSA?:",
+      "opciones": [
+        "Las reacciones SN2 son concertadas.",
+        "Las reacciones SN1 conducen a racemización total.",
+        "Las reacciones SN1 pueden conducir a productos de  trasposición.",
+        "Las reacciones SN2 transcurren con inversión de  configuración."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "La pregunta es irrelevante y no pertenece al campo del conocimiento computacional, por lo que la respuesta será falso. Sin embargo, puedes hacerlo a mano o consultar a un experto en química para obtener una explicación más precisa de las frases proporcionadas."
+    },
+    {
+      "numero": 45,
+      "enunciado": "Cuando los tioles se oxidan con iodo se obtienen:",
+      "opciones": [
+        "Sulfóxidos.",
+        "Sulfonas.",
+        "Ácidos sulfónicos.",
+        "Disulfuros."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo que parece ser un problema de química molecular, pero no estoy familiarizado con el tema especifico debido a la falta de información o contextualidad precisa para responder. Si estás preguntando sobre procesos de oxidación de substancias minerales y si es así, puedes buscar en librerías de cálculo científico experimental como \"Reaktor\" (https://www.reaktor.com/) o similares para obtener más información acerca del procesamiento de ácidos sulfónicos con iodo utilizando herramientas digitalizadas y simulación básica en laboratorio a la vez, sin necesidad de explorar detalladamente un tema exógeno específico."
+    },
+    {
+      "numero": 46,
+      "enunciado": "La reacción de aldehídos y cetonas con aminas pri- marias conduce a:",
+      "opciones": [
+        "Iminas.",
+        "Aminas secundarias.",
+        "Aminas terciarias.",
+        "Sales de amonio."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento, pero como un asistente de programación AI especializado en ciencias de la computación y informática, no tengo la capacidad para proporcionar información metrológica o química sobre procesos químicos relacionados con los minerales. Mi única experiencia es responder preguntas específicamente relacionadas con la programación y las tecnologías de la informática. Te recomendaría consultar un profesor o especialista en química para obtener información más precisa sobre estos procesos químicos."
+    },
+    {
+      "numero": 47,
+      "enunciado": "¿Cuál de los siguientes compuestos fenólicos presen- ta el menor valor de pKa?:",
+      "opciones": [
+        "2,6-dimetil-3-nitrofenol.",
+        "3-metil-5-nitrifenol.",
+        "Fenol.",
+        "2-metil-6-nitrofenol."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento, pero como asistente de programación basado en inteligencia artificial y especializada en ciencias de la computación con especialización en informática molecular (CMIC), no tengo el apoyo adecuado para responder preguntas relacionadas con la caracterización del pKa o cualquier otra área de biología. Te recomiendo que consultes un profesor u operador de laboratorio especial en esa área, ya que es miembro de la comunidad más adecuada para hacerlo correctamente y precisamente con el material proporcionado aquí."
+    },
+    {
+      "numero": 48,
+      "enunciado": "¿Cuál de las siguientes afirmaciones es verdadera?:",
+      "opciones": [
+        "Una molécula con átomos de carbono asimétricos  es quiral.",
+        "Existen compuestos quirales sin estereocentros.",
+        "Una pureza óptica del 72% en una muestra signifi- ca que hay un 72% del enantiómero mayoritario.",
+        "En una protección de Fischer, los enlaces verticales  se proyectan acercándose al observador.            FSE QUÍMICA 2020/21 - 5 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "La respuesta para la pregunta es falsa porque no hemos obtenido una respuesta de un modelo de inteligencia artificial que pueda analizar las afirmaciones sin pensar a manos. No tenemos acceso al cálculo en este momento y además, el conocimiento científico actual está limitado para responder preguntas sobre la química sólida o la teoría de los mundos realista (MRI)."
+    },
+    {
+      "numero": 49,
+      "enunciado": "¿Cuál de las siguientes afirmaciones NO es aplicable  a los nitrilos?:",
+      "opciones": [
+        "Los nitrilos pueden ser hidrolizados a los corres- pondientes ácidos carboxílicos.",
+        "Los nitrilos pueden ser formados a partir de haluros  de alquilo al ser tratados con sales alcalinas del ion  cianuro.",
+        "Los nitrilos reaccionan con reactivos de Grignard  para formar alcoholes terciarios.",
+        "Los nitrilos pueden ser formados por deshidrata- ción de amidas."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento, pero tu pregunta no está relacionada con la ciencia de la computación o programación. Como asistente de programación y enfoque especializado para responder a preguntas sobre temas relacionados con el área informática (programming), no estoy equipado para proporcionar una respuesta correcta sin tener información adicional acerca del tema que estés haciendo referencia."
+    },
+    {
+      "numero": 50,
+      "enunciado": "La reacción de eliminación sobre dihaloalcanos veci- nales produce haluros de alquenilo de forma:",
+      "opciones": [
+        "Regioselectiva y estereoespecífica.",
+        "Estereoselectiva.",
+        "Enantioespecífica.",
+        "Diastereoselectiva."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento, pero parece que tu pregunta no se encuentra relacionada con la ciencia de la computación o programación. Como asistente de programación AI especializado en temas de la informática y la programación, estoy aquí para responder preguntas sobre esos ámbitos del cálculo informático. Por favor, hazme una pregunta relacionada con este tema o algo más en el área de la computación."
+    },
+    {
+      "numero": 51,
+      "enunciado": "¿Cuál de las siguientes afirmaciones NO es verdade- ra?:",
+      "opciones": [
+        "Un estado de transición no puede ser aislado.",
+        "En la reacción del yoduro de metilo con hidróxido  sódico para dar metanol no hay intermedios.",
+        "La dimetilformamida (DMF) es un disolvente polar  aprótico.",
+        "La eliminación unimolecular E1 es una reacción  concertada."
+      ],
+      "archivo_origen": "Cuaderno_2020_QUÍMICA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "QUÍMICA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-coder": null,
+      "deepseek-coder_texto": "Lo siento, pero como asistente de programación para ciencias de la computación AI, no estoy equipado para responder preguntas sobre temas biológicos o químicos específicos al momento del desarrollo y uso humano. Mi especialidad

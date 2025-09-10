@@ -1,0 +1,41 @@
+📊 Accuracy por titulación y modelo:
+
+🎓 MEDICINA
+   🔹 llama3: 28.31% (Aciertos: 220, Errores: 557, Sin respuesta: 3, Total: 780)
+   🔹 mistral: 26.92% (Aciertos: 207, Errores: 562, Sin respuesta: 11, Total: 780)
+   🔹 gemma: 24.17% (Aciertos: 174, Errores: 546, Sin respuesta: 60, Total: 780)
+
+🎓 FÍSICA
+   🔹 llama3: 29.22% (Aciertos: 237, Errores: 574, Sin respuesta: 17, Total: 828)
+   🔹 mistral: 26.56% (Aciertos: 208, Errores: 575, Sin respuesta: 45, Total: 828)
+   🔹 gemma: 27.60% (Aciertos: 186, Errores: 488, Sin respuesta: 154, Total: 828)
+
+🎓 QUÍMICA
+   🔹 llama3: 29.99% (Aciertos: 209, Errores: 488, Sin respuesta: 8, Total: 705)
+   🔹 mistral: 29.29% (Aciertos: 198, Errores: 478, Sin respuesta: 29, Total: 705)
+   🔹 gemma: 30.10% (Aciertos: 180, Errores: 418, Sin respuesta: 107, Total: 705)
+
+🎓 ENFERMERÍA
+   🔹 llama3: 32.31% (Aciertos: 243, Errores: 509, Sin respuesta: 28, Total: 780)
+   🔹 mistral: 30.33% (Aciertos: 222, Errores: 510, Sin respuesta: 48, Total: 780)
+   🔹 gemma: 29.30% (Aciertos: 167, Errores: 403, Sin respuesta: 210, Total: 780)
+
+🎓 BIOLOGÍA
+   🔹 llama3: 32.19% (Aciertos: 243, Errores: 512, Sin respuesta: 10, Total: 765)
+   🔹 mistral: 32.93% (Aciertos: 244, Errores: 497, Sin respuesta: 24, Total: 765)
+   🔹 gemma: 32.49% (Aciertos: 206, Errores: 428, Sin respuesta: 131, Total: 765)
+
+🎓 FARMACIA
+   🔹 llama3: 31.58% (Aciertos: 234, Errores: 507, Sin respuesta: 9, Total: 750)
+   🔹 mistral: 30.26% (Aciertos: 220, Errores: 507, Sin respuesta: 23, Total: 750)
+   🔹 gemma: 27.56% (Aciertos: 175, Errores: 460, Sin respuesta: 115, Total: 750)
+
+🎓 PSICOLOGÍA
+   🔹 llama3: 29.22% (Aciertos: 218, Errores: 528, Sin respuesta: 10, Total: 756)
+   🔹 mistral: 26.58% (Aciertos: 194, Errores: 536, Sin respuesta: 26, Total: 756)
+   🔹 gemma: 26.70% (Aciertos: 149, Errores: 409, Sin respuesta: 198, Total: 756)
+
+📊 Accuracy global por modelo:
+   🧠 llama3: 30.38% (Aciertos: 1604, Errores: 3675, Sin respuesta: 85, Total: 5364)
+   🧠 mistral: 28.95% (Aciertos: 1493, Errores: 3665, Sin respuesta: 206, Total: 5364)
+   🧠 gemma: 28.18% (Aciertos: 1237, Errores: 3152, Sin respuesta: 975, Total: 5364)

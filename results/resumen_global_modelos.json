@@ -1,0 +1,18 @@
+{
+  "phi3": {
+    "total": 6977,
+    "respondidas": 4942,
+    "aciertos": 2131,
+    "errores": 2811,
+    "sin_respuesta": 2035,
+    "acierto_pct": 43.12
+  },
+  "deepseek": {
+    "total": 6977,
+    "respondidas": 6376,
+    "aciertos": 2004,
+    "errores": 4372,
+    "sin_respuesta": 601,
+    "acierto_pct": 31.43
+  }
+}

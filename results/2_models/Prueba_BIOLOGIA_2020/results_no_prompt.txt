@@ -82,13 +82,6 @@ No respondió (None)       : 172
   ➤ Pregunta 73: predijo 1, correcta 2
     ¿Cuál de las siguientes células NO es una célula  presentadora de antígenos?:
 
-
-📤 [438] Enviando pregunta a deepseek-coder...
-🧠 Respuesta del modelo:
-Lo siento, pero como asistente de programación AI con la función principal de responder preguntas relacionadas con ciencias de la computación y ingeniería, no estoy equipado para proporcionar respuestas a temas médicos o psiquiátricos. Te recomiendo que consultes un profesional médico en salud para obtener información sobre las capacidades absorbentes del Absorben-te Día.
-
-
-
 📊 Resultados del modelo PHI3
 ------------------------------------------------------------
 Total de preguntas        : 185

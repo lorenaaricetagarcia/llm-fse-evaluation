@@ -15,10 +15,8 @@ from sentence_transformers import SentenceTransformer
 sentence_model = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
 kw_model = KeyBERT(model=sentence_model)
 nlp = spacy.load("es_core_news_sm")
-wiki_api = wikipediaapi.Wikipedia(
-    language='es',
-    user_agent='RAG-medico-buscador/1.0 (contacto@example.com)'
-)
+wiki_api = wikipediaapi.Wikipedia(language='es')
+
 wikipedia.set_lang("es")
 
 modelos = ["llama3", "mistral", "gemma"]

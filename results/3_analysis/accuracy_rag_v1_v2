@@ -1,3 +1,6 @@
+
+✅ Guardado: results/3_analysis/resumen_accuracy_RAG_v1.json
+
 📊 Accuracy por titulación y modelo:
 
 🎓 MEDICINA
@@ -39,3 +42,18 @@
    🧠 llama3: 30.38% (Aciertos: 1604, Errores: 3675, Sin respuesta: 85, Total: 5364)
    🧠 mistral: 28.95% (Aciertos: 1493, Errores: 3665, Sin respuesta: 206, Total: 5364)
    🧠 gemma: 28.18% (Aciertos: 1237, Errores: 3152, Sin respuesta: 975, Total: 5364)
+
+
+✅ Guardado: results/3_analysis/resumen_accuracy_RAG_v2.json
+
+📊 Accuracy por titulación y modelo:
+
+🎓 MEDICINA
+   🔹 llama3: 28.87% (Aciertos: 280, Errores: 690, Sin respuesta: 35, Total: 1005)
+   🔹 mistral: 27.46% (Aciertos: 195, Errores: 515, Sin respuesta: 295, Total: 1005)
+   🔹 gemma: 26.57% (Aciertos: 254, Errores: 702, Sin respuesta: 49, Total: 1005)
+
+📊 Accuracy global por modelo:
+   🧠 llama3: 28.87% (Aciertos: 280, Errores: 690, Sin respuesta: 35, Total: 1005)
+   🧠 mistral: 27.46% (Aciertos: 195, Errores: 515, Sin respuesta: 295, Total: 1005)
+   🧠 gemma: 26.57% (Aciertos: 254, Errores: 702, Sin respuesta: 49, Total: 1005)

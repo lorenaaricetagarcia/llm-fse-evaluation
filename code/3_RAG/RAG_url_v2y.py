@@ -2,9 +2,9 @@ import os
 import json
 import requests
 import re
-import wikipediaapi
-import wikipedia
+import time
 import spacy
+import wikipediaapi
 from keybert import KeyBERT
 from sentence_transformers import SentenceTransformer
 
@@ -16,8 +16,6 @@ sentence_model = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
 kw_model = KeyBERT(model=sentence_model)
 nlp = spacy.load("es_core_news_sm")
 wiki_api = wikipediaapi.Wikipedia(language='es')
-
-wikipedia.set_lang("es")
 
 modelos = ["llama3", "mistral", "gemma"]
 
@@ -43,8 +41,9 @@ def buscar_con_sugerencia(keyword):
     if page.exists():
         return page.text, False, None
 
-    sugerencias = wikipedia.search(keyword)
-    for sugerida in sugerencias:
+    # Generar variantes simples como sugerencias
+    variantes = [keyword.lower(), keyword.capitalize(), keyword.title()]
+    for sugerida in variantes:
         page_alt = wiki_api.page(sugerida)
         if page_alt.exists():
             return page_alt.text, True, sugerida
@@ -106,15 +105,20 @@ for archivo_json in archivos_json:
             # CONTEXTO MULTIPLE
             contextos = []
             for kw in keywords_keybert:
-                contenido, usada_sugerencia, sugerida = buscar_con_sugerencia(kw)
-                if contenido:
-                    contextos.append(contenido)
-                    if usada_sugerencia:
-                        sugerencias_usadas += 1
-                        sugerencias_log.append({
-                            "original": kw,
-                            "sugerida": sugerida
-                        })
+                try:
+                    contenido, usada_sugerencia, sugerida = buscar_con_sugerencia(kw)
+                    if contenido:
+                        contextos.append(contenido)
+                        if usada_sugerencia:
+                            sugerencias_usadas += 1
+                            sugerencias_log.append({
+                                "original": kw,
+                                "sugerida": sugerida
+                            })
+                    time.sleep(0.3)  # evitar saturar Wikipedia
+                except Exception as e:
+                    print(f"⚠️ Error al buscar '{kw}': {e}")
+                    continue
 
             if not contextos:
                 continue
@@ -199,6 +203,4 @@ with open(ruta_sugerencias, "w", encoding="utf-8") as f_sug:
     f_sug.write("=== Sugerencias de Wikipedia usadas ===\n\n")
     for item in sugerencias_log:
         f_sug.write(f"Original: {item['original']} → Sugerida: {item['sugerida']}\n")
-    f_sug.write("\n=== Estadísticas ===\n")
-    f_sug.write(f"Sugerencias usadas: {sugerencias_usadas}\n")
-    f_sug.write
+    f_sug.write("\n=== Estadísticas ===")

@@ -7,7 +7,7 @@ from collections import defaultdict
 # ==============================
 
 carpeta_base = "results/1_data_preparation/6_json_final"   # datos con respuestas correctas
-carpeta_rag = "results/2_models/rag"                      # resultados RAG
+carpeta_rag = "results/2_models/rag/rag_v2"                      # resultados RAG
 carpeta_salida = "results/3_analysis"
 os.makedirs(carpeta_salida, exist_ok=True)
 
@@ -80,10 +80,10 @@ salida = {
     "global": resumen_global
 }
 
-with open(os.path.join(carpeta_salida, "resumen_accuracy_RAG.json"), "w", encoding="utf-8") as f_out:
+with open(os.path.join(carpeta_salida, "resumen_accuracy_RAG_v2.json"), "w", encoding="utf-8") as f_out:
     json.dump(salida, f_out, indent=2, ensure_ascii=False)
 
-print("\n✅ Guardado: results/3_analysis/resumen_accuracy_RAG.json")
+print("\n✅ Guardado: results/3_analysis/resumen_accuracy_RAG_v2.json")
 
 # Mostrar resultados por pantalla
 print("\n📊 Accuracy por titulación y modelo:")

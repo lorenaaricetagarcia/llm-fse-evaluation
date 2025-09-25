@@ -27,17 +27,14 @@ llm = Ollama(model="llama3")  # Usa cualquier modelo LLM que tengas cargado en O
 qa_chain = RetrievalQA.from_chain_type(llm=llm, retriever=retriever, return_source_documents=True)
 
 # Paso 6: Hacer una pregunta y obtener respuesta con contexto
-pregunta = '''¿Cuál de las siguientes enfermedades alcanza mayor letalidad?: 
-        1. Ictus.
-        2. COVID-19.
-        3. Infarto agudo de miocardio.
-        4. Encefalopatía espongiforme bovina.'''
+pregunta = '''      "enunciado": "Un varón de 40 años consulta por disnea de esfuerzo  lentamente progresiva desde hace un año. No tiene  hábitos tóxicos ni antecedentes de interés. No ha  tenido dolor torácico. Presenta un soplo sistólico  rudo en foco aórtico, irradiado a ápex cardiaco y  carótidas. El ECG en ritmo sinusal muestra criterios  de hipertrofia ventricular izquierda y en la Rx de  tórax es evidente una raíz de aorta dilatada. Con  estos datos, ¿qué diagnóstico es el más probable?:",
+      "opciones": [
+        "Válvula aórtica bicúspide estenótica.",
+        "Comunicación interventricular perimembranosa.",
+        "Insuficiencia aórtica degenerativa.",
+        "Miocardiopatía restrictiva."
+      ],'''
 output = qa_chain.invoke({"query": pregunta})
 
 print("\n🧠 Respuesta:")
 print(output["result"])
-
-print("\n📚 Documentos usados:")
-for doc in output["source_documents"]:
-    print("-", doc.metadata.get("source", "sin nombre"))
-

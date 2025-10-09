@@ -1,0 +1,19 @@
+📊 RESULTADOS RAG v3 (comparando con respuestas base)
+
+🧠 LLAMA3
+   ✅ Aciertos: 268
+   ❌ Errores: 708
+   ⚠️ Sin predicción: 0
+   🎯 Accuracy: 27.46%
+
+🧠 MISTRAL
+   ✅ Aciertos: 273
+   ❌ Errores: 702
+   ⚠️ Sin predicción: 1
+   🎯 Accuracy: 28.00%
+
+🧠 GEMMA
+   ✅ Aciertos: 264
+   ❌ Errores: 712
+   ⚠️ Sin predicción: 0
+   🎯 Accuracy: 27.05%

@@ -1,0 +1,104 @@
+📊 Resultados del modelo LLAMA3
+------------------------------------------------------------
+Total de preguntas        : 185
+Respondidas por el modelo : 185
+Aciertos                  : 102
+Errores                   : 83
+No respondió (None)       : 0
+📈 Porcentaje de acierto  : 55.14%
+
+🔍 Ejemplos de errores:
+  ➤ Pregunta 1: predijo 2, correcta 1
+    La velocidad de conducción de un potencial de  acción será mayor:
+  ➤ Pregunta 2: predijo 1, correcta 3
+    Las sinapsis eléctricas se caracterizan por:
+  ➤ Pregunta 6: predijo 1, correcta 4
+    Si el mecanismo de acción de una hormona se  produce a través de la activación de la  fosfolipasa C:
+  ➤ Pregunta 10: predijo 1, correcta 3
+    La secreción de hormonas tiroideas:
+  ➤ Pregunta 11: predijo 4, correcta 2
+    Durante la fase de despolarización del potencial de acción cardiaco ventricular se abren los  canales de:
+
+📊 Resultados del modelo MISTRAL
+------------------------------------------------------------
+Total de preguntas        : 185
+Respondidas por el modelo : 131
+Aciertos                  : 54
+Errores                   : 77
+No respondió (None)       : 54
+📈 Porcentaje de acierto  : 41.22%
+
+🔍 Ejemplos de errores:
+  ➤ Pregunta 2: predijo 1, correcta 3
+    Las sinapsis eléctricas se caracterizan por:
+  ➤ Pregunta 3: predijo 1, correcta 2
+    Los sistemas sensoriales codifican la intensidad  de los estímulos en función de:
+  ➤ Pregunta 6: predijo 2, correcta 4
+    Si el mecanismo de acción de una hormona se  produce a través de la activación de la  fosfolipasa C:
+  ➤ Pregunta 11: predijo 4, correcta 2
+    Durante la fase de despolarización del potencial de acción cardiaco ventricular se abren los  canales de:
+  ➤ Pregunta 12: predijo 3, correcta 1
+    ¿Qué le ocurre a la presión intraventricular  izquierda durante la fase de contracción  isovolumétrica?:
+
+📊 Resultados del modelo GEMMA
+------------------------------------------------------------
+Total de preguntas        : 185
+Respondidas por el modelo : 184
+Aciertos                  : 104
+Errores                   : 80
+No respondió (None)       : 1
+📈 Porcentaje de acierto  : 56.52%
+
+🔍 Ejemplos de errores:
+  ➤ Pregunta 9: predijo 1, correcta 3
+    ¿Cuál de los siguientes factores disminuye la  secreción de insulina?:
+  ➤ Pregunta 10: predijo 2, correcta 3
+    La secreción de hormonas tiroideas:
+  ➤ Pregunta 11: predijo 3, correcta 2
+    Durante la fase de despolarización del potencial de acción cardiaco ventricular se abren los  canales de:
+  ➤ Pregunta 14: predijo 3, correcta 2
+    El flujo sanguíneo en la arteria coronaria  izquierda es más alto:
+  ➤ Pregunta 17: predijo 1, correcta 3
+    La progesterona estimula:
+
+📊 Resultados del modelo DEEPSEEK-CODER
+------------------------------------------------------------
+Total de preguntas        : 185
+Respondidas por el modelo : 13
+Aciertos                  : 4
+Errores                   : 9
+No respondió (None)       : 172
+📈 Porcentaje de acierto  : 30.77%
+
+🔍 Ejemplos de errores:
+  ➤ Pregunta 3: predijo 1, correcta 2
+    Los sistemas sensoriales codifican la intensidad  de los estímulos en función de:
+  ➤ Pregunta 13: predijo 1, correcta 2
+    La diferencia entre el volumen telediastólico y  el volumen telesistólico se denomina:
+  ➤ Pregunta 40: predijo 2, correcta 1
+    ¿Cuál  de  los  siguientes  canales  y  transportadores es una ATP-asa?:
+  ➤ Pregunta 69: predijo 2, correcta 4
+    ¿Qué  tipo  de  linfocitos  se  expanden  predominantemente y se asocian con la  respuesta inmunitaria adaptativa inicial a la  infección por el virus VIH?:
+  ➤ Pregunta 73: predijo 1, correcta 2
+    ¿Cuál de las siguientes células NO es una célula  presentadora de antígenos?:
+
+📊 Resultados del modelo PHI3
+------------------------------------------------------------
+Total de preguntas        : 185
+Respondidas por el modelo : 87
+Aciertos                  : 33
+Errores                   : 54
+No respondió (None)       : 98
+📈 Porcentaje de acierto  : 37.93%
+
+🔍 Ejemplos de errores:
+  ➤ Pregunta 1: predijo 2, correcta 1
+    La velocidad de conducción de un potencial de  acción será mayor:
+  ➤ Pregunta 2: predijo 1, correcta 3
+    Las sinapsis eléctricas se caracterizan por:
+  ➤ Pregunta 4: predijo 4, correcta 2
+    En las neuronas receptoras del olfato, las  proteínas receptoras de odorantes se localizan  en:
+  ➤ Pregunta 6: predijo 1, correcta 4
+    Si el mecanismo de acción de una hormona se  produce a través de la activación de la  fosfolipasa C:
+  ➤ Pregunta 9: predijo 2, correcta 3
+    ¿Cuál de los siguientes factores disminuye la  secreción de insulina?:

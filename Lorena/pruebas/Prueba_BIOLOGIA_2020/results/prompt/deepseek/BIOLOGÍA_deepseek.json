@@ -1,0 +1,3149 @@
+{
+  "preguntas": [
+    {
+      "numero": 1,
+      "enunciado": "La velocidad de conducción de un potencial de  acción será mayor:",
+      "opciones": [
+        "Cuanto mayor sea el diámetro del axón.",
+        "En los axones sin mielina.",
+        "Cuanto mayor sea la longitud del axón.",
+        "Cuanto menor sea el diámetro del axón."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "La velocidad de conducción de un potencial de acción será mayor en los axones sin mielina. Esto se debe a que la mielina, una capa externa protectora formada por la laminilla que rodea al núcleo en el axón, aumenta considerablemente la velocidad de conducción. La mielina es muy especializada para reducir la resistencia y la fricción, lo que permite un paso rápido del potencial a través del axón. Por otro lado, los axones con mielina desgastada o ausente (como puede suceder en la enfermedad de Charcot-Marie-Tooth) tendrán una velocidad de conducción menor debido a las altas resistencias y fricciones que se presentan."
+    },
+    {
+      "numero": 2,
+      "enunciado": "Las sinapsis eléctricas se caracterizan por:",
+      "opciones": [
+        "Mostrar un retraso sináptico mayor que en las  sinapsis químicas.",
+        "Utilizar un neurotransmisor para transmitir la  información.",
+        "Utilizar  canales  para  transmitir  la  información.",
+        "Transmitir  la  información  de  manera  unidireccional."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "Las sinapsis eléctricas se caracterizan por:\n1. Mostrar un retraso sináptico mayor que en las sinapsis químicas.\n2. Utilizar neurotransmisores para transmitir la información.\n3. Utilizar canales para transmitir la información."
+    },
+    {
+      "numero": 3,
+      "enunciado": "Los sistemas sensoriales codifican la intensidad  de los estímulos en función de:",
+      "opciones": [
+        "El tamaño de los potenciales de acción.",
+        "La frecuencia de los potenciales de acción.",
+        "La velocidad de transmisión del potencial de  acción.",
+        "La duración del potencial de acción."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "La respuesta a la pregunta es la opción 1, 'El tamaño de los potenciales de acción'. Los sistemas sensoriales codifican la intensidad de los estímulos en función del tamaño de los potenciales de acción, que son cambios bruscos en el voltaje que ocurren dentro de las células nerviosas al producirse una determinada señal o estímulo."
+    },
+    {
+      "numero": 4,
+      "enunciado": "En las neuronas receptoras del olfato, las  proteínas receptoras de odorantes se localizan  en:",
+      "opciones": [
+        "El soma neuronal.",
+        "Los cilios.",
+        "El axón.",
+        "La terminal sináptica."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "Las neuronas receptoras del olfato, también conocidas como células odorantes, contienen proteínas receptores de odorantes en la \"terminal sináptica\", es decir, en el extremo de los axones de las neuronas que se unen a otros nervios o a células gliales. No hay receptores en el soma neuronal o en los cilios, y no está ubicado en el axón."
+    },
+    {
+      "numero": 5,
+      "enunciado": "Se llama unidad motora:",
+      "opciones": [
+        "Al conjunto de una motoneurona alfa y todas  las células musculares que inerva.",
+        "A un nervio y todos los músculos que inerva.",
+        "Al conjunto de músculos que mueven una  articulación.",
+        "Al conjunto de husos musculares que  contiene un músculo."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "1. Al conjunto de una motoneurona alfa y todas las células musculares que inerva."
+    },
+    {
+      "numero": 6,
+      "enunciado": "Si el mecanismo de acción de una hormona se  produce a través de la activación de la  fosfolipasa C:",
+      "opciones": [
+        "El segundo mensajero implicado es el AMPc.",
+        "Se activa primero un receptor intracelular.",
+        "Se activa la adenilato ciclasa.",
+        "Se induce liberación de Ca2+ de los depósitos  intracelulares."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "1. El segundo mensajero implicado es el AMPc."
+    },
+    {
+      "numero": 7,
+      "enunciado": "¿Cuál de las siguientes hormonas se sintetiza en  la hipófisis?:",
+      "opciones": [
+        "Prolactina.",
+        "Hormona antidiurética.",
+        "Oxitocina.",
+        "Hormona liberadora de tirotropina."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 4,
+      "deepseek_texto": "Respuesta: 4. Hormona liberadora de tirotropina."
+    },
+    {
+      "numero": 8,
+      "enunciado": "La hormona del crecimiento:",
+      "opciones": [
+        "Estimula la síntesis de proteínas.",
+        "Es un péptido de 10 aminoácidos.",
+        "Los productos de su degradación se llaman  somatomedinas.",
+        "Es hipoglucemiante."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "Respuesta: 1"
+    },
+    {
+      "numero": 9,
+      "enunciado": "¿Cuál de los siguientes factores disminuye la  secreción de insulina?:",
+      "opciones": [
+        "Glucagón.",
+        "Sulfonilureas.",
+        "Somatostatina.",
+        "Obesidad."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "Somatostatina"
+    },
+    {
+      "numero": 10,
+      "enunciado": "La secreción de hormonas tiroideas:",
+      "opciones": [
+        "Está controlada por el eje hipotálamo- hipofisario-adrenal.",
+        "Se inhibe por la hormona estimulante del  tiroides.",
+        "Se inhibe por las hormonas tiroideas.",
+        "No depende del control por retroalimentación."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé"
+    },
+    {
+      "numero": 11,
+      "enunciado": "Durante la fase de despolarización del potencial de acción cardiaco ventricular se abren los  canales de:",
+      "opciones": [
+        "Ca2+.",
+        "Na+.",
+        "Na+ y K+.",
+        "K+."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé."
+    },
+    {
+      "numero": 12,
+      "enunciado": "¿Qué le ocurre a la presión intraventricular  izquierda durante la fase de contracción  isovolumétrica?:",
+      "opciones": [
+        "Aumenta.",
+        "No varía.",
+        "Disminuye.",
+        "Baja y después sube."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé."
+    },
+    {
+      "numero": 13,
+      "enunciado": "La diferencia entre el volumen telediastólico y  el volumen telesistólico se denomina:",
+      "opciones": [
+        "Volumen diastólico.",
+        "Volumen sistólico.",
+        "Volumen auricular.",
+        "Volumen residual."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé."
+    },
+    {
+      "numero": 14,
+      "enunciado": "El flujo sanguíneo en la arteria coronaria  izquierda es más alto:",
+      "opciones": [
+        "Al inicio de la sístole.",
+        "Al inicio de la diástole.",
+        "Al final de la sístole.",
+        "Al final de la diástole.              FSE BIOLOGÍA 2020/21 - 2 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 2,
+      "deepseek_texto": "La mejor opción es 2. Al inicio de la diástole, el flujo sanguíneo en la arteria coronaria izquierda disminuye drásticamente debido a que se bloquean las venas pulmonar y aórtica por la contracción muscular del músculo liso de la valva aórtica. Este efecto disminuye significativamente el flujo sanguíneo en la arteria coronaria izquierda, especialmente durante los primeros segundos de la diástole después de una hipoventilação profunda (hipocapnia), como en un sueño o descanso profundo, que es cuando ocurre la mayor concentración del flujo sanguíneo en la arteria coronaria izquierda."
+    },
+    {
+      "numero": 15,
+      "enunciado": "¿Qué modificaciones vasculares se esperarían  cuando un sujeto se levanta desde una posición  de decúbito supino?:",
+      "opciones": [
+        "Aumento de la presión arterial media.",
+        "Hipotensión ortostática.",
+        "Síncope vasovagal.",
+        "Descenso de la presión venosa en las piernas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé. No tengo información específica sobre cómo se comportan los vasos sanguíneos o las circulaciones cardiovasculares durante el levantamiento desde una posición decúbito supino. Sin embargo, es posible que algunos cambios vasculares ocurran en respuesta a la transición de la postura y el esfuerzo físico."
+    },
+    {
+      "numero": 16,
+      "enunciado": "Las células de Leydig:",
+      "opciones": [
+        "Sintetizan testosterona a partir de colesterol.",
+        "Establecen la barrera hemato-testicular.",
+        "Sintetizan estradiol a partir de testosterona.",
+        "Son la diana principal de la FSH."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "La respuesta correcta es 1. Las células de Leydig en el testículo humano sintetizan testosterona a partir de colesterol, no estricta"
+    },
+    {
+      "numero": 17,
+      "enunciado": "La progesterona estimula:",
+      "opciones": [
+        "Proliferación endometrial.",
+        "Contracción del miometrio.",
+        "Secreción de las glándulas endometriales.",
+        "Secreción de LH."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "Respuesta: 1 y 4"
+    },
+    {
+      "numero": 18,
+      "enunciado": "Reduce la probabilidad de poliespermia la:",
+      "opciones": [
+        "Reacción acrosómica.",
+        "Exocitosis de los gránulos corticales del  óvulo.",
+        "Adhesión del espermatozoide a la zona  pelúcida.",
+        "Reducción del Ca2+ intracelular en el óvulo."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "La reducción de la poliespermia se produce principalmente a través de la adhesión del espermatozoide a la zona pelúcida, lo que permite que solo uno de los organismos fecundantes tome contacto con las células del óvulo y comience el proceso de meiosis. La reacción acrosómica no juega un papel directo en la reducción de la poliespermia ya que es una respuesta inmunológica contra los espermatozoides, por lo tanto, aumentaría la probabilidad de fecundación poli- y multipartidada. La exocitosis de gránulos corticales del óvulo está relacionada con el equilibrio hormonal y no tiene un impacto directo en la reducción de la poliespermia, así que tampoco puede ser la respuesta correcta. Finalmente, reducir el Ca2+ intracelular en el óvulo no tendría efecto alguno sobre la poliespermia ya que este elemento es necesario para numerosas funciones celulares y no está directamente relacionado con la probabilidad de fecundación por parte de múltiples espermatozoides."
+    },
+    {
+      "numero": 19,
+      "enunciado": "La trombina:",
+      "opciones": [
+        "Inhibe la activación plaquetaria.",
+        "Convierte fibrinógeno en fibrina.",
+        "Inhibe la activación de protrombina.",
+        "Inhibe la activación de la proteína C."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 2,
+      "deepseek_texto": "La trombina es un componente clave del sistema coagulante y su función principal es convirtiendo fibrinogeno en fibrina, el cual luego se une a otras plaquetas formando una red llamada matriz fibrótica que atrapa los elementos sanguíneos. No tiene ningún efecto sobre la activación de protrombina ni proteína C. Por lo tanto, la respuesta correcta sería:\n\n2. Convierte fibrinogeno en fibrina."
+    },
+    {
+      "numero": 20,
+      "enunciado": "El valor del hematocrito:",
+      "opciones": [
+        "Disminuye por efecto de la eritropoyetina.",
+        "Aumenta en la mujer embarazada.",
+        "Indica la concentración de leucocitos en  sangre.",
+        "Aumenta durante la aclimatación a la altura."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "La opción correcta es el número 1. El valor del hematocrito disminuye por efecto de la eritropoyetina, una hormona que ayuda a producir los glóbulos rojos (eritrocitos) en el cuerpo."
+    },
+    {
+      "numero": 21,
+      "enunciado": "Del sistema nervioso entérico podemos afirmar  que:",
+      "opciones": [
+        "La estimulación parasimpática disminuye su  actividad.",
+        "El plexo mientérico controla las secreciones  del tubo digestivo.",
+        "El plexo mientérico se encuentra entre las  capas musculares lisas longitudinal y circular.",
+        "El plexo submucoso controla los movimientos  gastrointestinales."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé"
+    },
+    {
+      "numero": 22,
+      "enunciado": "Sobre la secretina, es correcto que:",
+      "opciones": [
+        "El estímulo para su liberación es la presencia  de ácidos grasos y algunos aminoácidos en el  intestino delgado.",
+        "Estimula la evacuación gástrica y secreción  de ácido.",
+        "Estimula la secreción de enzimas pancreáticas  y la contracción de la vesícula biliar.",
+        "Estimula la secreción de bicarbonato y fluidos  por los conductos pancreáticos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 3,
+      "deepseek_texto": "La respuesta correcta es la opción 3. La secretina estimula la secreción de enzimas pancreáticas y la contracción de la vesícula biliar, no la evacuación gástrica ni la secreción de ácido, ni la secreción de bicarbonato o fluidos por los conductos pancreáticos."
+    },
+    {
+      "numero": 23,
+      "enunciado": "Respecto a la secreción biliar, es correcto que:",
+      "opciones": [
+        "Se produce en la vesícula biliar y se almacena  en el hígado.",
+        "Los pigmentos biliares, principalmente la  bilirrubina, son responsables de la emulsión  de grasas.",
+        "Se concentra en la vesícula biliar por  reabsorción de agua e iones.",
+        "Las sales biliares son indispensables para la  digestión enzimática y absorción de proteínas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 2,
+      "deepseek_texto": "Soy un modelo de lenguaje y no estoy capacitado en biología, por lo que no puedo responder a esta pregunta. Pero imagino que una respuesta correcta sería opción 2: \"Los pigmentos biliares, principalmente la bilirrubina, son responsables de la emulsión de grasas\"."
+    },
+    {
+      "numero": 24,
+      "enunciado": "Para la absorción de grasas, el enterocito  reesterifica los componentes lipídicos y los  ensambla en:",
+      "opciones": [
+        "Triglicéridos.",
+        "Quilomicrones.",
+        "HDL.",
+        "LDL."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "La respuesta es 1. Los enterocitos reestearifican los componentes lipídicos en triglicéridos."
+    },
+    {
+      "numero": 25,
+      "enunciado": "Sobre la ultrafiltración de una sustancia en el  glomérulo renal es cierto que:",
+      "opciones": [
+        "Es independiente de su carga eléctrica.",
+        "Es independiente de su masa molecular.",
+        "Depende de su masa molecular y de su carga  eléctrica.",
+        "Depende de la circulación en la vasa recta."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 2,
+      "deepseek_texto": "La ultrafiltración en el glomérulo renal es una función que depende de la masa molecular y no de la carga eléctrica, por lo que la opción correcta sería:\n\n2. Es independiente de su masa molecular."
+    },
+    {
+      "numero": 26,
+      "enunciado": "El valor del aclaramiento de creatinina es un  índice adecuado para estimar la tasa de:",
+      "opciones": [
+        "Secreción tubular.",
+        "Filtración glomerular.",
+        "Reabsorción en túbulo proximal.",
+        "Reabsorción en el tubo colector."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé."
+    },
+    {
+      "numero": 27,
+      "enunciado": "Sobre la glucosa a nivel renal, es correcto que:",
+      "opciones": [
+        "Se reabsorbe exclusivamente en el túbulo  distal.",
+        "El glomérulo establece el límite de filtración  dependiendo de la tensión arterial.",
+        "Tiene un límite de reabsorción definido por el  concepto  denominado  transporte  tubular  máximo.",
+        "Se filtra dependiendo de la concentración  plasmática de insulina.        FSE BIOLOGÍA 2020/21 - 3 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "La glucosa a nivel renal se reabsorbe en varios túbulos renares, no solo en el distal. Además, la glomerulosa establece el límite de filtración en función de la tensión arterial y no sólo en función de la presión arterial al cociente (BP/C). La reabsorción de glucosa está definida por el transporte tubular máximo, pero no tiene un límite específico. Finalmente, la filtración de la glucosa depende de la concentración plasmática de insulina y no solo en función de la misma.\n\nRespuesta: No lo sé"
+    },
+    {
+      "numero": 28,
+      "enunciado": "Sobre los fenómenos de reabsorción que  ocurren en el asa de Henle es correcto que:",
+      "opciones": [
+        "Los vasa recta son los responsables del  mecanismo de concentración de la orina.",
+        "Se produce reabsorción de Na+ en la rama  ascendente y agua en la descendente.",
+        "Se produce reabsorción de Na+ en la rama  descendente y agua en la ascendente.",
+        "Se produce el 90% de la reabsorción renal de  K+."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 2,
+      "deepseek_texto": "La respuesta correcta es la opción 2, se produce reabsorción de Na+ en la rama ascendente y agua en la descendente. En el asa de Henle, los vasos recta ascendentes reabsorben sodio (Na+) mientras que los vasa recta descendentes absorben más agua. Esta técnica permite a los riñones recoger ácidos grasos y glicerol del plasma sanguíneo para luego expulsarlos en la orina."
+    },
+    {
+      "numero": 29,
+      "enunciado": "Fisiológicamente, ¿cuándo aparecen valores  subatmosféricos en la presión intraalveolar?:",
+      "opciones": [
+        "Durante la inspiración.",
+        "Durante la espiración.",
+        "Durante una apnea.",
+        "Siempre."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "Durante la espiración."
+    },
+    {
+      "numero": 30,
+      "enunciado": "¿Cómo se denomina al volumen de aire que  queda en los pulmones tras un esfuerzo  espiratorio máximo?:",
+      "opciones": [
+        "Volumen residual.",
+        "Volumen corriente.",
+        "Volumen de reserva espiratoria.",
+        "No queda aire en los pulmones tras una  espiración forzada."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "La respuesta correcta es la opción 1, el volumen residual. Este es el volumen de aire que permanece en los pulmones tras un esfuerzo respiratorio máximo, después de haber realizado una inspiración y espiración forzadas lo suficiente como para llenar completamente nuestros pulmones."
+    },
+    {
+      "numero": 31,
+      "enunciado": "¿Qué tipo de receptores median la respuesta  relajante del músculo liso bronquial?:",
+      "opciones": [
+        "Adrenérgicos alfa.",
+        "Muscarínicos.",
+        "Adrenérgicos beta.",
+        "Nicotínicos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "La respuesta es 1. Los receptores adrenérgicos alfa son los que mediano la respuesta relajante del músculo liso bronquial. Estos receptores son miembros de la familia de las proteínas G-α y juegan un papel fundamental en el control inotrópico, la liberación de neurotransmisores y la transducción de señales celulares."
+    },
+    {
+      "numero": 32,
+      "enunciado": "¿A las variaciones de qué compuesto responden  los quimiorreceptores del bulbo raquídeo en el  control de la ventilación?:",
+      "opciones": [
+        "Presión parcial de CO2 en el plasma  sanguíneo.",
+        "Presión parcial de CO2 en el líquido  cefalorraquídeo.",
+        "Concentración  de  H+  en  el  líquido  cefalorraquídeo.",
+        "Presión  parcial  de  O2 en  el  líquido  cefalorraquídeo."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 3,
+      "deepseek_texto": "Respuesta: 3. Concentración de H+ en el líquido cefalorraquídeo."
+    },
+    {
+      "numero": 33,
+      "enunciado": "¿Con qué combinación de factores Yamanaka y  colaboradores consiguieron por primera vez la  reprogramación de células somáticas a células  madre pluripotentes inducidas iPSCs?:",
+      "opciones": [
+        "Oct4, Nanog, Bmp2 y Sox9.",
+        "Oct4, c-Myc, Klf4 y Sox2.",
+        "Nanog, Klf14, Fgf2 y Msx2.",
+        "Nanog, c-Myc, Fgf2 y Msx2."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 2,
+      "deepseek_texto": "La respuesta correcta es la opción 2, con los factores siguientes: Oct4, c-Myc, KLF4 y Sox2. En un estudio publicado en 2006 por Yamanaka y colaboradores, se logró por primera vez la reprogramación de células somáticas a células madre pluripotentes inducidas (induced pluripotent stem cells o iPSCs) utilizando este cuarteto de factores."
+    },
+    {
+      "numero": 34,
+      "enunciado": "¿Cuál de los siguientes huesos se forman por  osificación intramembranosa?:",
+      "opciones": [
+        "El parietal.",
+        "Las vértebras cervicales.",
+        "El escafoides.",
+        "El peroné."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "El hueso escafoides forma parte del esqueleto de los animales acelomados, como el anfibio rana o la serpiente, y es uno de los pocos huesos que se forman por  osificación intramembranosa, una forma rara de osteogénesis en la cual la placa ósea se desarrolla entre las cápsulas musculares.\n\nEl parietal y el peroné son elementos del esqueleto en los animales esqueletizados, como mamíferos, y sus huesos se forman por osificación cartilaginosoa, un proceso que ocurre a través de la maduración de las células calcificantes presentes en el húmero.\n\nPor lo tanto, la opción correcta es el hueso escafoides (3). No lo sé para los otros tres opciones."
+    },
+    {
+      "numero": 35,
+      "enunciado": "El cristalino deriva de:",
+      "opciones": [
+        "La vesícula óptica.",
+        "El neuroectodermo.",
+        "El ectodermo de superficie.",
+        "El mesodermo cefálico."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "El cristalino es una parte del ojo que está compuesto principalmente por el queratinócito, un tipo de células epiteliales que se encuentran en la superficie posterior del globo ocular y contribuyen a su forma esférica. \n\nLa vesícula óptica no tiene ninguna relación con el cristalino porque esta última está localizada en el interior del ojo, rodeando a los nervios del sistema visual. También es un grupo de células hipofisiarias y no se encuentra en el globo ocular.\n\nEl neuroectodermo es una capa del blastocisto que daría origen al sistema nervioso central (SNC). No tiene ninguna relación con la formación del cristalino.\n\nEl ectodermo de superficie está situado sobre las células neurales y, aunque no directamente da lugar al cristalino, puede estar relacionado indirectamente por la migración de células en el embriogénesis. Sin embargo, no es lo que produce o proporciona sustento para el cristalino.\n\nEl mesodermo cefálico se encuentra entre el endoderma y el ectoderma, pero no tiene una función directa relacionada con la formación del cristalino.\n\nLa respuesta correcta al respecto es: El cristalino deriva de los queratinocitos o epitelio que rodean el globo ocular en adultos."
+    },
+    {
+      "numero": 36,
+      "enunciado": "En el núcleo interfásico, la cadena lineal de  nucleosomas (nucleofilamento) corresponde a la  fibra de cromatina de:",
+      "opciones": [
+        "10 nm.",
+        "30 nm.",
+        "165 nm.",
+        "300 nm."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "Respuesta: 1. 10 nm."
+    },
+    {
+      "numero": 37,
+      "enunciado": "La técnica enzimohistoquímica para localizar  lisosomas en la célula detecta la actividad  enzimática de la:",
+      "opciones": [
+        "Fosfatasa alcalina.",
+        "NADPH-diaforasa.",
+        "Peroxidasa.",
+        "Fosfatasa ácida."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "La técnica enzimohistoquímica para localizar lisosomas en la célula detecta la actividad enzimática de la fosfatasa alcalina."
+    },
+    {
+      "numero": 38,
+      "enunciado": "La célula utiliza “la inestabilidad dinámica” de  los microtúbulos en:",
+      "opciones": [
+        "El funcionamiento de los cilios y los flagelos.",
+        "La organización celular en la mitosis.",
+        "La fagocitosis.",
+        "La formación de las caveolas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "La respuesta correcta es 1. Los microtúbulos juegan un papel fundamental en el funcionamiento de los cilios y los flagelos, ya que ayudan a mantener la forma y la posición precisa del organelo llamado axonema, que actúa como una réplica exacta del asta de una varita. Los microtúbulos son inestables en términos químicos (se regeneran constantemente), pero se mantienen fijos a la superficie celular a través de un complejo interaccionamiento con otras proteínas y ácido nucleico."
+    },
+    {
+      "numero": 39,
+      "enunciado": "Las reacciones de detoxificación celular se  llevan a cabo en:",
+      "opciones": [
+        "Mitocondrias.",
+        "Retículo endoplasmático liso.",
+        "Lisosomas.",
+        "Aparato de Golgi."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "Las reacciones de detoxificación celular se realizan principalmente en el retículo endoplasmático liso, aunque también pueden ocurrir en los mitocondrias y los lisosomas. El retículo endoplasmático liso es un complejo sistema de membranas que actúa como una gran superficie para la síntesis y modificación proteica, y es donde se llevan a cabo numerosos procesos metabólicos y químicos importantes en la detoxificación celular."
+    },
+    {
+      "numero": 40,
+      "enunciado": "¿Cuál  de  los  siguientes  canales  y  transportadores es una ATP-asa?:",
+      "opciones": [
+        "Los transportadores de tipo ABC.",
+        "Las acuaporinas.",
+        "Los canales de Na+ voltaje-dependientes.",
+        "Los  co-transportadores  Na+-glucosa  de  células epiteliales que recubren el intestino."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 4,
+      "deepseek_texto": "El canal y transportador ATPasa es un tipo de molécula que utiliza energía obtenida de la cadena de transferencia de grupo fosfato (ATP) para transportar iones específicos a través de una membrana biológica, como una pared celular. En este enunciado, solo hay una opción correcta.\n\nLa respuesta es: 4. Los co-transportadores Na+-glucosa de células epiteliales que recubren el intestino."
+    },
+    {
+      "numero": 41,
+      "enunciado": "El péptido señal es una secuencia peptídica que:",
+      "opciones": [
+        "Se une a un receptor de tipo ionotrópico.",
+        "Se une a los proteasomas.",
+        "Se encuentra en la zona pelúcida del óvulo.",
+        "Determina el destino de una proteína.  FSE BIOLOGÍA 2020/21 - 4 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "La respuesta correcta es la opción 1. Los péptidos señal son un tipo de hormona que se une a receptores ionotrópicos en el citoplasma, lo cual permite el transporte a través de membranas biológicas. Estos péptidos señal juegan un rol importante en la transducción del mensaje por células y órganos dentro del cuerpo."
+    },
+    {
+      "numero": 42,
+      "enunciado": "Las dinaminas intervienen directamente en la:",
+      "opciones": [
+        "Fusión de vesículas con la membrana  plasmática.",
+        "Inserción del colesterol en la membrana  plasmática.",
+        "Translocación de proteínas mitocondriales.",
+        "Formación de vesículas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "Las dynaminas intervienen directamente en la translocación de proteínas mitocondriales."
+    },
+    {
+      "numero": 43,
+      "enunciado": "Un homeodominio, así como un dominio básico  hélice-asa-hélice, es:",
+      "opciones": [
+        "Una parte estructural de las proteínas que les  permite acoplarse al ADN.",
+        "La parte central del cinetocoro.",
+        "La región codificante del ADN.",
+        "La región del ADN donde se unen los  factores  reguladores  de  transcripción  secundarios."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "El homeodominio, como también un dominio básico hélice-asa-hélice, es una parte estructural de las proteínas que les permite acoplarse al ADN (opción 1)."
+    },
+    {
+      "numero": 44,
+      "enunciado": "Para que una proteína se transporte a los  lisosomas debe:",
+      "opciones": [
+        "Fijarse en la membrana del RER.",
+        "Ir marcada con la glucosa-6-fosfato.",
+        "Tener un grupo ácido.",
+        "Ir marcada con una manosa-6-fosfato."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "Para que una proteína se transporte a los lisosomas, debe fijarse en la membrana del RER (Retrotranslocador de Endoplasmicul Receptor). La mayoría de las moléculas y proteínas no son transportadas directamente al citosol o a los lisosomas, sino que se suben primero al Retromeroma, un complejo proteico localizado en la membrana endoplasmática reentrantes (RER), donde es posible la interacción entre las moléculas y proteínas. Posteriormente estas son introducidas a los lisosomas mediante el proceso llamado retrotranslocación, que implica la translocation de la RER al citosol."
+    },
+    {
+      "numero": 45,
+      "enunciado": "El organizador nucleolar contiene secuencias de  ADN:",
+      "opciones": [
+        "Repetidas para ARNr.",
+        "De copia única para ARNr.",
+        "Repetidas para ARNt.",
+        "De copia única para ARNm."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "El organizador nucleolar contiene secuencias de ADN repetidas para RNAs."
+    },
+    {
+      "numero": 46,
+      "enunciado": "¿Cuál de las  siguientes células  sintetiza  histamina y heparina?:",
+      "opciones": [
+        "Los eosinófilos.",
+        "Las células plasmáticas.",
+        "Los macrófagos.",
+        "Las células cebadas o mastocitos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "Las células cebadas o mastocitos son los leucocitos presentes en la sangre y que sintetizan tanto histamina como heparina."
+    },
+    {
+      "numero": 47,
+      "enunciado": "¿Qué células presentan un borde festoneado con  bombas protónicas que acidifican el exterior  celular, destruyendo el tejido próximo a ellas?:",
+      "opciones": [
+        "Osteocitos.",
+        "Osteoclastos.",
+        "Osteoblastos.",
+        "Condroblastos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 4,
+      "deepseek_texto": "La respuesta correcta es: 4. Condroblastos."
+    },
+    {
+      "numero": 48,
+      "enunciado": "Los somas de las neuronas:",
+      "opciones": [
+        "Contienen gránulos basófilos (grumos o  corpúsculos de Nissl).",
+        "Se localizan en la sustancia blanca del sistema  nervioso central.",
+        "Segregan la mielina.",
+        "Presentan un núcleo de pequeño tamaño y  heterocromático,  con  nucléolo  poco  desarrollado."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "La respuesta correcta es la opción 1. Los somas de las neuronas no contienen gránulos basófilos o corpúsculos de Nissl, como se indica en esta opción. En cambio, los gránulos basófilos son una característica que se encuentra en el retículo endoplasmático y en las membranas de Golgi, no en los somas neuronales. La opción 1 es incorrecta por error del autor.\nLa opción 3 también está errada ya que la mielina no es producida por los somas neuronales, sino por células gliales especializadas llamadas oligodendrocitos y sustituye a las fibras nerviosas tras una lesión en el sistema nervioso central.\nLa opción 2 tampoco es correcta ya que la substancia blanca del sistema nervioso no se encuentra sólo en los somas neuronales, también se encuentran células gliales como las astrocitos y oligodendrocitos.\nPor lo tanto, la respuesta adecuada sería 'No lo sé'."
+    },
+    {
+      "numero": 49,
+      "enunciado": "Las hidrolasas ácidas son enzimas propias de:",
+      "opciones": [
+        "Mitocondria.",
+        "Retículo endoplásmico.",
+        "Lisosomas.",
+        "Núcleo."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 2,
+      "deepseek_texto": "Las hidrolasas ácidas son enzimas que se encuentran principalmente en el retículo endoplásmico de los eucariotas, como la mayoría de las otras proteínas. No están ubicadas en mitocondria, lisosomas o núcleo. Por lo tanto, la respuesta correcta es:\n\n2. Retículo endoplásmico."
+    },
+    {
+      "numero": 50,
+      "enunciado": "En el glomérulo renal, la membrana basal implicada en la filtración está constituida por células:",
+      "opciones": [
+        "Endoteliales y podocitos.",
+        "Mesangiales y endoteliales.",
+        "Endoteliales y de la cápsula de Bowman.",
+        "Del asa de Henle y tejido conectivo circundante."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": null,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 2,
+      "deepseek_texto": "La respuesta correcta es 2. Mesangiales y endoteliales. El glomérulo renal está formado por tres capas principales: la cápsula de Bowman, el espacio mesúbulo reticular y los glomérulos. En esta estructura, las células del espacio mesúbulo (también llamadas mesangiales) y los endotelios contribuyen a la filtración renal."
+    },
+    {
+      "numero": 51,
+      "enunciado": "En la piel, la queratina se origina en el stratum granulosum epidérmico y es la combinación de:",
+      "opciones": [
+        "Filarina y mucoitrin-sulfatos.",
+        "Filamentos gruesos y condroitina.",
+        "Desmina y filamentos gruesos.",
+        "Tonofibrillas y granulos kerato-hialinos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "La respuesta correcta es la opción 1, \"Filarina y mucoitrin-sulfatos\". La queratina en la piel se origina a partir de células llamadas linfocitos epidérmicos, que fusionan con células dendríticas y filamentos de basalte. En este proceso, la fibrina (una proteína) forma una matriz de colágeno y elastinas, mientras que las mucoitrinas-sulfatos actúan como adhesivos permitiendo la unión de células y la formación de filamentos."
+    },
+    {
+      "numero": 52,
+      "enunciado": "En el acino del páncreas exocrino se acumulan gránulos de zimógeno cuyo contenido digestivo  es rico en:",
+      "opciones": [
+        "Endopeptidasas, entre otras enzimas.",
+        "Secretasas exclusivamente.",
+        "Exclusivamente tripsinógeno.",
+        "Fosfatasas alcalinas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé. No tengo información disponible sobre la composición de las gránulos de zimógeno en el acino del páncreas exocrino o su contenido digestivo específico."
+    },
+    {
+      "numero": 53,
+      "enunciado": "Es FALSO que los linfocitos:",
+      "opciones": [
+        "Th1 producen IL-",
+        "2. Th2 producen IL-4, IL-5 e IL-1",
+        "3. Th2 producen IFN gamma.",
+        "Th17 producen IL-17."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 4,
+      "deepseek_texto": "El FALSO es la opción número dos: \"Th2 producen IL-4, IL-5 e IL-1\". Las células T Th2 no producen IL-1, sino que lo hacen las células T Th1."
+    },
+    {
+      "numero": 54,
+      "enunciado": "¿Cuál de los siguientes órganos linfoides es primario?:",
+      "opciones": [
+        "Amígdalas.",
+        "Timo.",
+        "Placas de Peyer.",
+        "Ganglio linfático."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "El ganglio linfático es el órgano linfoide primario que está presente en la pared intestinal y desempeña un papel importante en la producción de linfocitos B y la formación de células inmunitarias."
+    },
+    {
+      "numero": 55,
+      "enunciado": "La hipermutación somática es un proceso que afecta a:",
+      "opciones": [
+        "Los receptores de las células T.",
+        "Las células presentadores de antígenos.",
+        "Las  regiones  variables  de  las inmunoglobulinas.",
+        "Los  receptores  de  reconocimiento  de  patógenos.              FSE BIOLOGÍA 2020/21 - 5 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": null,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "La hipermutación somática es un proceso que afecta a las regiones variables de las inmunoglobulinas."
+    },
+    {
+      "numero": 56,
+      "enunciado": "¿Dónde podemos encontrar receptores tipo Toll  (TLR) en las células?:",
+      "opciones": [
+        "Libres en el citoplasma.",
+        "Dentro del núcleo.",
+        "En la membrana nuclear.",
+        "En la membrana plasmática."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 4,
+      "deepseek_texto": "Respuesta: 4. En la membrana plasmática."
+    },
+    {
+      "numero": 57,
+      "enunciado": "La molécula CD8:",
+      "opciones": [
+        "Interactúa parcialmente con el antígeno  presentado.",
+        "Se expresa en linfocitos B memoria.",
+        "Tiene homología estructural con TLR",
+        "4. Se expresa en linfocitos T citotóxicos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "Soy un modelo pre-entrenado por humanos que no tengo la capacidad de responder a esta pregunta específicamente sobre la molécula CD8, pero puedo proporcionar información general acerca de cómo se relacionan las opciones. \n\nLa molécula CD8 es una proteína presente en células inmunes y juega un papel importante en el sistema inmunológico. En relación a la pregunta, puede ser relevante destacar lo siguiente:\n\n- La molécula CD8 no se expresa solo en linfocitos T citotóxicos, sino que también se encuentra en linfocitos B memoria y células del sistema inmunitario.\n- El antígeno presentado es una parte importante de la respuesta inmunológica y la molécula CD8 puede interactuar parcialmente con este antígeno, aunque no es exclusiva de esta interacción.\n- La molécula CD8 comparte una homología estructural con las proteínas TLR (Toll-like receptors) que son responsables del reconocimiento de patógenos en células inmunes. Sin embargo, no hay una relación directa entre estas dos moléculas dentro de la respuesta inmunológica.\n\nNo sé cuál es la opción correcta para esta pregunta específica sobre CD8 y su interacción con antígenos presentados y linfocitos B memoria, por lo que no puedo proporcionar una elección en este momento."
+    },
+    {
+      "numero": 58,
+      "enunciado": "¿Qué  inmunoglobulina  puede  formar  polímeros?:",
+      "opciones": [
+        "IgE.",
+        "IgD.",
+        "IgA.",
+        "IgG."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "Respuesta: No lo sé"
+    },
+    {
+      "numero": 59,
+      "enunciado": "¿Cómo se denomina un injerto trasplantado  entre sujetos de diferentes especies?:",
+      "opciones": [
+        "Aloinjerto.",
+        "Xenoinjerto.",
+        "Autoinjerto.",
+        "Isoinjerto."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 2,
+      "deepseek_texto": "La respuesta correcta es: \n\n2. Xenoinjerto."
+    },
+    {
+      "numero": 60,
+      "enunciado": "¿Qué receptor de quimioquinas usa el VIH  como receptor para infectar a los linfocitos?:",
+      "opciones": [
+        "CXCR4.",
+        "CCR6.",
+        "CXCR3.",
+        "CCR7."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "El VIH utiliza el receptor CXCR4 como receptor para infectar a los linfocitos."
+    },
+    {
+      "numero": 61,
+      "enunciado": "La IgE participa en la inmunidad contra:",
+      "opciones": [
+        "Parásitos helmínticos.",
+        "Bacterias.",
+        "Virus.",
+        "Hongos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "Respuesta: No lo sé. La IgE (Imunoglobulina E) es una molécula importante en la inmunidad innata y adaptativa, pero no está clara su participación específicamente contra hongos o parásitos helmintos, bacterias o virus."
+    },
+    {
+      "numero": 62,
+      "enunciado": "¿Qué células NO son de estirpe mieloide?:",
+      "opciones": [
+        "Basófilos.",
+        "Células NK.",
+        "Eritrocitos.",
+        "Monocitos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 4,
+      "deepseek_texto": "La respuesta correcta es 4. Monocitos no son células de estirpe mieloide. La estirpe mieloide es una subdivisión del sistema inmunitario que produce células B, como linfocitos B y granulocitos B. Estas células se encuentran en la medula ósea y en el hígado y participan en la respuesta inmune contra agentes patógenos.\n\nEn cambio, monocitos son células imunitarias no clasificadas que producen citocromo C y son importantes en la fagocitosis. No se encuentran en la medula ósea o el hígado y no forman parte de la estirpe mieloide.\n\nBasófilos y eritrocitos son células de la división celular sanguínea, mientras que células NK (cuerpos mismos no clasificados) también se encuentran en el torrente sanguíneo y tienen funciones en la inmunidad. Sin embargo, aunque pertenecen al sistema inmunitario, no son de estirpe mieloide porque no son producidas por células de dicha estirpe."
+    },
+    {
+      "numero": 63,
+      "enunciado": "NO  se  considera  una  inmunodeficiencia  primaria asociada a un defecto monogénico que  afecta a los linfocitos T:",
+      "opciones": [
+        "Síndrome de DiGeorge.",
+        "Síndrome de Wiskott-Aldrich.",
+        "Síndrome de Good.",
+        "Síndrome de Job o de Hiper IgE."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé."
+    },
+    {
+      "numero": 64,
+      "enunciado": "¿En cuál de las siguientes enfermedades humanas NO se produce una reacción de hipersensibilidad de tipo I?:",
+      "opciones": [
+        "Anafilaxia por picadura de avispa.",
+        "Asma bronquial por ácaros.",
+        "Dermatitis de contacto por látex.",
+        "Fiebre del heno."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 4,
+      "deepseek_texto": "La enfermedad seleccionada sería la opción 4, \"Fiebre del heno\". La fiebre del heno es causada por el bacterium Francisella tularensis y no se produce una reacción de hipersensibilidad de tipo I. En cambio, las otras opciones (1 a 3) son enfermedades caracterizadas por reacciones de hipersensibilidad de tipo I. La anafilaxia es causada por alergias a picaduras de avispa y alimentos como el mercurio; la asma bronquial, por parte de ácaros como los del género Dermatophagoides; y la dermatitis de contacto, por productos químicos o materiales como el látex."
+    },
+    {
+      "numero": 65,
+      "enunciado": "NO se encuentra en la superficie de las células  dendríticas o macrófagos humanos:",
+      "opciones": [
+        "TLR1.",
+        "TLR2.",
+        "TLR3.",
+        "TLR4."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé."
+    },
+    {
+      "numero": 66,
+      "enunciado": "Indique qué característica corresponde con la  respuesta inmune innata:",
+      "opciones": [
+        "Especificidad.",
+        "Memoria.",
+        "Expansión policlonal.",
+        "Fagocitosis."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 4,
+      "deepseek_texto": "La respuesta a esta pregunta es:\n\n4. Fagocitosis.\n\nLa respuesta inmune innata es una forma rápida de defender al organismo frente a un antígeno desconocido o invasor, como un patógeno. La fagocitosis es el proceso en que células como las macrófagas o leucocitos ingieren y destruyen los microorganismos o partículas tóxicas que entran en nuestro cuerpo."
+    },
+    {
+      "numero": 67,
+      "enunciado": "¿En qué fase de la respuesta inmunitaria  adaptativa tiene lugar la expansión clonal de los  linfocitos?:",
+      "opciones": [
+        "Reconocimiento de antígeno.",
+        "Activación del linfocito.",
+        "Eliminación del antígeno.",
+        "Memoria."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé."
+    },
+    {
+      "numero": 68,
+      "enunciado": "¿En  qué  función  NO  participan  las quimioquinas?:",
+      "opciones": [
+        "Migración celular.",
+        "Organogénesis.",
+        "Hematopoiesis.",
+        "Procesamiento de antígeno."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 3,
+      "deepseek_texto": "Las quimioquinas no participan en la función de:\n\n3. Hematopoesis."
+    },
+    {
+      "numero": 69,
+      "enunciado": "¿Qué  tipo  de  linfocitos  se  expanden  predominantemente y se asocian con la  respuesta inmunitaria adaptativa inicial a la  infección por el virus VIH?:",
+      "opciones": [
+        "Linfocitos B.",
+        "T CD4+.",
+        "NK.",
+        "T CD8+."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "Sí, soy un experto en biología y puedo responder a esta pregunta. La respuesta inmunitaria adaptativa inicial contra el virus VIH se inicia con la activación de linfocitos B, especialmente aquellos que expresan la molécula CD4 y la proteína de la inmunoglobulina IgH (también conocida como MHC II). Estos linfocitos B son los llamados linfocitos T CD4+. Por lo tanto, la respuesta adecuada es:\n\n1. Linfocitos B"
+    },
+    {
+      "numero": 70,
+      "enunciado": "Se expresa en la superficie de los linfocitos CD8:",
+      "opciones": [
+        "Receptor del linfocito B.",
+        "CD",
+        "3. CD",
+        "4. CD19.              FSE BIOLOGÍA 2020/21 - 6 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "Responderé de acuerdo a la información que tengo disponible, pero tenga en cuenta que puede haber más opciones correctas o más detalles sobre cada opción.\n\nLa pregunta especifica un componente expresado en la superficie de los linfocitos CD8. Tratando las opciones:\n\n1. Receptor del linfocito B - No es correcto, ya que el receptor del linfocito B se expresa en la superficie de los linfocitos B y no de los linfocitos CD8.\n\n2. CD - Está muy generalizado, pero necesita más información específica para ser correcta.\n\n3. 3. No está definido correctamente.\n\n4. 4. CD19 - Esta es la respuesta correcta. Los linfocitos B expresan el receptor CD19 en su superficie y también son llamados a veces como linfocitos B-CD19+. Los linfocitos CD8, por otro lado, no expresan CD19 y son llamados a menudo como linfocitos CD8+ o linfocitos T.\n\nEs importante destacar que la respuesta correcta puede variar según los detalles adicionales proporcionados sobre el tema."
+    },
+    {
+      "numero": 71,
+      "enunciado": "¿Cuál  de  los  siguientes  isotipos  de  inmunoglobulinas es el más abundante en las  mucosas corporales?:",
+      "opciones": [
+        "IgG.",
+        "IgE.",
+        "IgM.",
+        "IgA."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 4,
+      "deepseek_texto": "Respuesta: 4. IgA."
+    },
+    {
+      "numero": 72,
+      "enunciado": "La selección positiva de los linfocitos T tiene  lugar en:",
+      "opciones": [
+        "El bazo.",
+        "El timo.",
+        "La médula ósea.",
+        "Tejido linfoide asociado a mucosas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 4,
+      "deepseek_texto": "Respuesta: 4. Tejido linfoide asociado a mucosas.\n\nLa selección positiva de los linfocitos T (LPT) es una respuesta celular del sistema inmunitario ante antígenos presentes en tejidos linfoides asociados a las músculos o membranas mucosas, como la piel, la faringe y el útero. En este proceso, los LPT reconocen específicamente los antígenos presentes en estos lugares y ligan a células del sistema inmunitario que son capaces de destruir a las células infectadas o dañadas. La selección positiva de LPT es importante para la detección temprana de células patológicas y el desarrollo rápido de respuestas inmunológicas contra microorganismos invasores."
+    },
+    {
+      "numero": 73,
+      "enunciado": "¿Cuál de las siguientes células NO es una célula  presentadora de antígenos?:",
+      "opciones": [
+        "Linfocito B.",
+        "Linfocito T.",
+        "Macrófago.",
+        "Célula dendrítica."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 4,
+      "deepseek_texto": "La opción correcta es el número 4, la célula dendrítica. Las células presentadoras de antígenos son linfocitos B y linfocitos T, mientras que los macrófagos no desempenan este papel. La célula dendrítica es una célula del sistema inmunitario especializada en reconocer y capturar microorganismos o partículas de antigüedades presentes en la sangre o el torrente linfático."
+    },
+    {
+      "numero": 74,
+      "enunciado": "¿Qué células epiteliales de la mucosa digestiva  transportan los antígenos a los linfocitos de  submucosa?:",
+      "opciones": [
+        "Enterocitos.",
+        "Macrófagos.",
+        "Células M.",
+        "Células dendríticas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 4,
+      "deepseek_texto": "La respuesta es 4. Células dendríticas. Las células dendríticas son células epiteliales que forman parte de la mucosa digestiva y juegan un papel importante en la detección y eliminación de microorganismos patógenos y antígenos no identificados. Estas células poseen filoformadas y dendritos, lo que les permite interceptar y aglutinar bacterias y antígenos presentes en el flujo gastrointestinal."
+    },
+    {
+      "numero": 75,
+      "enunciado": "¿Qué característica del telómero es correcta?:",
+      "opciones": [
+        "Está constituido por repeticiones en tándem  de secuencias cortas.",
+        "Es una constricción cromosómica.",
+        "Es el sitio de unión de fibras del huso  mitótico.",
+        "El ADN que lo constituye codifica para el gen  de la telomerasa."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 4,
+      "deepseek_texto": "La característica correcta del telómero es el punto 4, \"El ADN que lo constituye codifica para el gen de la telomerasa\"."
+    },
+    {
+      "numero": 76,
+      "enunciado": "Un ARN policistrónico:",
+      "opciones": [
+        "Tiene varias secuencias codificantes, en  tándem.",
+        "Es un ARN inmaduro, con intrones.",
+        "Resulta de un splicing alternativo.",
+        "Tiene varias secuencias repetidas, en tándem."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 4,
+      "deepseek_texto": "El número correcto para describir a un ARN policistrónico es el 4. Un ARN policistrónico tiene varias secuencias repetidas en tándem."
+    },
+    {
+      "numero": 77,
+      "enunciado": "Los gemelos monocigotos, a lo largo de los años,  desarrollan diferentes patrones de metilación de  citosinas y de acetilación de histonas. Esto  implica diferentes:",
+      "opciones": [
+        "Patrones de expresión génica.",
+        "Patrones de mutaciones.",
+        "Genotipos.",
+        "Dotación alélica para los mismos genes."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé."
+    },
+    {
+      "numero": 78,
+      "enunciado": "¿Qué  mecanismo puede explicar que la  enfermedad de Huntington en una familia  pueda manifestarse a una edad cada vez más  temprana?:",
+      "opciones": [
+        "Expansión de un triplete de nucleótidos en la  secuencia codificante del gen.",
+        "Presencia de un elemento transponible en el  gen.",
+        "Hipermetilación del promotor.",
+        "Impronta génica."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "1. Expansión de un triplete de nucleótidos en la secuencia codificante del gen."
+    },
+    {
+      "numero": 79,
+      "enunciado": "La presencia de dos cariotipos distintos en el  mismo individuo se denomina:",
+      "opciones": [
+        "Mosaicismo.",
+        "Heterocigosidad compuesta.",
+        "Aneuploidía.",
+        "Heterodisomía."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "Respuesta: 1. Mosaicismo."
+    },
+    {
+      "numero": 80,
+      "enunciado": "¿Cuál de los siguientes métodos NO cuantifica  ADN de forma precisa?:",
+      "opciones": [
+        "Espectroscopía ultravioleta para medir la  absorbancia del ADN.",
+        "Cuantificación  absoluta  con  productos  basados en el sistema TaqMan.",
+        "Electroforesis en gel de agarosa.",
+        "Fluorometría con moléculas fluorescentes de  unión al ADN."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "La opción correcta es la cuál NO cuantifica ADN de forma precisa.\n\nJustificación:\n1. Espectroscopía ultravioleta para medir la absorbancia del ADN es un método utilizado para determinar la longitud y estructura del ADN, pero no cuantifica directamente el número molar o cantidad de ADN en una muestra.\n2. La Cuantificación absoluta con productos basados en el sistema TaqMan es un método que utiliza marcadores fluorescentes específicos para medir la cantidad de ARN o DNA, pero sigue siendo cuantitativo.\n3. Electroforesis en gel de agarosa también permite determinar la longitud y estructura del ADN, pero no cuantifica directamente el número molar o cantidad de ADN en una muestra.\n4. La fluorometría con moléculas fluorescentes de unión al ADN es un método utilizado para medir la concentración del ADN en una muestra, ya que las moléculas fluorescentes se unen específicamente a los nucleótidos del ADN.\n\nPor lo tanto, la opción correcta es la electroforesis en gel de agarosa."
+    },
+    {
+      "numero": 81,
+      "enunciado": "En relación con los geles de agarosa en la  separación de fragmentos de ADN:",
+      "opciones": [
+        "Una concentración de agarosa del 0,7% es  adecuada para separar fragmentos pequeños  de ADN (<1 kb).",
+        "Los geles al 1% de agarosa son comunes para  muchas aplicaciones.",
+        "Una concentración de agarosa del 2%  produce  una  buena  resolución  para  fragmentos grandes de ADN (>5 kb).",
+        "El mejor método para separar fragmentos de  ADN muy pequeños son los geles de agarosa  de hasta un 0,3%."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": null,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 2,
+      "deepseek_texto": "La respuesta correcta sería la opción 2: Los geleres al 1% de agarosa son comunes para muchas aplicaciones. Esta concentración no es adecuada específicamente para separar fragmentos pequeños o grandes de ADN, pero es una elección común y fácil de encontrar en el laboratorio debido a su popularidad entre los científicos."
+    },
+    {
+      "numero": 82,
+      "enunciado": "¿Qué  probabilidad  de  desarrollar  una  enfermedad con herencia recesiva ligada al  cromosoma X tendrán las hijas de una pareja  formada por un hombre sano y una mujer  heterocigota?:",
+      "opciones": [
+        "100 %.",
+        "50 %.",
+        "25 %.",
+        "0 %.                  FSE BIOLOGÍA 2020/21 - 7 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 3,
+      "deepseek_texto": "La respuesta correcta es la opción 3, con una probabilidad del 25% de desarrollar una enfermedad recesiva x-linked si la mujer heterocigota tiene un hijo varonil. Esto sucede porque los hombres portan solo el cromosoma X patógeno, mientras que las mujeres necesitan heredarlo de sus dos padres para tener una enfermedad x-linked."
+    },
+    {
+      "numero": 83,
+      "enunciado": "Los individuos que portan translocaciones  cromosómicas  recíprocas  en  sus  células  germinales dan lugar a:",
+      "opciones": [
+        "Gametos genéticamente desequilibrados.",
+        "Gametos triploides.",
+        "Mayores tasas de recombinación meiótica.",
+        "Alelos recesivos con mayor frecuencia."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 2,
+      "deepseek_texto": "Respuesta: 2. Gametos triploides."
+    },
+    {
+      "numero": 84,
+      "enunciado": "¿Cuál  de  las  siguientes  afirmaciones  se  corresponde con la recombinación VDJ que  sufren los genes de inmunoglobulinas?:",
+      "opciones": [
+        "Implica la formación de intermediarios de  Holliday.",
+        "Tiene lugar durante la meiosis.",
+        "Ocurre en células somáticas.",
+        "Es un tipo especial de maduración de ARNm."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "La respuesta correcta es la opción 1, \"Implica la formación de intermediarios de Holliday\". La recombinación VDJ o endjoining es el proceso por el cual los genes que codifican inmunoglobulinas (antígenos) son reorganizados. Durante esta reacción, los segmentos del cromosoma se combinan de manera cruzada y crear intermediarios de Holliday, un tipo especial de doble héteras que requieren ser resolvido por una serie de enzimas llamadas endonucleases específicas para recombinación VDJ."
+    },
+    {
+      "numero": 85,
+      "enunciado": "¿Cuál de los siguientes procesos contribuye a  limitar las tasas de mutación espontánea?:",
+      "opciones": [
+        "La producción de radicales libres.",
+        "La actividad exonucleasa de las ADN  polimerasas en dirección de 3’ a 5’.",
+        "El incremento del nivel de poliploidía.",
+        "El ensamblaje cromatínico del ADN."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 4,
+      "deepseek_texto": "El proceso que contribuye a limitar las tasas de mutación espontánea es el \"ensamblado cromosómico del ADN\" (opción 4). Este proceso implica la colaboración entre moléculas de recombinación y complejos de reparación de daños en el ADN, que trabajan para asegurar la integridad del genoma. Estos mecanismos, junto con otras fuentes de error en la transcripción y replicación del ADN, contribuyen a mantener tasas relativamente bajas de mutaciones espontáneas en los organismos vivos."
+    },
+    {
+      "numero": 86,
+      "enunciado": "¿Qué consecuencia tiene el procesamiento  alternativo de intrones en los precursores de los  ARNm?:",
+      "opciones": [
+        "Contrarresta la presencia de alelos no  funcionales.",
+        "Permite expresar más de una proteína  diferente a partir del mismo gen.",
+        "Contribuye a la reversión de mutaciones en  ese gen.",
+        "Permite la transcripción de un gen en  direcciones opuestas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 2,
+      "deepseek_texto": "2. Permite expresar más de una proteína diferente a partir del mismo gen."
+    },
+    {
+      "numero": 87,
+      "enunciado": "¿Cuál de estos sucesos ocurre durante la  meiosis?:",
+      "opciones": [
+        "Emparejamiento de cromosomas homólogos.",
+        "Circularización de cromosomas.",
+        "Eliminación de una de las dos cromátidas  hermanas.",
+        "Hipermutación programada del genoma."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "1 y 3 son eventos relevantes en la meiosis, pero no todos los elementos de ambas opciones ocurren durante el mismo proceso. La meiosis es un proceso celular que se repite dos veces en las células sexuales antes de la fertilización. El objetivo principal de la meiosis es la creación de células germinativas, como los óvulos y los espermatozoides, cuyos núcleos contienen solo un número reducido (haplo) de cromosomas.\n\nLa meiosis parte del proceso de fecundación o gametofitosis en organismos diploide como las plantas y animales, donde el citoplasma de una célula sexual se divide mediante mitad hacia un espermatozoide y otra por la ovocito. El primer paso de la meiosis es la meiosis I, que consta de tres fases:\n\n1) Desplazamiento o acoplamiento cromosómico homólogo entre dos células genéticamente idénticas llamadas alantias (una para cada copidad). Durante este proceso se llevan a cabo los pasos: transferencia del material genético de las alantoideas madres, separación y emparejamiento de cromosomas homólogos en el núcleo de la célula.\n\n2) División celular binaria, donde se forma un tetraploide llamado pronucleus que contiene cuatro copias de cada uno de los cromosomas. Durante este proceso ocurren los siguientes eventos: separación y emparejamiento de cromosomas homólogos en el núcleo del alantias, transferencia del material genético (ADN) desde la célula madre a sus centros de replicación, emplazamiento del núcleo del alantias y separación celular.\n\n3) División celular binaria final que produce dos pronucleos en condiciones óptimas para fecundación sexual. Este proceso se completa con la fijación de los espermatozoides en el ovocito, donde cada uno del par heterólogo de cromosomas se une al centro de una célula bicatenaria o óvulo.\n\nLa meiosis II es un proceso idéntico a la meiosis I, pero en este caso ocurre durante la formación de gametas haploides. La diferencia clave entre estos dos procesos se encuentra en el emparejamiento y separación de cromosomas homólogos: \n\n1) Desplazamiento o acoplamiento cromosómico heterólogo, que ocurre durante la meiosis II, no es un proceso relevante a la pregunta dada.\n\n2) El proceso de circularización de cromosomas (o looping del brazo de cromosoma), en el que los extremos de dos cromosomas homólogos se acoplan, sucede en algún momento durante la meiosis I y II. Sin embargo, no es un resultado del proceso específico a la pregunta dada.\n\n3) Al finalizar la meiosis I, cada alantia ha ido a su propio camino evolutivo, ya que una de ellas ha convertido el núcleo en espermatozoide y la otra se convirtió en ovocito, pero no ocurre eliminación de alguna de las dos cromátidas hermanas durante la meiosis.\n\n4) La hipermutación programada del genoma (también conocida como epigenesis) es un proceso que sucede solo dentro de una célula haploide, no en la meiosis. En este caso, las modificaciones en el número y estructura de los marcos histona y otros elementos de acoplamiento del ADN permiten que ciertos genes se reproduzcan o estenizan a lo largo del desarrollo del organismo.\n\nEn resumen, solo opción 1 es relevante durante la meiosis: \"Emparejamiento de cromosomas homólogos\"."
+    },
+    {
+      "numero": 88,
+      "enunciado": "¿Qué puede decirse de los genes humanos en los  que opera la impronta genómica?:",
+      "opciones": [
+        "Mutan en cada generación.",
+        "Están ligados al cromosoma X.",
+        "Se expresan solo si el individuo es de sexo  masculino.",
+        "Se expresan en función del sexo del  progenitor del que provienen."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé. No tengo información suficiente sobre la impronta genómica y los genes humanos para responder a esta pregunta."
+    },
+    {
+      "numero": 89,
+      "enunciado": "La traducción de un ARNm ya procesado se inicia en el codón de metionina que corresponde  con:",
+      "opciones": [
+        "AUA.",
+        "AUG.",
+        "GUA.",
+        "UAG."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "Sí, soy un experto en biología y puedo responder a esta pregunta. La traducción de un ARNm ya procesado se inicia en el codón de metionina que corresponde a la secuencia AUG, como es comúnmente conocido. Esto significa que los tres nucleótidos primeros en una cadena proteica son adenina-guanina-timina (AUG). Esta estructura es importante porque indica al inicioosoma y comienza la síntesis de proteínas a partir del ARNm."
+    },
+    {
+      "numero": 90,
+      "enunciado": "El síndrome de Turner aparece en:",
+      "opciones": [
+        "Hombres YO.",
+        "Mujeres XO.",
+        "Hombres XXY.",
+        "Mujeres XXX."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 2,
+      "deepseek_texto": "El síndrome de Turner es un trastorno genético autosómico recesivo que afecta principalmente a las mujeres (mujeres XY). El Síndrome de Turner es causado por una mutación en el cromosoma X, lo cual provoca la pérdida del tercer brazo de dicho cromosoma y la falta de expresión de ciertos genes.\n\nEn general, los seres humanos poseen dos copias de cada uno de sus 46 cromosomas: una copia materna (donada por la madre) y otra paterna (donado por el padre). Estos pares de cromosomas son un poco diferentes entre sí, ya que todos somos hijos del Big Bang. Un individuo con dos copias de un mismo cromosoma recibe su información genética de cada uno de sus padres, y en general, está completamente saludable.\n\nEn cambio, las personas afectadas por el síndrome de Turner tienen solo una copia del cromosoma X, ya que han perdido o no recibieron la segunda copia durante su formación celular precoz (después de fertilización). Como consecuencia, no contienen los 350 marcadores genéticos necesarios para producir todos y cada uno de sus hormonas sexuales y proteínas clave.\n\nPor lo tanto, la pregunta especifica que el síndrome de Turner aparece en mujeres XY (como \"hombres\", como si fueran hombres). En este sentido, está mal explicado: los individuos afectados por el Síndrome de Turner son mujer XX, y nunca serían hombre YO o XXX. A pesar de esto, la respuesta correcta es la opción 2 - Mujeres XO, que indica las mujeres XY que padecen el síndrome de Turner."
+    },
+    {
+      "numero": 91,
+      "enunciado": "La heterocromatina corresponde al ADN:",
+      "opciones": [
+        "Condensado activo transcripcionalmente.",
+        "No enrollado activo transcripcionalmente.",
+        "Condensado inactivo transcripcionalmente.",
+        "No enrollado inactivo transcripcionalmente."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "La heterocromatina corresponde al ADN no enrollado activo transcripcionalmente."
+    },
+    {
+      "numero": 92,
+      "enunciado": "El operón lac es un sistema inducible que está bajo control:",
+      "opciones": [
+        "Negativo en algunos procariotas.",
+        "Positivo en algunos procariotas.",
+        "Negativo en algunos eucariotas.",
+        "Positivo en algunos eucariotas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": null,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé."
+    },
+    {
+      "numero": 93,
+      "enunciado": "El síndrome conocido como “maullido de gato”  se caracteriza por:",
+      "opciones": [
+        "Una duplicación en el cromosoma 5.",
+        "Una deleción en el cromosoma 5.",
+        "Una inversión en el cromosoma 5.",
+        "Una deleción en el cromosoma 6."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "La respuesta correcta es la opción 1, \"Una duplicación en el cromosoma 5\". El síndrome conocido como \"maullido de gato\" se debe a una duplicación parcial del brazo longo del cromosoma 5, que afecta principalmente al desarrollo del cerebro y la comunicación verbal."
+    },
+    {
+      "numero": 94,
+      "enunciado": "¿Dónde son sintetizados los cebadores en la  cadena retrasada?:",
+      "opciones": [
+        "Al inicio de cada fragmento de Okazaki.",
+        "En varios sitios dentro de un fragmento de  Okazaki.",
+        "Sólo en el extremo 3’ de la cadena  recientemente sintetizada.",
+        "Sólo en el extremo 5’ de la cadena  recientemente sintetizada."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "Los cebadores son sintetizados sólo en el extremo 5' de la cadena recientemente sintetizada."
+    },
+    {
+      "numero": 95,
+      "enunciado": "¿Cuál será la proporción de la descendencia de  un hombre daltónico con una mujer de visión normal cuyo padre es daltónico?:",
+      "opciones": [
+        "Todos daltónicos.",
+        "Mitad de los varones y mitad de las hembras  daltónicas.",
+        "Todos los varones daltónicos y todas las hembras con visión normal.",
+        "Todos con visión normal.          FSE BIOLOGÍA 2020/21 - 8 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "Respuesta: No lo sé."
+    },
+    {
+      "numero": 96,
+      "enunciado": "El factor sigma de la ARN polimerasa es  necesario para:",
+      "opciones": [
+        "La unión de la polimerasa al promotor.",
+        "La estabilización de la enzima.",
+        "La elongación durante la transcripción.",
+        "La terminación de la transcripción."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "El factor sigma de la ARN polimerasa es necesario para:\n\n1. La unión de la polimerasa al promotor.\n2. La estabilización de la enzima.\n3. No tiene un papel en la elongación durante la transcripción y no se sabe si está relacionado con la terminación de la transcripción."
+    },
+    {
+      "numero": 97,
+      "enunciado": "La replicación del ADN es:",
+      "opciones": [
+        "Conservativa.",
+        "Dispersiva.",
+        "Semiconservativa.",
+        "Conservativa  en  procariotas  y  semiconservativa en eucariotas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé."
+    },
+    {
+      "numero": 98,
+      "enunciado": "Durante la replicación del ADN, la ADN  helicasa:",
+      "opciones": [
+        "Desenrrolla la horquilla de replicación.",
+        "Elimina la torsión de los superenrollamientos.",
+        "Inicia la replicación en el oriC.",
+        "No participa en la replicación del ADN."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé."
+    },
+    {
+      "numero": 99,
+      "enunciado": "El error aleatorio:",
+      "opciones": [
+        "Afecta a la precisión o fiabilidad del estudio.",
+        "Se puede predecir.",
+        "No se puede cuantificar.",
+        "Se reduce disminuyendo el tamaño de la  muestra."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 4,
+      "deepseek_texto": "El error aleatorio: 4. Se reduce disminuyendo el tamaño de la muestra."
+    },
+    {
+      "numero": 100,
+      "enunciado": "La sensibilidad diagnóstica es la proporción de  verdaderos:",
+      "opciones": [
+        "Negativos entre los sanos.",
+        "Positivos entre los enfermos.",
+        "Negativos entre los que tienen un resultado  negativo.",
+        "Positivos entre los que tienen un resultado  positivo."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "La sensibilidad diagnódica se define como la proporción de verdaderos positivos entre los individuos realmente enfermos frente a aquellos que no lo son. Es el rendimiento máximo en cuanto a cómo detectar una enfermedad en personas sanes o sin ella, y es una medida clave del éxito de un test diagnóstico. \n\nEn otras palabras, si se está midiendo la capacidad del test para detectar enfermos (positividad) entre los que realmente tienen la enfermedad (término frente), entonces la respuesta correcta es:\n\n1. Negativos entre los sanos.\n2. Positivos entre los enfermos.\n3. No aplica, ya que esta opción se refiere a resultados negativos en personas sin enfermedad.\n4. No aplica, ya que esta opción se refiere a resultados positivos en individuos realmente enfémeros."
+    },
+    {
+      "numero": 101,
+      "enunciado": "El área bajo la curva ROC:",
+      "opciones": [
+        "De valor 1, indica que la prueba no tiene  poder diagnóstico.",
+        "De valor 0,5 representa una prueba con  escaso poder diagnóstico.",
+        "Presenta unos valores comprendidos entre 1 e  infinito.",
+        "Representa  la  concordancia  entre  observadores cuando la variable es categórica  a través de proporciones."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "El área bajo la curva ROC (Area Under the Receiver Operating Characteristic Curve) representa el poder predictivo o discriminador de una prueba en medicina, psicología y otros campos del conocimiento humano. En este contexto, la ROC Curves es un grafico que muestra la relación entre el rendimiento de una prueba diagnóstica y los valores de los parámetros de confusión (falsos positivos y verdaderos negativos).\n\nEl valor del área bajo la curva ROC varía entre 0 y 1, pero no siempre indica un poder diagnóstico o discriminador específico. Por ejemplo, una prueba con valor de 0.9 puede ser muy efectiva para identificar casos de una enfermedad en comparación con individuos sin la misma enfermedad; mientras que una prueba con un valor 0.5 podría no ser tan eficaz o confiable en el diagnóstico, pero también puede tener aplicaciones específicas dependiendo de las necesidades y contextos clínicos.\n\nPor lo tanto, para responder a la pregunta:\n\n1 es incorrecto, ya que una puntuación de 1 no indica que la prueba no tenga poder diagnóstico (poder diagnóstico puede ser alto).\n2 también es incorrecto, ya que valores comprendidos entre 0.5 e infinita pueden representar un poder diagnóstico o discriminador específico dependiendo del contexto clínico.\n3 es correcto, los valores de área bajo la curva ROC pueden variar desde 1 hasta infinitas y no están restringidos a una escala de valorización.\n4 es incorrecto, ya que el área bajo la curva ROC representa un poder predictivo en lugar de concordancia entre observadores cuando la variable es categórica a través de proporciones."
+    },
+    {
+      "numero": 102,
+      "enunciado": "¿Qué prueba estadística paramétrica se usará  para testar la  hipótesis de 2 variables  categóricas de una muestra independiente?:",
+      "opciones": [
+        "T de Student ANOVA.",
+        "Test de Cochran.",
+        "Ro de Spearman.",
+        "Ji-cuadrado."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": null,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "El análisis estadístico apropiado para probar la hipótesis de dos variables categóricas en una muestra independiente es el Análisis de Varianza ANOVA (Anova) de Student, también conocido como ANOVA de Student o Anova al cuadrado. Esta prueba estatística permite comparar si hay diferencias estadísticamente importantes entre múltiples grupos en una misma población, incluyendo variables categóricas."
+    },
+    {
+      "numero": 103,
+      "enunciado": "El índice de inconsistencia del 80% indica:",
+      "opciones": [
+        "Que hay baja heterogeneidad.",
+        "Heterogeneidad media.",
+        "Heterogeneidad sustancial.",
+        "Que no hay heterogeneidad."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé. No tengo información suficiente sobre el índice de inconsistencia del 80% para evaluar su significado en relación a la heterogeneidad de un fenómeno biológico."
+    },
+    {
+      "numero": 104,
+      "enunciado": "La afinidad de la hemoglobina por el O2:",
+      "opciones": [
+        "Aumenta cuando el valor de pH es inferior a  7,4.",
+        "Disminuye cuando el valor de pH es inferior a  7,4.",
+        "Se sitúa estructuralmente en el mismo sitio  catalítico que el ácido 2,3-bisfosfoglicérico.",
+        "No se modifica por el cambio de pH en los  tejidos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé."
+    },
+    {
+      "numero": 105,
+      "enunciado": "En las proteínas, aquellos aminoácidos con  cadenas ionizables:",
+      "opciones": [
+        "Son todos esenciales, y deben tomarse en la  dieta.",
+        "Poseen grupos aromáticos que favorecen su  hidrofobicidad.",
+        "Tienden a agruparse en el interior de la  proteína, lejos del entorno acuoso de la célula.",
+        "Son capaces tanto de formar enlaces iónicos  como donar o aceptar protones para facilitar  reacciones."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "1 y 3 son correctas, mientras que 2 y 4 no están del todo precisas. Los aminoácidos con cadenas ionizables, especialmente las metioninas (Met) y tirosina (Tyr), sí tienden a agruparse en el interior de la proteína, pero no siempre están lejos del entorno acuoso de la célula, como sugiere la opción 3. También son capaces tanto de formar enlaces iónicos como donar o aceptar protones, lo que da a entender la opción 4 también es correcta."
+    },
+    {
+      "numero": 106,
+      "enunciado": "El colágeno es una proteína que:",
+      "opciones": [
+        "Forma una típica hélice-alfa.",
+        "Forma una estructura de hoja plegada beta  antiparalela de unos",
+        "000 Ángstrom de  longitud.  3. Forma una hélice diferente a la alfa, que se  denomina hélice de colágeno de triple hebra  que se estabiliza por repulsiones estéricas.",
+        "Se caracteriza por carecer del aminoácido  prolina en su composición."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 2,
+      "deepseek_texto": "La respuesta correcta es 2, el colágeno forma una estructura de hoja plegada beta antiparalela de unos 300.000 ángstromes de longitud. El colágeno no carece del aminoácido prolina en su composición, pero si está caracterizado por la existencia de hélices diferentes a las alfa, como son las hélices de triple hebra que se encuentran en el colágeno y que se mantienen estable gracias a la repulsiones estéricas. La opción 1 representa una forma típica de hélice-alfa y no es válida para describir al colágeno, mientras que la opción 3 suena intrigante pero equivocada ya que las hélices de triple hebra son características del fibrilina y no del colágeno. Por último, la opción 4 carece de cualquier base científica para afirmar que el colágeno carece del aminoácido prolina en su composición ya que la prolina es uno de los aminoácidos fundamentales requeridos en la formación y estructura proteica."
+    },
+    {
+      "numero": 107,
+      "enunciado": "¿Cuál de las siguientes afirmaciones sobre la  descarboxilación  oxidativa  del  piruvato,  catalizada  por  el  complejo  piruvato  deshidrogenasa, es correcta?:",
+      "opciones": [
+        "Utiliza NAD+, ácido lipoico, fosfato de  piridoxal y FAD como coenzimas de la  reacción.",
+        "Uno de los productos de la reacción es un  tioéster de acetato.",
+        "El grupo metilo del piruvato se elimina como  CO2.",
+        "La reacción es tan importante que tiene lugar  a máxima velocidad en todas las condiciones  y en todas las células.              FSE BIOLOGÍA 2020/21 - 9 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 4,
+      "deepseek_texto": "La respuesta correcta sería la opción 4, es decir, \"la reacción es tan importante que tiene lugar a máxima velocidad en todas las condiciones y en todas las células\". La descarboxilación oxidativa del piruvato es una etapa fundamental de la gluconeogénesis y la glicolepirgenoglucono-1,5-deifosforilación, así como también está presente en las rutas metabólicas que producen ácidos grasosos.\n\nLa descarboxilación oxidativa del piruvato es catalizada por el complejo piruvato deshidrogenasa, un enzima que requiere coenzimas tales como NAD+, ácido lipoico, fosfato de piridoxal y FAD para la reacción. No obstante, la opción 1 no es precisa ya que los productos principales de la reacción no incluyen el acetato ni un tioéster del acetato. La opción 2 tampoco es correcta, ya que uno de los productos de la descarboxilación oxidativa del piruvato, en lugar de ser un tioéster del acetato, es un ácido dicarboxílico (como el ácido α-oxopiruvicico). Por último, la opción 3 no es correcta ya que el grupo metilo del piruvato se elimina como CO2 en lugar de ser eliminado por una cetona."
+    },
+    {
+      "numero": 108,
+      "enunciado": "Las cadenas polipeptídicas de una proteína:",
+      "opciones": [
+        "Siempre forman estructuras en alfa-hélice.",
+        "Pueden  entrecruzarse  mediante  enlaces  disulfuro de dos cisteínas.",
+        "Se unen a otras cadenas polipeptídicas por su  extremo N-terminal mediante prolina o  hidroxiprolina.",
+        "Tienen una composición equimolecular de los  20 aminoácidos naturales."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "Soy programador y no soy experto en biología. No lo sé."
+    },
+    {
+      "numero": 109,
+      "enunciado": "La lipoproteinalipasa participa en:",
+      "opciones": [
+        "La degradación de los triacilgliceroles de los  quilomicrones  para  proporcionar  ácidos  grasos a los diferentes tejidos.",
+        "El transporte intestinal de los lípidos de la  dieta.",
+        "La degradación de las lipoproteínas para  proporcionar aminoácidos.",
+        "La  degradación  de  los  triacilglicéridos  almacenados  intracelularmente  para  proporcionar ácidos grasos como combustible  energético."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "La lipoproteina lípidoasa participa en la degradación de las lipoproteínas, lo que significa que ella se encarga de romper estas moléculas complejas a partir de su estructura y proporcionar sus componentes orgánicos como aminoácidos o ácidos grasos para usos futuros por otros procesos biológicos en el organismo."
+    },
+    {
+      "numero": 110,
+      "enunciado": "La carga que tiene la glicina en una disolución a  pH 13 es:",
+      "opciones": [
+        "Positiva (+1).",
+        "Sin carga.",
+        "Negativa (-1).",
+        "Negativa (-2)."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé."
+    },
+    {
+      "numero": 111,
+      "enunciado": "La afirmación correcta sobre las enzimas y la  cinética enzimática es:",
+      "opciones": [
+        "La velocidad de una reacción enzimática es  independiente de la concentración de enzima.",
+        "Una enzima presenta mayor afinidad por el  sustrato cuanto mayor sea su valor de Km.",
+        "A concentraciones muy elevadas de sustrato  la velocidad de reacción es de orden cero con  respecto a la concentración de sustrato.",
+        "La pérdida de la actividad de un enzima lleva  consigo la pérdida de su estructura primaria."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 2,
+      "deepseek_texto": "La afirmación correcta sobre las enzimas y la cinética enzimática es:\n\n2. Una enzima presenta mayor afinidad por el sustrato cuanto mayor sea su valor de Km."
+    },
+    {
+      "numero": 112,
+      "enunciado": "La afirmación correcta sobre la estructura  secundaria de las proteínas es:",
+      "opciones": [
+        "En la hélice α, los grupos –R de los  aminoácidos se sitúan hacia el interior de la  estructura helicoidal.",
+        "La conexión entre conformaciones α y  se  realiza mediante un giro que contiene Trp.",
+        "La hélice α se estabiliza por la formación de  puentes de hidrógeno intracatenarios entre  grupos NH y CO de la cadena principal.",
+        "Los aminoácidos prolina y glicina son muy  frecuentes en la α hélice."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 2,
+      "deepseek_texto": "La afirmación correcta sobre la estructura secundaria de las proteínas es:\n\n2. La conexión entre conformaciones α y β se realiza mediante un giro que contiene Trp."
+    },
+    {
+      "numero": 113,
+      "enunciado": "La afirmación correcta sobre la estructura de  los esfingolípidos es:",
+      "opciones": [
+        "La estructura básica de los esfingolípidos está  constituida por glicerol unido a un grupo  fosfato.",
+        "Las esfingomielinas, los gangliósidos y  cerebrósidos  son  diferentes  tipos  de  esfingolípidos.",
+        "En la estructura de los esfingolípidos  encontramos dos ácidos grasos esterificando a  dos grupos hidroxilo de la esfingosina.",
+        "La formación de un enlace éster entre un  grupo hidroxilo de la esfingosina y un grupo  carboxilo de un ácido graso da lugar a la  ceramida."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 4,
+      "deepseek_texto": "La afirmación correcta sobre la estructura de los esfingolípidos es:\n\n4. La formación de un enlace éster entre un grupo hidroxilo de la esfingosina y un grupo carboxilo de un ácido graso da lugar a la ceramida."
+    },
+    {
+      "numero": 114,
+      "enunciado": "Las causas más frecuentes en nuestro medio de  síndrome de Cushing son:",
+      "opciones": [
+        "Los tumores suprarrenales productores de  cortisol.",
+        "Los adenomas hipofisarios productores de  adrenocorticotropina.",
+        "Los tumores no hipofisarios productores de  adrenocorticotropina.",
+        "Los tumores suprarrenales productores de  adrenocorticotropina."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "La mayoría de los casos del síndrome de Cushing son causados por tumores suprarrenales productores de cortisol (opción 1). Estos tumores se llaman adenomas y producen una alta cantidad de cortisona, lo que provoca síntomas como sobrepeso facial, artritis y osteoporosis. La opción 3 no es una causa común del síndrome de Cushing, ya que los tumores no hipofisarios productores de adrenocorticotropina son más raros y menos comunes en general. Por lo tanto, las opciones 2 y 4 también no son las causas más frecuentes del síndrome de Cushing."
+    },
+    {
+      "numero": 115,
+      "enunciado": "El hiperaldosteronismo primario se relaciona  con:",
+      "opciones": [
+        "Hipotensión, retención de Na+ e incremento  de la excreción de K+.",
+        "Hipotensión, retención de K+ e incremento de  la excreción de Na+.",
+        "Hipertensión, retención de K+ e incremento  de la excreción de Na+.",
+        "Hipertensión, retención de Na+ e incremento  de la excreción de K+."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 2,
+      "deepseek_texto": "El hiperaldosteronismo primario se relaciona con la opción 2: Hipotensión, retención de K+ e incremento de la excreción de Na+."
+    },
+    {
+      "numero": 116,
+      "enunciado": "La prediabetes se define como:",
+      "opciones": [
+        "Glucemia tras ayuno de 8 horas entre 100 y  125 mg/dL.",
+        "Valores  de  hemoglobina  glicosilada  superiores al 7%.",
+        "Glucemia a las 2 horas tras sobrecarga oral de  glucosa (75 g) superior a 200 mg/dL.",
+        "Detección de glucosa en orina tras sobrecarga  oral de glucosa (75 g)."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "La prediabetes se define como glucemia tras ayuno de 8 horas entre 100 y 125 mg/dL."
+    },
+    {
+      "numero": 117,
+      "enunciado": "El precursor común en la síntesis de los  esteroides sexuales (andrógenos y estrógenos)  es:",
+      "opciones": [
+        "Colesterol.",
+        "Aldosterona.",
+        "Progesterona.",
+        "Estrona.          FSE BIOLOGÍA 2020/21 - 10 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": null,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "La opción correcta es:\n\n1. Colesterol."
+    },
+    {
+      "numero": 118,
+      "enunciado": "Respecto al programa de cribado de cáncer de  colon NO es verdad que:",
+      "opciones": [
+        "La prueba inmunoquímica para cuantificación  de hemoglobina humana en heces es el  método más adecuado y eficiente en la  detección precoz de cáncer de colon.",
+        "La población diana es la de riesgo intermedio  entre 50 y 69 años.",
+        "El antecedente personal de presencia de  cáncer de colon es criterio de exclusión del  programa.",
+        "El método del guayaco es el utilizado en los  programas de cribado de cáncer de colon para  detección de hemoglobina en heces."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "1. No lo sé"
+    },
+    {
+      "numero": 119,
+      "enunciado": "El gen BRCA1 se estudia en la susceptibilidad al  cáncer de:",
+      "opciones": [
+        "Pulmón.",
+        "Mama.",
+        "Colon.",
+        "Tiroides."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 2,
+      "deepseek_texto": "Respuesta: 2. Mama."
+    },
+    {
+      "numero": 120,
+      "enunciado": "El marcador tumoral más adecuado para el  adenocarcinoma seroso de ovario es:",
+      "opciones": [
+        "Antígeno carcinoembrionario.",
+        "Proteína epididimal humana tipo 4.",
+        "Alfa-fetoproteína.",
+        "Ca 19.9."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "El marcador tumoral más adecuado para el adenocarcinoma seroso de ovario es la Ca 19.9."
+    },
+    {
+      "numero": 121,
+      "enunciado": "En un paciente sometido a tiroidectomía total  por un cáncer diferenciado de tiroides tipo  papilar, el marcador tumoral de elección en el  seguimiento es:",
+      "opciones": [
+        "Tirotropina.",
+        "Tiroxina libre.",
+        "Tiroglobulina.",
+        "Calcitonina."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé."
+    },
+    {
+      "numero": 122,
+      "enunciado": "La inhibina B:",
+      "opciones": [
+        "Es una glicoproteína de 32 kDa.",
+        "Es secretada por las células de Leydig.",
+        "Inhibe la secreción de FSH.",
+        "Se puede emplear como marcador endocrino  de la espermatogénesis."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": null,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "La inhibina B es una glicoproteína de 32 kDa que se secretan por las células de Leydig y inhibe la secreción de FSH. No puede ser empleado como marcador endocrino de la espermatogénesis, ya que su función no está directamente relacionada con ella."
+    },
+    {
+      "numero": 123,
+      "enunciado": "NO se considera un valor normal en el  seminograma básico según los valores de  referencia de la OMS (2010):",
+      "opciones": [
+        "10%  de  formas  normales  en  los  espermatozoides.",
+        "Movilidad progresiva de los espermatozoides  del 52%.",
+        "Concentración de espermatozoides de 15  millones/mL.",
+        "Volumen de eyaculado de 0.8 mL."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé. No puedo proporcionar una respuesta adecuada sin más información acerca del seminoma y sus referencias de OMS (Organización Mundial de la Salud) para valores normales."
+    },
+    {
+      "numero": 124,
+      "enunciado": "En relación a la disfunción eréctil es FALSO  que:",
+      "opciones": [
+        "El diagnóstico etiológico más frecuente es la  disfunción eréctil psicogénica.",
+        "Tras  evaluar  causas  neurológicas  y  vasculares, se deben estudiar entre otros  parámetros testosterona, LH y TSH.",
+        "Se define como la incapacidad persistente  para desarrollar o mantener una erección  suficiente para el coito y la eyaculación en el  15% de los intentos.",
+        "La  hiperprolactinemia  es  una  causa  infrecuente de disfunción eréctil, aunque debe  ser considerada."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 3,
+      "deepseek_texto": "Respuesta: 3 y 4\nLa definición de la disfunción eréctil en el párrafo 3 es inexacta ya que no menciona la cantidad del 15% de los intentos, además también debería incluir \"durante un período prolongado\".\nLa hiperprolactinemia puede ser una causa rara pero debe considerarse en el diagnóstico."
+    },
+    {
+      "numero": 125,
+      "enunciado": "Con respecto a las inmunoglobulinas en plasma  de individuos sanos:",
+      "opciones": [
+        "La IgG supone el 70-75% del total.",
+        "La IgA supone el 50% del total.",
+        "La IgD constituye el 20% del total.",
+        "La IgE constituye el 35% del total."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé. No tengo información precisa acerca de la distribución específica de las inmunoglobulinas en plasma de individuos sanos, ni cuáles serían sus proporciones o si dichas proporciones se ajustan a un rango especificado como 70-75%, 50%, 20% u 35%."
+    },
+    {
+      "numero": 126,
+      "enunciado": "En relación a las proteínas del líquido  cefalorraquídeo:",
+      "opciones": [
+        "Niveles elevados de neurogranina tienen valor  predictivo negativo para enfermedad de  Alzheimer.",
+        "Las bandas oligoclonales son patognomónicas  de esclerosis múltiple.",
+        "La determinación de las concentraciones de  isoformas de la proteína β-amiloide y la  proteína Tau pueden ser útiles en el  diagnóstico de la enfermedad de Alzheimer.",
+        "La elevación de la proteína básica de la  mielina es un factor de buen pronóstico en  enfermedades neurológicas desmielinizantes."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "1. No lo sé"
+    },
+    {
+      "numero": 127,
+      "enunciado": "El punto de corte para la troponina cardíaca en  el diagnóstico del infarto agudo de miocardio  es:",
+      "opciones": [
+        "Percentil 68 del límite superior de la  población de referencia.",
+        "Percentil 90 del límite superior de la  población de referencia.",
+        "Percentil 95 del límite superior de la  población de referencia.",
+        "Percentil 99 del límite superior de la  población de referencia."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé. No estoy familiarizado con este punto de corte para la troponina cardíaca en el diagnóstico del infarto agudo de miocardio."
+    },
+    {
+      "numero": 128,
+      "enunciado": "El  biomarcador  que  tiene  una  mayor  sensibilidad diagnóstica en la detección del daño  cardiaco en las primeras horas de evolución de  un infarto agudo de miocardio es:",
+      "opciones": [
+        "Troponina I.",
+        "CK-MB.",
+        "Mioglobina.",
+        "Troponina T.      FSE BIOLOGÍA 2020/21 - 11 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": null,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "La respuesta correcta es la opción 1, troponina I. La troponina I es un biomarcador utilizado en el diagnóstico del infarto agudo de miocardio (IAMI). Se produce en las músculos cardíacos y su concentración aumenta rápidamente después de una isquemia miocárdica. Por lo tanto, es un biomarcador muy sensibilidad para el diagnóstico del daño cardiovascular en la primera hora de evolución de un infarto agudo de miocardio. La troponina T y la CK-MB también son marcadores cardíacos, pero su aumento ocurre más lentamente y tardan varios días en alcanzar valores elevados tras una isquemia miocárdica. Por otro lado, la mioglobulina no es un biomarcador clínico establecido para el IAMI, ya que su concentración puede ser alterada por causas diferentes a una isquemia miocárdica, como por ejemplo lesiones musculares."
+    },
+    {
+      "numero": 129,
+      "enunciado": "El método que se emplea normalmente en el  laboratorio clínico para determinar los niveles  de troponina en suero es:",
+      "opciones": [
+        "Enzimoinmunoanálisis.",
+        "Colorimetría.",
+        "Radioinmunoanálisis.",
+        "Inmunofluorescencia indirecta."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 3,
+      "deepseek_texto": "Respuesta: 3. Radioinmunoanálisis."
+    },
+    {
+      "numero": 130,
+      "enunciado": "Es correcto que para el diagnóstico de lesión  miocárdica el uso de la troponina tiene:",
+      "opciones": [
+        "Una elevada sensibilidad y especificidad  diagnóstica.",
+        "Una  baja  sensibilidad  y  especificidad  diagnóstica.",
+        "Una elevada sensibilidad diagnóstica y una  baja especificidad diagnóstica.",
+        "Una baja sensibilidad diagnóstica y una  elevada especificidad diagnóstica."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "La troponina es un marcador bioquímico utilizado en el diagnóstico de lesiones miocárdicas que tiene una alta sensibilidad y especificidad diagnóstica, lo que significa que tiende a dar correctos resultados positivos para la enfermedad y correctos resultados negativos para la salud. En otras palabras, es una herramienta muy efectiva para determinar si hay alguna lesión o daño en el músculo cardíaco."
+    },
+    {
+      "numero": 131,
+      "enunciado": "A los oligonucleótidos de entre 18 y 25 bases,  utilizados en la PCR se les denomina con  cualquiera de estos términos EXCEPTO:",
+      "opciones": [
+        "Primers.",
+        "Cebadores.",
+        "Iniciadores.",
+        "Stutters."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé"
+    },
+    {
+      "numero": 132,
+      "enunciado": "El término \"proofreading\" aplicado a las  polimerasas de ADN, se utiliza cuando:",
+      "opciones": [
+        "Están listas para su uso directo.",
+        "Están listas para hacer pruebas con ellas.",
+        "Tienen actividad correctora de errores de  replicación,  además  de  la  actividad  polimerasa.",
+        "No se pueden usar para amplificar vectores  virales, aunque se trate de virus ADN."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "La opción correcta es la tercera: \"Tienen actividad correctora de errores de replicación, además de la actividad polimerasa.\" Las polimerasas de ADN tienen una función de corrección de errores en la replicación del ADN, lo que significa que se revisan sus propios trabajos antes de agregar un nuevo tramo de ADN al molde."
+    },
+    {
+      "numero": 133,
+      "enunciado": "Todas  las  siguientes  son  técnicas  de  secuenciación de ADN o ARN, EXCEPTO:",
+      "opciones": [
+        "Secuenciación química o de Maxham y  Gilbert.",
+        "Secuenciación basada en terminadores o de  Sanger.",
+        "Pirosecuenciación.",
+        "Secuenciación basada en el reactivo de  Edman."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 3,
+      "deepseek_texto": "La opción correcta es la segunda, \"Secuenciación basada en terminadores o de Sanger\". Esta técnica se basa en la secuenciación de ácidos nucleicos mediante la determinación del extremo 3' final de un fragmento de ADN o ARN a partir de una plantilla conocida. La técnica fue inventada por Fred Sanger y William Salyers, por lo que también se la conoce como secuenciación de Sanger.\n\nLa pirosecuenciación no es correcta ya que esta técnica utiliza la reacción química entre ácidos nucleicos y bases complementarias para formar pares de bases, en lugar de utilizar terminadores específicos de una molécula de ARN o ADN. La secuenciación basada en el reactivo de Edman es también incorrecta ya que esta técnica utiliza la desnitrificación selectiva del aminoácido terminal de un polipeptido y no tiene nada que ver con la secuenciación de ácidos nucleicos."
+    },
+    {
+      "numero": 134,
+      "enunciado": "NO es/son componente/s indispensable/s de la  \"master mix\" en una reacción de PCR:",
+      "opciones": [
+        "Polimerasa.",
+        "Cebadores.",
+        "DMSO.",
+        "Desoxirribonucleótidos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé. No puedo responder a esta pregunta sin más contexto acerca de qué master mix se está preguntando."
+    },
+    {
+      "numero": 135,
+      "enunciado": "NO es un método de extracción de ADN el  basado en:",
+      "opciones": [
+        "Fenol-cloroformo.",
+        "Sulfato de amonio.",
+        "Soluciones hiperosmolares o \"salting-out\".",
+        "Bolitas paramagnéticas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "La respuesta correcta es la opción 1, el método basado en fenol-cloroformo no se utiliza para extraer ADN de muestras biológicas. El método adecuado para extracción de ADN generalmente se basa en soluciones hiperosmolares o \"salting-out\"."
+    },
+    {
+      "numero": 136,
+      "enunciado": "Las principales modificaciones epigenéticas  conocidas son:",
+      "opciones": [
+        "Errores en la transcripción del ADN a ARN.",
+        "Cambios en la estructura de la cromatina por  puentes disulfuro.",
+        "Metilación del ADN, regulación de la  conformación de cromatina a través de  modificaciones de histonas y los ARN no  codificantes.",
+        "Metilación de histonas y acetilación del ADN  provocando mutaciones irreversibles."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 2,
+      "deepseek_texto": "Las principales modificaciones epigenéticas conocidas son:\n\n2. Cambios en la estructura de la cromatina por puentes disulfuro."
+    },
+    {
+      "numero": 137,
+      "enunciado": "En el análisis genético del ADN circulante en el  plasma de un paciente con cáncer metastásico:",
+      "opciones": [
+        "No se encuentra material genético en el  plasma de un paciente con cáncer.",
+        "Se encuentran mutaciones en el ADN  circulante procedente de la célula tumoral y  no circula ADN no mutado.",
+        "Sólo los marcadores tumorales clásicos  proteicos tienen utilidad clínica.",
+        "Se  pueden  encontrar  las  mutaciones  específicas del cáncer y, si se cuantifican, su  concentración es proporcional al tamaño del  tumor."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 4,
+      "deepseek_texto": "La respuesta correcta es la opción 4. En el análisis genético del ADN circulante en el plasma de un paciente con cáncer metastásico, se pueden encontrar las mutaciones específicas del cáncer y, si se cuantifican, su concentración es proporcional al tamaño del tumor. Esto permite a los médicos identificar mutaciones cancerosas en el plasma y utilizar esta información para el estudio clínico y la terapia personalizada de pacientes con cáncer."
+    },
+    {
+      "numero": 138,
+      "enunciado": "Se determina el diagnóstico del sexo fetal  durante la gestación de forma no invasiva para  el feto:",
+      "opciones": [
+        "Únicamente en sangre de cordón umbilical.",
+        "No existe forma segura para el feto de  determinar su sexo antes del nacimiento.",
+        "En el plasma de la gestante por el análisis  molecular  de  regiones  genéticas  pertenecientes al cromosoma Y desde la  semana 7 de gestación.",
+        "Por análisis ecográfico en la semana 7 de  gestación.                                FSE BIOLOGÍA 2020/21 - 12 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 3,
+      "deepseek_texto": "3. En el plasma de la gestante por el análisis molecular de regiones genéticas pertenecientes al cromosoma Y desde la semana 7 de gestación."
+    },
+    {
+      "numero": 139,
+      "enunciado": "El test prenatal no invasivo en plasma de la  gestante para detectar una trisomía 21 del feto:",
+      "opciones": [
+        "Tiene muy poca sensibilidad y no se  recomienda  como  cribado  en  ningún  escenario clínico.",
+        "Se  puede  detectar  por  técnicas  de  secuenciación masiva del ADN circulante de  la madre desde la semana 10 de gestación  cuando la concentración de ADN fetal es  igual o superior al 4%.",
+        "Se  puede  detectar  por  técnicas  de  secuenciación masiva del ADN circulante de  la madre desde la semana 3 de gestación.",
+        "No existen datos suficientes para considerar  esta técnica como un test de utilidad clínica."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 2,
+      "deepseek_texto": "La opción correcta es la opción número 2, que describe el test prenatal no invasivo en plasma de la gestante para detectar una trisomía 21 del feto. La técnica se puede detectar utilizando técnicas de secuenciación masiva del ADN circulante de la madre desde la semana 10 de gestación, cuando la concentración de ADN fetal es igual o superior al 4%."
+    },
+    {
+      "numero": 140,
+      "enunciado": "Las  bacterias  del  género  Listeria,  morfológicamente son:",
+      "opciones": [
+        "Bacilos Gram negativos.",
+        "Cocos Gram positivos.",
+        "Bacilos Gram positivos.",
+        "Ninguna de los anteriores."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "Las bacterias del género Listeria son bacilos gram negativos (opción 1)."
+    },
+    {
+      "numero": 141,
+      "enunciado": "Los  géneros  Escherichia,  Enterobacter  y  Klebsiella tienen en común:",
+      "opciones": [
+        "Son microorganismos anaerobios estrictos.",
+        "No poseen lipopolisacárido en su pared  celular.",
+        "Son  muy  sensibles  al  antibiótico  vancomicina.",
+        "Pertenecen a la familia Enterobacteriaceae y  se caracterizan por tener una membrana  externa extracitoplásmica."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 4,
+      "deepseek_texto": "Respuesta: 4. Pertenecen a la familia Enterobacteriaceae y se caracterizan por tener una membrana externa extracitoplasmática."
+    },
+    {
+      "numero": 142,
+      "enunciado": "En relación al diagnóstico microbiológico de la  gripe estacional, es correcto:",
+      "opciones": [
+        "No existen métodos fiables en la actualidad.",
+        "Los tests serológicos nos permiten detectar la  infección en los 3-4 primeros días tras el  contagio.",
+        "Los tests basados en antígenos del virus  presentan una baja especificidad.",
+        "Los tests moleculares (PCR) presentan mayor  sensibilidad que los basados en antígenos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé."
+    },
+    {
+      "numero": 143,
+      "enunciado": "La microdilución en caldo, el agar disco- difusión o el método de tira de gradiente de  concentración, son técnicas microbiológicas que  permiten:",
+      "opciones": [
+        "Determinar el mecanismo de acción de un  antibiótico.",
+        "Establecer  la  farmacocinética  de  un  antibiótico.",
+        "Conocer la actividad in vitro de un  antibiótico.",
+        "Ninguna de las anteriores."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé. No tengo suficientes datos para responder a esta pregunta."
+    },
+    {
+      "numero": 144,
+      "enunciado": "Respecto  a  la  especie  Corynebacterium  urealyticum es FALSO que:",
+      "opciones": [
+        "Es un bacilo Gram positivo de crecimiento  lento.",
+        "Es sensible a la vancomicina.",
+        "Posee una fuerte actividad ureásica.",
+        "Es una causa frecuente de infecciones de  transmisión sexual."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "La respuesta correcta es la opción 1. Corynebacterium urealyticum es un bacilo Gram positivo de crecimiento lento que tiene una fuerte actividad ureásica, pero no es sensible a la vancomicina y no es una causa frecuente de infecciones de transmisión sexual."
+    },
+    {
+      "numero": 145,
+      "enunciado": "¿Cuál de los siguientes antimicrobianos se  podría utilizar para el tratamiento de una  infección por Staphylococcus aureus resistente a  la meticilina?:",
+      "opciones": [
+        "Penicilina.",
+        "Imipenem.",
+        "Ceftarolina.",
+        "Cefotaxima."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé. No estoy ciente de ninguna combinación antimicrobiana específica para Staphylococcus aureus resistente a la meticilina, por lo que no puedo determinar qué medicamento podría ser útil en su caso particular."
+    },
+    {
+      "numero": 146,
+      "enunciado": "Es cierto que:",
+      "opciones": [
+        "Coxiella burnetii es el agente causal de la  fiebre botonosa mediterránea.",
+        "Rickettsia conorii es el agente causal de la  fiebre Q.",
+        "Coxiella burnetii es un parásito intracelular  obligado.",
+        "Rickettsia conorii no tiene capacidad de  sintetizar proteínas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "Sé que Coxiella burnetii es el agente causal de la fiebre botonosa mediterránea y que Rickettsia conorii es el agente causal de la fiebre Q, pero no tengo información sobre si Coxiella burnetii es un parásito intracelular obligado o si Rickettsia conorii tiene capacidad de sintetizar proteínas. No lo sé."
+    },
+    {
+      "numero": 147,
+      "enunciado": "En relación con las infecciones causadas por  clamidias es FALSO que:",
+      "opciones": [
+        "Chlamydia psittaci produce conjuntivitis en  humanos.",
+        "Chlamydia pneumoniae es un agente causal  de neumonía.",
+        "Chlamydia trachomatis produce uretritis en el  varón.",
+        "Chalmydia trachomatis produce conjuntivitis  en humanos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "La opción correcta es la 1, que es falso. Chlamydia psittaci no es un agente causal de conjuntivitis en humanos."
+    },
+    {
+      "numero": 148,
+      "enunciado": "El  agente  causal  más  frecuente  de  las  infecciones relacionadas con el uso de catéteres  intravasculares en los hospitales es:",
+      "opciones": [
+        "Escherichia coli.",
+        "Enterococcus faecalis.",
+        "Staphylococcus coagulasa-negativa.",
+        "Staphylococcus aureus."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 3,
+      "deepseek_texto": "La opción correcta es 3. Staphylococcus coagulasa-negativo."
+    },
+    {
+      "numero": 149,
+      "enunciado": "Cuál  de  las  siguientes  bacterias  se  ha  encontrado en el interior de amebas de vida  libre:",
+      "opciones": [
+        "Bordetella.",
+        "Legionella.",
+        "Moraxella.",
+        "Mycoplasma.          FSE BIOLOGÍA 2020/21 - 13 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 4,
+      "deepseek_texto": "La opción correcta es: 4. Mycoplasma."
+    },
+    {
+      "numero": 150,
+      "enunciado": "El agente etiológico de la infección de  transmisión sexual denominada “chancroide” o  “chancro blando” es:",
+      "opciones": [
+        "Chlamydia trachomatis.",
+        "Neisseria gonorrhoeae.",
+        "Mycoplasma genitalium.",
+        "Haemophilus ducreyi."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "La respuesta correcta es: \n\nNeisseria gonorrhoeae."
+    },
+    {
+      "numero": 151,
+      "enunciado": "¿Cuál es el principal reservorio conocido de la  infección por Helicobacter pylori?:",
+      "opciones": [
+        "Los roedores.",
+        "Las aves salvajes.",
+        "Los reptiles.",
+        "El ser humano."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé."
+    },
+    {
+      "numero": 152,
+      "enunciado": "La brucelosis es una zoonosis que NO se  trasmite por:",
+      "opciones": [
+        "Ingestión  de  derivados  lácteos  no  pasteurizados.",
+        "La picadura de un mosquito hematófago.",
+        "Inhalación del microrganismo.",
+        "Contacto directo a través de heridas en la piel."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 4,
+      "deepseek_texto": "La brucelosis se transmite por contacto directo a través de heridas o aberturas en la piel, no se transmite a través de picadura de un mosquito hematófago, inhalación del microrganismo ni ingestión de derivados lácteos no pasteurizados. La respuesta es 4."
+    },
+    {
+      "numero": 153,
+      "enunciado": "En  las  infecciones  gastrointestinales  por  Escherichia coli es FALSO:",
+      "opciones": [
+        "E. coli enterotoxigénico se asocia con la  producción de enterotoxinas termoestables y  termolábiles.",
+        "E. coli enteropatógeno es una causa frecuente  de diarrea del lactante.",
+        "E. coli enterohemorrágico se asocia con el  serotipo O157:H7.",
+        "E. coli enteroinvasivo se asocia con la  producción de la toxina Shiga."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 2,
+      "deepseek_texto": "La respuesta correcta es 2. E. coli enteropatógeno es una causa frecuente de diarrea del lactante. La mayoría de las personas resultan ser portadores del bacterium Escherichia coli (E. coli) en su intestino, sin síntomas. Sin embargo, algunos individuos pueden desarrollar enfermedades gastrointestinales como una infección o diarrea por E. coli que es patogénica.\n\nLos tipos de E. coli que causan problemas en el aparato digestivo incluyen enterotoxigénicos, enteropatógenos y enterohemorragicos. El tipo enteroinvasivo se refiere a bacterias que pueden pasar a través de la pared intestinal normalmente sano, pero no son patogénicas en ese sitio específico.\n\nLa mayoría de las infecciones por E. coli causan solo diarrea y náuseas, aunque algunas personas podrían sufrir una sobredosis. Sin embargo, algunos tipos patógenos (como el serotipo O157:H7) pueden causar enfermedades graves o incluso muerte debido a la producción de toxinas tifólicas y otras sustancias letales.\n\nPara evitar las infecciones gastrointestinales por E. coli, es importante seguir algunas precauciones básicas como los siguientes:\n\n1. Limpiar tus manos con jabón y agua después de manipular carnes crudo o frescas.\n2. Cocinar bien todas las carnes antes de consumirlas.\n3. No beber líquidos no pasteurizados (como leche u otros lácteos) directamente desde el animal, ya que pueden contener bacterias patogénicas como E. coli y Salmonella. Utilizar una botella o vaso de vidrio bien lavado en su lugar.\n4. Limpiar tus utensilios de cocina después de usarlos con carnes crudas o frescas, para evitar la contaminación de alimentos seguros.\n5. No compartir platos, cucharones o copas que se usan solo con vegetales o no cruzados con las carnes o líquidos sucios, ya que pueden transmitir bacterias patogénicas."
+    },
+    {
+      "numero": 154,
+      "enunciado": "Respecto a las carbapenemasas, es cierto que:",
+      "opciones": [
+        "Pueden conferir resistencia a penicilinas,  cefalosporinas y carbapenemas.",
+        "Son características de las bacterias Gram  positivas.",
+        "Son  poco  frecuentes  en  Klebsiella  pneumoniae.",
+        "Nunca se localizan en elementos genéticos  transferibles."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "1. Pueden conferir resistencia a penicilinas, cefalosporinas y carbapenemas. Esta opción es correcta. Las carbapenemasas son enzimas que degradan la luzmilina, un antibiótico utilizado en penicilinas y cefalosporinas. Por lo tanto, pueden conferir resistencia a estos medicamentos mediante la destrucción de la proteína celular que los reconoce y las bloquea, permitiendo así el crecimiento y la propagación de las bacterias susceptibles a los antibióticos.\n\n2. Son características de las bacterias Gram  positivas. Esta opción es incorrecta. Las carbapenemasas no son exclusivamente características de bacterias Gram  positivas, sino que se encuentran tanto en bacterias Gram  negativas como en Gram  positivas.\n\n3. Son poco frecuentes en Klebsiella pneumoniae. Esta opción es incorrecta. Las carbapenemasas son un tipo relativamente común de enzima beta-lactamasasa, que se encuentra en una amplia gama de bacterias, incluyendo a las del género Klebsiella.\n\n4. Nunca se localizan en elementos genéticos transferibles. Esta opción es incorrecta. Las enzimas como la carbapenemasas pueden estar codificadas por genes que estén disponibles para transferencia horizontal a través de interacciones fúngicas o bacterianas entre bacterias, lo que significa que no siempre son \"no frecuentes\" en elementos genéticos."
+    },
+    {
+      "numero": 155,
+      "enunciado": "Una de las siguientes afirmaciones respecto a  Pseudomonas aeruginosa es FALSA:",
+      "opciones": [
+        "Es un bacilo Gram negativo no fermentador,  oxidasa negativa.",
+        "Causa infecciones pulmonares graves en  pacientes con fibrosis quística.",
+        "Causa otitis externa asociada a baño en  piscinas.",
+        "Suele ser resistente a gran parte de los  antibióticos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 2,
+      "deepseek_texto": "La afirmación Falsa es la opción 2. Pseudomonas aeruginosa no causa infecciones pulmonares graves en pacientes con fibrosis quística."
+    },
+    {
+      "numero": 156,
+      "enunciado": "Una de las siguientes parejas de antibiótico- mecanismo de resistencia no es frecuente en  Pseudomonas aeruginosa:",
+      "opciones": [
+        "Quinolonas-bombas de expulsión.",
+        "Carbapenemas-mutación de la porina OprD.",
+        "Aminoglicósidos-modificación de la ADN  girasa.",
+        "Cefalosporinas-beta-lactamasas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé."
+    },
+    {
+      "numero": 157,
+      "enunciado": "¿Cuál de las siguientes características de  Mycobacterium tuberculosis es FALSA?:",
+      "opciones": [
+        "Es un bacilo aerobio estricto.",
+        "Se tiñe bien con la tinción de Gram, incluidas  las esporas.",
+        "Tiene un crecimiento lento en los medios de  cultivo.",
+        "La pared tiene muchos lípidos, incluyendo los  ácidos micólicos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "La respuesta a esta pregunta depende de la definición que se use para cada una de las características. Sin embargo, en general, puede ser útil hacer una comparación entre ellas y ver cuál es falsa.\n\n1. Es un bacilo aerobio estricto: Esta característica es verdadera. Mycobacterium tuberculosis es un bacilo aerobio que requiere oxigeno para crecer. Los mycobacterias son bacilos estrictos, lo que significa que necesitan oxigeno en exceso de una pequeña cantidad y tienen una alta exigencia por la temperatura.\n\n2. Se tiñe bien con la tinción de Gram, incluidas las esporas: Esta característica es también verdadera. Mycobacterium tuberculosis se tiñe adecuadamente con la tinción de Gram, que revela una capa oscura en la pared bacteriana y un cresteros más claro (que representa la superficie externa). La tinción de Gram es comúnmente utilizada para la identificación de Mycobacterium tuberculosis.\n\n3. Tiene un crecimiento lento en los medios de cultivo: Esta característica es falsa. Aunque las mycobacterias son consideradas como bacterias lenta o difíciles de cultivar, este término se refiere a la naturaleza del proceso de cultivación y no al ritmo del crecimiento biológico propio de la bacteria. Por lo tanto, Mycobacterium tuberculosis tiene un crecimiento rápido en los medios de cultivo que son adecuados (como el medio de Broth MacConkey) pero su crecimiento es lento debido a la complejidad del proceso de cultivo y la resistencia al tratamiento.\n\n4. La pared tiene muchos lípidos, incluyendo los ácidos micólicos: Esta característica es verdadera. Mycobacterium tuberculosis presenta una pared lítica con un alto contenido en lípidos. En particular, la membrana celular de M. tuberculosis contiene una gran cantidad de ácido arsénico (ácido mycolicico), lo que hace que sea fácilmente reconocible y diferente a otras bacterias.\n\nEn conclusión, solo 1 es verdadera y por lo tanto no hay ninguna opción falsa en esta pregunta."
+    },
+    {
+      "numero": 158,
+      "enunciado": "¿Cuál de las siguientes afirmaciones sobre la  tuberculosis es FALSA?:",
+      "opciones": [
+        "La tuberculosis pulmonar se transmite de  persona a persona por vía aérea.",
+        "El diagnóstico microbiológico definitivo se  basa en el aislamiento e identificación del  bacilo tuberculoso.",
+        "La prueba de la tuberculina (PPD) y/o la  producción de interferón-gamma por los  linfocitos (IGRA) sirven para conocer si una  persona es contagiosa.",
+        "Es una enfermedad cuyo índice de curación es  muy elevado cuando el tratamiento se realiza  correctamente."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "La opción falsa sobre la tuberculosis es la afirmación número dos: \"El diagnóstico microbiológico definitivo se basa en el aislamiento e identificación del bacilo tuberculoso\". La tuberculosis no se puede diagnosticar mediante el aislamiento y la identificación del bacilo. En su lugar, es posible identificar al bacterium Mycobacterium tuberculosis mediante pruebas de laboratorio que miden su contenido de mycolates y otros marcadores moleculares. Además, la detección in vitro no proporciona una indicación clara sobre si el individuo será contagiosa o no, ya que los pacientes con TB infecciosa pueden ser sensibles al examen microbiológico sin presentar síntomas clínicos. Por lo tanto, las pruebas de detección inmunológica como la prueba de tuberculina (PPD) y/o las pruebas basadas en el análisis del sistema inmunitario no solo son posibles sino también cruciales para identificar pacientes infectados por TB."
+    },
+    {
+      "numero": 159,
+      "enunciado": "¿Cuál de las siguientes afirmaciones sobre el  género Nocardia es FALSA?:",
+      "opciones": [
+        "Son bacilos Gram positivos y aerobios.",
+        "Son  bacilos  débilmente  ácido-alcohol  resistentes.",
+        "El hábitat natural (reservorio primario) es el  hombre.",
+        "El tratamiento de elección es el cotrimoxazol  (trimetoprim-sulfametoxazol)."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "La afirmación que es falsa sobre Nocardia es la segunda, \"Son bacilos débilmente ácido-alcohol resistentes\". En realidad, son muy ácido-alcohol resistentes y a menudo requieren tácticas de tratamiento como el uso de agentes ácidos para lograr una penetración efectiva en las células infectadas."
+    },
+    {
+      "numero": 160,
+      "enunciado": "¿Cuál de las siguientes afirmaciones respecto a  los micoplasmas es verdadera?:",
+      "opciones": [
+        "Son ácido-alcohol resistentes.",
+        "Carecen de pared celular.",
+        "Son bacterias de crecimiento rápido (menos  de 24 horas).",
+        "El tratamiento de elección son los antibióticos  beta-lactámicos.                FSE BIOLOGÍA 2020/21 - 14 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé. No estoy al tanto de la información específica sobre micoplasmas, así que no puedo determinar cuál de las afirmaciones es verdadera o falsa."
+    },
+    {
+      "numero": 161,
+      "enunciado": "En la enfermedad de Lyme es verdadero que:",
+      "opciones": [
+        "Está causada por Leptospira interrogans.",
+        "Es una infección de transmisión sexual.",
+        "Enfermedad que se localiza en Australia.",
+        "El diagnóstico microbiológico se basa en la  serología."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "En esta pregunta, estás siendo invitado a seleccionar una respuesta correcta acerca de la enfermedad de Lyme. La enfermedad de Lyme es causada por Borrelia burgdorferi, no Leptospira interrogans. Además, no es una infección sexual y no se encuentra solo en Australia (aunque puede ocurrir allí). Finalmente, el diagnóstico microbiológico se basa en la detección de anticuerpos específicos contra Borrelia burgdorferi en lugar de serología.\n\nPara responder a la pregunta:\n\n1. No lo sé (No es una respuesta correcta)\n2. No lo sé (No es una respuesta correcta)\n3. No lo sé (No es una respuesta correcta)\n4. En la enfermedad de Lyme, el diagnóstico microbiológico se basa en la detección de anticuerpos específicos contra Borrelia burgdorferi en lugar de serología (respuesta correcta)."
+    },
+    {
+      "numero": 162,
+      "enunciado": "Respecto a Treponema pallidum es FALSO que:",
+      "opciones": [
+        "Es una bacteria móvil, visible en microscopía  de campo oscuro.",
+        "No crece en los medios de cultivo artificiales.",
+        "En el ser humano causa la psitacosis u  ornitosis.",
+        "El tratamiento de elección es la penicilina."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "En primer lugar, debemos identificar que Treponema pallidum no es una bacteria móvil visible en microscopía de campo oscuro. Esta afirmación es FALSO (opción 1). También no crece en los medios de cultivo artificiales y es FALSO (opción 2) que en el ser humano causa la psitacosis o ornitosis, ya que realmente es el causante de la sífilis. Por lo tanto, las opciones 3 y 4 también son FALSOes por lo mismo.\n\nNo hay una opción correcta para esta pregunta porque todas las afirmaciones son incorrectas, lo cual significa que no se puede elegir ninguna de ellas como respuesta apropiada."
+    },
+    {
+      "numero": 163,
+      "enunciado": "Respecto al virus Toscana es FALSO que:",
+      "opciones": [
+        "Se trasmite por la picadura de un flebotomo  del género Phlebotomus spp.",
+        "Es un virus neurotrópico, que puede llegar a  ser un agente etiológico relevante de  meningitis vírica en algunas regiones de  España.",
+        "La  detección  por  PCR,  en  líquido  cefalorraquídeo, es el método de elección  para el diagnóstico de infección neurológica.",
+        "Raramente la serología tiene reacciones  cruzadas con otros flebovirus."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 2,
+      "deepseek_texto": "La respuesta correcta a esta pregunta es la opción 2. El virus Toscana, también conocido como Phlebotomus papatasii virus (PPTV), se trata de un virus neurotópico que puede ser un agente etiológico relevante de meningitis vírica en algunas regiones de España. Sin embargo, no es falso afirmar que se transmite por la picadura de un flebotomo del género Phlebotomus spp., ya que hay cierta controversia sobre el mecanismo de transmisión y no existen datos claros sobre la etiología en todo el territorio español. La detección PCR, en líquido cefalorraquídeo, es un método útil para su diagnóstico, pero también se ha utilizado la serología y otras técnicas no invasivas como pruebas complementarias. Por último, aunque raramente la serología tiene reacciones cruzadas con otros flebovirus, esto no es falso en sí mismo, sino que indica la necesidad de una mayor investigación para determinar su sensibilidad y especificidad en el contexto del virus Toscana."
+    },
+    {
+      "numero": 164,
+      "enunciado": "Indique la asociación correcta entre familia y  virus ARN:",
+      "opciones": [
+        "Virus del sarampión – Paramixovirus.",
+        "Virus Ébola – Rabdovirus.",
+        "Virus Marburg – Reovirus.",
+        "Rotavirus – Filovirus."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "La asociación correcta entre familia y virus ARN es:\n\n1. Virus del sarampión - Paramixovirus."
+    },
+    {
+      "numero": 165,
+      "enunciado": "Respecto a los norovirus es cierto que:",
+      "opciones": [
+        "Se transmiten principalmente vía sanguínea.",
+        "Dos días después del período prodrómico  aparecen  unas  lesiones  típicas  en  las  membranas  mucosas  conocidas  como  manchas de Köplik.",
+        "No es posible la aplicación de la PCR para la  detección del genoma en muestras de heces.",
+        "Presentan  una  pequeña  cápside  cuya  morfología  permite  distinguirlos  por  microscopía electrónica."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 2,
+      "deepseek_texto": "2. Dos días después del período prodrómico aparecen unas lesiones típicas en las membranas mucosas conocidas como manchas de Köplik."
+    },
+    {
+      "numero": 166,
+      "enunciado": "Respecto al citomegalovirus humano es cierto  que:",
+      "opciones": [
+        "Las fuentes de infección en el recién nacido  son la transmisión transplacentaria, infección  intrauterina y secreciones cervicales.",
+        "Pertenece a la subfamilia Alphaherpesvirinae.",
+        "La enfermedad recurrente no es fuente de  contagio.",
+        "La  infección  sintomática  se  produce  principalmente en inmunocompetentes."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "1 y 4 son correctas. El citomegalovirus humano (CMV) puede transmitirse a través de fuentes como la transmisión transplacentaria, infección intrauterina o secreciones cervicales en el recién nacido. Además, CMV afecta principalmente inmunocompetentes. La enfermedad recurrente no es una fuente de contagio del CMV."
+    },
+    {
+      "numero": 167,
+      "enunciado": "¿Cuál de los siguientes es un marcador de  infección aguda por virus de Epstein-Barr?:",
+      "opciones": [
+        "Antígeno RPR (reagina plasmática rápida).",
+        "Anticuerpos anti-nucleares (anti-EBNA).",
+        "Antígeno Australia.",
+        "Anticuerpos heterófilos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé."
+    },
+    {
+      "numero": 168,
+      "enunciado": "La panencefalitis esclerosante subaguda es una  complicación tardía de la infección producida  por:",
+      "opciones": [
+        "Gripe.",
+        "Sarampión.",
+        "Rubeola.",
+        "Citomegalovirus."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "La panencefalitis esclerosante subaguda (PEO) es una complicación tardía de la infección producida por el virus del citomegalovirus (CMV). CMV es un vírus que infecta a las personas de todas las edades, aunque es más común en niños y ancianos. La enfermedad no se transmite fácilmente de una persona a otra, sino que generalmente se produce por contacto con suero o sangre infectada.\n\nLa PEO es un síndrome neurológico crónico y leve que afecta principalmente a personas inmunocomprometidas y a niños recién nacidos. La enfermedad lleva a una inflamación en el sistema nervioso central, que puede llevar a la formación de células infecciosas llamadas gliomas y astrocitoma. Estos gliomas pueden causar daños críticos en el cerebro si no se tratan adecuadamente.\n\nEn términos médicos, es importante destacar que la panencefalitis esclerosante subaguda (PEO) y la enfermedad de Harper (también conocida como infección por citomegalovirus en niños inmunocompetentes) son diferentes pero relacionadas patologías. La PEO se asocia a infecciones graves y, a menudo, es fatal si no se trata adecuadamente, mientras que la enfermedad de Harper suele ser una enfermedad más benigna en pacientes inmunocompetentes.\n\nEn conclusión, el virus del citomegalovirus (CMV) es la causante principal de la panencefalitis esclerosante subaguda."
+    },
+    {
+      "numero": 169,
+      "enunciado": "¿Cuál de los siguientes virus es un agente  defectivo que necesita de otro virus para su  replicación?:",
+      "opciones": [
+        "Virus de la hepatitis A.",
+        "Virus de la hepatitis B.",
+        "Virus de la hepatitis C.",
+        "Virus de la hepatitis D."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "El virus Hepatitis D (Hepadnavirus) es un agente defectivo que necesita de otro virus para su replicación, precisamente el virus Hepatitis B (HBV). El HBV se reproduce dentro del hepatocito y produce una respuesta innata e inmunológica contra la infección por el virus D."
+    },
+    {
+      "numero": 170,
+      "enunciado": "Dentro de los grupos en los que se divide el  virus de la inmunodeficiencia humana tipo 1  (VIH-1), el que produce la mayor parte de las  infecciones y principal responsable de la  pandemia es:",
+      "opciones": [
+        "VIH-1 Grupo M.",
+        "VIH-1 Grupo N.",
+        "VIH-1 Grupo P.",
+        "VIH-1 Grupo O."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "1. VIH-1 Grupo M."
+    },
+    {
+      "numero": 171,
+      "enunciado": "En un individuo infectado por el virus de la  inmunodeficiencia humana tipo 1 (VIH-1), ¿Cuál es el primer marcador detectable en  sangre?:",
+      "opciones": [
+        "Anticuerpos de la clase IgM.",
+        "Anticuerpos de la clase IgG.",
+        "Antígeno p2",
+        "4. ARN vírico."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 2,
+      "deepseek_texto": "La respuesta a esta pregunta es el选项 2, \"Anticuerpos de la clase IgG\". Los anticuerpos de la clase IgM son una respuesta inmediata y específica del sistema inmunitario al virus y no se ven en sangre hasta varios meses después del contagio. En cambio, los anticuerpos de la clase IgG son producidos más tarde, a lo largo de muchos meses o incluso años, después del contagio. Además, el antígeno p2 no es un marcador fácilmente detectable en sangre y el ARN vírico no se produce en sangre hasta varios meses después del inicio del contagio."
+    },
+    {
+      "numero": 172,
+      "enunciado": "En la evolución de la infección por el virus de la  inmunodeficiencia humana tipo 1 (VIH-1), ¿cuál es el nivel de linfocitos T CD4+ en sangre que  marca  la  aparición  de  la  inmunodeficiencia?:",
+      "opciones": [
+        "200 CD4+/µL.",
+        "350 CD4+/ µL.",
+        "500 CD4+/ µL.",
+        "1000 CD4+/ µL.                FSE BIOLOGÍA 2020/21 - 15 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé. La respuesta depende de la fase en la que se encuentre el paciente con inmunodeficiencia HIV, ya que hay varias etapas clínicas desde la infección inicial hasta la aparición completa del SIDA (sida=infección por virus de la inmunodeficiencia humana tipo 1). Por lo tanto, no se puede determinar con certeza el valor adecuado para marcar la aparición de la inmunodeficiencia sin más información sobre la enfermedad en particular del paciente."
+    },
+    {
+      "numero": 173,
+      "enunciado": "¿Qué patógeno sospecharía en un paciente que  presenta un cuadro de disentería con sangre y  moco, y fiebre alta a la vuelta de su viaje a  India?:",
+      "opciones": [
+        "Entamoeba coli.",
+        "Entamoeba hartmanni.",
+        "Entamoeba histolytica.",
+        "Entamoeba dispar."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé"
+    },
+    {
+      "numero": 174,
+      "enunciado": "¿Cuál es el único protozoo ciliado patógeno  para el humano?:",
+      "opciones": [
+        "Balantidium coli.",
+        "Chilomastix mesnili.",
+        "Enteromonas hominis.",
+        "Trichomonas hominis."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 4,
+      "deepseek_texto": "La respuesta correcta es: 4. Trichomonas hominis."
+    },
+    {
+      "numero": 175,
+      "enunciado": "¿Cuál de las siguientes NO es una vía de  trasmisión de la tripanosomiasis americana o  enfermedad de Chagas?:",
+      "opciones": [
+        "Congénita.",
+        "Oral.",
+        "Por aerosoles.",
+        "Vectorial."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "La Tripanosomiasis Americana, también conocida como enfermedad de Chagas, no es una vía vectorial. La transmisión de la tripanosomiasis americana ocurre a través de los insectos transmisores competentes (ITCs), principalmente las especies del género Triatoma y reducida contribición por otras especies, como Haemeba.\n\n1. Congénita: Es una forma en que la enfermedad puede presentarse sin intervención de los insectos. Se debe a transmisión vertical o fetal-materno.\n2. Oral: No es una vía de trasmisión de la tripanosomiasis americana. La ingestión oral no es un modo de contagio para esta enfermedad.\n3. Por aerosoles: No es una vía de trasmisión de la Tripanosomiasis Americana o Enfermedad de Chagas, ya que los insectos competentes no transmiten a través del aire.\n4. Vectorial: Es la forma correcta de transmisión de la tripanosomiasis americana. Los ITCs son los vectores responsables de la propagación de la enfermedad entre humanos y animales, y también son los que transmiten la Tripanosoma sanguínea a los hostes (humano) dando lugar al síntoma clásico del hongo en las hembras de Triatominae."
+    },
+    {
+      "numero": 176,
+      "enunciado": "¿En qué muestras NO se suelen encontrar  huevos o larvas de Ascaris?:",
+      "opciones": [
+        "Esputo.",
+        "Aspirado gástrico.",
+        "Orina.",
+        "Heces."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 3,
+      "deepseek_texto": "Respuesta: 3 - Orina."
+    },
+    {
+      "numero": 177,
+      "enunciado": "La onda T del electrocardiograma corresponde  a:",
+      "opciones": [
+        "La despolarización de las aurículas.",
+        "La despolarización de los ventrículos.",
+        "La repolarización de las aurículas.",
+        "La repolarización de los ventrículos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "La onda T del electrocardiograma corresponde a la repolarización de los ventrículos."
+    },
+    {
+      "numero": 178,
+      "enunciado": "El término haustras o “batido haustral” se  refiere a:",
+      "opciones": [
+        "Una patología asociada con la pérdida de  grasas en heces.",
+        "Un reflejo gastroileal que intensifica el  peristaltismo en el íleon.",
+        "El grado de contracción del esfínter o válvula  ileocecal.",
+        "Contracciones de segmentación del intestino  grueso."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé"
+    },
+    {
+      "numero": 179,
+      "enunciado": "El órgano tendinoso de Golgi está diseñado  para informar de:",
+      "opciones": [
+        "El tamaño del músculo en cada momento.",
+        "El ángulo que forman los huesos.",
+        "La velocidad de los cambios de posición del  cuerpo.",
+        "La tensión que genera un músculo al  contraerse."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "El órgano tendinoso de Golgi está diseñado para informar sobre la tensión que genera un músculo al contraerse."
+    },
+    {
+      "numero": 180,
+      "enunciado": "Respecto a la electroporación de bacterias para  su uso en clonación génica:",
+      "opciones": [
+        "Requiere el uso de una corriente eléctrica para  crear poros transitorios en la pared bacteriana  que se cierran al cortar la corriente, atrapando  el plásmido de ADN en el interior.",
+        "Con  la  electroporación  se  consiguen  eficiencias inferiores a las conseguidas por  transformación química.",
+        "Se realiza a 42ºC, para disminuir el daño  potencial al ADN.",
+        "Es un método más eficiente y barato que la  transformación química."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "No lo sé"
+    },
+    {
+      "numero": 181,
+      "enunciado": "¿Qué proteína forma parte del complejo TCR?:",
+      "opciones": [
+        "CD3.",
+        "CD19.",
+        "CD",
+        "4. CD8."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 2,
+      "deepseek_texto": "La respuesta a esta pregunta es 'CD8'. El complejo TCR (Complejo de Receptor del Tirosin) es una estructura formada por el receptor del tirosina (TCR), que reconoce la molécula huésped específica, y otras proteínas, como CD3 e íonses ZAP-70. El CD8 es un receptor altamente especializado en células T, llamadas también ascitas o limfocitos C (C=citos). Estas células son una parte importante del sistema inmune, ya que su función principal consiste en combatir el efecto patente de virus y otras células infectadas.\n\nEl CD8 es un receptor transmembranal, lo que significa que se encuentra ubicado en la superficie de las células T y está compuesto por varios dominios de moléculas de unión a membrana, los cuales forman parte del complejo de reconocimiento del huésped (MHC). El MHC es una proteína que se encuentra en la superficie de las células infectadas y presenta una fragmentos moleculares de ácidos grasmas presentes en el genoma viral, permitiendo a la célula T identificar al virus y iniciar la respuesta inmune.\n\nEl complejo TCR es crucial para la activación de células T, ya que reconoce específicamente moléculas huésped presentadas en el MHC por las células infectadas. Cuando se produce una unión adecuada entre el CD8 y el MHC, este desencadena una serie de eventos celulares, incluyendo la producción de citoquinas interleucina-2 (IL-2), la proliferación de células T e inmunidad activa.\n\nEn resumen, el complejo TCR está formado por el receptor del tirosin (TCR), CD3 y íonses ZAP-70, y es necesario para la activación de las células T en respuesta a moléculas huésped presentadas en MHC. En particular, el CD8 forma parte importante del complejo TCR, ya que se encuentra ubicado en la superficie de las células T y reconoce específicamente moléculas huésped presentadas por las células infectadas."
+    },
+    {
+      "numero": 182,
+      "enunciado": "La variable edad es recogida en un cuestionario  de la siguiente manera: <20, [20-50], >50. ¿Qué  tipo de variable es?:",
+      "opciones": [
+        "Cuantitativa discreta.",
+        "Cuantitativa continua.",
+        "Cualitativa ordinal.",
+        "Cualitativa politómica nominal."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 2,
+      "deepseek_texto": "La respuesta a esta pregunta es:\n\n2. Cuantitativa continua."
+    },
+    {
+      "numero": 183,
+      "enunciado": "Un transposón es:",
+      "opciones": [
+        "Un fragmento proteico.",
+        "Un fragmento de ADN móvil.",
+        "Una enzima muy específica del metabolismo  proteico.",
+        "Una chaperona."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "Transposones son un tipo especial de ADN conocido como \"ADN móvil\". No son un fragmento proteico, una enzima del metabolismo proteico, ni una chaperona. Es la opción correcta en este caso."
+    },
+    {
+      "numero": 184,
+      "enunciado": "La frase que NO es correcta es:",
+      "opciones": [
+        "El dogma central de la biología molecular, tal  y como fue postulado en principio por Crick,  propone que solo el ADN es transcrito en  ARN, y que solo el ARN es traducido a  proteína.",
+        "El dogma central de la biología molecular ha  sido sobrepasado por la realidad, tal y como  conocemos ahora: por ejemplo, hay virus que  pueden sintetizar ADN a partir de ARN.",
+        "La replicación del ADN, en eucariotas, se  produce durante la metafase, antes de que se  compacten los cromosomas.",
+        "La duplicación del ADN es semiconservativa."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": 1,
+      "deepseek_texto": "La opción correcta es:\n\n1. El dogma central de la biología molecular, tal y como fue postulado en principio por Crick, propone que solo el ARN es transcrito en ADN, y que solo el ARN es traducido a proteína."
+    },
+    {
+      "numero": 185,
+      "enunciado": "Señale la asociación INCORRECTA:",
+      "opciones": [
+        "Escarlatina-Streptococcus pyogenes.",
+        "Sepsis neonatal-Streptococcus agalactiae.",
+        "Síndrome del shock tóxico- Enterococcus  faecalis.",
+        "Endocarditis- Enterococcus spp.      FSE BIOLOGÍA 2020/21 FSE BIOLOGÍA 2020/21 FSE BIOLOGÍA 2020/21"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek": null,
+      "deepseek_texto": "La asociación INCORRECTA es la tercera opción: Síndrome del shock tóxico- Enterococcus faecalis. El enterococosis no está directamente relacionada con el síndrome del shock tóxico, que se asocia más bien con Streptococcus pneumoniae o Streptococcus viridians."
+    }
+  ]
+}

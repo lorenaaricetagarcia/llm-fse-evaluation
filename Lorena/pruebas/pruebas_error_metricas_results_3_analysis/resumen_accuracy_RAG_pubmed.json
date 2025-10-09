@@ -1,0 +1,44 @@
+{
+  "por_titulacion": {
+    "MEDICINA": {
+      "llama3": {
+        "aciertos": 485,
+        "errores": 538,
+        "sin_respuesta": 2,
+        "total": 1025
+      },
+      "mistral": {
+        "aciertos": 0,
+        "errores": 0,
+        "sin_respuesta": 0,
+        "total": 0
+      },
+      "gemma": {
+        "aciertos": 0,
+        "errores": 0,
+        "sin_respuesta": 0,
+        "total": 0
+      }
+    }
+  },
+  "global": {
+    "llama3": {
+      "aciertos": 485,
+      "errores": 538,
+      "sin_respuesta": 2,
+      "total": 1025
+    },
+    "mistral": {
+      "aciertos": 0,
+      "errores": 0,
+      "sin_respuesta": 0,
+      "total": 0
+    },
+    "gemma": {
+      "aciertos": 0,
+      "errores": 0,
+      "sin_respuesta": 0,
+      "total": 0
+    }
+  }
+}

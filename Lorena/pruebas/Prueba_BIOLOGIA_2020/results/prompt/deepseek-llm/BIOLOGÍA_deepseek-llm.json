@@ -1,0 +1,3149 @@
+{
+  "preguntas": [
+    {
+      "numero": 1,
+      "enunciado": "La velocidad de conducción de un potencial de  acción será mayor:",
+      "opciones": [
+        "Cuanto mayor sea el diámetro del axón.",
+        "En los axones sin mielina.",
+        "Cuanto mayor sea la longitud del axón.",
+        "Cuanto menor sea el diámetro del axón."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is 1. As the diameter of an axon increases, its conduction velocity decreases due to the increased resistance offered by the myelin sheath that surrounds it (the greater the diameter, the less efficient the sliding potential becomes)."
+    },
+    {
+      "numero": 2,
+      "enunciado": "Las sinapsis eléctricas se caracterizan por:",
+      "opciones": [
+        "Mostrar un retraso sináptico mayor que en las  sinapsis químicas.",
+        "Utilizar un neurotransmisor para transmitir la  información.",
+        "Utilizar  canales  para  transmitir  la  información.",
+        "Transmitir  la  información  de  manera  unidireccional."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. Sinapsis eléctricas (electrical synapses) are characterized by showing a larger electrical delay than chemical synapses, which means they transmit information with greater latency. This difference in speed can be attributed to the time it takes for ions to flow through specific channels and release or receive neurotransmitters at an electrical synapse."
+    },
+    {
+      "numero": 3,
+      "enunciado": "Los sistemas sensoriales codifican la intensidad  de los estímulos en función de:",
+      "opciones": [
+        "El tamaño de los potenciales de acción.",
+        "La frecuencia de los potenciales de acción.",
+        "La velocidad de transmisión del potencial de  acción.",
+        "La duración del potencial de acción."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. The systems sensory code the intensity of stimuli in terms of the size of the action potentials, which are electrical signals that result from the opening and closing of ion channels in neurons. The larger the action potential, the greater the strength of the stimulus."
+    },
+    {
+      "numero": 4,
+      "enunciado": "En las neuronas receptoras del olfato, las  proteínas receptoras de odorantes se localizan  en:",
+      "opciones": [
+        "El soma neuronal.",
+        "Los cilios.",
+        "El axón.",
+        "La terminal sináptica."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. The olfactory receptors, which are the proteins responsible for detecting odorants, are localized within the olfactory sensory neurons (OSNs), where they receive and transmit signals from the sense of smell to the brain. These OSN have a simple morphology with short axons that branch extensively in the olfactory epithelium, giving rise to many dendrites that extend into the olfactory mucosa to detect odorants. The olfactory sensory neurons lack a nucleus within the central nervous system and terminate directly at the glomeruli of the olfactory bulb where they synapse with mitral cells or granule cells forming the olfactory nerve (cranial nerve I). Therefore, the correct answer is that the proteins receptoras de odorantes se localizan en el soma neuronal."
+    },
+    {
+      "numero": 5,
+      "enunciado": "Se llama unidad motora:",
+      "opciones": [
+        "Al conjunto de una motoneurona alfa y todas  las células musculares que inerva.",
+        "A un nervio y todos los músculos que inerva.",
+        "Al conjunto de músculos que mueven una  articulación.",
+        "Al conjunto de husos musculares que  contiene un músculo."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. A motor unit is the term used to describe a single motoneuron and all of the skeletal muscle fibres that it controls."
+    },
+    {
+      "numero": 6,
+      "enunciado": "Si el mecanismo de acción de una hormona se  produce a través de la activación de la  fosfolipasa C:",
+      "opciones": [
+        "El segundo mensajero implicado es el AMPc.",
+        "Se activa primero un receptor intracelular.",
+        "Se activa la adenilato ciclasa.",
+        "Se induce liberación de Ca2+ de los depósitos  intracelulares."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1.\n\nLa hormona accede a su destino celular a través del transporte en proteínas de la familia de las GDP-fructosa transferasa (G-protein coupled receptors, GPCR) que son activados por los fármacos y por la luz solar. En el caso de las hormonas, se activa un segundo mensajero intracelular denominado adenilato ciclasa que aumenta la producción de AMPc (adenilato monofosfato) a partir del ATP."
+    },
+    {
+      "numero": 7,
+      "enunciado": "¿Cuál de las siguientes hormonas se sintetiza en  la hipófisis?:",
+      "opciones": [
+        "Prolactina.",
+        "Hormona antidiurética.",
+        "Oxitocina.",
+        "Hormona liberadora de tirotropina."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 4,
+      "deepseek-llm_texto": "La correcta respuesta es la opción 4, \"Hormona liberadora de tirotropina\". La hormona liberadora de tirotropina (TRH) se sintetiza en la hipófisis y estimula la producción del tiroxino, que controla el nivel de otras hormonas y minerales en sangre."
+    },
+    {
+      "numero": 8,
+      "enunciado": "La hormona del crecimiento:",
+      "opciones": [
+        "Estimula la síntesis de proteínas.",
+        "Es un péptido de 10 aminoácidos.",
+        "Los productos de su degradación se llaman  somatomedinas.",
+        "Es hipoglucemiante."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2. The growth hormone (GH) is a polypeptide composed of 191 amino acids, synthesized and secreted by the anterior pituitary gland. Its main function is to regulate cellular processes that are crucial for growth and development, such as protein synthesis, glucose homeostasis, and fat and carbohydrate metabolism. The breakdown products of GH (somatomedins) also play a role in anabolic processes within the body."
+    },
+    {
+      "numero": 9,
+      "enunciado": "¿Cuál de los siguientes factores disminuye la  secreción de insulina?:",
+      "opciones": [
+        "Glucagón.",
+        "Sulfonilureas.",
+        "Somatostatina.",
+        "Obesidad."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 4,
+      "deepseek-llm_texto": "The correct answer is number 4.\n\nObesity, or excess body fat, can cause decreased insulin sensitivity and reduced secretion of insulin by the pancreas. This occurs because adipose tissue releases hormones that interfere with insulin's ability to effectively lower blood sugar levels in the body, leading to insulin resistance. Insulin resistance is a hallmark of type 2 diabetes, which affects over 400 million people worldwide."
+    },
+    {
+      "numero": 10,
+      "enunciado": "La secreción de hormonas tiroideas:",
+      "opciones": [
+        "Está controlada por el eje hipotálamo- hipofisario-adrenal.",
+        "Se inhibe por la hormona estimulante del  tiroides.",
+        "Se inhibe por las hormonas tiroideas.",
+        "No depende del control por retroalimentación."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. The secretion of thyroid hormones is regulated by the hypothalamo-pituitary-adrenal (HPA) axis, not by thyroid stimulating hormone or negative feedback from thyroxine and triiodothyronine on the anterior pituitary gland."
+    },
+    {
+      "numero": 11,
+      "enunciado": "Durante la fase de despolarización del potencial de acción cardiaco ventricular se abren los  canales de:",
+      "opciones": [
+        "Ca2+.",
+        "Na+.",
+        "Na+ y K+.",
+        "K+."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. During the phase of cardiac ventricular depolarization, calcium ions (Ca2+) are responsible for opening the voltage-gated calcium channels in the cell membrane. This allows the heart muscle to contract properly and pump blood throughout the body."
+    },
+    {
+      "numero": 12,
+      "enunciado": "¿Qué le ocurre a la presión intraventricular  izquierda durante la fase de contracción  isovolumétrica?:",
+      "opciones": [
+        "Aumenta.",
+        "No varía.",
+        "Disminuye.",
+        "Baja y después sube."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "La respuesta correcta es número 2. \"No varía\". Durante la fase de contracción isovolumétrica, el cerebro se mantiene en un volumen constante, lo que significa que no hay cambios internos en la presión intraventricular izquierda o en otros sistemas biológicos importantes."
+    },
+    {
+      "numero": 13,
+      "enunciado": "La diferencia entre el volumen telediastólico y  el volumen telesistólico se denomina:",
+      "opciones": [
+        "Volumen diastólico.",
+        "Volumen sistólico.",
+        "Volumen auricular.",
+        "Volumen residual."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 4,
+      "deepseek-llm_texto": "The correct answer is number 4. The difference between the systolic and diastolic volumes in a blood vessel is called \"volumen residual\" (residual volume). This term refers to the amount of blood that remains within the vessel after maximum contraction, but before the next heartbeat."
+    },
+    {
+      "numero": 14,
+      "enunciado": "El flujo sanguíneo en la arteria coronaria  izquierda es más alto:",
+      "opciones": [
+        "Al inicio de la sístole.",
+        "Al inicio de la diástole.",
+        "Al final de la sístole.",
+        "Al final de la diástole.              FSE BIOLOGÍA 2020/21 - 2 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1.\n\nDuring the systolic phase of the heartbeat, the ventricles contract and forcefully pump blood out through the aorta and into the arterial circulation. The left coronary artery, which supplies oxygenated blood to the heart muscle, also contracts during this time, increasing blood flow to the heart muscles (1). Therefore, the flujo sanguíneo en la arteria coronaria izquierda (the blood flow in the left coronary artery) is higher at the beginning of the systole compared to other options such as the start of diastole."
+    },
+    {
+      "numero": 15,
+      "enunciado": "¿Qué modificaciones vasculares se esperarían  cuando un sujeto se levanta desde una posición  de decúbito supino?:",
+      "opciones": [
+        "Aumento de la presión arterial media.",
+        "Hipotensión ortostática.",
+        "Síncope vasovagal.",
+        "Descenso de la presión venosa en las piernas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. Aumento de la presión arterial media. When a person stands up from supine position, the blood flow to the lower body decreases due to pooling in the legs, and there's a sudden decrease in venous pressure. This can lead to vasovagal reflex that causes temporary hypotension (low blood pressure) followed by an increase in arterial pressure as the heart tries to compensate for decreased circulation."
+    },
+    {
+      "numero": 16,
+      "enunciado": "Las células de Leydig:",
+      "opciones": [
+        "Sintetizan testosterona a partir de colesterol.",
+        "Establecen la barrera hemato-testicular.",
+        "Sintetizan estradiol a partir de testosterona.",
+        "Son la diana principal de la FSH."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1.\n\nLas células de Leydig son una clase de células sexuales en los testículos humanos y pueden sintetizar testosterona a partir de colesterol, pero no están relacionadas con la barrera hemato-testicular ni son la diana principal de la FSH. En cambio, su función es producir y liberar hormonas sexuales masculinas en el organismo humano."
+    },
+    {
+      "numero": 17,
+      "enunciado": "La progesterona estimula:",
+      "opciones": [
+        "Proliferación endometrial.",
+        "Contracción del miometrio.",
+        "Secreción de las glándulas endometriales.",
+        "Secreción de LH."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is 1."
+    },
+    {
+      "numero": 18,
+      "enunciado": "Reduce la probabilidad de poliespermia la:",
+      "opciones": [
+        "Reacción acrosómica.",
+        "Exocitosis de los gránulos corticales del  óvulo.",
+        "Adhesión del espermatozoide a la zona  pelúcida.",
+        "Reducción del Ca2+ intracelular en el óvulo."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. Reacción acrosómica.\n\nA cross-talk, or acrosome reaction, occurs when sperm fuses with the egg through a series of chemical and physical events that open its membrane and release its genetic material into the egg for fertilization to occur. This process reduces the likelihood of polyspermy (multiple pregnancies) by allowing only one sperm from entering and fertilizing the egg."
+    },
+    {
+      "numero": 19,
+      "enunciado": "La trombina:",
+      "opciones": [
+        "Inhibe la activación plaquetaria.",
+        "Convierte fibrinógeno en fibrina.",
+        "Inhibe la activación de protrombina.",
+        "Inhibe la activación de la proteína C."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. La trombina, también conocida como factor Xa o FX, inhibe la activación plaquetaria. En un contexto más amplio, la trombina juega un papel fundamental en el sistema de coagulación, un proceso que involucra a varios factores y proteínas para convertir fibrina desde fibrinógeno, lo que finalmente resulta en la formación de pequeñas agregados plateletarios o trombos."
+    },
+    {
+      "numero": 20,
+      "enunciado": "El valor del hematocrito:",
+      "opciones": [
+        "Disminuye por efecto de la eritropoyetina.",
+        "Aumenta en la mujer embarazada.",
+        "Indica la concentración de leucocitos en  sangre.",
+        "Aumenta durante la aclimatación a la altura."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. The hematocrit, or the percentage of red blood cells in the blood, decreases due to the effect of erythropoietin."
+    },
+    {
+      "numero": 21,
+      "enunciado": "Del sistema nervioso entérico podemos afirmar  que:",
+      "opciones": [
+        "La estimulación parasimpática disminuye su  actividad.",
+        "El plexo mientérico controla las secreciones  del tubo digestivo.",
+        "El plexo mientérico se encuentra entre las  capas musculares lisas longitudinal y circular.",
+        "El plexo submucoso controla los movimientos  gastrointestinales."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2.\n\nExplanation: The enteric nervous system, also known as the enteric nervous system or ENS, is a decentralized neural network that controls the gastrointestinal tract (GIT). This complex system has its own brain, which regulates and coordinates all of the functions necessary for digestion and absorption of nutrients within the gut.\n\nThe plexus méntico-periférico (MPP) consists mainly of the enteric nervous system (ENS), a highly organized network of nerves that innervate the gastrointestinal tract in three main ways: afferent, efferent, and intermediate fibers. The MPP is responsible for controlling the secretory activity of the GIT, including the regulation of salivatory, gastric, pancreatic, and intestinal secretions.\n\nThe plexus submucoso-submural (SMS) plays a role in regulating gastrointestinal motility, but its primary function is not related to secretion control. The parasympathetic nervous system (PNS), on the other hand, stimulates the ENS through the release of acetylcholine at cholinergic receptors within enterocytes and enteroendocrine cells. Consequently, this leads to a decrease in gastrointestinal secretions and an increase in gastrointestinal motility.\n\nTherefore, option 2 is correct: \"The méntico-periférico plexus controls the secreciones del tubo digestivo.\""
+    },
+    {
+      "numero": 22,
+      "enunciado": "Sobre la secretina, es correcto que:",
+      "opciones": [
+        "El estímulo para su liberación es la presencia  de ácidos grasos y algunos aminoácidos en el  intestino delgado.",
+        "Estimula la evacuación gástrica y secreción  de ácido.",
+        "Estimula la secreción de enzimas pancreáticas  y la contracción de la vesícula biliar.",
+        "Estimula la secreción de bicarbonato y fluidos  por los conductos pancreáticos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 3,
+      "deepseek-llm_texto": "The correct answer is number 3."
+    },
+    {
+      "numero": 23,
+      "enunciado": "Respecto a la secreción biliar, es correcto que:",
+      "opciones": [
+        "Se produce en la vesícula biliar y se almacena  en el hígado.",
+        "Los pigmentos biliares, principalmente la  bilirrubina, son responsables de la emulsión  de grasas.",
+        "Se concentra en la vesícula biliar por  reabsorción de agua e iones.",
+        "Las sales biliares son indispensables para la  digestión enzimática y absorción de proteínas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "La respuesta correcta es el número 2. La secreción biliar se produce en las células de Bayer, ubicadas en la vesícula biliar, y posteriormente entra en el duodeno. Los pigmentos biliares, como la bilirrubina, son responsables de formar emulsiones de grasas en la bilis y facilitar su digestión. La secreción biliar no se concentra en la vesícula biliar por reabsorción de agua o iones, sino que es liberada directamente a la orificia pancreática durante el proceso de emulsificación. Finalmente, las sales biliares, como los ácidos biliars y las bases pancreas, son importantes para la digestión enzimática y la absorción de nutrientes."
+    },
+    {
+      "numero": 24,
+      "enunciado": "Para la absorción de grasas, el enterocito  reesterifica los componentes lipídicos y los  ensambla en:",
+      "opciones": [
+        "Triglicéridos.",
+        "Quilomicrones.",
+        "HDL.",
+        "LDL."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1.\n\nThe enterocyte (a type of intestinal cell) reesterifies the lipids, which are then incorporated into triglycerides through a process called esterification. Triglycerides are a type of lipid that serves as an energy storage form for the body and can be further broken down by other cells to release stored energy. Enzymes in the intestine convert free fatty acids back into triglycerides, which are then transported through the bloodstream to various locations throughout the body where they may be used or stored."
+    },
+    {
+      "numero": 25,
+      "enunciado": "Sobre la ultrafiltración de una sustancia en el  glomérulo renal es cierto que:",
+      "opciones": [
+        "Es independiente de su carga eléctrica.",
+        "Es independiente de su masa molecular.",
+        "Depende de su masa molecular y de su carga  eléctrica.",
+        "Depende de la circulación en la vasa recta."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. The ultrafiltration of a substance in the glomerulus kidney depends on its solute concentration and osmotic pressure, not its charge or mass."
+    },
+    {
+      "numero": 26,
+      "enunciado": "El valor del aclaramiento de creatinina es un  índice adecuado para estimar la tasa de:",
+      "opciones": [
+        "Secreción tubular.",
+        "Filtración glomerular.",
+        "Reabsorción en túbulo proximal.",
+        "Reabsorción en el tubo colector."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2."
+    },
+    {
+      "numero": 27,
+      "enunciado": "Sobre la glucosa a nivel renal, es correcto que:",
+      "opciones": [
+        "Se reabsorbe exclusivamente en el túbulo  distal.",
+        "El glomérulo establece el límite de filtración  dependiendo de la tensión arterial.",
+        "Tiene un límite de reabsorción definido por el  concepto  denominado  transporte  tubular  máximo.",
+        "Se filtra dependiendo de la concentración  plasmática de insulina.        FSE BIOLOGÍA 2020/21 - 3 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2.\n\nExplanation: In the kidney, glucose is reabsorbed in the proximal tubule and the distal tubule. The glomerulus does not set the limit of filtration based on blood pressure but rather a balance between filtration and resorption must be maintained. This means that when plasma osmolarity increases (due to increased circulating levels of insulin), more water will follow the glucose into the tubular fluid, leading to dilution of the urine. Therefore, there is no direct relationship between blood glucose concentrations and glomerular filtration rate. Instead, the limit of reabsorption depends on various factors such as transporter availability and the balance between uptake and efflux."
+    },
+    {
+      "numero": 28,
+      "enunciado": "Sobre los fenómenos de reabsorción que  ocurren en el asa de Henle es correcto que:",
+      "opciones": [
+        "Los vasa recta son los responsables del  mecanismo de concentración de la orina.",
+        "Se produce reabsorción de Na+ en la rama  ascendente y agua en la descendente.",
+        "Se produce reabsorción de Na+ en la rama  descendente y agua en la ascendente.",
+        "Se produce el 90% de la reabsorción renal de  K+."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2."
+    },
+    {
+      "numero": 29,
+      "enunciado": "Fisiológicamente, ¿cuándo aparecen valores  subatmosféricos en la presión intraalveolar?:",
+      "opciones": [
+        "Durante la inspiración.",
+        "Durante la espiración.",
+        "Durante una apnea.",
+        "Siempre."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is 1. During inspiration."
+    },
+    {
+      "numero": 30,
+      "enunciado": "¿Cómo se denomina al volumen de aire que  queda en los pulmones tras un esfuerzo  espiratorio máximo?:",
+      "opciones": [
+        "Volumen residual.",
+        "Volumen corriente.",
+        "Volumen de reserva espiratoria.",
+        "No queda aire en los pulmones tras una  espiración forzada."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1.\n\nAfter a maximum inhalation, there remains an air volume in the lungs called residual volume. This volume corresponds to the total amount of air that enters the lungs during exhalation and can be found slightly above the functional residual capacity (FRC)."
+    },
+    {
+      "numero": 31,
+      "enunciado": "¿Qué tipo de receptores median la respuesta  relajante del músculo liso bronquial?:",
+      "opciones": [
+        "Adrenérgicos alfa.",
+        "Muscarínicos.",
+        "Adrenérgicos beta.",
+        "Nicotínicos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "La respuesta es el número 1, los receptores adrenérgicos alfa. Los músculos lisos bronquiales se comportan como canales iónicos y son sensibles a la acción de varias moléculas químicas que actúan en ellos, entre ellas las hormonas liberadas por el sistema endocrino adrenal. Estos receptores alfa son los principales responsables del efecto relajante del músculo liso bronquial, ya que provocan la apertura de canales iónicos y una disminución en la permeabilidad a iones cationes tales como calcio y potasio."
+    },
+    {
+      "numero": 32,
+      "enunciado": "¿A las variaciones de qué compuesto responden  los quimiorreceptores del bulbo raquídeo en el  control de la ventilación?:",
+      "opciones": [
+        "Presión parcial de CO2 en el plasma  sanguíneo.",
+        "Presión parcial de CO2 en el líquido  cefalorraquídeo.",
+        "Concentración  de  H+  en  el  líquido  cefalorraquídeo.",
+        "Presión  parcial  de  O2 en  el  líquido  cefalorraquídeo."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 3,
+      "deepseek-llm_texto": "The correct answer is number 3."
+    },
+    {
+      "numero": 33,
+      "enunciado": "¿Con qué combinación de factores Yamanaka y  colaboradores consiguieron por primera vez la  reprogramación de células somáticas a células  madre pluripotentes inducidas iPSCs?:",
+      "opciones": [
+        "Oct4, Nanog, Bmp2 y Sox9.",
+        "Oct4, c-Myc, Klf4 y Sox2.",
+        "Nanog, Klf14, Fgf2 y Msx2.",
+        "Nanog, c-Myc, Fgf2 y Msx2."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. Yamanaka and colleagues first achieved the reprogramming of somatic cells into induced pluripotent stem cells (iPSCs) using Oct4, Nanog, Bmp2, and Sox9. This breakthrough was published in Nature magazine on November 8th, 2006."
+    },
+    {
+      "numero": 34,
+      "enunciado": "¿Cuál de los siguientes huesos se forman por  osificación intramembranosa?:",
+      "opciones": [
+        "El parietal.",
+        "Las vértebras cervicales.",
+        "El escafoides.",
+        "El peroné."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. The parietal bone forms through intramuscular ossification, a process where new bone grows between muscle fibers to support and protect them."
+    },
+    {
+      "numero": 35,
+      "enunciado": "El cristalino deriva de:",
+      "opciones": [
+        "La vesícula óptica.",
+        "El neuroectodermo.",
+        "El ectodermo de superficie.",
+        "El mesodermo cefálico."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2. The crystalline lens of the eye derives from the neuroectodermal tissue."
+    },
+    {
+      "numero": 36,
+      "enunciado": "En el núcleo interfásico, la cadena lineal de  nucleosomas (nucleofilamento) corresponde a la  fibra de cromatina de:",
+      "opciones": [
+        "10 nm.",
+        "30 nm.",
+        "165 nm.",
+        "300 nm."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2. The nuclear envelope in eukaryotic cells, such as those found in humans and animals, consists of a double membrane composed of phospholipid molecules that have hydrophilic heads pointing towards the cytoplasm (intranuclear space) and hydrophobic tails facing each other (extranuclear space). Proteins called lamins link together these two membranes to form a single structural unit.\n\nThe nuclear interfacial region, also known as the fibrous component of the nuclear envelope or fibrillar component, is a special zone that connects the inner and outer layers of the nuclear membrane using specific proteins including intermediate filaments (IFs). One such IF found here is lamin A/C - it contributes to an intricate network of protein fibers surrounding DNA molecules called chromatin, which are held together by interactions with histone proteins. These intermolecular networks allow for chromosome replication during cell division while also facilitating gene expression processes.\n\nIn the context of the question at hand, we're asked about this fibrous component and its dimensions. The 210-kilodalton intermediate filament protein known as lamin A/C forms a crucial part of these fibers within nuclear interfacial regions; hence it's responsible for connecting nucleosomal DNA with proteins such as histones in this region, which has been given the name \"fibre of chromatin.\"\n\nThe length of an interphase nucleus (nucleofilament) is generally about 30 nanometers. This value corresponds to an estimation based on measurements made using transmission electron microscopy and atomic force microscopy techniques. By comparing these values with available scientific data, we can see that option number 2 (\"fibre of chromatin\") aligns most accurately with the actual structure's dimensions as described by current research; hence it is considered correct for this question."
+    },
+    {
+      "numero": 37,
+      "enunciado": "La técnica enzimohistoquímica para localizar  lisosomas en la célula detecta la actividad  enzimática de la:",
+      "opciones": [
+        "Fosfatasa alcalina.",
+        "NADPH-diaforasa.",
+        "Peroxidasa.",
+        "Fosfatasa ácida."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 3,
+      "deepseek-llm_texto": "The correct answer is number 3.\n\nThis technique, known as enzymatic histochemical staining, detects the activity of enzymes that are responsible for a specific cellular process. In this case, it's used to localize lysosomes within the cell by specifically targeting the enzyme NADPH-diaphorase. This enzyme plays an important role in regulating the pH inside lysosomes and is therefore indicative of their presence. Other options (1, 2, and 4) are not typically involved in this specific staining method for lysosome localization."
+    },
+    {
+      "numero": 38,
+      "enunciado": "La célula utiliza “la inestabilidad dinámica” de  los microtúbulos en:",
+      "opciones": [
+        "El funcionamiento de los cilios y los flagelos.",
+        "La organización celular en la mitosis.",
+        "La fagocitosis.",
+        "La formación de las caveolas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. The microtubules play a role in the functioning of cilia and flagella, which are motile organelles that help with tasks such as moving sperm or filtering particles out of the surrounding environment for certain cell types. Microtubules provide the necessary stability to these structures during their motion."
+    },
+    {
+      "numero": 39,
+      "enunciado": "Las reacciones de detoxificación celular se  llevan a cabo en:",
+      "opciones": [
+        "Mitocondrias.",
+        "Retículo endoplasmático liso.",
+        "Lisosomas.",
+        "Aparato de Golgi."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2. Reacciones de detoxificación celular se llevan a cabo en el retículo endoplasmicollario liso (RE)."
+    },
+    {
+      "numero": 40,
+      "enunciado": "¿Cuál  de  los  siguientes  canales  y  transportadores es una ATP-asa?:",
+      "opciones": [
+        "Los transportadores de tipo ABC.",
+        "Las acuaporinas.",
+        "Los canales de Na+ voltaje-dependientes.",
+        "Los  co-transportadores  Na+-glucosa  de  células epiteliales que recubren el intestino."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "El correct answer es número 1, los transportadores de tipo ABC."
+    },
+    {
+      "numero": 41,
+      "enunciado": "El péptido señal es una secuencia peptídica que:",
+      "opciones": [
+        "Se une a un receptor de tipo ionotrópico.",
+        "Se une a los proteasomas.",
+        "Se encuentra en la zona pelúcida del óvulo.",
+        "Determina el destino de una proteína.  FSE BIOLOGÍA 2020/21 - 4 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 4,
+      "deepseek-llm_texto": "La respuesta correcta es 4, \"El péptido señal determina el destino de una proteína\". Un péptido señal es un pequeño polipeptidio que funciona como medio para transferir información genética a las células y determinar su destino final. Puede activar o desactivar la síntesis proteica, degradación, modificación química, translocación a través de membrana y otros efectos. Estos péptidos señales juegan un papel importante en diversas funciones celulares como el crecimiento, diferenciación, la sinergia entre células e incluso la homeostasis del organismo."
+    },
+    {
+      "numero": 42,
+      "enunciado": "Las dinaminas intervienen directamente en la:",
+      "opciones": [
+        "Fusión de vesículas con la membrana  plasmática.",
+        "Inserción del colesterol en la membrana  plasmática.",
+        "Translocación de proteínas mitocondriales.",
+        "Formación de vesículas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. Las dinaminas intervienen directamente en la fusión de vesículas con la membrana plasmática."
+    },
+    {
+      "numero": 43,
+      "enunciado": "Un homeodominio, así como un dominio básico  hélice-asa-hélice, es:",
+      "opciones": [
+        "Una parte estructural de las proteínas que les  permite acoplarse al ADN.",
+        "La parte central del cinetocoro.",
+        "La región codificante del ADN.",
+        "La región del ADN donde se unen los  factores  reguladores  de  transcripción  secundarios."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. Homeodomains and basic helix-loop-helix domains are both structural parts of proteins that enable them to bind to DNA. They serve as important regulatory elements in gene expression, allowing for the precise control of when and where a particular gene gets turned on or off."
+    },
+    {
+      "numero": 44,
+      "enunciado": "Para que una proteína se transporte a los  lisosomas debe:",
+      "opciones": [
+        "Fijarse en la membrana del RER.",
+        "Ir marcada con la glucosa-6-fosfato.",
+        "Tener un grupo ácido.",
+        "Ir marcada con una manosa-6-fosfato."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is 1. Fijarse en la membrana del RER.\n\nProteínas que necesitan ser transportadas a los lisosomas (reticulares endoplasmáticos recobertos) fijan su sitio de monómeros en la membrana del Receptor de Endocromatina (RER). Los lisosomas son compartimientos linfoides y se encargan de procesar y degradar residuos metabólicos no deseados, como el ARNiónico y las toxinas."
+    },
+    {
+      "numero": 45,
+      "enunciado": "El organizador nucleolar contiene secuencias de  ADN:",
+      "opciones": [
+        "Repetidas para ARNr.",
+        "De copia única para ARNr.",
+        "Repetidas para ARNt.",
+        "De copia única para ARNm."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2. El organizador nucleolar contiene secuencias de ADN de copia única para ARNr, que juegan un papel importante en la síntesis del ARN y la regulación de la expresión génica."
+    },
+    {
+      "numero": 46,
+      "enunciado": "¿Cuál de las  siguientes células  sintetiza  histamina y heparina?:",
+      "opciones": [
+        "Los eosinófilos.",
+        "Las células plasmáticas.",
+        "Los macrófagos.",
+        "Las células cebadas o mastocitos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 4,
+      "deepseek-llm_texto": "La respuesta correcta es 4. Las células cebadas o mastocitos. Estos son células resistentes y especializados que se encuentran en el sistema inmune, especialmente en la pared del hueso y los tejidos más superficiales. Los mastocitos sintetizan numerosos mediadores químicos como histamina, heparina y leucotrina (también conocida como serotonina)."
+    },
+    {
+      "numero": 47,
+      "enunciado": "¿Qué células presentan un borde festoneado con  bombas protónicas que acidifican el exterior  celular, destruyendo el tejido próximo a ellas?:",
+      "opciones": [
+        "Osteocitos.",
+        "Osteoclastos.",
+        "Osteoblastos.",
+        "Condroblastos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2.\n\nOsteoclastos are cells that present a festooned border with proton pumps, which acidify the external cellular environment and destroy nearby tissue. These cells play an essential role in bone remodeling by breaking down bone matrix, particularly during periods of inflammation or injury."
+    },
+    {
+      "numero": 48,
+      "enunciado": "Los somas de las neuronas:",
+      "opciones": [
+        "Contienen gránulos basófilos (grumos o  corpúsculos de Nissl).",
+        "Se localizan en la sustancia blanca del sistema  nervioso central.",
+        "Segregan la mielina.",
+        "Presentan un núcleo de pequeño tamaño y  heterocromático,  con  nucléolo  poco  desarrollado."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2. Somas (or somata) are the cell bodies of neurons and they are found in the gray matter of the central nervous system. They do not contain gránulos basófilos, mielina or heterocromático núcleo."
+    },
+    {
+      "numero": 49,
+      "enunciado": "Las hidrolasas ácidas son enzimas propias de:",
+      "opciones": [
+        "Mitocondria.",
+        "Retículo endoplásmico.",
+        "Lisosomas.",
+        "Núcleo."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is 2. Retículo endoplásmico."
+    },
+    {
+      "numero": 50,
+      "enunciado": "En el glomérulo renal, la membrana basal implicada en la filtración está constituida por células:",
+      "opciones": [
+        "Endoteliales y podocitos.",
+        "Mesangiales y endoteliales.",
+        "Endoteliales y de la cápsula de Bowman.",
+        "Del asa de Henle y tejido conectivo circundante."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": null,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. \nEndothelial cells and podocytes make up the filtration membrane in the glomerulus of the kidney."
+    },
+    {
+      "numero": 51,
+      "enunciado": "En la piel, la queratina se origina en el stratum granulosum epidérmico y es la combinación de:",
+      "opciones": [
+        "Filarina y mucoitrin-sulfatos.",
+        "Filamentos gruesos y condroitina.",
+        "Desmina y filamentos gruesos.",
+        "Tonofibrillas y granulos kerato-hialinos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. Filarina and mucoitrin-sulfatos, which are components of the stratum granulosum epidérmico, combine to form collagen in skin. The other options describe different elements found within or adjacent to the stratum granulosum but do not directly contribute to the formation of keratinocyte filamentous protein called queratin."
+    },
+    {
+      "numero": 52,
+      "enunciado": "En el acino del páncreas exocrino se acumulan gránulos de zimógeno cuyo contenido digestivo  es rico en:",
+      "opciones": [
+        "Endopeptidasas, entre otras enzimas.",
+        "Secretasas exclusivamente.",
+        "Exclusivamente tripsinógeno.",
+        "Fosfatasas alcalinas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. En el acino del páncreas exocrono se acumulan gránulos de zimógeno cuyo contenido digestivo es rico en endopeptidasas, entre otras enzimas."
+    },
+    {
+      "numero": 53,
+      "enunciado": "Es FALSO que los linfocitos:",
+      "opciones": [
+        "Th1 producen IL-",
+        "2. Th2 producen IL-4, IL-5 e IL-1",
+        "3. Th2 producen IFN gamma.",
+        "Th17 producen IL-17."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. Th1 produce IFN gamma. The other options are incorrect because:\nOption 2 refers to T2 (Th2), not Th1, which produces different cytokines such as IL-4, IL-5, and IL-13 rather than IL-4, IL-5 e IL-1. Option 3 is also referring to T2 (Th2) that produce IFN gamma, while option 4 refers to Th17 cells that secrete interleukin-17, not the cytokine IFN gamma."
+    },
+    {
+      "numero": 54,
+      "enunciado": "¿Cuál de los siguientes órganos linfoides es primario?:",
+      "opciones": [
+        "Amígdalas.",
+        "Timo.",
+        "Placas de Peyer.",
+        "Ganglio linfático."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 4,
+      "deepseek-llm_texto": "The correct answer is number 4. The ganglion lymphoid, also known as the secondary lymphoid organ, includes the tonsils, adenoids, and spleen."
+    },
+    {
+      "numero": 55,
+      "enunciado": "La hipermutación somática es un proceso que afecta a:",
+      "opciones": [
+        "Los receptores de las células T.",
+        "Las células presentadores de antígenos.",
+        "Las  regiones  variables  de  las inmunoglobulinas.",
+        "Los  receptores  de  reconocimiento  de  patógenos.              FSE BIOLOGÍA 2020/21 - 5 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": null,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 3,
+      "deepseek-llm_texto": "The correct answer is number 3. La hipermutación somática es un proceso que afecta a las regiones variables de las inmunoglobulinas, cambiando la forma y el peso molecular de estas proteínas en respuesta al reconocimiento de antígenos particulares o mutaciones genéticas.\n\nLa hipermutación somática no se aplica a los receptores de células T (no son las células presentadoras de antígenos) ni a los receptores de reconocimiento de patógenos."
+    },
+    {
+      "numero": 56,
+      "enunciado": "¿Dónde podemos encontrar receptores tipo Toll  (TLR) en las células?:",
+      "opciones": [
+        "Libres en el citoplasma.",
+        "Dentro del núcleo.",
+        "En la membrana nuclear.",
+        "En la membrana plasmática."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 4,
+      "deepseek-llm_texto": "The correct answer is number 4. TLRs, or Toll-like receptors, are proteins found in the cell membrane of eukaryotic cells such as plants and animals. They play a crucial role in detecting pathogenic molecules like bacteria and viruses that have invaded the body, initiating an immune response to eliminate them. Therefore, TLRs can be found on the cell membrane where they come into contact with their environment, as option 4 suggests. The other options are incorrect because:\n\n1. Free in the cytoplasm - TLRs aren't free floating within a cell but rather bound to specific structures called endosomes.\n2. Inside the nucleus - TLRs function at the cell membrane and do not exist inside the nucleus where they would have no influence over cellular activities.\n3. Membrane nuclear - There is no such structure as this option suggests, it could be a typo or incomplete description of an existing biological feature."
+    },
+    {
+      "numero": 57,
+      "enunciado": "La molécula CD8:",
+      "opciones": [
+        "Interactúa parcialmente con el antígeno  presentado.",
+        "Se expresa en linfocitos B memoria.",
+        "Tiene homología estructural con TLR",
+        "4. Se expresa en linfocitos T citotóxicos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. The CD8 molecule, also known as the CD3δ chain, forms part of the TCR (T cell receptor) complex and interacts with peptides presented by MHC class I molecules on the surface of antigen-presenting cells such as dendritic cells or macrophages. This interaction allows for the recognition and activation of cytotoxic T lymphocytes (CTLs), which are essential in fighting viral infections, cancer, and other diseases."
+    },
+    {
+      "numero": 58,
+      "enunciado": "¿Qué  inmunoglobulina  puede  formar  polímeros?:",
+      "opciones": [
+        "IgE.",
+        "IgD.",
+        "IgA.",
+        "IgG."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 3,
+      "deepseek-llm_texto": "The correct answer is number 3."
+    },
+    {
+      "numero": 59,
+      "enunciado": "¿Cómo se denomina un injerto trasplantado  entre sujetos de diferentes especies?:",
+      "opciones": [
+        "Aloinjerto.",
+        "Xenoinjerto.",
+        "Autoinjerto.",
+        "Isoinjerto."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1."
+    },
+    {
+      "numero": 60,
+      "enunciado": "¿Qué receptor de quimioquinas usa el VIH  como receptor para infectar a los linfocitos?:",
+      "opciones": [
+        "CXCR4.",
+        "CCR6.",
+        "CXCR3.",
+        "CCR7."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is 1. CXCR4."
+    },
+    {
+      "numero": 61,
+      "enunciado": "La IgE participa en la inmunidad contra:",
+      "opciones": [
+        "Parásitos helmínticos.",
+        "Bacterias.",
+        "Virus.",
+        "Hongos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is 1. Parásitos helmínticos."
+    },
+    {
+      "numero": 62,
+      "enunciado": "¿Qué células NO son de estirpe mieloide?:",
+      "opciones": [
+        "Basófilos.",
+        "Células NK.",
+        "Eritrocitos.",
+        "Monocitos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 3,
+      "deepseek-llm_texto": "The correct answer is number 3."
+    },
+    {
+      "numero": 63,
+      "enunciado": "NO  se  considera  una  inmunodeficiencia  primaria asociada a un defecto monogénico que  afecta a los linfocitos T:",
+      "opciones": [
+        "Síndrome de DiGeorge.",
+        "Síndrome de Wiskott-Aldrich.",
+        "Síndrome de Good.",
+        "Síndrome de Job o de Hiper IgE."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. The Síndrome de DiGeorge, also known as 22q11DS, is a genetic disorder caused by the presence of a microdeletion on chromosome 22q11. It affects the development and function of lymphocytes (white blood cells), leading to an immunodeficiency primary immune deficiency syndrome associated with this condition."
+    },
+    {
+      "numero": 64,
+      "enunciado": "¿En cuál de las siguientes enfermedades humanas NO se produce una reacción de hipersensibilidad de tipo I?:",
+      "opciones": [
+        "Anafilaxia por picadura de avispa.",
+        "Asma bronquial por ácaros.",
+        "Dermatitis de contacto por látex.",
+        "Fiebre del heno."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 4,
+      "deepseek-llm_texto": "The correct answer is number 4."
+    },
+    {
+      "numero": 65,
+      "enunciado": "NO se encuentra en la superficie de las células  dendríticas o macrófagos humanos:",
+      "opciones": [
+        "TLR1.",
+        "TLR2.",
+        "TLR3.",
+        "TLR4."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 4,
+      "deepseek-llm_texto": "The correct answer is number 4.\n\nToll-like receptors (TLRs) are a family of proteins that recognize and bind to molecules in the body called pathogen-associated molecular patterns (PAMPs). They play an important role in detecting and responding to pathogens, including bacteria, viruses, fungi, and parasites. TLR1 through TLR9 have been identified in humans. Among these receptors, TLR4 is known for its role in recognizing bacterial lipopolysaccharides (LPS) that are present on the surface of Gram-negative bacteria.\n\nTLRs 2, 3, and 6 are found on the outer cell membrane of immune cells like dendritic cells and macrophages where they detect different kinds of molecules including PAMPs from fungi, viruses, and host derived danger signals. In contrast, TLR1 is located in the endoplasmic reticulum (ER) where it binds to bacterial proteins and activates a signaling pathway that leads to ER-associated degradation of these pathogens.\n\nIn human cells, Dendritic cells, which play an important role as antigen presenting cells during adaptive immunity, express all TLRs 1 through 9. However, macrophages (a major cell type in the immune system) predominantly express TLR2 and TLR4 on their surface but do not express TLR1 or TLR3.\n\nTherefore, since it's specifically macrophages that are asked about on this question, the correct answer would be “The correct answer is number 4” because TLR4 is expressed predominantly on human macrophages and dendritic cells, while other options such as TLR1, TLR2, and TLR3, have different expression patterns."
+    },
+    {
+      "numero": 66,
+      "enunciado": "Indique qué característica corresponde con la  respuesta inmune innata:",
+      "opciones": [
+        "Especificidad.",
+        "Memoria.",
+        "Expansión policlonal.",
+        "Fagocitosis."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1."
+    },
+    {
+      "numero": 67,
+      "enunciado": "¿En qué fase de la respuesta inmunitaria  adaptativa tiene lugar la expansión clonal de los  linfocitos?:",
+      "opciones": [
+        "Reconocimiento de antígeno.",
+        "Activación del linfocito.",
+        "Eliminación del antígeno.",
+        "Memoria."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1."
+    },
+    {
+      "numero": 68,
+      "enunciado": "¿En  qué  función  NO  participan  las quimioquinas?:",
+      "opciones": [
+        "Migración celular.",
+        "Organogénesis.",
+        "Hematopoiesis.",
+        "Procesamiento de antígeno."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1."
+    },
+    {
+      "numero": 69,
+      "enunciado": "¿Qué  tipo  de  linfocitos  se  expanden  predominantemente y se asocian con la  respuesta inmunitaria adaptativa inicial a la  infección por el virus VIH?:",
+      "opciones": [
+        "Linfocitos B.",
+        "T CD4+.",
+        "NK.",
+        "T CD8+."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. Lymphocytes B (B cells) expand predominantly and associate with the initial adaptive immune response to infection by the HIV virus. This expansion occurs as a result of activation of activated B cells which then differentiate into plasma cells that produce antibodies against the invading pathogen."
+    },
+    {
+      "numero": 70,
+      "enunciado": "Se expresa en la superficie de los linfocitos CD8:",
+      "opciones": [
+        "Receptor del linfocito B.",
+        "CD",
+        "3. CD",
+        "4. CD19.              FSE BIOLOGÍA 2020/21 - 6 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2. CD. The T cells expressed on the surface of CD8+ lymphocytes are known as cytotoxic T cells, which play a crucial role in the immune system's defense against infected or transformed cells."
+    },
+    {
+      "numero": 71,
+      "enunciado": "¿Cuál  de  los  siguientes  isotipos  de  inmunoglobulinas es el más abundante en las  mucosas corporales?:",
+      "opciones": [
+        "IgG.",
+        "IgE.",
+        "IgM.",
+        "IgA."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 4,
+      "deepseek-llm_texto": "The correct answer is number 4."
+    },
+    {
+      "numero": 72,
+      "enunciado": "La selección positiva de los linfocitos T tiene  lugar en:",
+      "opciones": [
+        "El bazo.",
+        "El timo.",
+        "La médula ósea.",
+        "Tejido linfoide asociado a mucosas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2. The selection of B cells and T cells occurs in the thymus, which is part of the immune system responsible for producing T cells that fight off infections caused by foreign substances such as viruses and bacteria."
+    },
+    {
+      "numero": 73,
+      "enunciado": "¿Cuál de las siguientes células NO es una célula  presentadora de antígenos?:",
+      "opciones": [
+        "Linfocito B.",
+        "Linfocito T.",
+        "Macrófago.",
+        "Célula dendrítica."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. Lymphocytes, specifically B cells (lymphocyte B) are the only ones of these options that do not present antigens on their surface as a part of their function. Antigen presentation by other cell types, such as macrophages and dendritic cells, plays an important role in initiating immune responses, while T cells are responsible for activating adaptive immunity through antigen recognition and activation of B cells. Therefore, Lymphocyte B is the only option that does not present antigens, making it incorrect to be a presenting cell type."
+    },
+    {
+      "numero": 74,
+      "enunciado": "¿Qué células epiteliales de la mucosa digestiva  transportan los antígenos a los linfocitos de  submucosa?:",
+      "opciones": [
+        "Enterocitos.",
+        "Macrófagos.",
+        "Células M.",
+        "Células dendríticas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 4,
+      "deepseek-llm_texto": "The correct answer is number 4.\n\nCélulas dendríticas (DD) son células presentes en la mucosa digestiva que participan en el sistema inmunitario, especialmente en la detección y localización de antígenos no propios. Estas células tienen un gran número de microdendritas (puntos finos) por donde penetran linfocitos en la mucosa, facilitando así la adhesión y migración de estos últimos a través de la misma. Además, las células dendríticas contribuyen a la producción del factor quimiotaxonérgico MHC I en células dendritiformes y linfocitos B presentes en la mucosa digestiva."
+    },
+    {
+      "numero": 75,
+      "enunciado": "¿Qué característica del telómero es correcta?:",
+      "opciones": [
+        "Está constituido por repeticiones en tándem  de secuencias cortas.",
+        "Es una constricción cromosómica.",
+        "Es el sitio de unión de fibras del huso  mitótico.",
+        "El ADN que lo constituye codifica para el gen  de la telomerasa."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 4,
+      "deepseek-llm_texto": "La característica correcta del telómero es:\n\nEl telómero es un fragmento de ADN que se encuentra en las extremidades terminales de los brazos cromosométicos, y su función es proteger el ADN desde la degradación por dañinmediatos. La telomerasa es una enzima que recubre el final del telómero con una cadena de ácido guanilato, evitando así la pérdida continuada del ADN a lo largo de la vida celular y permitiendo un número fijo de copias en reproducción para cada gen. La correcta respuesta es:\n\nEl telómero es el sitio de unión de fibras del huso mitómico, 4."
+    },
+    {
+      "numero": 76,
+      "enunciado": "Un ARN policistrónico:",
+      "opciones": [
+        "Tiene varias secuencias codificantes, en  tándem.",
+        "Es un ARN inmaduro, con intrones.",
+        "Resulta de un splicing alternativo.",
+        "Tiene varias secuencias repetidas, en tándem."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. \n\nARN poliédrico tiene varias secuencias codificantes, en tándem."
+    },
+    {
+      "numero": 77,
+      "enunciado": "Los gemelos monocigotos, a lo largo de los años,  desarrollan diferentes patrones de metilación de  citosinas y de acetilación de histonas. Esto  implica diferentes:",
+      "opciones": [
+        "Patrones de expresión génica.",
+        "Patrones de mutaciones.",
+        "Genotipos.",
+        "Dotación alélica para los mismos genes."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. Patrones de expresión génica."
+    },
+    {
+      "numero": 78,
+      "enunciado": "¿Qué  mecanismo puede explicar que la  enfermedad de Huntington en una familia  pueda manifestarse a una edad cada vez más  temprana?:",
+      "opciones": [
+        "Expansión de un triplete de nucleótidos en la  secuencia codificante del gen.",
+        "Presencia de un elemento transponible en el  gen.",
+        "Hipermetilación del promotor.",
+        "Impronta génica."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "La enfermedad de Huntington en una familia puede manifestarse a una edad cada vez más temprana por la expansión de un triplete de nucleótidos en la secuencia codificante del gen (opción 1). El gen HTT es el responsable de la enfermedad y cuando presenta un triplete de nucleótivos, el cual es una mutación que hace que la proteína no funcione correctamente. La expansión de estos nucleótidos provoca que la proteína cambie su estructura o función, lo que puede ser responsable del proceso de deterioro neurológico que caracteriza a la enfermedad de Huntington."
+    },
+    {
+      "numero": 79,
+      "enunciado": "La presencia de dos cariotipos distintos en el  mismo individuo se denomina:",
+      "opciones": [
+        "Mosaicismo.",
+        "Heterocigosidad compuesta.",
+        "Aneuploidía.",
+        "Heterodisomía."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1."
+    },
+    {
+      "numero": 80,
+      "enunciado": "¿Cuál de los siguientes métodos NO cuantifica  ADN de forma precisa?:",
+      "opciones": [
+        "Espectroscopía ultravioleta para medir la  absorbancia del ADN.",
+        "Cuantificación  absoluta  con  productos  basados en el sistema TaqMan.",
+        "Electroforesis en gel de agarosa.",
+        "Fluorometría con moléculas fluorescentes de  unión al ADN."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 3,
+      "deepseek-llm_texto": "La pregunta busca identificar el método que no cuantifica precisamente el ADN. Los otros tres métodos mencionados (espectroscopia ultravioleta, electroforesis en gel de agarosa y fluorometría con moléculas fluorescentes de unión al ADN) tienen una capacidad para medir la cantidad de ADN específica, utilizando diferentes técnicas. Por otro lado, la electroforesis en gel de agarosa no cuantifica precisamente el ADN ya que solo separa las moléculas de ADN según su tamaño y no permite una medida precisa del ADN presente en un fragmento específico o incluso una secuencia específica.\n\nPor lo tanto, la opción correcta es:\n\nLa correct answer is number 3."
+    },
+    {
+      "numero": 81,
+      "enunciado": "En relación con los geles de agarosa en la  separación de fragmentos de ADN:",
+      "opciones": [
+        "Una concentración de agarosa del 0,7% es  adecuada para separar fragmentos pequeños  de ADN (<1 kb).",
+        "Los geles al 1% de agarosa son comunes para  muchas aplicaciones.",
+        "Una concentración de agarosa del 2%  produce  una  buena  resolución  para  fragmentos grandes de ADN (>5 kb).",
+        "El mejor método para separar fragmentos de  ADN muy pequeños son los geles de agarosa  de hasta un 0,3%."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": null,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. Agarose gels are commonly used for DNA electrophoresis and a common concentration of agarose used in these experiments is around 0.7% to separate small fragments (less than about 1 kilobase pair) of DNA. This allows for good separation of different sized DNA fragments, while still allowing the use of low melting point agarose gels that are easier to handle and less expensive than higher concentration gels like those used in Southern blotting or large scale PCR applications."
+    },
+    {
+      "numero": 82,
+      "enunciado": "¿Qué  probabilidad  de  desarrollar  una  enfermedad con herencia recesiva ligada al  cromosoma X tendrán las hijas de una pareja  formada por un hombre sano y una mujer  heterocigota?:",
+      "opciones": [
+        "100 %.",
+        "50 %.",
+        "25 %.",
+        "0 %.                  FSE BIOLOGÍA 2020/21 - 7 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "La respuesta es la opción 1, con una probabilidad de 100% debido a que las mujeres heterocigotas tienen un cromosoma X y un cromosoma del sexo opuesto. Por lo tanto, cuando procrean, siempre tendrán hijos homocigotos, que no serían afectados por la enfermedad con herencia recesiva ligada al cromosoma X."
+    },
+    {
+      "numero": 83,
+      "enunciado": "Los individuos que portan translocaciones  cromosómicas  recíprocas  en  sus  células  germinales dan lugar a:",
+      "opciones": [
+        "Gametos genéticamente desequilibrados.",
+        "Gametos triploides.",
+        "Mayores tasas de recombinación meiótica.",
+        "Alelos recesivos con mayor frecuencia."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is 1. Gametos genéticamente desequilibrados."
+    },
+    {
+      "numero": 84,
+      "enunciado": "¿Cuál  de  las  siguientes  afirmaciones  se  corresponde con la recombinación VDJ que  sufren los genes de inmunoglobulinas?:",
+      "opciones": [
+        "Implica la formación de intermediarios de  Holliday.",
+        "Tiene lugar durante la meiosis.",
+        "Ocurre en células somáticas.",
+        "Es un tipo especial de maduración de ARNm."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1.\n\nImplicación VDJ implica la formación de intermediarios de Holliday. La recombinación VDJ es una parte importante en el proceso de formación de inmunoglobulinas y ocurre durante la división celular, como meiosis o mitosis. Esta reacción no está relacionada con la meiosis o células somáticas, ni tampoco es un tipo especial de maduración del ARNm."
+    },
+    {
+      "numero": 85,
+      "enunciado": "¿Cuál de los siguientes procesos contribuye a  limitar las tasas de mutación espontánea?:",
+      "opciones": [
+        "La producción de radicales libres.",
+        "La actividad exonucleasa de las ADN  polimerasas en dirección de 3’ a 5’.",
+        "El incremento del nivel de poliploidía.",
+        "El ensamblaje cromatínico del ADN."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": null,
+      "deepseek-llm_texto": "La correcta respuesta es el proceso 'La producción de radicales libres.'"
+    },
+    {
+      "numero": 86,
+      "enunciado": "¿Qué consecuencia tiene el procesamiento  alternativo de intrones en los precursores de los  ARNm?:",
+      "opciones": [
+        "Contrarresta la presencia de alelos no  funcionales.",
+        "Permite expresar más de una proteína  diferente a partir del mismo gen.",
+        "Contribuye a la reversión de mutaciones en  ese gen.",
+        "Permite la transcripción de un gen en  direcciones opuestas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2.\n\nAlternative splicing of introns in pre-mRNA results in the production of multiple proteins with different functions from a single gene, allowing for greater complexity and adaptability within an organism's cellular processes."
+    },
+    {
+      "numero": 87,
+      "enunciado": "¿Cuál de estos sucesos ocurre durante la  meiosis?:",
+      "opciones": [
+        "Emparejamiento de cromosomas homólogos.",
+        "Circularización de cromosomas.",
+        "Eliminación de una de las dos cromátidas  hermanas.",
+        "Hipermutación programada del genoma."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. Emparejamiento de cromosomas homólogos ocurre durante la meiosis."
+    },
+    {
+      "numero": 88,
+      "enunciado": "¿Qué puede decirse de los genes humanos en los  que opera la impronta genómica?:",
+      "opciones": [
+        "Mutan en cada generación.",
+        "Están ligados al cromosoma X.",
+        "Se expresan solo si el individuo es de sexo  masculino.",
+        "Se expresan en función del sexo del  progenitor del que provienen."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1.\n\nGenes that operate the imprinting genome mutate in each generation, which means they can change from one individual to another. This process of mutation is known as epigenetic variation and has a significant impact on human traits and diseases. Imprinted genes are genes whose expression patterns are regulated by DNA methylation or histone modification. These modifications act as tags that silence the gene's expression, preventing it from being expressed in some cells or tissues but allowing for its normal expression in others. This unique property of imprinting makes these genes important targets for understanding human development and diseases associated with epigenetic changes such as cancer, mental disorders, and genetic disorders."
+    },
+    {
+      "numero": 89,
+      "enunciado": "La traducción de un ARNm ya procesado se inicia en el codón de metionina que corresponde  con:",
+      "opciones": [
+        "AUA.",
+        "AUG.",
+        "GUA.",
+        "UAG."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 4,
+      "deepseek-llm_texto": "The correct answer is number 4. The translation of an mRNA already processed starts at the met"
+    },
+    {
+      "numero": 90,
+      "enunciado": "El síndrome de Turner aparece en:",
+      "opciones": [
+        "Hombres YO.",
+        "Mujeres XO.",
+        "Hombres XXY.",
+        "Mujeres XXX."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2. El síndrome de Turner es un defecto genético que ocurre en mujeres, ya que la XY (XX) se refiere a los sexos masculinos y femeninos respectivamente. En este caso, el síndrome de Turner solo afecta a las mujeres debido a una mutación o defecto en uno de sus cromosomas X."
+    },
+    {
+      "numero": 91,
+      "enunciado": "La heterocromatina corresponde al ADN:",
+      "opciones": [
+        "Condensado activo transcripcionalmente.",
+        "No enrollado activo transcripcionalmente.",
+        "Condensado inactivo transcripcionalmente.",
+        "No enrollado inactivo transcripcionalmente."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. La heterocromatina corresponde al ADN condensado activo transcripcionalmente. Esta estructura de ADN es responsable del patrón de interacciones que ocurren entre la cromatina y los factores reguladores en la mayoría de las células eucariotas."
+    },
+    {
+      "numero": 92,
+      "enunciado": "El operón lac es un sistema inducible que está bajo control:",
+      "opciones": [
+        "Negativo en algunos procariotas.",
+        "Positivo en algunos procariotas.",
+        "Negativo en algunos eucariotas.",
+        "Positivo en algunos eucariotas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": null,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. El operón lac es un sistema inducible que está bajo control de los microorganismos procariotas como la bacterias del género Bacillus y Eubacterium. Los hormonas inductoras como ácido indolólico y acetato reductor provocan la expresión del gen operón lac, mientras que antibióticos como lactazolo y ésfatono bloqueadan su acción."
+    },
+    {
+      "numero": 93,
+      "enunciado": "El síndrome conocido como “maullido de gato”  se caracteriza por:",
+      "opciones": [
+        "Una duplicación en el cromosoma 5.",
+        "Una deleción en el cromosoma 5.",
+        "Una inversión en el cromosoma 5.",
+        "Una deleción en el cromosoma 6."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1.\n\nEl síndrome conocido como \"maullido de gato\" se caracteriza por una duplicación en el cromosoma 5, también llamado cromosoma 5q- o syndrome X. Esta condición es muy poco común y afecta principalmente a mujeres jóvenes, ya que produce enfermedades metabólicas e inflamatorias severas y puede causar una mayor susceptibilidad al cáncer en áreas como el ovario, próstata o pulmón. El síndrome X es uno de los muchos ejemplos de síndromes patogénicos relacionados con la duplicación (duplicaciones) de cromosomas humanos."
+    },
+    {
+      "numero": 94,
+      "enunciado": "¿Dónde son sintetizados los cebadores en la  cadena retrasada?:",
+      "opciones": [
+        "Al inicio de cada fragmento de Okazaki.",
+        "En varios sitios dentro de un fragmento de  Okazaki.",
+        "Sólo en el extremo 3’ de la cadena  recientemente sintetizada.",
+        "Sólo en el extremo 5’ de la cadena  recientemente sintetizada."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2. In eukaryotic cells, the lagging strand DNA replication is accomplished by a process called transcription-coupled DNA replication (TCDR). This involves the synthesis of RNA molecules known as ribosomal RNAs (rRNA) and transfer RNA (tRNA), which are involved in protein synthesis. The synthesis of these mRNAs takes place at multiple sites along each Okazaki fragment, and not just at its 3' end."
+    },
+    {
+      "numero": 95,
+      "enunciado": "¿Cuál será la proporción de la descendencia de  un hombre daltónico con una mujer de visión normal cuyo padre es daltónico?:",
+      "opciones": [
+        "Todos daltónicos.",
+        "Mitad de los varones y mitad de las hembras  daltónicas.",
+        "Todos los varones daltónicos y todas las hembras con visión normal.",
+        "Todos con visión normal.          FSE BIOLOGÍA 2020/21 - 8 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 3,
+      "deepseek-llm_texto": "The correct answer is number 3. This is because a person's genetic traits (like being deaf or not) are determined by the combination of genes that they inherit from their parents. Since both the father and mother have to carry the gene for a trait for it to be passed on, in this case, only males who inherit the hearing gene from their father will become daltónicos. The rest of the children, being male or female, will not inherit any hearing genes, thus having normal vision (option 3)."
+    },
+    {
+      "numero": 96,
+      "enunciado": "El factor sigma de la ARN polimerasa es  necesario para:",
+      "opciones": [
+        "La unión de la polimerasa al promotor.",
+        "La estabilización de la enzima.",
+        "La elongación durante la transcripción.",
+        "La terminación de la transcripción."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 3,
+      "deepseek-llm_texto": "The correct answer is 3. The sigma factor of RNA polymerase is necessary for the initiation of gene transcription, which includes binding to the promoter and beginning the process of synthesizing a new protein or RNA molecule."
+    },
+    {
+      "numero": 97,
+      "enunciado": "La replicación del ADN es:",
+      "opciones": [
+        "Conservativa.",
+        "Dispersiva.",
+        "Semiconservativa.",
+        "Conservativa  en  procariotas  y  semiconservativa en eucariotas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 4,
+      "deepseek-llm_texto": "The correct answer is number 4. The process of DNA replication in prokaryotes and eukaryotes has different requirements for the way it conserves the genetic information, but both are considered to be conservative as they preserve the original sequence during the copying process. In prokaryotes, DNA replication uses a process called semiconservative replication, meaning that each newly created strand of DNA comes from the partial degradation and splitting of one parent molecule. However, in eukaryotic cells, the information is copied through a non-semiconservative method known as exonucleases, which results in two identical copies of the original genome being formed during the replication process. This is why it's stated that DNA replicates are conservative — prokaryotes and semiconservative eukaryotic cells preserve genetic information while creating new strands of DNA during replication."
+    },
+    {
+      "numero": 98,
+      "enunciado": "Durante la replicación del ADN, la ADN  helicasa:",
+      "opciones": [
+        "Desenrrolla la horquilla de replicación.",
+        "Elimina la torsión de los superenrollamientos.",
+        "Inicia la replicación en el oriC.",
+        "No participa en la replicación del ADN."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. Desenrrolla la horquilla de replicación."
+    },
+    {
+      "numero": 99,
+      "enunciado": "El error aleatorio:",
+      "opciones": [
+        "Afecta a la precisión o fiabilidad del estudio.",
+        "Se puede predecir.",
+        "No se puede cuantificar.",
+        "Se reduce disminuyendo el tamaño de la  muestra."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. El error aleatorio afecta a la precisión o fiabilidad del estudio, lo que significa que los resultados obtenidos no son precisos y fiables."
+    },
+    {
+      "numero": 100,
+      "enunciado": "La sensibilidad diagnóstica es la proporción de  verdaderos:",
+      "opciones": [
+        "Negativos entre los sanos.",
+        "Positivos entre los enfermos.",
+        "Negativos entre los que tienen un resultado  negativo.",
+        "Positivos entre los que tienen un resultado  positivo."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": null,
+      "deepseek-llm_texto": "La sensibilidad diagnóstica es la proporción de verdaderos positivos entre los enfermos."
+    },
+    {
+      "numero": 101,
+      "enunciado": "El área bajo la curva ROC:",
+      "opciones": [
+        "De valor 1, indica que la prueba no tiene  poder diagnóstico.",
+        "De valor 0,5 representa una prueba con  escaso poder diagnóstico.",
+        "Presenta unos valores comprendidos entre 1 e  infinito.",
+        "Representa  la  concordancia  entre  observadores cuando la variable es categórica  a través de proporciones."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2. De valor 0,5 representa una prueba con escaso poder diagnóstico. This measure, known as the area under the Receiver Operating Characteristics (ROC) curve, represents the ability of a diagnostic test to identify patients with a particular disease or condition. A higher value indicates better performance, while a lower value indicates poorer performance. In this case, a value of 0.5 suggests that the test has only limited capability in correctly diagnosing individuals with the target condition."
+    },
+    {
+      "numero": 102,
+      "enunciado": "¿Qué prueba estadística paramétrica se usará  para testar la  hipótesis de 2 variables  categóricas de una muestra independiente?:",
+      "opciones": [
+        "T de Student ANOVA.",
+        "Test de Cochran.",
+        "Ro de Spearman.",
+        "Ji-cuadrado."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": null,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. T de Student ANOVA."
+    },
+    {
+      "numero": 103,
+      "enunciado": "El índice de inconsistencia del 80% indica:",
+      "opciones": [
+        "Que hay baja heterogeneidad.",
+        "Heterogeneidad media.",
+        "Heterogeneidad sustancial.",
+        "Que no hay heterogeneidad."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 4,
+      "deepseek-llm_texto": "The correct answer is number 4. \n\nEl índice de inconsistencia del 80% indica que no hay heterogeneidad."
+    },
+    {
+      "numero": 104,
+      "enunciado": "La afinidad de la hemoglobina por el O2:",
+      "opciones": [
+        "Aumenta cuando el valor de pH es inferior a  7,4.",
+        "Disminuye cuando el valor de pH es inferior a  7,4.",
+        "Se sitúa estructuralmente en el mismo sitio  catalítico que el ácido 2,3-bisfosfoglicérico.",
+        "No se modifica por el cambio de pH en los  tejidos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. \n\nLa afinidad de la hemoglobina por el O2 aumenta cuando el valor de pH es inferior a 7,4."
+    },
+    {
+      "numero": 105,
+      "enunciado": "En las proteínas, aquellos aminoácidos con  cadenas ionizables:",
+      "opciones": [
+        "Son todos esenciales, y deben tomarse en la  dieta.",
+        "Poseen grupos aromáticos que favorecen su  hidrofobicidad.",
+        "Tienden a agruparse en el interior de la  proteína, lejos del entorno acuoso de la célula.",
+        "Son capaces tanto de formar enlaces iónicos  como donar o aceptar protones para facilitar  reacciones."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 4,
+      "deepseek-llm_texto": "The correct answer is number 4."
+    },
+    {
+      "numero": 106,
+      "enunciado": "El colágeno es una proteína que:",
+      "opciones": [
+        "Forma una típica hélice-alfa.",
+        "Forma una estructura de hoja plegada beta  antiparalela de unos",
+        "000 Ángstrom de  longitud.  3. Forma una hélice diferente a la alfa, que se  denomina hélice de colágeno de triple hebra  que se estabiliza por repulsiones estéricas.",
+        "Se caracteriza por carecer del aminoácido  prolina en su composición."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. El colágeno es una proteína que forma una típica hélice-alfa, y no se caracteriza por carecer del aminoácido prolina en su composición. Colágenos son polipéptidos largos compuestos principalmente de cadenas de prolina y glicina con un pequeño contenido de hidroxilas lípidicas, metionina y otros aminoácidos."
+    },
+    {
+      "numero": 107,
+      "enunciado": "¿Cuál de las siguientes afirmaciones sobre la  descarboxilación  oxidativa  del  piruvato,  catalizada  por  el  complejo  piruvato  deshidrogenasa, es correcta?:",
+      "opciones": [
+        "Utiliza NAD+, ácido lipoico, fosfato de  piridoxal y FAD como coenzimas de la  reacción.",
+        "Uno de los productos de la reacción es un  tioéster de acetato.",
+        "El grupo metilo del piruvato se elimina como  CO2.",
+        "La reacción es tan importante que tiene lugar  a máxima velocidad en todas las condiciones  y en todas las células.              FSE BIOLOGÍA 2020/21 - 9 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "La respuesta correcta se encuentra en la afirmación número 1:\n\nUtiliza NADH, ácido lipoico, fosfato de piridoxal y FAD como coenzimas de la reacción.\n\nLa descarboxilación oxidativa del piruvato se cataliza por el complejo piruvato deshidrogenasa que es un piso enzimático en la mitocondria que interviene en la cadena respiratoria, convirtiendo el piruvato a acetil-CoA y oxígeno. Durante esta reacción, NADH se sacrifica como coenzima (donando dos electrones) y es convertido a NAD+ con eliminación de un grupo carbonilo (CO2). El complejo deshidrogenasa también requiere FAD y ácido lipoico como coenzimas. No tiene relación con tioésteres ni ocurre en todas las células o bajo todas las condiciones, por lo que la afirmación 3 es incorrecta."
+    },
+    {
+      "numero": 108,
+      "enunciado": "Las cadenas polipeptídicas de una proteína:",
+      "opciones": [
+        "Siempre forman estructuras en alfa-hélice.",
+        "Pueden  entrecruzarse  mediante  enlaces  disulfuro de dos cisteínas.",
+        "Se unen a otras cadenas polipeptídicas por su  extremo N-terminal mediante prolina o  hidroxiprolina.",
+        "Tienen una composición equimolecular de los  20 aminoácidos naturales."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 3,
+      "deepseek-llm_texto": "The correct answer is number 3. Proteins are made up of polypeptide chains, which are composed of one or more long strings of amino acids linked together by peptide bonds. These chains can interact with each other at their N-termini (the amino end) to form higher-order structures such as aggregates, fibrils, and even complex networks called supramolecular assemblies. This type of self-assembly is known as intermolecular interactions and it plays a crucial role in protein conformational changes, stability, and function. While the other options provided are also related to proteins and their structure or formation (point 1: alpha-helix being one of the possible structures that proteins can adopt), point 3 specifically describes how proteins interact with each other through their N-terminal regions."
+    },
+    {
+      "numero": 109,
+      "enunciado": "La lipoproteinalipasa participa en:",
+      "opciones": [
+        "La degradación de los triacilgliceroles de los  quilomicrones  para  proporcionar  ácidos  grasos a los diferentes tejidos.",
+        "El transporte intestinal de los lípidos de la  dieta.",
+        "La degradación de las lipoproteínas para  proporcionar aminoácidos.",
+        "La  degradación  de  los  triacilglicéridos  almacenados  intracelularmente  para  proporcionar ácidos grasos como combustible  energético."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 3,
+      "deepseek-llm_texto": "The correct answer is number 3. Lipoprotein lipase (LPL) participates in the degradation of lipids such as chylomicrons to provide fatty acids for various tissues."
+    },
+    {
+      "numero": 110,
+      "enunciado": "La carga que tiene la glicina en una disolución a  pH 13 es:",
+      "opciones": [
+        "Positiva (+1).",
+        "Sin carga.",
+        "Negativa (-1).",
+        "Negativa (-2)."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. \n\nGlycine has a pKa of 7.9, and due to its resonance-stabilized tautomers, glycine's basicity (the ability for the molecule to donate a proton) can be described as slightly positive at pH values above 3. Since this problem is set in a pH 13 environment, it implies that the substance we are investigating is acidic; so the correct answer must represent some form of charge on glycine which could offset its basicity under these conditions. The only option that does not negate glycine's net positive charge (due to its resonance-stabilized tautomers) in an acidic solution like a pH 13 environment is positive (+1)."
+    },
+    {
+      "numero": 111,
+      "enunciado": "La afirmación correcta sobre las enzimas y la  cinética enzimática es:",
+      "opciones": [
+        "La velocidad de una reacción enzimática es  independiente de la concentración de enzima.",
+        "Una enzima presenta mayor afinidad por el  sustrato cuanto mayor sea su valor de Km.",
+        "A concentraciones muy elevadas de sustrato  la velocidad de reacción es de orden cero con  respecto a la concentración de sustrato.",
+        "La pérdida de la actividad de un enzima lleva  consigo la pérdida de su estructura primaria."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "La afirmación correcta sobre las enzimas y la cinética enzimática es:\n\n1. La velocidad de una reacción enzimática es independiente de la concentración de enzima. (La respuesta correcta, en inglés)\n\nExplicación: Esta afirmación refiere a que las enzimas no necesitan ser saturadas para funcionar, lo cual significa que la velocidad de una reacción enzimática no depende de la concentración de enzima. Esto es diferente de los reactivos inorgánicos o orgánicos comunes, cuya velocidad generalmente tiende a cero cuando las concentraciones de ambos reactantes se acercan al saturado (los dos se encuentran en equilibrio).\n\nLa cinética enzimática describe el comportamiento de una reacción en la que una enzima cataloga un proceso químico. Estas reacciones son caracterizadas por ser \"exotérmicas\", lo cual significa que requieren más energía para realizarse que en caso de una reacción sin la participación del enzima."
+    },
+    {
+      "numero": 112,
+      "enunciado": "La afirmación correcta sobre la estructura  secundaria de las proteínas es:",
+      "opciones": [
+        "En la hélice α, los grupos –R de los  aminoácidos se sitúan hacia el interior de la  estructura helicoidal.",
+        "La conexión entre conformaciones α y  se  realiza mediante un giro que contiene Trp.",
+        "La hélice α se estabiliza por la formación de  puentes de hidrógeno intracatenarios entre  grupos NH y CO de la cadena principal.",
+        "Los aminoácidos prolina y glicina son muy  frecuentes en la α hélice."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 3,
+      "deepseek-llm_texto": "La afirmación correcta sobre la estructura secundaria de las proteínas es:\n\nThe correct answer is option 3. La hélice α se estabiliza por la formación de puentes de hidrógeno intracatenarios entre grupos NH y CO de la cadena principal."
+    },
+    {
+      "numero": 113,
+      "enunciado": "La afirmación correcta sobre la estructura de  los esfingolípidos es:",
+      "opciones": [
+        "La estructura básica de los esfingolípidos está  constituida por glicerol unido a un grupo  fosfato.",
+        "Las esfingomielinas, los gangliósidos y  cerebrósidos  son  diferentes  tipos  de  esfingolípidos.",
+        "En la estructura de los esfingolípidos  encontramos dos ácidos grasos esterificando a  dos grupos hidroxilo de la esfingosina.",
+        "La formación de un enlace éster entre un  grupo hidroxilo de la esfingosina y un grupo  carboxilo de un ácido graso da lugar a la  ceramida."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. The structure of sphingolipids consists of a glycerophosphate linked to an alcohol group (sphingoid base). This makes them distinct from other lipids like phosphoglycerides, which have a phosphate head group rather than a sulfate one as found in sphingolipids."
+    },
+    {
+      "numero": 114,
+      "enunciado": "Las causas más frecuentes en nuestro medio de  síndrome de Cushing son:",
+      "opciones": [
+        "Los tumores suprarrenales productores de  cortisol.",
+        "Los adenomas hipofisarios productores de  adrenocorticotropina.",
+        "Los tumores no hipofisarios productores de  adrenocorticotropina.",
+        "Los tumores suprarrenales productores de  adrenocorticotropina."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. Tumors of the pituitary gland, which are not listed here, can also produce Cushing's syndrome by releasing too much ACTH, but tumors of the adrenal cortex and parathyroid glands are more likely to be the cause in this context."
+    },
+    {
+      "numero": 115,
+      "enunciado": "El hiperaldosteronismo primario se relaciona  con:",
+      "opciones": [
+        "Hipotensión, retención de Na+ e incremento  de la excreción de K+.",
+        "Hipotensión, retención de K+ e incremento de  la excreción de Na+.",
+        "Hipertensión, retención de K+ e incremento  de la excreción de Na+.",
+        "Hipertensión, retención de Na+ e incremento  de la excreción de K+."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1.\n\nEl hiperaldosteronismo primario se relaciona con una enfermedad del metabolismo del calcio y del magnesio en el cuerpo, lo cual no tiene relación con la presión sanguínea ni la excreción de iones como Na+ o K+."
+    },
+    {
+      "numero": 116,
+      "enunciado": "La prediabetes se define como:",
+      "opciones": [
+        "Glucemia tras ayuno de 8 horas entre 100 y  125 mg/dL.",
+        "Valores  de  hemoglobina  glicosilada  superiores al 7%.",
+        "Glucemia a las 2 horas tras sobrecarga oral de  glucosa (75 g) superior a 200 mg/dL.",
+        "Detección de glucosa en orina tras sobrecarga  oral de glucosa (75 g)."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 3,
+      "deepseek-llm_texto": "The correct answer is number 3. Prediabetes is defined as having blood glucose levels higher than normal but not high enough to be considered diabetes. A 2-hour postoral glucose challenge test with a value of ≥200 mg/dL (11.1 mmol/L) indicates prediabetes, while fasting plasma glucose should be <100 mg/dL (<5.6 mmol/L)."
+    },
+    {
+      "numero": 117,
+      "enunciado": "El precursor común en la síntesis de los  esteroides sexuales (andrógenos y estrógenos)  es:",
+      "opciones": [
+        "Colesterol.",
+        "Aldosterona.",
+        "Progesterona.",
+        "Estrona.          FSE BIOLOGÍA 2020/21 - 10 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": null,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2.\n\nAldosterone, a hormone produced by the adrenal cortex, plays a crucial role in regulating blood pressure and electrolyte balance in the body. It does this through its effects on sodium and potassium absorption in the kidneys, which affects water balance and overall blood volume. However, aldosterone has no direct involvement in the synthesis of steroid sex hormones like androgens or estrogens (progesterone is synthesized by the corpus luteum). Therefore, it cannot be considered as \"the precursor common to the synthesis of steroids sexuales\" mentioned in the question."
+    },
+    {
+      "numero": 118,
+      "enunciado": "Respecto al programa de cribado de cáncer de  colon NO es verdad que:",
+      "opciones": [
+        "La prueba inmunoquímica para cuantificación  de hemoglobina humana en heces es el  método más adecuado y eficiente en la  detección precoz de cáncer de colon.",
+        "La población diana es la de riesgo intermedio  entre 50 y 69 años.",
+        "El antecedente personal de presencia de  cáncer de colon es criterio de exclusión del  programa.",
+        "El método del guayaco es el utilizado en los  programas de cribado de cáncer de colon para  detección de hemoglobina en heces."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. \n\nLa prueba inmunoquímica para cuantificación de hemoglobina humana en heces no es el método más adecuado y eficiente en la detección precoz de cáncer de colon, ya que esta prueba está limitada por los niveles bajos de hemoglobina presentes en las heces y puede ser afectada por varios factores, como la dieta, el uso de laxantes y medicamentos. Además, no es una medida fiable ni precisamente para evaluar el riesgo de cáncer de colon. La población diana del programa no está restringida a edad o riesgo, ya que los programas pueden abarcar un amplio rango de edad y riesgo, en lugar de ser solo entre 50 y 69 años. Por último, el método del guayaco (una prueba para detectar la presencia de cáncer de colon) no se utiliza en los programas de cribado de cáncer de colon para la detección de hemoglobina en heces."
+    },
+    {
+      "numero": 119,
+      "enunciado": "El gen BRCA1 se estudia en la susceptibilidad al  cáncer de:",
+      "opciones": [
+        "Pulmón.",
+        "Mama.",
+        "Colon.",
+        "Tiroides."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2.\n\nExplanation: The BRCA1 (BRCA-related protein 1) gene plays a significant role in the cellular processes involved with DNA repair and cell cycle regulation, both of which are critical to preventing cancer development. This makes it particularly relevant for breast tissue, as any mutations or issues within this gene may contribute to an increased risk for developing breast cancer. The other options (lung, colon, and thyroid) have lesser association with the BRCA1 genetic pathway."
+    },
+    {
+      "numero": 120,
+      "enunciado": "El marcador tumoral más adecuado para el  adenocarcinoma seroso de ovario es:",
+      "opciones": [
+        "Antígeno carcinoembrionario.",
+        "Proteína epididimal humana tipo 4.",
+        "Alfa-fetoproteína.",
+        "Ca 19.9."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 4,
+      "deepseek-llm_texto": "The correct answer is number 4. The antigen CA 19.9, also known as Carcinoembryonic Antigen (CEA), has been shown to be elevated in patients with ovarian cancer. It's commonly used for the detection of this type of tumor and other cancers such as colorectal and lung cancer.\n\nAntigen carcinoembrionario is not specific enough, Alfa-fetoproteína is related to fetogenesis but has limited utility in identifying ovarian cancer, while Proteína epididimal humana tipo 4 does not exist for this purpose."
+    },
+    {
+      "numero": 121,
+      "enunciado": "En un paciente sometido a tiroidectomía total  por un cáncer diferenciado de tiroides tipo  papilar, el marcador tumoral de elección en el  seguimiento es:",
+      "opciones": [
+        "Tirotropina.",
+        "Tiroxina libre.",
+        "Tiroglobulina.",
+        "Calcitonina."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 3,
+      "deepseek-llm_texto": "The correct answer is number 3.\n\nTiroglobulina is the marker of choice for thyroid cancer follow-up in patients who have undergone a total thyroidectomy for differentiated papillary thyroid cancer. This is because tiroglobulina levels are elevated in most cases of papillary thyroid carcinoma, making it an effective tool for monitoring the progression or recurrence of the disease."
+    },
+    {
+      "numero": 122,
+      "enunciado": "La inhibina B:",
+      "opciones": [
+        "Es una glicoproteína de 32 kDa.",
+        "Es secretada por las células de Leydig.",
+        "Inhibe la secreción de FSH.",
+        "Se puede emplear como marcador endocrino  de la espermatogénesis."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": null,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "La inhibina B:\n\nThe correct answer is number 1. Es una glicoproteína de 32 kDa."
+    },
+    {
+      "numero": 123,
+      "enunciado": "NO se considera un valor normal en el  seminograma básico según los valores de  referencia de la OMS (2010):",
+      "opciones": [
+        "10%  de  formas  normales  en  los  espermatozoides.",
+        "Movilidad progresiva de los espermatozoides  del 52%.",
+        "Concentración de espermatozoides de 15  millones/mL.",
+        "Volumen de eyaculado de 0.8 mL."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 3,
+      "deepseek-llm_texto": "The correct answer is number 3."
+    },
+    {
+      "numero": 124,
+      "enunciado": "En relación a la disfunción eréctil es FALSO  que:",
+      "opciones": [
+        "El diagnóstico etiológico más frecuente es la  disfunción eréctil psicogénica.",
+        "Tras  evaluar  causas  neurológicas  y  vasculares, se deben estudiar entre otros  parámetros testosterona, LH y TSH.",
+        "Se define como la incapacidad persistente  para desarrollar o mantener una erección  suficiente para el coito y la eyaculación en el  15% de los intentos.",
+        "La  hiperprolactinemia  es  una  causa  infrecuente de disfunción eréctil, aunque debe  ser considerada."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 3,
+      "deepseek-llm_texto": "The correct answer is number 3. It defines the condition of erectile dysfunction as a persistent inability to develop or maintain an erection sufficient for intercourse and ejaculation in at least 15% of attempts."
+    },
+    {
+      "numero": 125,
+      "enunciado": "Con respecto a las inmunoglobulinas en plasma  de individuos sanos:",
+      "opciones": [
+        "La IgG supone el 70-75% del total.",
+        "La IgA supone el 50% del total.",
+        "La IgD constituye el 20% del total.",
+        "La IgE constituye el 35% del total."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "La respuesta correcta es la opción 1, \"La IgG supone el 70-75% del total\". En un individuo sano, la inmunoglobulina G (IgG) es la principal clase de anticuerpos que se encuentran en la sangre. Estos anticuerpos son producidos por células B y juegan un papel importante en el sistema inmunitario adaptativo mediante la neutralización de agentes infecciosos, como bacterias y virus. La IgG es también la única clase de inmunoglobulinas que pueden persistir a lo largo del tiempo después de la eliminación de un patógeno, proporcionando una protección extendida contra infecciones futuras.\n\nLas otras opciones son incorrectas por razones fundamentales:\n\n2) La IgA es una clase de inmunoglobulina que se encuentra principalmente en el tracto respiratorio y gastrointestinal. Aunque representa un importante componente del sistema inmunitario, no supone más del 50% del total de las inmunoglobulinas en sangre.\n\n3) La IgD es una clase de inmunoglobulina que tiene funciones desconocidas en la mayoría de los organismos y su presencia en sangre no ha sido comprobada con certeza. Por lo tanto, no puede ser seleccionada como respuesta correcta.\n\n4) La IgE es otra clase de inmunoglobulina que juega un papel importante en el sistema inmunitario llamando a las células inmunes B y linfocitos T para la destrucción de agentes patogénicos. Sin embargo, su presencia no supone el 35% del total de las inmunoglobulinas en sangre.\n\nEn resumen, solo la respuesta correcta es \"La IgG supone el 70-75% del total\" (opción 1)."
+    },
+    {
+      "numero": 126,
+      "enunciado": "En relación a las proteínas del líquido  cefalorraquídeo:",
+      "opciones": [
+        "Niveles elevados de neurogranina tienen valor  predictivo negativo para enfermedad de  Alzheimer.",
+        "Las bandas oligoclonales son patognomónicas  de esclerosis múltiple.",
+        "La determinación de las concentraciones de  isoformas de la proteína β-amiloide y la  proteína Tau pueden ser útiles en el  diagnóstico de la enfermedad de Alzheimer.",
+        "La elevación de la proteína básica de la  mielina es un factor de buen pronóstico en  enfermedades neurológicas desmielinizantes."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 3,
+      "deepseek-llm_texto": "The correct answer is number 3.\n\nExplanation: Proteinas específicas como la neurogranina y las isoformas de la proteína β-amiloide y la Tau se han investigado para su posible relación con enfermedades mentales, pero no existe una evidencia clara aún que indiquen que altos niveles de estas proteínas sean predictivos negativos o positivamente de enfermedad de Alzheimer. La elevación de la proteína básica de la mielina, por otro lado, ha sido asociada con un buen pronóstico en enfermedades neurológicas desmielinizantes como la esclerosis múltiple y la polineuropatía multifocal periférica."
+    },
+    {
+      "numero": 127,
+      "enunciado": "El punto de corte para la troponina cardíaca en  el diagnóstico del infarto agudo de miocardio  es:",
+      "opciones": [
+        "Percentil 68 del límite superior de la  población de referencia.",
+        "Percentil 90 del límite superior de la  población de referencia.",
+        "Percentil 95 del límite superior de la  población de referencia.",
+        "Percentil 99 del límite superior de la  población de referencia."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2. The percentiles used to determine the cut-off for troponin levels in diagnosing a heart attack are based on the distribution of healthy individuals within a population. A common approach is using a percentile of the upper limit (PUL) as the threshold value, with some studies suggesting a PUL90 cutoff for troponin. This means that 90% of healthy individuals would have troponin levels below this cut-off in blood tests, making it an accurate indicator for diagnosing heart attacks."
+    },
+    {
+      "numero": 128,
+      "enunciado": "El  biomarcador  que  tiene  una  mayor  sensibilidad diagnóstica en la detección del daño  cardiaco en las primeras horas de evolución de  un infarto agudo de miocardio es:",
+      "opciones": [
+        "Troponina I.",
+        "CK-MB.",
+        "Mioglobina.",
+        "Troponina T.      FSE BIOLOGÍA 2020/21 - 11 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": null,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "La respuesta correcta a esta pregunta es la opción 1, troponina I. La troponina I es un biomarcador importante usado en pruebas de cardiología que se encuentra presente en sangre y músculo cardíaco. Es especialmente utilizado para detectar daño del miocardio a corto plazo (en las primeras horas después de una infarto agudo de miocardio). Al aumentar su concentración, indica que se está produciendo algún tipo de lesión en el músculo cardíaco. La troponina I tiene una mayor sensibilidad diagnóstica para la detección del daño cardiaco en comparación con otras biomarcadores mencionadas como CK-MB o mioglobina."
+    },
+    {
+      "numero": 129,
+      "enunciado": "El método que se emplea normalmente en el  laboratorio clínico para determinar los niveles  de troponina en suero es:",
+      "opciones": [
+        "Enzimoinmunoanálisis.",
+        "Colorimetría.",
+        "Radioinmunoanálisis.",
+        "Inmunofluorescencia indirecta."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 3,
+      "deepseek-llm_texto": "The correct answer is number 3.\n\nRadioimmunological techniques such as radio-immunodiffusion (RID) and RIA have been used for the detection of troponins in serum, while immunoassays are typically preferred because they can detect very low concentrations of cardiac troponin I at a sensitivity of approximately 0 ng/L with a specificity of over 99%.[1] These assays usually use monoclonal antibodies directed against the C-terminal portion of the protein that is not sensitive to calcium.\n\nAlthough there are also other methods such as enzyme immunoassay, it is not normally used in clinical laboratories for troponin levels due to lower sensitivity and specificity compared to radioimmunological techniques.[2] Therefore, option 1 should be ruled out. Colorimetry and immunofluorescence indirect assays would typically require special fluorescent or turbidimetric detection systems and are also less sensitive than the RIA technique used for troponin I measurements in human serum, so options 2 and 4 can also be eliminated.\n\nIn summary:\nRadioimmunological techniques (3) are commonly employed by clinical laboratories to measure levels of troponin in blood samples; thus option 1 is not correct. Option 2 does not apply to this case as colorimetry isn't typically used for measuring troponins, and option 4 should also be disregarded due to the indirect nature of immunofluorescence detection system that offers less sensitivity than radioimmunological techniques in determining troponin levels."
+    },
+    {
+      "numero": 130,
+      "enunciado": "Es correcto que para el diagnóstico de lesión  miocárdica el uso de la troponina tiene:",
+      "opciones": [
+        "Una elevada sensibilidad y especificidad  diagnóstica.",
+        "Una  baja  sensibilidad  y  especificidad  diagnóstica.",
+        "Una elevada sensibilidad diagnóstica y una  baja especificidad diagnóstica.",
+        "Una baja sensibilidad diagnóstica y una  elevada especificidad diagnóstica."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. Troponins are a group of proteins involved in muscle contraction, and they increase significantly in the bloodstream when heart muscle cells (myocytes) are damaged, as might occur with a myocardial infarction (heart attack). The sensitivity and specificity of troponin for diagnosing myocardial injury have been demonstrated to be high."
+    },
+    {
+      "numero": 131,
+      "enunciado": "A los oligonucleótidos de entre 18 y 25 bases,  utilizados en la PCR se les denomina con  cualquiera de estos términos EXCEPTO:",
+      "opciones": [
+        "Primers.",
+        "Cebadores.",
+        "Iniciadores.",
+        "Stutters."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. Primers are the common term for oligonucleotides of between 18 and 25 bases used in PCR."
+    },
+    {
+      "numero": 132,
+      "enunciado": "El término \"proofreading\" aplicado a las  polimerasas de ADN, se utiliza cuando:",
+      "opciones": [
+        "Están listas para su uso directo.",
+        "Están listas para hacer pruebas con ellas.",
+        "Tienen actividad correctora de errores de  replicación,  además  de  la  actividad  polimerasa.",
+        "No se pueden usar para amplificar vectores  virales, aunque se trate de virus ADN."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 3,
+      "deepseek-llm_texto": "El término \"proofreading\" aplicado a las polimerasas de ADN, se utiliza cuando tienen actividad correctora de errores de replicación, además de la actividad polimerasa. \n\nLa respuesta es la opción número 3."
+    },
+    {
+      "numero": 133,
+      "enunciado": "Todas  las  siguientes  son  técnicas  de  secuenciación de ADN o ARN, EXCEPTO:",
+      "opciones": [
+        "Secuenciación química o de Maxham y  Gilbert.",
+        "Secuenciación basada en terminadores o de  Sanger.",
+        "Pirosecuenciación.",
+        "Secuenciación basada en el reactivo de  Edman."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2. This technique, also known as the chain termination method or dideoxy chain termination method, was developed by Sanger and coworkers in the early 1970s. It involves synthesizing short strands of DNA called oligonucleotides that have a specific nucleotide attached at one end, such as an enzyme-labeled stopper. These oligos are then used to synthesize longer strands of DNA by ligation (binding) of the two ends together and adding another labeled oligo. As long as the template strand has not been completely replicated before the added oligo is ligated, a new short complementary DNA strand will be synthesized that contains only the labeled stopper at its 3' end. After synthesis, the newly formed strands are separated from each other by gel electrophoresis and visualized by staining with ethidium bromide or silver stain. This process can proceed until all but one of the base-paired oligos have been removed from the template strand due to their stoppers. The remaining DNA fragment is then excised from the gel and subjected to further analysis, such as sequencing using radioactive labels for detection or mass spectrometry if no labels are available."
+    },
+    {
+      "numero": 134,
+      "enunciado": "NO es/son componente/s indispensable/s de la  \"master mix\" en una reacción de PCR:",
+      "opciones": [
+        "Polimerasa.",
+        "Cebadores.",
+        "DMSO.",
+        "Desoxirribonucleótidos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 4,
+      "deepseek-llm_texto": "The correct answer is number 4. \n\nExplanation: In a PCR reaction, the necessary components are DNA template (or primers and probes for qPCR), polymerase enzyme to catalyze the DNA replication process, and dNTPs as building blocks of new DNA strands. The DMSO (dimethyl sulfoxide) is used as a solvent to dissolve these components in a master mix; it does not form part of the indispensable kit."
+    },
+    {
+      "numero": 135,
+      "enunciado": "NO es un método de extracción de ADN el  basado en:",
+      "opciones": [
+        "Fenol-cloroformo.",
+        "Sulfato de amonio.",
+        "Soluciones hiperosmolares o \"salting-out\".",
+        "Bolitas paramagnéticas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 3,
+      "deepseek-llm_texto": "The correct answer is number 3. Solutions hypersmolaros or \"salting out\" is a method of DNA extraction that involves adding high concentrations of salt to a sample, which helps to break down the cellular components and extract the DNA from the cells."
+    },
+    {
+      "numero": 136,
+      "enunciado": "Las principales modificaciones epigenéticas  conocidas son:",
+      "opciones": [
+        "Errores en la transcripción del ADN a ARN.",
+        "Cambios en la estructura de la cromatina por  puentes disulfuro.",
+        "Metilación del ADN, regulación de la  conformación de cromatina a través de  modificaciones de histonas y los ARN no  codificantes.",
+        "Metilación de histonas y acetilación del ADN  provocando mutaciones irreversibles."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 3,
+      "deepseek-llm_texto": "The correct answer is number 3. Methylation of DNA, regulation of chromatin structure through modifications of histones and non-coding RNA."
+    },
+    {
+      "numero": 137,
+      "enunciado": "En el análisis genético del ADN circulante en el  plasma de un paciente con cáncer metastásico:",
+      "opciones": [
+        "No se encuentra material genético en el  plasma de un paciente con cáncer.",
+        "Se encuentran mutaciones en el ADN  circulante procedente de la célula tumoral y  no circula ADN no mutado.",
+        "Sólo los marcadores tumorales clásicos  proteicos tienen utilidad clínica.",
+        "Se  pueden  encontrar  las  mutaciones  específicas del cáncer y, si se cuantifican, su  concentración es proporcional al tamaño del  tumor."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 4,
+      "deepseek-llm_texto": "The correct answer is number 4. It states that mutations specific to the cancer can be found in plasma samples from patients with metastatic cancer, and if quantified, their concentration will be proportional to the size of the tumor. This means that by analyzing the DNA circulating in the patient's plasma, we have a better chance at identifying the mutated genes associated with their particular type of cancer."
+    },
+    {
+      "numero": 138,
+      "enunciado": "Se determina el diagnóstico del sexo fetal  durante la gestación de forma no invasiva para  el feto:",
+      "opciones": [
+        "Únicamente en sangre de cordón umbilical.",
+        "No existe forma segura para el feto de  determinar su sexo antes del nacimiento.",
+        "En el plasma de la gestante por el análisis  molecular  de  regiones  genéticas  pertenecientes al cromosoma Y desde la  semana 7 de gestación.",
+        "Por análisis ecográfico en la semana 7 de  gestación.                                FSE BIOLOGÍA 2020/21 - 12 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 3,
+      "deepseek-llm_texto": "The correct answer is number 3.\n\nExplanation: The sex of a fetus can be determined by analyzing its genetic material, specifically the chromosomes it inherits from each parent. In this case, option 3 states that \"El sexo fetal se determina en el plasma de la gestante por el análisis molecular de regiones genéticas pertenecientes al cromosoma Y desde la semana 7 de gestación\". This means that during the seventh week of pregnancy, a small sample of blood from the mother can be taken and analyzed to determine if the fetus has inherited the Y chromosome, which is characteristic of males.\n\nOption 1 is incorrect because fetal DNA cannot only be determined in cord blood. Cord blood contains some fetal DNA, but not enough for accurate sex determination before birth. Option 2 is also incorrect because there are safe methods available to determine a fetus's sex before birth, including the method described in option 3. Finally, option 4 is incorrect as well since an ultrasound (which would be used in option 4) cannot provide information about fetal gender."
+    },
+    {
+      "numero": 139,
+      "enunciado": "El test prenatal no invasivo en plasma de la  gestante para detectar una trisomía 21 del feto:",
+      "opciones": [
+        "Tiene muy poca sensibilidad y no se  recomienda  como  cribado  en  ningún  escenario clínico.",
+        "Se  puede  detectar  por  técnicas  de  secuenciación masiva del ADN circulante de  la madre desde la semana 10 de gestación  cuando la concentración de ADN fetal es  igual o superior al 4%.",
+        "Se  puede  detectar  por  técnicas  de  secuenciación masiva del ADN circulante de  la madre desde la semana 3 de gestación.",
+        "No existen datos suficientes para considerar  esta técnica como un test de utilidad clínica."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2. This non-invasive prenatal test (NIPT) for trisomy 21 detects fetal chromosomal abnormalities by analyzing the free circulating DNA in the maternal blood. It can be performed from week 10 of gestation when the concentration of fetal DNA reaches at least 4%."
+    },
+    {
+      "numero": 140,
+      "enunciado": "Las  bacterias  del  género  Listeria,  morfológicamente son:",
+      "opciones": [
+        "Bacilos Gram negativos.",
+        "Cocos Gram positivos.",
+        "Bacilos Gram positivos.",
+        "Ninguna de los anteriores."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. Listeria are gram-negative bacilli, meaning they have a negative reaction to the Gram stain method used by microbiologists to differentiate between bacteria based on cell wall composition. These bacteria can cause listeriosis in humans and animals."
+    },
+    {
+      "numero": 141,
+      "enunciado": "Los  géneros  Escherichia,  Enterobacter  y  Klebsiella tienen en común:",
+      "opciones": [
+        "Son microorganismos anaerobios estrictos.",
+        "No poseen lipopolisacárido en su pared  celular.",
+        "Son  muy  sensibles  al  antibiótico  vancomicina.",
+        "Pertenecen a la familia Enterobacteriaceae y  se caracterizan por tener una membrana  externa extracitoplásmica."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 4,
+      "deepseek-llm_texto": "The correct answer is number 4. Escherichia, Enterobacter, and Klebsiella belong to the family Enterobacteriaceae, which includes other bacteria such as Salmonella, Shigella, and Yersinia. They are characterized by having an extra cellular membrane called a mesosaccharide capsule or lipopolysaccharide (LPS) layer on their cell surface."
+    },
+    {
+      "numero": 142,
+      "enunciado": "En relación al diagnóstico microbiológico de la  gripe estacional, es correcto:",
+      "opciones": [
+        "No existen métodos fiables en la actualidad.",
+        "Los tests serológicos nos permiten detectar la  infección en los 3-4 primeros días tras el  contagio.",
+        "Los tests basados en antígenos del virus  presentan una baja especificidad.",
+        "Los tests moleculares (PCR) presentan mayor  sensibilidad que los basados en antígenos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 4,
+      "deepseek-llm_texto": "The correct answer is number 4.\n\nExplanation: Molecular diagnostic methods, such as PCR (polymerase chain reaction), are considered the most accurate for diagnosing influenza, including seasonal flu. They can detect viral RNA from a sample within a few hours of illness onset and provide results in a matter of days. Molecular tests have a higher sensitivity than serological tests, which rely on detecting antibodies to the virus, as they may not accurately distinguish between different strains of the virus or other infections with similar antigens. Serological tests, such as the flu-specific hemagglutination inhibition (HAI) test, can help identify infection in individuals 3-4 days after exposure but have limitations when it comes to diagnosing influenza during its early stages."
+    },
+    {
+      "numero": 143,
+      "enunciado": "La microdilución en caldo, el agar disco- difusión o el método de tira de gradiente de  concentración, son técnicas microbiológicas que  permiten:",
+      "opciones": [
+        "Determinar el mecanismo de acción de un  antibiótico.",
+        "Establecer  la  farmacocinética  de  un  antibiótico.",
+        "Conocer la actividad in vitro de un  antibiótico.",
+        "Ninguna de las anteriores."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. These techniques allow us to determine the mechanism of action of an antibiotic, which can help guide its use and optimize treatment outcomes."
+    },
+    {
+      "numero": 144,
+      "enunciado": "Respecto  a  la  especie  Corynebacterium  urealyticum es FALSO que:",
+      "opciones": [
+        "Es un bacilo Gram positivo de crecimiento  lento.",
+        "Es sensible a la vancomicina.",
+        "Posee una fuerte actividad ureásica.",
+        "Es una causa frecuente de infecciones de  transmisión sexual."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1.\nExplanation: Corynebacterium urealyticum is a gram-positive, slow-growing bacterium that belongs to the Corynebacterial genus. It produces hydrogen and carbon dioxide as end products of metabolism, which helps in identifying it. While this bacteria has strong urease activity and can be isolated from various environments, it does not exhibit sensitivity to vancomycin (option 2) or frequently cause sexually transmitted infections (option 4). Additionally, it is not specific to any particular growth conditions and may grow under aerobic or anaerobic conditions, but it prefers a slightly acidic pH (5.5-7)."
+    },
+    {
+      "numero": 145,
+      "enunciado": "¿Cuál de los siguientes antimicrobianos se  podría utilizar para el tratamiento de una  infección por Staphylococcus aureus resistente a  la meticilina?:",
+      "opciones": [
+        "Penicilina.",
+        "Imipenem.",
+        "Ceftarolina.",
+        "Cefotaxima."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1."
+    },
+    {
+      "numero": 146,
+      "enunciado": "Es cierto que:",
+      "opciones": [
+        "Coxiella burnetii es el agente causal de la  fiebre botonosa mediterránea.",
+        "Rickettsia conorii es el agente causal de la  fiebre Q.",
+        "Coxiella burnetii es un parásito intracelular  obligado.",
+        "Rickettsia conorii no tiene capacidad de  sintetizar proteínas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2.\n\nCoxiella burnetii causes Q-fever, not Mediterranean sheep fever (option 1). Rickettsia conorii causes Q-fever and not Mediterranean fever (option 3). Finally, Rickettsia conorii has the ability to synthesize proteins (option 4)."
+    },
+    {
+      "numero": 147,
+      "enunciado": "En relación con las infecciones causadas por  clamidias es FALSO que:",
+      "opciones": [
+        "Chlamydia psittaci produce conjuntivitis en  humanos.",
+        "Chlamydia pneumoniae es un agente causal  de neumonía.",
+        "Chlamydia trachomatis produce uretritis en el  varón.",
+        "Chalmydia trachomatis produce conjuntivitis  en humanos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1."
+    },
+    {
+      "numero": 148,
+      "enunciado": "El  agente  causal  más  frecuente  de  las  infecciones relacionadas con el uso de catéteres  intravasculares en los hospitales es:",
+      "opciones": [
+        "Escherichia coli.",
+        "Enterococcus faecalis.",
+        "Staphylococcus coagulasa-negativa.",
+        "Staphylococcus aureus."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is 1. Escherichia coli."
+    },
+    {
+      "numero": 149,
+      "enunciado": "Cuál  de  las  siguientes  bacterias  se  ha  encontrado en el interior de amebas de vida  libre:",
+      "opciones": [
+        "Bordetella.",
+        "Legionella.",
+        "Moraxella.",
+        "Mycoplasma.          FSE BIOLOGÍA 2020/21 - 13 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 3,
+      "deepseek-llm_texto": "The correct answer is 3. Moraxella."
+    },
+    {
+      "numero": 150,
+      "enunciado": "El agente etiológico de la infección de  transmisión sexual denominada “chancroide” o  “chancro blando” es:",
+      "opciones": [
+        "Chlamydia trachomatis.",
+        "Neisseria gonorrhoeae.",
+        "Mycoplasma genitalium.",
+        "Haemophilus ducreyi."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is 2. Neisseria gonorrhoeae."
+    },
+    {
+      "numero": 151,
+      "enunciado": "¿Cuál es el principal reservorio conocido de la  infección por Helicobacter pylori?:",
+      "opciones": [
+        "Los roedores.",
+        "Las aves salvajes.",
+        "Los reptiles.",
+        "El ser humano."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 4,
+      "deepseek-llm_texto": "The correct answer is number 4.\n\nHelicobacter pylori (H. pylori) primarily infects humans, specifically the stomach lining of the gastrointestinal tract. While other animals such as rodents and reptiles can also be infected with H. pylori, it does not replicate or survive in these hosts to a similar extent as it does in human beings. Consequently, the principal known reservoir for infection by H. pylori is indeed humans, making option 4 the correct answer."
+    },
+    {
+      "numero": 152,
+      "enunciado": "La brucelosis es una zoonosis que NO se  trasmite por:",
+      "opciones": [
+        "Ingestión  de  derivados  lácteos  no  pasteurizados.",
+        "La picadura de un mosquito hematófago.",
+        "Inhalación del microrganismo.",
+        "Contacto directo a través de heridas en la piel."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. Brucellosis, a zoonotic disease, does not transmit through ingestion of unpasteurized dairy derivatives (option 2). Mosquito bites are also an unlikely way for transmission, as the primary host-vector association for brucellosis involves animals rather than humans and insects (option 3). The most common method of transmission is direct contact with infected animal products or through contaminated needles used in animal husbandry; this type of transmission does not require a wound on the skin but can cause infections if there's direct contact (option 4)."
+    },
+    {
+      "numero": 153,
+      "enunciado": "En  las  infecciones  gastrointestinales  por  Escherichia coli es FALSO:",
+      "opciones": [
+        "E. coli enterotoxigénico se asocia con la  producción de enterotoxinas termoestables y  termolábiles.",
+        "E. coli enteropatógeno es una causa frecuente  de diarrea del lactante.",
+        "E. coli enterohemorrágico se asocia con el  serotipo O157:H7.",
+        "E. coli enteroinvasivo se asocia con la  producción de la toxina Shiga."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "La respuesta correcta es la opción 2. Enfermedades infecciosas gastrointestinales causadas por E. coli son un problema importante en la lactancia infantil, siendo el enteropatógeno una causa frecuente de diarrea del lactante. Sin embargo, la afirmación falso en esta pregunta es que el enteroinvasivo se asocia con la producción de la toxina Shiga, lo cual no es cierto. El enteroinvasive E. coli y el enterohemorragico son otras formas patogénicas de este microorganismo, pero no están directamente relacionadas con la producción de toxinas como se sugiere en la pregunta."
+    },
+    {
+      "numero": 154,
+      "enunciado": "Respecto a las carbapenemasas, es cierto que:",
+      "opciones": [
+        "Pueden conferir resistencia a penicilinas,  cefalosporinas y carbapenemas.",
+        "Son características de las bacterias Gram  positivas.",
+        "Son  poco  frecuentes  en  Klebsiella  pneumoniae.",
+        "Nunca se localizan en elementos genéticos  transferibles."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. Carbo"
+    },
+    {
+      "numero": 155,
+      "enunciado": "Una de las siguientes afirmaciones respecto a  Pseudomonas aeruginosa es FALSA:",
+      "opciones": [
+        "Es un bacilo Gram negativo no fermentador,  oxidasa negativa.",
+        "Causa infecciones pulmonares graves en  pacientes con fibrosis quística.",
+        "Causa otitis externa asociada a baño en  piscinas.",
+        "Suele ser resistente a gran parte de los  antibióticos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. 'Es un bacilo Gram negativo no fermentador, oxidasa negativa.' This statement about Pseudomonas aeruginosa being a Gram-negative non-fermenting, negative-oxidase bacterium is false because it only provides information for the first part of the description while leaving out other characteristics such as its ability to cause severe lung infections in patients with cystic fibrosis and being resistant to most antibiotics. \n\nPseudomonas aeruginosa (PA) is a gram-negative, non-motile bacterium that can be found naturally in soil, water, or on plants. It has a unique phenotype characterized by its ability to utilize alternative sources of carbon, nitrogen, and iron due to the absence of respiratory and photosynthetic functions.\n\nPseudomonas aeruginosa is also known for being resistant to antibiotics; it does not respond well to traditional treatments such as penicillin or cephalosporins because these drugs mainly target bacterial cell wall synthesis by inhibiting peptidoglycan synthesis, a process that PA doesn't rely heavily on. Its resistance mechanisms include efflux pumps and the ability to utilize alternative energy sources for growth.\n\nHowever, Pseudomonas aeruginosa is notorious for causing severe lung infections in patients with cystic fibrosis due to its mucoid phenotype, which allows it to adhere more easily to human airway epithelial cells and avoid immune system clearance. Additionally, PA can cause otitis externa associated with swimming pool use by releasing potent inflammatory mediators that lead to inflammation of the middle ear cavity (otosclerosis).\n\nIn summary, although Pseudomonas aeruginosa is a Gram-negative non-fermenting bacterium, it is not a false statement since it does have other characteristics and infections associated with its pathogenicity."
+    },
+    {
+      "numero": 156,
+      "enunciado": "Una de las siguientes parejas de antibiótico- mecanismo de resistencia no es frecuente en  Pseudomonas aeruginosa:",
+      "opciones": [
+        "Quinolonas-bombas de expulsión.",
+        "Carbapenemas-mutación de la porina OprD.",
+        "Aminoglicósidos-modificación de la ADN  girasa.",
+        "Cefalosporinas-beta-lactamasas."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2. Carbapenemas are not frequently associated with mutations in the porin OprD, which leads to decreased expression of the outer membrane protein essential for quinolone binding and efflux. On the other hand, Quinolonas-bombas de expulsión (Quinolones - efflux pumps), Carbapenemas-mutación de la porina GYD3012 (Carbapenems - mutation of porin OprD), Aminoglicosidos-modificación de la ADN gyrase (Aminoglycosides - modification of DNA gyrase) and Cefalosporinas-beta-lactamasas (Cephalosporins - beta-lactamases) are not frequent in Pseudomonas aeruginosa."
+    },
+    {
+      "numero": 157,
+      "enunciado": "¿Cuál de las siguientes características de  Mycobacterium tuberculosis es FALSA?:",
+      "opciones": [
+        "Es un bacilo aerobio estricto.",
+        "Se tiñe bien con la tinción de Gram, incluidas  las esporas.",
+        "Tiene un crecimiento lento en los medios de  cultivo.",
+        "La pared tiene muchos lípidos, incluyendo los  ácidos micólicos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "La respuesta correcta sería 'La característica número 2 es FALSA'. Mycobacterium tuberculosis no se tiñe bien con la tinción de Gram, ya que esta técnica solo sirve para visualizar bacterias grampositivas y negras. Por otro lado, M. tuberculosis es una bacteria del género Mycobacterium y no se trata de un virus o una molécula no vírica. Además, este microorganismo presenta una pared rica en lípidos, incluyendo ácidos micólicos, la cual hace que no sea susceptible a la tinción de Gram. Finalmente, el crecimiento de M. tuberculosis es lento, lo que requiere los medios de cultivo adecuados para su detección y identificación en laboratorios clínicos y microscopia óptica (Microscopio electrónico de barrido)."
+    },
+    {
+      "numero": 158,
+      "enunciado": "¿Cuál de las siguientes afirmaciones sobre la  tuberculosis es FALSA?:",
+      "opciones": [
+        "La tuberculosis pulmonar se transmite de  persona a persona por vía aérea.",
+        "El diagnóstico microbiológico definitivo se  basa en el aislamiento e identificación del  bacilo tuberculoso.",
+        "La prueba de la tuberculina (PPD) y/o la  producción de interferón-gamma por los  linfocitos (IGRA) sirven para conocer si una  persona es contagiosa.",
+        "Es una enfermedad cuyo índice de curación es  muy elevado cuando el tratamiento se realiza  correctamente."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "La afirmación Falsa sobre la tuberculosis es la opción 2. El diagnóstico microbiológico definitivo no se basa en el aislamiento e identificación del bacilo tuberculoso, ya que este método puede ser inexacto y no siempre es posible. Además, existen otras pruebas como la prueba de la tuberculina (PPD) y/o la producción de interferón-gamma por los linfocitos (IGRA), que sirven para conocer si una persona es contagiosa. Por lo tanto, esta afirmación es Falsa."
+    },
+    {
+      "numero": 159,
+      "enunciado": "¿Cuál de las siguientes afirmaciones sobre el  género Nocardia es FALSA?:",
+      "opciones": [
+        "Son bacilos Gram positivos y aerobios.",
+        "Son  bacilos  débilmente  ácido-alcohol  resistentes.",
+        "El hábitat natural (reservorio primario) es el  hombre.",
+        "El tratamiento de elección es el cotrimoxazol  (trimetoprim-sulfametoxazol)."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 3,
+      "deepseek-llm_texto": "La falso afirmación sobre el género Nocardia es la opción 3: \"El hábitat natural (reservorio primario) es el hombre.\""
+    },
+    {
+      "numero": 160,
+      "enunciado": "¿Cuál de las siguientes afirmaciones respecto a  los micoplasmas es verdadera?:",
+      "opciones": [
+        "Son ácido-alcohol resistentes.",
+        "Carecen de pared celular.",
+        "Son bacterias de crecimiento rápido (menos  de 24 horas).",
+        "El tratamiento de elección son los antibióticos  beta-lactámicos.                FSE BIOLOGÍA 2020/21 - 14 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 3,
+      "deepseek-llm_texto": "La respuesta correcta es la opción 3, que dice \"Son bacterias de crecimiento rápido (menos de 24 horas)\". Estas son células procariotas pequeñas y no presentan pared celular. También suelen ser resistentes a ácido-alcoholes debido a sus características fisicoquímicas, por lo que la afirmación 1 también es cierta. No son bacterias gram positivas ni negativas y no se encuadran dentro de las agrupaciones taxonómicas actuales conocidas como microorganismos."
+    },
+    {
+      "numero": 161,
+      "enunciado": "En la enfermedad de Lyme es verdadero que:",
+      "opciones": [
+        "Está causada por Leptospira interrogans.",
+        "Es una infección de transmisión sexual.",
+        "Enfermedad que se localiza en Australia.",
+        "El diagnóstico microbiológico se basa en la  serología."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1."
+    },
+    {
+      "numero": 162,
+      "enunciado": "Respecto a Treponema pallidum es FALSO que:",
+      "opciones": [
+        "Es una bacteria móvil, visible en microscopía  de campo oscuro.",
+        "No crece en los medios de cultivo artificiales.",
+        "En el ser humano causa la psitacosis u  ornitosis.",
+        "El tratamiento de elección es la penicilina."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2. Treponema pallidum, the causative agent of syphilis, does not grow in artificial culture media and cannot be cultivated like bacteria or viruses. Instead, it can only be cultured in live animals such as rabbits or mice."
+    },
+    {
+      "numero": 163,
+      "enunciado": "Respecto al virus Toscana es FALSO que:",
+      "opciones": [
+        "Se trasmite por la picadura de un flebotomo  del género Phlebotomus spp.",
+        "Es un virus neurotrópico, que puede llegar a  ser un agente etiológico relevante de  meningitis vírica en algunas regiones de  España.",
+        "La  detección  por  PCR,  en  líquido  cefalorraquídeo, es el método de elección  para el diagnóstico de infección neurológica.",
+        "Raramente la serología tiene reacciones  cruzadas con otros flebovirus."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2.\n\nEl virus Toscana es un virus neurotópico que puede llegar a ser un agente etiológico relevante de meningitis vírica en algunas regiones de España. Se ha comprobado su presencia tanto en Europa como en África y Asia. Por otro lado, las opciones 1, 3 y 4 no son ciertas: la transmisión por picadura de un mosquito no se ha observado, la detección por PCR en líquido cefalorraquídeo no es el método de elección para el diagnóstico de infección neurológica, y raramente la serología tiene reacciones cruzadas con otros flebovirus."
+    },
+    {
+      "numero": 164,
+      "enunciado": "Indique la asociación correcta entre familia y  virus ARN:",
+      "opciones": [
+        "Virus del sarampión – Paramixovirus.",
+        "Virus Ébola – Rabdovirus.",
+        "Virus Marburg – Reovirus.",
+        "Rotavirus – Filovirus."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1."
+    },
+    {
+      "numero": 165,
+      "enunciado": "Respecto a los norovirus es cierto que:",
+      "opciones": [
+        "Se transmiten principalmente vía sanguínea.",
+        "Dos días después del período prodrómico  aparecen  unas  lesiones  típicas  en  las  membranas  mucosas  conocidas  como  manchas de Köplik.",
+        "No es posible la aplicación de la PCR para la  detección del genoma en muestras de heces.",
+        "Presentan  una  pequeña  cápside  cuya  morfología  permite  distinguirlos  por  microscopía electrónica."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 4,
+      "deepseek-llm_texto": "The correct answer is number 4."
+    },
+    {
+      "numero": 166,
+      "enunciado": "Respecto al citomegalovirus humano es cierto  que:",
+      "opciones": [
+        "Las fuentes de infección en el recién nacido  son la transmisión transplacentaria, infección  intrauterina y secreciones cervicales.",
+        "Pertenece a la subfamilia Alphaherpesvirinae.",
+        "La enfermedad recurrente no es fuente de  contagio.",
+        "La  infección  sintomática  se  produce  principalmente en inmunocompetentes."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1.\n\nThe human cytomegalovirus (CMV) can infect a newborn from three main sources of infection - transplacental transmission, intrauterine infection, and cervical secretions. It does not transmit through recurrent disease or shedding, which means that patients with CMV do not become contagious when they have symptoms. Instead, the primary mode of transmission is congenital (from mother to fetus). Therefore, it is accurate to say that sources of infection in a newborn are transplacental transmission, intrauterine infection, and cervical secretions."
+    },
+    {
+      "numero": 167,
+      "enunciado": "¿Cuál de los siguientes es un marcador de  infección aguda por virus de Epstein-Barr?:",
+      "opciones": [
+        "Antígeno RPR (reagina plasmática rápida).",
+        "Anticuerpos anti-nucleares (anti-EBNA).",
+        "Antígeno Australia.",
+        "Anticuerpos heterófilos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2. \n\nExplanation: The Epstein-Barr virus (EBV) is a common human herpesvirus that can cause infectious mononucleosis, also known as glandular fever. EBV infection causes the production of antibodies against its unique nuclear antigens called EBNA (EBER), which are specific to this virus family and cannot be found in other viruses or pathogens. The most commonly used marker for detecting EBV-associated diseases such as infectious mononucleosis is the immunofluorescence assay (IFA) using anti-EBNA antibodies, specifically anti-EBNA1 antibodies. Therefore, option 2: \"Anticuerpos anti-nucleares (anti-EBNA)\" would be the correct answer to this question since it refers to specific markers used for detecting EBV infections and its associated diseases like infectious mononucleosis."
+    },
+    {
+      "numero": 168,
+      "enunciado": "La panencefalitis esclerosante subaguda es una  complicación tardía de la infección producida  por:",
+      "opciones": [
+        "Gripe.",
+        "Sarampión.",
+        "Rubeola.",
+        "Citomegalovirus."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 4,
+      "deepseek-llm_texto": "The correct answer is number 4. La panencefalitis esclerosante subaguda es una complicación tardía de la infección producida por el citomegalovirus (CMV). This disease affects the brain and spinal cord, causing inflammation in the white matter of the central nervous system. It is a late complication that can occur after an initial viral infection such as herpes simplex virus type 1 or cytomegalovirus. The other options, influenza, measles, and rubella do not typically cause this specific disease."
+    },
+    {
+      "numero": 169,
+      "enunciado": "¿Cuál de los siguientes virus es un agente  defectivo que necesita de otro virus para su  replicación?:",
+      "opciones": [
+        "Virus de la hepatitis A.",
+        "Virus de la hepatitis B.",
+        "Virus de la hepatitis C.",
+        "Virus de la hepatitis D."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. The Hepatitis D virus requires the Hepatitis B virus for replication, making it a defective agent that cannot replicate on its own."
+    },
+    {
+      "numero": 170,
+      "enunciado": "Dentro de los grupos en los que se divide el  virus de la inmunodeficiencia humana tipo 1  (VIH-1), el que produce la mayor parte de las  infecciones y principal responsable de la  pandemia es:",
+      "opciones": [
+        "VIH-1 Grupo M.",
+        "VIH-1 Grupo N.",
+        "VIH-1 Grupo P.",
+        "VIH-1 Grupo O."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1.\n\nExplanation: The Human Immunodeficiency Virus (HIV) is divided into different groups based on the sequences of their genetic material, known as \"subtypes.\" These subtypes are not mutually exclusive and an individual can be a member of more than one subtype. Of these subgroups, Group M has been responsible for most HIV infections and has emerged as the principal cause behind the AIDS pandemic."
+    },
+    {
+      "numero": 171,
+      "enunciado": "En un individuo infectado por el virus de la  inmunodeficiencia humana tipo 1 (VIH-1), ¿Cuál es el primer marcador detectable en  sangre?:",
+      "opciones": [
+        "Anticuerpos de la clase IgM.",
+        "Anticuerpos de la clase IgG.",
+        "Antígeno p2",
+        "4. ARN vírico."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "El correcto respuesta es el número 2, los anticuerpos de la clase IgG. A medida que se infecta con VIH-1, las células del sistema inmune producen anticuerpos (proteínas específicas para un antígeno) contra esa cepa particular de virus. Los anticuerpos de la clase IgM son menos especializados y suelen ser detectables antes de que se formen los anticuerpos de la clase IgG, por lo tanto no pueden ser el primer marcador detectable en sangre de una infección con VIH-1. Los antígenos p2 también son producidos por el virus pero solo se encuentran en células infectadas y no están disponibles para que la respuesta inmune las localice, es decir, no contribuyen como marcadores de infección. Por último, los ARN víricos no son detectables en sangre ya que su fragmentación, si no su destrucción por anticuerpos y otras células del sistema inmune, hacen que no sean mantenidos intactos a lo largo del tiempo de la infección."
+    },
+    {
+      "numero": 172,
+      "enunciado": "En la evolución de la infección por el virus de la  inmunodeficiencia humana tipo 1 (VIH-1), ¿cuál es el nivel de linfocitos T CD4+ en sangre que  marca  la  aparición  de  la  inmunodeficiencia?:",
+      "opciones": [
+        "200 CD4+/µL.",
+        "350 CD4+/ µL.",
+        "500 CD4+/ µL.",
+        "1000 CD4+/ µL.                FSE BIOLOGÍA 2020/21 - 15 -"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "La infección por el virus de la inmunodeficiencia humana tipo 1 (VIH-1) es causada principalmente por la acción del virus sobre los linfocitos T CD4+, especialmente aquellos que expresan el receptor deCCR5. La ausencia o disminución de estos linfocitos puede llevar a una inmunodeficiencia grave, incluyendo la susceptibilidad a infecciones no víricas y oncologías.\n\nUn estudio clásico publicado en 1987 por Montagnier et al., que identificó por primera vez el virus VIH-1, mostró que los niveles de linfocitos T CD4+ disminuyeron drásticamente y rápidamente después de la infección inicial. En este estudio se reportaron niveles medios de linfocitos CD4+/µL en sangre del orden de 200-350.\n\nPor lo tanto, el nivel de linfocitos T CD4+ que marca la aparición de la inmunodeficiencia por VIH-1 es de aproximadamente 200 CD4+/µL (correct answer: 1)."
+    },
+    {
+      "numero": 173,
+      "enunciado": "¿Qué patógeno sospecharía en un paciente que  presenta un cuadro de disentería con sangre y  moco, y fiebre alta a la vuelta de su viaje a  India?:",
+      "opciones": [
+        "Entamoeba coli.",
+        "Entamoeba hartmanni.",
+        "Entamoeba histolytica.",
+        "Entamoeba dispar."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. Entamoeba coli.\n\nExplanation: The patient's symptoms, including diarrhea with blood and mucus, as well as fever, are consistent with a parasitic infection caused by the ameba E. coli (also known as Enterocytozoon hepatopenaei). This parasite is commonly found in cattle and can cause similar symptoms in humans after exposure through contaminated food or water. Other options such as Entamoeba hartmanni, Entamoeba histolytica, and Entamoeba dispar are not likely to cause these specific symptoms."
+    },
+    {
+      "numero": 174,
+      "enunciado": "¿Cuál es el único protozoo ciliado patógeno  para el humano?:",
+      "opciones": [
+        "Balantidium coli.",
+        "Chilomastix mesnili.",
+        "Enteromonas hominis.",
+        "Trichomonas hominis."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 4,
+      "deepseek-llm_texto": "The correct answer is number 4.\n\nExplanation: Among the options provided, only one protozoan is pathogenic to humans and characterized by cilia - it's Trichomonas hominis (option 4). Balantidium coli (option 1), Chilomastix mesnili (option 2), and Enteromonas hominis (option 3) are not known for causing disease in humans. Therefore, the only correct answer is number 4 - Trichomonas hominis."
+    },
+    {
+      "numero": 175,
+      "enunciado": "¿Cuál de las siguientes NO es una vía de  trasmisión de la tripanosomiasis americana o  enfermedad de Chagas?:",
+      "opciones": [
+        "Congénita.",
+        "Oral.",
+        "Por aerosoles.",
+        "Vectorial."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "La respuesta correcta a esta pregunta es 'No'. La Tripanosomiasis Americana, también conocida como enfermedad de Chagas, no se transmite por vía congénita (1), ya que las parásitas tripanósidos no infectan al feto o el niño en el útero. La enfermedad también no se transmite a través del aire oral (2) y de aerosoles, porque la infección ocurre después de una picada por un picador tripanoideo. Finalmente, mientras si puede ser transmitida al ser picado por un picador tripanósido, esto sucede principalmente durante el cortejo y no es exclusivo del momento del ataque, por lo que la vía de transmisión principal es vectorial (4), ya que los insectos que transportan el parásito como su vector transmiten la enfermedad. Por lo tanto, la respuesta correcta a esta pregunta sería: 'La respuesta correcta es No'"
+    },
+    {
+      "numero": 176,
+      "enunciado": "¿En qué muestras NO se suelen encontrar  huevos o larvas de Ascaris?:",
+      "opciones": [
+        "Esputo.",
+        "Aspirado gástrico.",
+        "Orina.",
+        "Heces."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 3,
+      "deepseek-llm_texto": "The correct answer is number 3.\n\nAscaris, commonly known as the common roundworm or ascaris lumbricoides, are parasitic nematodes that can infect humans and cause ascariasis. They primarily inhabit the small intestine, where they feed on human blood, mucus, and cells from the lining of the gut. Ascaris eggs do not have a hard shell like tapeworms, so they cannot survive outside of their host's body.\n\nThe most common locations for ascaris to be found are in the stool or feces (option 4), as the adult worms exit the human body through defecation and lay their eggs there. In addition, the life cycle of Ascaris involves multiple hosts; an infected individual sheds both larvae and mature worms during bowel movements, which can then penetrate the skin of other individuals when they come into contact with contaminated soil or surfaces, leading to reinfection in those who ingest the infective larvae.\n\nIn contrast, aspirated gastric material (option 1) is not typically a location where eggs from Ascaris would be found because it comes directly from the stomach and contains no adult worms or their offspring. Similarly, urine (option 3) does not contain Ascaris eggs as they are excreted in feces rather than being processed by the urinary system.\n\nLastly, expectorated material such as sputum (option 2), which is expelled during coughing and has a close association with respiratory infections caused by other parasites or viruses, also would not be expected to contain Ascaris eggs because they are primarily found in the small intestine rather than the respiratory tract."
+    },
+    {
+      "numero": 177,
+      "enunciado": "La onda T del electrocardiograma corresponde  a:",
+      "opciones": [
+        "La despolarización de las aurículas.",
+        "La despolarización de los ventrículos.",
+        "La repolarización de las aurículas.",
+        "La repolarización de los ventrículos."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1."
+    },
+    {
+      "numero": 178,
+      "enunciado": "El término haustras o “batido haustral” se  refiere a:",
+      "opciones": [
+        "Una patología asociada con la pérdida de  grasas en heces.",
+        "Un reflejo gastroileal que intensifica el  peristaltismo en el íleon.",
+        "El grado de contracción del esfínter o válvula  ileocecal.",
+        "Contracciones de segmentación del intestino  grueso."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1."
+    },
+    {
+      "numero": 179,
+      "enunciado": "El órgano tendinoso de Golgi está diseñado  para informar de:",
+      "opciones": [
+        "El tamaño del músculo en cada momento.",
+        "El ángulo que forman los huesos.",
+        "La velocidad de los cambios de posición del  cuerpo.",
+        "La tensión que genera un músculo al  contraerse."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 4,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. The Golgi apparatus, also known as the Golgi body or Golgi complex, is a group of organs and organelles that perform important cellular functions in animals, including humans. It plays a crucial role in sorting, modifying, and routing protein-rich secretory granules from endosomes to various destinations within the cell. However, its primary function is not related to muscle size but rather to the structure and regulation of other parts of an animal's body."
+    },
+    {
+      "numero": 180,
+      "enunciado": "Respecto a la electroporación de bacterias para  su uso en clonación génica:",
+      "opciones": [
+        "Requiere el uso de una corriente eléctrica para  crear poros transitorios en la pared bacteriana  que se cierran al cortar la corriente, atrapando  el plásmido de ADN en el interior.",
+        "Con  la  electroporación  se  consiguen  eficiencias inferiores a las conseguidas por  transformación química.",
+        "Se realiza a 42ºC, para disminuir el daño  potencial al ADN.",
+        "Es un método más eficiente y barato que la  transformación química."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1."
+    },
+    {
+      "numero": 181,
+      "enunciado": "¿Qué proteína forma parte del complejo TCR?:",
+      "opciones": [
+        "CD3.",
+        "CD19.",
+        "CD",
+        "4. CD8."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 1,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1. CD3.\n\nExplanation: The T-cell receptor (TCR) complex is a protein structure that is present on the surface of T cells and plays a crucial role in their ability to recognize and respond to foreign antigens such as those found on pathogens like bacteria or viruses. This complex consists mainly of two parts, the TCR alpha and beta chains, which are expressed by the genes of the T cell itself. The CD3 molecule is an integral part of this complex. It is a transmembrane glycoprotein that provides linkage between the extracellular domain of the TCR alpha and beta chains and the intracellular signaling pathways activated by these receptors."
+    },
+    {
+      "numero": 182,
+      "enunciado": "La variable edad es recogida en un cuestionario  de la siguiente manera: <20, [20-50], >50. ¿Qué  tipo de variable es?:",
+      "opciones": [
+        "Cuantitativa discreta.",
+        "Cuantitativa continua.",
+        "Cualitativa ordinal.",
+        "Cualitativa politómica nominal."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 1,
+      "deepseek-llm_texto": "The correct answer is number 1."
+    },
+    {
+      "numero": 183,
+      "enunciado": "Un transposón es:",
+      "opciones": [
+        "Un fragmento proteico.",
+        "Un fragmento de ADN móvil.",
+        "Una enzima muy específica del metabolismo  proteico.",
+        "Una chaperona."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 2,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 2,
+      "deepseek-llm_texto": "The correct answer is number 2.\n\nUn transposón (también conocido como \"genetica inmutable\") es un fragmento de ADN móvil que se reproduce y cambia su posición en el genoma de una célula."
+    },
+    {
+      "numero": 184,
+      "enunciado": "La frase que NO es correcta es:",
+      "opciones": [
+        "El dogma central de la biología molecular, tal  y como fue postulado en principio por Crick,  propone que solo el ADN es transcrito en  ARN, y que solo el ARN es traducido a  proteína.",
+        "El dogma central de la biología molecular ha  sido sobrepasado por la realidad, tal y como  conocemos ahora: por ejemplo, hay virus que  pueden sintetizar ADN a partir de ARN.",
+        "La replicación del ADN, en eucariotas, se  produce durante la metafase, antes de que se  compacten los cromosomas.",
+        "La duplicación del ADN es semiconservativa."
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": 3,
+      "deepseek-llm_texto": "The correct answer is number 3. The dogma central of molecular biology was indeed overthrown by reality (for example the ability for certain viruses to synthesize DNA from RNA) but it's not related to the specific examples provided, such as replicating during metaphase or being semi-conservative in duplicating DNA."
+    },
+    {
+      "numero": 185,
+      "enunciado": "Señale la asociación INCORRECTA:",
+      "opciones": [
+        "Escarlatina-Streptococcus pyogenes.",
+        "Sepsis neonatal-Streptococcus agalactiae.",
+        "Síndrome del shock tóxico- Enterococcus  faecalis.",
+        "Endocarditis- Enterococcus spp.      FSE BIOLOGÍA 2020/21 FSE BIOLOGÍA 2020/21 FSE BIOLOGÍA 2020/21"
+      ],
+      "archivo_origen": "Cuaderno_2020_BIOLOGÍA_0_C.pdf",
+      "respuesta_correcta": 3,
+      "titulacion": "BIOLOGÍA",
+      "convocatoria": "2020",
+      "tipo": "texto",
+      "deepseek-llm": null,
+      "deepseek-llm_texto": "La asociación INCORRECTA es: Síndrome del shock tóxico- Enterococcus spp."
+    }
+  ]
+}

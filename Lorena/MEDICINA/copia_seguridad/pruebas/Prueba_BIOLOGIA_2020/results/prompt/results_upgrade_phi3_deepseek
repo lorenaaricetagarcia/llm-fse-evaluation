@@ -1,0 +1,42 @@
+
+📊 Resultados del modelo PHI3
+------------------------------------------------------------
+Total de preguntas        : 185
+Respondidas por el modelo : 100
+Aciertos                  : 44
+Errores                   : 56
+No respondió (None)       : 85
+📈 Porcentaje de acierto  : 44.00%
+
+🔍 Ejemplos de errores:
+  ➤ Pregunta 2: predijo 1, correcta 3
+    Las sinapsis eléctricas se caracterizan por:
+  ➤ Pregunta 4: predijo 4, correcta 2
+    En las neuronas receptoras del olfato, las  proteínas receptoras de odorantes se localizan  en:
+  ➤ Pregunta 6: predijo 1, correcta 4
+    Si el mecanismo de acción de una hormona se  produce a través de la activación de la  fosfolipasa C:
+  ➤ Pregunta 8: predijo 2, correcta 1
+    La hormona del crecimiento:
+  ➤ Pregunta 9: predijo 2, correcta 3
+    ¿Cuál de los siguientes factores disminuye la  secreción de insulina?:
+
+📊 Resultados del modelo DEEPSEEK
+------------------------------------------------------------
+Total de preguntas        : 185
+Respondidas por el modelo : 103
+Aciertos                  : 34
+Errores                   : 69
+No respondió (None)       : 82
+📈 Porcentaje de acierto  : 33.01%
+
+🔍 Ejemplos de errores:
+  ➤ Pregunta 2: predijo 1, correcta 3
+    Las sinapsis eléctricas se caracterizan por:
+  ➤ Pregunta 3: predijo 1, correcta 2
+    Los sistemas sensoriales codifican la intensidad  de los estímulos en función de:
+  ➤ Pregunta 6: predijo 1, correcta 4
+    Si el mecanismo de acción de una hormona se  produce a través de la activación de la  fosfolipasa C:
+  ➤ Pregunta 7: predijo 4, correcta 1
+    ¿Cuál de las siguientes hormonas se sintetiza en  la hipófisis?:
+  ➤ Pregunta 17: predijo 1, correcta 3
+    La progesterona estimula:

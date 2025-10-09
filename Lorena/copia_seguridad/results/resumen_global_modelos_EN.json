@@ -1,0 +1,58 @@
+{
+  "llama3": {
+    "total": 6977,
+    "respondidas": 6961,
+    "aciertos": 3367,
+    "errores": 3594,
+    "sin_respuesta": 16,
+    "acierto_pct": 48.37
+  },
+  "mistral": {
+    "total": 6977,
+    "respondidas": 6924,
+    "aciertos": 3041,
+    "errores": 3883,
+    "sin_respuesta": 53,
+    "acierto_pct": 43.92
+  },
+  "gemma": {
+    "total": 6977,
+    "respondidas": 6918,
+    "aciertos": 3030,
+    "errores": 3888,
+    "sin_respuesta": 59,
+    "acierto_pct": 43.8
+  },
+  "deepseek-coder": {
+    "total": 6977,
+    "respondidas": 2511,
+    "aciertos": 641,
+    "errores": 1870,
+    "sin_respuesta": 4466,
+    "acierto_pct": 25.53
+  },
+  "deepseek-llm": {
+    "total": 6976,
+    "respondidas": 6860,
+    "aciertos": 2155,
+    "errores": 4705,
+    "sin_respuesta": 116,
+    "acierto_pct": 31.41
+  },
+  "phi3": {
+    "total": 6977,
+    "respondidas": 3135,
+    "aciertos": 1164,
+    "errores": 1971,
+    "sin_respuesta": 3842,
+    "acierto_pct": 37.13
+  },
+  "phi3:instruct": {
+    "total": 6977,
+    "respondidas": 1438,
+    "aciertos": 361,
+    "errores": 1077,
+    "sin_respuesta": 5539,
+    "acierto_pct": 25.1
+  }
+}

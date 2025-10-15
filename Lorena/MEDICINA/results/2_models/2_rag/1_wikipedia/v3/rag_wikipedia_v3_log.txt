@@ -1,0 +1,74 @@
+⏳ Starting RAG-Wikipedia v3 – 2025-10-14 21:43:59
+
+📘 Procesando MEDICINA (900 preguntas tipo texto)
+
+🔹 Modelo: llama3
+💾 Progreso: 50/900 procesadas
+💾 Progreso: 100/900 procesadas
+💾 Progreso: 150/900 procesadas
+💾 Progreso: 200/900 procesadas
+💾 Progreso: 250/900 procesadas
+💾 Progreso: 300/900 procesadas
+💾 Progreso: 350/900 procesadas
+💾 Progreso: 400/900 procesadas
+💾 Progreso: 450/900 procesadas
+💾 Progreso: 500/900 procesadas
+💾 Progreso: 550/900 procesadas
+💾 Progreso: 600/900 procesadas
+💾 Progreso: 650/900 procesadas
+💾 Progreso: 700/900 procesadas
+💾 Progreso: 750/900 procesadas
+💾 Progreso: 800/900 procesadas
+💾 Progreso: 850/900 procesadas
+💾 Progreso: 900/900 procesadas
+📊 LLAMA3 → Global: 48.33% | Con Wikipedia: 48.47% | Sin Wikipedia: 41.18%
+
+🔹 Modelo: mistral
+💾 Progreso: 50/900 procesadas
+💾 Progreso: 100/900 procesadas
+💾 Progreso: 150/900 procesadas
+💾 Progreso: 200/900 procesadas
+💾 Progreso: 250/900 procesadas
+💾 Progreso: 300/900 procesadas
+💾 Progreso: 350/900 procesadas
+💾 Progreso: 400/900 procesadas
+💾 Progreso: 450/900 procesadas
+💾 Progreso: 500/900 procesadas
+💾 Progreso: 550/900 procesadas
+💾 Progreso: 600/900 procesadas
+💾 Progreso: 650/900 procesadas
+💾 Progreso: 700/900 procesadas
+💾 Progreso: 750/900 procesadas
+💾 Progreso: 800/900 procesadas
+💾 Progreso: 850/900 procesadas
+💾 Progreso: 900/900 procesadas
+📊 MISTRAL → Global: 42.78% | Con Wikipedia: 42.58% | Sin Wikipedia: 52.94%
+
+🔹 Modelo: gemma
+💾 Progreso: 50/900 procesadas
+💾 Progreso: 100/900 procesadas
+💾 Progreso: 150/900 procesadas
+💾 Progreso: 200/900 procesadas
+💾 Progreso: 250/900 procesadas
+💾 Progreso: 300/900 procesadas
+💾 Progreso: 350/900 procesadas
+💾 Progreso: 400/900 procesadas
+💾 Progreso: 450/900 procesadas
+💾 Progreso: 500/900 procesadas
+💾 Progreso: 550/900 procesadas
+💾 Progreso: 600/900 procesadas
+💾 Progreso: 650/900 procesadas
+💾 Progreso: 700/900 procesadas
+💾 Progreso: 750/900 procesadas
+💾 Progreso: 800/900 procesadas
+💾 Progreso: 850/900 procesadas
+💾 Progreso: 900/900 procesadas
+📊 GEMMA → Global: 38.44% | Con Wikipedia: 38.73% | Sin Wikipedia: 23.53%
+💾 Guardado JSON: /home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/1_wikipedia/v3/MEDICINA_llama3_rag_wikipedia_v3.json
+💾 Guardado JSON: /home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/1_wikipedia/v3/MEDICINA_mistral_rag_wikipedia_v3.json
+💾 Guardado JSON: /home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/1_wikipedia/v3/MEDICINA_gemma_rag_wikipedia_v3.json
+
+✅ Métricas exportadas correctamente en: /home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/1_wikipedia/v3/rag_wikipedia_v3_metrics.xlsx
+🧾 Log completo: /home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/1_wikipedia/v3/rag_wikipedia_v3_log.txt
+
+🏁 Pipeline RAG-Wikipedia v3 completado correctamente.

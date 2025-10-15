@@ -1,0 +1,4 @@
+📘 RAG Integrator – Safe Mode Start: 2025-10-14 09:21:17
+▶️ Pipelines seleccionados: Wikipedia_v2, PubMed_v2
+================================================================================
+

@@ -1,273 +1,251 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+RAG with Wikipedia – v3 (Revised, Publication-Ready)
+Author: Lorena Ariceta García  
+TFM – Data Science & Bioinformatics for Precision Medicine  
+
+Description:
+  - Processes 900 MIR-style questions (tipo == "texto")
+  - Keeps all questions (with or without Wikipedia context)
+  - Annotates `found_wikipedia` flag per question
+  - Computes metrics for:
+      • Global accuracy (all)
+      • With Wikipedia context
+      • Without Wikipedia context
+  - Exports results to JSON + Excel (3 sheets)
+"""
+
 import os
-import json
-import requests
 import re
+import json
 import time
+import requests
 import spacy
 import wikipediaapi
 import pandas as pd
 from keybert import KeyBERT
 from sentence_transformers import SentenceTransformer
 from collections import Counter
+from datetime import datetime
+import sys
 
-# ================================================================
-# ⚙️ CONFIGURACIÓN
-# ================================================================
+# =============================================================================
+# Configuration
+# =============================================================================
+
+MODELOS = ["llama3", "mistral", "gemma"]
+
+CARPETA_EXAMENES = "/home/xs1/Desktop/Lorena/MEDICINA/results/1_data_preparation/6_json_final/prueba"
+CARPETA_SALIDA = "/home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/1_wikipedia/v3"
+os.makedirs(CARPETA_SALIDA, exist_ok=True)
+
+LOG_FILE = os.path.join(CARPETA_SALIDA, "rag_wikipedia_v3_log.txt")
+
+# =============================================================================
+# Dual Logger
+# =============================================================================
+class DualLogger:
+    def __init__(self, path: str):
+        self.terminal = sys.stdout
+        self.log = open(path, "w", encoding="utf-8")
+    def write(self, message: str):
+        self.terminal.write(message)
+        self.log.write(message)
+    def flush(self):
+        self.terminal.flush()
+        self.log.flush()
+
+sys.stdout = DualLogger(LOG_FILE)
+
+# =============================================================================
+# Initialization
+# =============================================================================
+print(f"⏳ Starting RAG-Wikipedia v3 – {datetime.now():%Y-%m-%d %H:%M:%S}")
 
 sentence_model = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
 kw_model = KeyBERT(model=sentence_model)
 nlp = spacy.load("es_core_news_sm")
-wiki_api = wikipediaapi.Wikipedia(language='es')
+wiki_api = wikipediaapi.Wikipedia(language="es")
 
-modelos = ["llama3", "mistral", "gemma"]
-
-carpeta_examenes = "/home/xs1/Desktop/Lorena/results/1_data_preparation/6_json_final/prueba"
-carpeta_salida = "/home/xs1/Desktop/Lorena/results/2_models/2_rag/1_wikipedia"
-carpeta_metricas = carpeta_salida
-os.makedirs(carpeta_salida, exist_ok=True)
-os.makedirs(carpeta_metricas, exist_ok=True)
-
-archivos_json = [f for f in os.listdir(carpeta_examenes) if f.endswith(".json")]
-
-# ================================================================
-# 🔑 FUNCIONES AUXILIARES
-# ================================================================
-
+# =============================================================================
+# Helpers
+# =============================================================================
 def get_keywords_keybert(texto, top_n=3):
-    keywords = kw_model.extract_keywords(texto, top_n=top_n)
-    return [kw[0] for kw in keywords]
+    try:
+        return [kw[0] for kw in kw_model.extract_keywords(texto, top_n=top_n)]
+    except Exception:
+        return []
 
 def get_keywords_spacy(texto):
     doc = nlp(texto)
-    return [token.text.lower() for token in doc if token.pos_ in ["NOUN", "PROPN"]]
+    return [t.text.lower() for t in doc if t.pos_ in ["NOUN", "PROPN"]]
 
 def buscar_con_sugerencia(keyword):
+    """Busca en Wikipedia, probando variantes si no se encuentra."""
     page = wiki_api.page(keyword)
     if page.exists():
         return page.text, False, None
-
-    variantes = [keyword.lower(), keyword.capitalize(), keyword.title()]
-    for sugerida in variantes:
-        page_alt = wiki_api.page(sugerida)
-        if page_alt.exists():
-            return page_alt.text, True, sugerida
-
+    for sugerida in [keyword.lower(), keyword.capitalize(), keyword.title()]:
+        alt_page = wiki_api.page(sugerida)
+        if alt_page.exists():
+            return alt_page.text, True, sugerida
     return None, False, None
 
-# ================================================================
-# PROMPT OPTIMIZADO
-# ================================================================
+# =============================================================================
+# Métricas
+# =============================================================================
+def compute_metrics_fixed(results, modelo):
+    total = len(results)
+    correct = sum(1 for r in results if r.get(modelo) == r.get("respuesta_correcta"))
+    none_cnt = sum(1 for r in results if r.get(modelo) is None)
+    errors = total - correct - none_cnt
+    found = sum(1 for r in results if r.get("found_wikipedia"))
+    acc_global = (correct / total * 100) if total > 0 else 0.0
+    return {
+        "Modelo": modelo,
+        "Total preguntas": total,
+        "Aciertos": correct,
+        "Errores": errors,
+        "Sin respuesta": none_cnt,
+        "Con Wikipedia": found,
+        "Accuracy (%)": round(acc_global, 2)
+    }
 
+def compute_submetrics(results, modelo, flag):
+    subset = [r for r in results if r.get("found_wikipedia") == flag]
+    total = len(subset)
+    correct = sum(1 for r in subset if r.get(modelo) == r.get("respuesta_correcta"))
+    none_cnt = sum(1 for r in subset if r.get(modelo) is None)
+    errors = total - correct - none_cnt
+    acc = (correct / total * 100) if total > 0 else 0.0
+    return {
+        "Modelo": modelo,
+        "Subset": "Con Wikipedia" if flag else "Sin Wikipedia",
+        "Total preguntas": total,
+        "Aciertos": correct,
+        "Errores": errors,
+        "Sin respuesta": none_cnt,
+        "Accuracy (%)": round(acc, 2)
+    }
+
+# =============================================================================
+# Prompt Template
+# =============================================================================
 PROMPT_RAG = (
     "Eres un profesional médico que debe responder una pregunta tipo examen clínico (MIR).\n"
     "Lee cuidadosamente el CONTEXTO recuperado y luego la PREGUNTA.\n"
-    "Si el contexto contiene información útil y directa, utilízala para responder.\n"
-    "Si el contexto no aporta la respuesta, usa tu conocimiento médico general.\n"
-    "Tu respuesta debe seguir estrictamente este formato:\n"
-    "'La respuesta correcta es la número X' (donde X es un número del 1 al 4).\n"
-    "Después, añade una sola frase breve con la justificación principal.\n"
-    "No respondas con 'No estoy seguro', ni proporciones varias opciones, ni copies el contexto.\n"
-    "Responde siempre con una única opción numérica (1–4) y una frase concisa.\n\n"
+    "Si el contexto contiene información útil, utilízala; si no, aplica tu conocimiento clínico.\n"
+    "Responde estrictamente en el formato: 'La respuesta correcta es la número X.'\n"
+    "Después añade una breve frase justificativa.\n"
 )
 
-# ================================================================
-# LOOP PRINCIPAL
-# ================================================================
-
-resultados_titulacion = {modelo: {} for modelo in modelos}
-metricas_globales = []
-keywords_log = []
-sugerencias_log = []
-sin_keywords_keybert = 0
-sin_keywords_spacy = 0
-coincidencias = 0
-sugerencias_usadas = 0
+# =============================================================================
+# Main Loop
+# =============================================================================
+metricas_global, metricas_conwiki, metricas_sinwiki = [], [], []
+resultados_titulacion = {modelo: {} for modelo in MODELOS}
+archivos_json = [f for f in os.listdir(CARPETA_EXAMENES) if f.endswith(".json")]
 
 for archivo_json in archivos_json:
     nombre_examen = os.path.splitext(archivo_json)[0]
-    partes = nombre_examen.split("_")
-    titulacion = partes[0] if len(partes) > 0 else "DESCONOCIDO"
-    ruta_json = os.path.join(carpeta_examenes, archivo_json)
+    titulacion = nombre_examen.split("_")[0] if "_" in nombre_examen else nombre_examen
+    ruta_json = os.path.join(CARPETA_EXAMENES, archivo_json)
 
     with open(ruta_json, "r", encoding="utf-8") as f:
         base_data = json.load(f)
 
-    total_preguntas = len(base_data["preguntas"])
-    print(f"\n📘 Procesando {titulacion} ({total_preguntas} preguntas)")
+    preguntas_texto = [p for p in base_data["preguntas"] if p.get("tipo") == "texto"]
+    print(f"\n📘 Procesando {titulacion} ({len(preguntas_texto)} preguntas tipo texto)")
 
-    # Ver duplicados
-    numeros = [p.get("numero") for p in base_data["preguntas"]]
-    dup_count = sum(1 for _, c in Counter(numeros).items() if c > 1)
-    if dup_count > 0:
-        print(f"⚠️ Detectados {dup_count} duplicados en 'numero' → se comparará por posición.\n")
-
-    for modelo in modelos:
-        print(f"\n🔄 Modelo: {modelo}")
-        if titulacion not in resultados_titulacion[modelo]:
-            resultados_titulacion[modelo][titulacion] = []
-
+    for modelo in MODELOS:
+        print(f"\n🔹 Modelo: {modelo}")
+        resultados_titulacion[modelo][titulacion] = []
         preguntas_resultado = []
 
-        for i, pregunta in enumerate(base_data["preguntas"], 1):
-            if pregunta.get("tipo") != "texto":
-                continue
-
-            print(f"   🧪 Pregunta {i}/{total_preguntas}")
+        for i, pregunta in enumerate(preguntas_texto, 1):
             enunciado = pregunta["enunciado"]
-
-            # === KEYWORDS ===
             keywords_keybert = get_keywords_keybert(enunciado)
             keywords_spacy = get_keywords_spacy(enunciado)
 
-            if not keywords_keybert:
-                sin_keywords_keybert += 1
-            if not keywords_spacy:
-                sin_keywords_spacy += 1
-
-            coincidencia_actual = len(set(map(str.lower, keywords_keybert)) & set(keywords_spacy))
-            if coincidencia_actual > 0:
-                coincidencias += 1
-
-            keywords_log.append({
-                "pregunta": enunciado,
-                "keybert": keywords_keybert,
-                "spacy": keywords_spacy,
-                "coinciden": coincidencia_actual
-            })
-
-            # === CONTEXTO DE WIKIPEDIA ===
             contextos = []
             for kw in keywords_keybert:
                 try:
-                    contenido, usada_sugerencia, sugerida = buscar_con_sugerencia(kw)
+                    contenido, usada, sugerida = buscar_con_sugerencia(kw)
                     if contenido:
-                        contenido = "\n".join(contenido.split("\n")[:3])
-                        contextos.append(contenido)
-                        if usada_sugerencia:
-                            sugerencias_usadas += 1
-                            sugerencias_log.append({"original": kw, "sugerida": sugerida})
-                    time.sleep(0.3)
+                        resumen = "\n".join(contenido.split("\n")[:3])
+                        contextos.append(resumen)
+                    time.sleep(0.25)
                 except Exception as e:
-                    print(f"⚠️ Error al buscar '{kw}': {e}")
+                    print(f"⚠️ Error buscando '{kw}': {e}")
                     continue
 
-            if not contextos:
-                continue
+            found_wikipedia = len(contextos) > 0
+            contexto_completo = "\n\n".join(contextos) if found_wikipedia else "Sin contexto relevante encontrado."
 
-            contexto_completo = "\n\n".join(contextos)
+            opciones = "\n".join(f"{idx+1}. {op}" for idx, op in enumerate(pregunta["opciones"]))
+            prompt = f"{PROMPT_RAG}\nCONTEXTO:\n{contexto_completo}\n\nPREGUNTA:\n{enunciado}\n\nOPCIONES:\n{opciones}\n"
 
-            # === PROMPT FINAL ===
-            opciones = "\n".join([f"{idx+1}. {op}" for idx, op in enumerate(pregunta["opciones"])])
-            prompt = (
-                PROMPT_RAG +
-                f"CONTEXTO:\n{contexto_completo}\n\n"
-                f"PREGUNTA:\n{enunciado}\n\n"
-                f"OPCIONES:\n{opciones}\n"
-            )
-
-            # === LLAMADA AL MODELO ===
             try:
                 payload = {"model": modelo, "prompt": prompt, "stream": False}
                 response = requests.post("http://localhost:11434/api/generate", json=payload, timeout=180)
-                data_model = response.json()
-                texto = data_model.get("response", "").strip()
+                texto = response.json().get("response", "").strip()
             except Exception as e:
-                texto = f"❌ Error en pregunta {i}: {e}"
+                texto = f"❌ Error: {e}"
 
-            match = re.search(r'\b([1-4])\b', texto)
+            match = re.search(r"\b([1-4])\b", texto)
             seleccion = int(match.group(1)) if match else None
 
-            nueva_pregunta = {
+            preguntas_resultado.append({
                 "numero": pregunta.get("numero"),
                 "enunciado": enunciado,
                 "opciones": pregunta.get("opciones"),
+                "respuesta_correcta": pregunta.get("respuesta_correcta"),
+                "found_wikipedia": found_wikipedia,
                 modelo: seleccion,
                 f"{modelo}_texto": texto
-            }
-            preguntas_resultado.append(nueva_pregunta)
+            })
+
+            if i % 50 == 0:
+                print(f"💾 Progreso: {i}/{len(preguntas_texto)} procesadas")
 
         resultados_titulacion[modelo][titulacion].extend(preguntas_resultado)
 
-        # ============================================================
-        # 📊 MÉTRICAS POR POSICIÓN
-        # ============================================================
-        total = len(preguntas_resultado)
-        aciertos = errores = sin_respuesta = 0
+        # === Métricas ===
+        m_global = compute_metrics_fixed(preguntas_resultado, modelo)
+        m_con = compute_submetrics(preguntas_resultado, modelo, True)
+        m_sin = compute_submetrics(preguntas_resultado, modelo, False)
 
-        for i, pregunta in enumerate(preguntas_resultado):
-            pred = pregunta.get(modelo)
-            correcta = base_data["preguntas"][i].get("respuesta_correcta") if i < len(base_data["preguntas"]) else None
+        m_global["Titulación"] = m_con["Titulación"] = m_sin["Titulación"] = titulacion
 
-            if pred is None:
-                sin_respuesta += 1
-            elif correcta is None:
-                continue
-            elif pred == correcta:
-                aciertos += 1
-            else:
-                errores += 1
+        metricas_global.append(m_global)
+        metricas_conwiki.append(m_con)
+        metricas_sinwiki.append(m_sin)
 
-        respondidas = total - sin_respuesta
-        accuracy = (aciertos / respondidas * 100) if respondidas > 0 else 0
+        print(f"📊 {modelo.upper()} → Global: {m_global['Accuracy (%)']}% | "
+              f"Con Wikipedia: {m_con['Accuracy (%)']}% | "
+              f"Sin Wikipedia: {m_sin['Accuracy (%)']}%")
 
-        metricas_globales.append({
-            "Modelo": modelo,
-            "Titulación": titulacion,
-            "Total preguntas": total,
-            "Respondidas": respondidas,
-            "Aciertos": aciertos,
-            "Errores": errores,
-            "Sin respuesta": sin_respuesta,
-            "Accuracy (%)": round(accuracy, 2)
-        })
-
-        print(f"✅ Accuracy {modelo.upper()} ({titulacion}): {accuracy:.2f}%")
-
-# ================================================================
-# 💾 GUARDAR RESULTADOS
-# ================================================================
-
-# Guardar resultados en JSON
-for modelo in modelos:
+# =============================================================================
+# Save Outputs
+# =============================================================================
+for modelo in MODELOS:
     for titulacion, preguntas in resultados_titulacion[modelo].items():
-        salida_json = os.path.join(carpeta_salida, f"{titulacion}_{modelo}_rag_wikipedia_v3.json")
+        salida_json = os.path.join(CARPETA_SALIDA, f"{titulacion}_{modelo}_rag_wikipedia_v3.json")
         with open(salida_json, "w", encoding="utf-8") as f_out:
             json.dump({"preguntas": preguntas}, f_out, ensure_ascii=False, indent=2)
         print(f"💾 Guardado JSON: {salida_json}")
 
-# Guardar métricas globales
-df_metricas = pd.DataFrame(metricas_globales)
-csv_path = os.path.join(carpeta_metricas, "rag_wikipedia_v3_metrics.csv")
-excel_path = os.path.join(carpeta_metricas, "rag_wikipedia_v3_metrics.xlsx")
+# === Export Excel ===
+df_g = pd.DataFrame(metricas_global)
+df_w = pd.DataFrame(metricas_conwiki)
+df_n = pd.DataFrame(metricas_sinwiki)
+excel_path = os.path.join(CARPETA_SALIDA, "rag_wikipedia_v3_metrics.xlsx")
+with pd.ExcelWriter(excel_path, engine="openpyxl") as writer:
+    df_g.to_excel(writer, sheet_name="Global", index=False)
+    df_w.to_excel(writer, sheet_name="Con Wikipedia", index=False)
+    df_n.to_excel(writer, sheet_name="Sin Wikipedia", index=False)
 
-df_metricas.to_csv(csv_path, index=False, encoding="utf-8-sig")
-df_metricas.to_excel(excel_path, index=False)
-
-print(f"\n✅ Métricas guardadas en:")
-print(f"   • CSV  : {csv_path}")
-print(f"   • Excel: {excel_path}")
-
-# Guardar logs de keywords
-ruta_keywords = os.path.join(carpeta_salida, "keywords_resumen_v3.txt")
-with open(ruta_keywords, "w", encoding="utf-8") as f_kw:
-    for i, item in enumerate(keywords_log, 1):
-        f_kw.write(f"Pregunta {i}:\n")
-        f_kw.write(f"  Enunciado: {item['pregunta']}\n")
-        f_kw.write(f"  KeyBERT: {item['keybert']}\n")
-        f_kw.write(f"  spaCy: {item['spacy']}\n")
-        f_kw.write(f"  Coincidencias: {item['coinciden']}\n\n")
-    f_kw.write("=== Estadísticas ===\n")
-    f_kw.write(f"Preguntas sin keyword (KeyBERT): {sin_keywords_keybert}\n")
-    f_kw.write(f"Preguntas sin keyword (spaCy): {sin_keywords_spacy}\n")
-    f_kw.write(f"Preguntas con coincidencias: {coincidencias}\n")
-    f_kw.write(f"Total procesadas: {len(keywords_log)}\n")
-
-# Guardar sugerencias
-ruta_sugerencias = os.path.join(carpeta_salida, "sugerencias_usadas_v3.txt")
-with open(ruta_sugerencias, "w", encoding="utf-8") as f_sug:
-    f_sug.write("=== Sugerencias de Wikipedia usadas ===\n\n")
-    for item in sugerencias_log:
-        f_sug.write(f"Original: {item['original']} → Sugerida: {item['sugerida']}\n")
-    f_sug.write(f"\nTotal sugerencias usadas: {sugerencias_usadas}\n")
-
+print(f"\n✅ Métricas exportadas correctamente en: {excel_path}")
+print(f"🧾 Log completo: {LOG_FILE}")
 print("\n🏁 Pipeline RAG-Wikipedia v3 completado correctamente.")

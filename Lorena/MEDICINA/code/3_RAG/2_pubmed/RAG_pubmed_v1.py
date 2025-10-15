@@ -1,6 +1,17 @@
-# ================================================================
-# RAG con abstracts de PubMed (consulta en tiempo real) – versión estable unificada
-# ================================================================
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+RAG with PubMed – v1 (Revised, Publication-Ready)
+Author: Lorena Ariceta García  
+TFM – Data Science & Bioinformatics for Precision Medicine  
+
+Description:
+  - Retrieves biomedical context from PubMed abstracts via E-utilities
+  - Annotates each question with `found_pubmed`
+  - Evaluates local LLMs (llama3, mistral, gemma)
+  - Computes metrics (Global / With PubMed / Without PubMed)
+  - Exports JSONs + Excel (3 sheets) with detailed reproducible logs
+"""
 
 import os
 import json
@@ -12,35 +23,50 @@ import xml.etree.ElementTree as ET
 import pandas as pd
 from keybert import KeyBERT
 from sentence_transformers import SentenceTransformer
-from collections import Counter
+from datetime import datetime
+import sys
 
-# ================================================================
+# =============================================================================
 # ⚙️ CONFIGURACIÓN
-# ================================================================
+# =============================================================================
 
-print("⏳ Cargando modelos y configuraciones...")
+MODELOS = ["llama3", "mistral", "gemma"]
 
-# Extracción de keywords y embeddings
+CARPETA_EXAMENES = "/home/xs1/Desktop/Lorena/MEDICINA/results/1_data_preparation/6_json_final/prueba"
+CARPETA_SALIDA = "/home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/2_pubmed/v1"
+os.makedirs(CARPETA_SALIDA, exist_ok=True)
+
+LOG_FILE = os.path.join(CARPETA_SALIDA, "rag_pubmed_v1_log.txt")
+
+# =============================================================================
+# 🧾 LOG DUAL (pantalla + archivo)
+# =============================================================================
+
+class DualLogger:
+    def __init__(self, path):
+        self.terminal = sys.stdout
+        self.log = open(path, "w", encoding="utf-8")
+    def write(self, msg):
+        self.terminal.write(msg)
+        self.log.write(msg)
+    def flush(self):
+        self.terminal.flush()
+        self.log.flush()
+
+sys.stdout = DualLogger(LOG_FILE)
+
+# =============================================================================
+# 🔍 INICIALIZACIÓN
+# =============================================================================
+
+print(f"⏳ Starting RAG-PubMed v1 – {datetime.now():%Y-%m-%d %H:%M:%S}")
 sentence_model = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
 kw_model = KeyBERT(model=sentence_model)
 nlp = spacy.load("es_core_news_sm")
 
-# Modelos Ollama a evaluar
-modelos = ["llama3"]
-
-# Directorios
-carpeta_examenes = "/home/xs1/Desktop/Lorena/results/1_data_preparation/6_json_final/prueba"
-carpeta_correctas = carpeta_examenes
-carpeta_salida = "/home/xs1/Desktop/Lorena/results/2_models/2_rag/2_pubmed"
-carpeta_metricas = carpeta_salida
-os.makedirs(carpeta_salida, exist_ok=True)
-os.makedirs(carpeta_metricas, exist_ok=True)
-
-archivos_json = [f for f in os.listdir(carpeta_examenes) if f.endswith(".json")]
-
-# ================================================================
-# 🔍 FUNCIONES DE KEYWORDS Y BÚSQUEDA PUBMED
-# ================================================================
+# =============================================================================
+# 🔬 FUNCIONES DE KEYWORDS Y BÚSQUEDA PUBMED
+# =============================================================================
 
 def get_keywords_keybert(texto, top_n=3):
     try:
@@ -50,223 +76,179 @@ def get_keywords_keybert(texto, top_n=3):
 
 def get_keywords_spacy(texto):
     doc = nlp(texto)
-    return [token.text.lower() for token in doc if token.pos_ in ["NOUN", "PROPN"]]
+    return [t.text.lower() for t in doc if t.pos_ in ["NOUN", "PROPN"]]
 
 def retrieve_pubmed_context(query, top_k=3):
-    """Busca abstracts relevantes en PubMed usando la API oficial (E-utilities)"""
+    """Busca abstracts relevantes en PubMed usando la API oficial (E-utilities)."""
     try:
         keywords = get_keywords_keybert(query, top_n=3)
         if not keywords:
             keywords = get_keywords_spacy(query)[:3]
         if not keywords:
-            return "No se encontraron palabras clave relevantes."
+            return "No keywords", False
 
         search_term = "+".join(keywords)
         url_search = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term={search_term}&retmax={top_k}"
-        search_resp = requests.get(url_search)
+        search_resp = requests.get(url_search, timeout=30)
         tree = ET.fromstring(search_resp.text)
         ids = [id_elem.text for id_elem in tree.findall(".//Id")]
 
         if not ids:
-            return f"No se encontraron resultados en PubMed para: {search_term}"
+            return "No PubMed results", False
 
         id_list = ",".join(ids)
         url_fetch = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id={id_list}&retmode=text&rettype=abstract"
-        fetch_resp = requests.get(url_fetch)
+        fetch_resp = requests.get(url_fetch, timeout=30)
         abstracts = fetch_resp.text.strip()
-
         context = "\n\n".join(abstracts.split("\n\n")[:3])[:2000]
+
         if not context:
-            return "No se pudieron recuperar abstracts."
+            return "No abstract text", False
 
-        time.sleep(0.4)
-        return context
-
+        time.sleep(0.3)
+        return context, True
     except Exception as e:
-        return f"⚠️ Error en búsqueda PubMed: {e}"
+        return f"⚠️ Error PubMed: {e}", False
 
-# ================================================================
+# =============================================================================
+# 📊 MÉTRICAS
+# =============================================================================
+
+def compute_metrics_fixed(results, modelo):
+    total = len(results)
+    correct = sum(1 for r in results if r.get(modelo) == r.get("respuesta_correcta"))
+    none_cnt = sum(1 for r in results if r.get(modelo) is None)
+    errors = total - correct - none_cnt
+    found = sum(1 for r in results if r.get("found_pubmed"))
+    acc_global = (correct / total * 100) if total > 0 else 0.0
+    return {
+        "Modelo": modelo,
+        "Total preguntas": total,
+        "Aciertos": correct,
+        "Errores": errors,
+        "Sin respuesta": none_cnt,
+        "Con PubMed": found,
+        "Accuracy (%)": round(acc_global, 2)
+    }
+
+def compute_submetrics(results, modelo, flag):
+    subset = [r for r in results if r.get("found_pubmed") == flag]
+    total = len(subset)
+    correct = sum(1 for r in subset if r.get(modelo) == r.get("respuesta_correcta"))
+    none_cnt = sum(1 for r in subset if r.get(modelo) is None)
+    errors = total - correct - none_cnt
+    acc = (correct / total * 100) if total > 0 else 0.0
+    return {
+        "Modelo": modelo,
+        "Subset": "Con PubMed" if flag else "Sin PubMed",
+        "Total preguntas": total,
+        "Aciertos": correct,
+        "Errores": errors,
+        "Sin respuesta": none_cnt,
+        "Accuracy (%)": round(acc, 2)
+    }
+
+# =============================================================================
 # 🚀 LOOP PRINCIPAL
-# ================================================================
+# =============================================================================
 
-resultados_titulacion = {modelo: {} for modelo in modelos}
-keywords_log = []
-metricas_globales = []
-sin_keywords_keybert = sin_keywords_spacy = coincidencias = 0
+archivos_json = [f for f in os.listdir(CARPETA_EXAMENES) if f.endswith(".json")]
+metricas_global, metricas_conpub, metricas_sinpub = [], [], []
+resultados_titulacion = {modelo: {} for modelo in MODELOS}
 
 for archivo_json in archivos_json:
     nombre_examen = os.path.splitext(archivo_json)[0]
-    partes = nombre_examen.split("_")
-    titulacion = partes[0] if len(partes) > 0 else "DESCONOCIDO"
-    ruta_json = os.path.join(carpeta_examenes, archivo_json)
+    titulacion = nombre_examen.split("_")[0]
+    ruta_json = os.path.join(CARPETA_EXAMENES, archivo_json)
 
     with open(ruta_json, "r", encoding="utf-8") as f:
         base_data = json.load(f)
 
-    total_preguntas = len(base_data["preguntas"])
-    print(f"\n📘 Procesando {titulacion} ({total_preguntas} preguntas)...")
+    preguntas_texto = [p for p in base_data["preguntas"] if p.get("tipo") == "texto"]
+    print(f"\n📘 Procesando {titulacion} ({len(preguntas_texto)} preguntas tipo texto)")
 
-    numeros = [p.get("numero") for p in base_data["preguntas"]]
-    dup_count = sum(1 for _, c in Counter(numeros).items() if c > 1)
-    if dup_count > 0:
-        print(f"⚠️ Aviso: {dup_count} duplicados en 'numero' → se comparará por posición.")
-
-    for modelo in modelos:
-        print(f"\n⚙️ Modelo: {modelo}")
+    for modelo in MODELOS:
+        print(f"\n🔹 Modelo: {modelo}")
         resultados_titulacion[modelo][titulacion] = []
+        preguntas_resultado = []
 
-        for i, pregunta in enumerate(base_data["preguntas"], 1):
-            if pregunta.get("tipo") != "texto":
-                continue
-
+        for i, pregunta in enumerate(preguntas_texto, 1):
             enunciado = pregunta["enunciado"]
+            contexto, found_pubmed = retrieve_pubmed_context(enunciado)
 
-            # === Extracción de keywords ===
-            keywords_keybert = get_keywords_keybert(enunciado)
-            keywords_spacy = get_keywords_spacy(enunciado)
-            if not keywords_keybert: sin_keywords_keybert += 1
-            if not keywords_spacy: sin_keywords_spacy += 1
-
-            coincidencia_actual = len(set(map(str.lower, keywords_keybert)) & set(keywords_spacy))
-            if coincidencia_actual > 0: coincidencias += 1
-
-            keywords_log.append({
-                "pregunta": enunciado,
-                "keybert": keywords_keybert,
-                "spacy": keywords_spacy,
-                "coinciden": coincidencia_actual
-            })
-
-            # === Recuperar contexto PubMed ===
-            contexto = retrieve_pubmed_context(enunciado)
-            opciones = "\n".join([f"{idx+1}. {op}" for idx, op in enumerate(pregunta["opciones"])])
-
-            PROMPT_RAG = (
-                "Eres un profesional médico que debe responder una pregunta tipo examen MIR.\n"
-                "Utiliza los abstracts de PubMed como fuente de evidencia biomédica.\n"
-                "Tu respuesta debe seguir este formato: 'La respuesta correcta es la número X.' (X entre 1 y 4), "
-                "seguido de una breve justificación.\n"
-                "No inventes ni proporciones varias opciones.\n\n"
-            )
-
+            opciones = "\n".join(f"{idx+1}. {op}" for idx, op in enumerate(pregunta["opciones"]))
             prompt = (
-                f"{PROMPT_RAG}"
-                f"📚 CONTEXTO (PubMed):\n{contexto}\n\n"
+                "Eres un profesional médico que debe responder una pregunta tipo MIR.\n"
+                "Usa los abstracts de PubMed como evidencia científica.\n\n"
+                f"📚 CONTEXTO:\n{contexto}\n\n"
                 f"❓ PREGUNTA:\n{enunciado}\n\n"
-                f"🔢 OPCIONES:\n{opciones}\n"
+                f"🔢 OPCIONES:\n{opciones}\n\n"
+                "Responde exactamente: 'La respuesta correcta es la número X.'"
             )
 
-            # === Generación con Ollama ===
             try:
-                payload = {"model": modelo, "prompt": prompt, "stream": False}
-                response = requests.post("http://localhost:11434/api/generate", json=payload, timeout=180)
-                data_model = response.json()
-                texto = data_model.get("response", "").strip()
+                resp = requests.post("http://localhost:11434/api/generate",
+                                     json={"model": modelo, "prompt": prompt, "stream": False},
+                                     timeout=180)
+                text = resp.json().get("response", "").strip()
             except Exception as e:
-                texto = f"❌ Error en pregunta {i}: {e}"
+                text = f"❌ Error: {e}"
 
-            match = re.search(r"\b([1-4])\b", texto)
-            seleccion = int(match.group(1)) if match else None
+            match = re.search(r"\b([1-4])\b", text)
+            pred = int(match.group(1)) if match else None
 
-            resultados_titulacion[modelo][titulacion].append({
+            preguntas_resultado.append({
                 "numero": pregunta.get("numero"),
                 "enunciado": enunciado,
                 "opciones": pregunta.get("opciones"),
-                modelo: seleccion,
-                f"{modelo}_texto": texto
+                "respuesta_correcta": pregunta.get("respuesta_correcta"),
+                "found_pubmed": found_pubmed,
+                modelo: pred,
+                f"{modelo}_texto": text
             })
 
-# ================================================================
-# 💾 GUARDAR RESULTADOS Y LOGS
-# ================================================================
+            if i % 50 == 0:
+                print(f"💾 Progreso: {i}/{len(preguntas_texto)} preguntas procesadas")
 
-for modelo in modelos:
+        # === Métricas ===
+        m_global = compute_metrics_fixed(preguntas_resultado, modelo)
+        m_con = compute_submetrics(preguntas_resultado, modelo, True)
+        m_sin = compute_submetrics(preguntas_resultado, modelo, False)
+
+        m_global["Titulación"] = m_con["Titulación"] = m_sin["Titulación"] = titulacion
+
+        metricas_global.append(m_global)
+        metricas_conpub.append(m_con)
+        metricas_sinpub.append(m_sin)
+
+        print(f"📊 {modelo.upper()} → Global: {m_global['Accuracy (%)']}% | "
+              f"Con PubMed: {m_con['Accuracy (%)']}% | "
+              f"Sin PubMed: {m_sin['Accuracy (%)']}%")
+
+        resultados_titulacion[modelo][titulacion] = preguntas_resultado
+
+# =============================================================================
+# 💾 GUARDAR RESULTADOS
+# =============================================================================
+
+for modelo in MODELOS:
     for titulacion, preguntas in resultados_titulacion[modelo].items():
-        salida_json = os.path.join(carpeta_salida, f"{titulacion}_{modelo}_rag_pubmed_v1.json")
+        salida_json = os.path.join(CARPETA_SALIDA, f"{titulacion}_{modelo}_rag_pubmed_v1.json")
         with open(salida_json, "w", encoding="utf-8") as f_out:
             json.dump({"preguntas": preguntas}, f_out, ensure_ascii=False, indent=2)
-        print(f"💾 Guardado: {salida_json}")
+        print(f"💾 Guardado JSON: {salida_json}")
 
-ruta_keywords = os.path.join(carpeta_salida, "keywords_rag_pubmed_v1.txt")
-with open(ruta_keywords, "w", encoding="utf-8") as f_kw:
-    for i, item in enumerate(keywords_log, 1):
-        f_kw.write(f"Pregunta {i}:\n")
-        f_kw.write(f"  Enunciado: {item['pregunta']}\n")
-        f_kw.write(f"  KeyBERT: {item['keybert']}\n")
-        f_kw.write(f"  spaCy: {item['spacy']}\n")
-        f_kw.write(f"  Coincidencias: {item['coinciden']}\n\n")
-    f_kw.write("=== Estadísticas ===\n")
-    f_kw.write(f"Preguntas sin keyword (KeyBERT): {sin_keywords_keybert}\n")
-    f_kw.write(f"Preguntas sin keyword (spaCy): {sin_keywords_spacy}\n")
-    f_kw.write(f"Preguntas con coincidencias entre métodos: {coincidencias}\n")
-    f_kw.write(f"Total preguntas procesadas: {len(keywords_log)}\n")
+# === Exportar métricas ===
+df_g = pd.DataFrame(metricas_global)
+df_w = pd.DataFrame(metricas_conpub)
+df_n = pd.DataFrame(metricas_sinpub)
+excel_path = os.path.join(CARPETA_SALIDA, "rag_pubmed_v1_metrics.xlsx")
 
-# ================================================================
-# 📊 MÉTRICAS DE EVALUACIÓN (por posición)
-# ================================================================
+with pd.ExcelWriter(excel_path, engine="openpyxl") as writer:
+    df_g.to_excel(writer, sheet_name="Global", index=False)
+    df_w.to_excel(writer, sheet_name="Con PubMed", index=False)
+    df_n.to_excel(writer, sheet_name="Sin PubMed", index=False)
 
-print("\n📊 Calculando métricas comparando con respuestas correctas (por posición)...")
-
-metricas = []
-for modelo in modelos:
-    total_global = aciertos_global = errores_global = sin_contestar_global = 0
-
-    for titulacion, preguntas_modelo in resultados_titulacion[modelo].items():
-        ruta_correctas = os.path.join(carpeta_correctas, f"{titulacion}.json")
-        if not os.path.exists(ruta_correctas):
-            continue
-
-        with open(ruta_correctas, "r", encoding="utf-8") as f_corr:
-            data_corr = json.load(f_corr)
-
-        total = min(len(preguntas_modelo), len(data_corr["preguntas"]))
-        aciertos = errores = sin_contestar = 0
-
-        for i in range(total):
-            correcta = data_corr["preguntas"][i].get("respuesta_correcta")
-            pred = preguntas_modelo[i].get(modelo)
-            if pred is None:
-                sin_contestar += 1
-            elif pred == correcta:
-                aciertos += 1
-            else:
-                errores += 1
-
-        respondidas = total - sin_contestar
-        accuracy = (aciertos / respondidas * 100) if respondidas > 0 else 0
-
-        metricas.append({
-            "Modelo": modelo,
-            "Titulación": titulacion,
-            "Total preguntas": total,
-            "Respondidas": respondidas,
-            "Aciertos": aciertos,
-            "Errores": errores,
-            "Sin respuesta": sin_contestar,
-            "Accuracy (%)": round(accuracy, 2)
-        })
-
-        total_global += total
-        aciertos_global += aciertos
-        errores_global += errores
-        sin_contestar_global += sin_contestar
-
-    acc_global = (aciertos_global / total_global * 100) if total_global > 0 else 0
-    print(f"\n🎯 {modelo.upper()} → Accuracy global: {acc_global:.2f}%")
-
-# ================================================================
-# 💾 GUARDAR MÉTRICAS (CSV + EXCEL)
-# ================================================================
-
-df_metricas = pd.DataFrame(metricas)
-csv_path = os.path.join(carpeta_metricas, "rag_pubmed_v1_metrics.csv")
-excel_path = os.path.join(carpeta_metricas, "rag_pubmed_v1_metrics.xlsx")
-
-df_metricas.to_csv(csv_path, index=False, encoding="utf-8-sig")
-df_metricas.to_excel(excel_path, index=False)
-
-print(f"\n✅ Métricas guardadas en:")
-print(f"   • CSV  : {csv_path}")
-print(f"   • Excel: {excel_path}")
-print("\n🏁 Pipeline RAG-PubMed (en tiempo real) completado correctamente.")
-
+print(f"\n✅ Métricas exportadas correctamente en: {excel_path}")
+print(f"🧾 Log completo: {LOG_FILE}")
+print("\n🏁 Pipeline RAG-PubMed v1 completado correctamente.")

@@ -1,0 +1,25 @@
+📘 RAG Integrator – Inicio: 2025-10-12 17:31:36
+================================================================================
+
+
+▶️ Ejecutando Wikipedia_v1 – 17:31:36
+❌ No se encontró el script en /home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/1_wikipedia/v1/rag_wikipedia_v1.py
+
+▶️ Ejecutando Wikipedia_v2 – 17:31:36
+❌ No se encontró el script en /home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/1_wikipedia/v2/rag_wikipedia_v2.py
+
+▶️ Ejecutando Wikipedia_v3 – 17:31:36
+❌ No se encontró el script en /home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/1_wikipedia/v3/rag_wikipedia_v3.py
+
+▶️ Ejecutando PubMed_v1 – 17:31:36
+❌ No se encontró el script en /home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/2_pubmed/v1/rag_pubmed_v1.py
+
+▶️ Ejecutando PubMed_v2 – 17:31:36
+❌ No se encontró el script en /home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/2_pubmed/v2/rag_pubmed_v2.py
+
+▶️ Ejecutando PubMed_v3 – 17:31:36
+❌ No se encontró el script en /home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/2_pubmed/v3/rag_pubmed_v3.py
+⚠️ No se encontraron métricas para combinar.
+
+🏁 Integración finalizada: 2025-10-12 17:31:36
+================================================================================

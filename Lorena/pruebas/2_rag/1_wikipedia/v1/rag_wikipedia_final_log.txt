@@ -1,0 +1,75 @@
+⏳ Loading KeyBERT embeddings model and Wikipedia API...
+
+📘 Processing MEDICINA (2020) → 900 texto questions
+⚠️  185 duplicate question numbers found (comparison by position)
+   🔹 Model: llama3
+      💾 Progress: 50/900 questions processed
+      💾 Progress: 100/900 questions processed
+      💾 Progress: 150/900 questions processed
+      💾 Progress: 200/900 questions processed
+      💾 Progress: 250/900 questions processed
+      💾 Progress: 300/900 questions processed
+      💾 Progress: 350/900 questions processed
+      💾 Progress: 400/900 questions processed
+      💾 Progress: 450/900 questions processed
+      💾 Progress: 500/900 questions processed
+      💾 Progress: 550/900 questions processed
+      💾 Progress: 600/900 questions processed
+      💾 Progress: 650/900 questions processed
+      💾 Progress: 700/900 questions processed
+      💾 Progress: 750/900 questions processed
+      💾 Progress: 800/900 questions processed
+      💾 Progress: 850/900 questions processed
+      💾 Progress: 900/900 questions processed
+   🔹 Model: mistral
+      💾 Progress: 50/900 questions processed
+      💾 Progress: 100/900 questions processed
+      💾 Progress: 150/900 questions processed
+      💾 Progress: 200/900 questions processed
+      💾 Progress: 250/900 questions processed
+      💾 Progress: 300/900 questions processed
+      💾 Progress: 350/900 questions processed
+      💾 Progress: 400/900 questions processed
+      💾 Progress: 450/900 questions processed
+      💾 Progress: 500/900 questions processed
+      💾 Progress: 550/900 questions processed
+      💾 Progress: 600/900 questions processed
+      💾 Progress: 650/900 questions processed
+      💾 Progress: 700/900 questions processed
+      💾 Progress: 750/900 questions processed
+      💾 Progress: 800/900 questions processed
+      💾 Progress: 850/900 questions processed
+      💾 Progress: 900/900 questions processed
+   🔹 Model: gemma
+      💾 Progress: 50/900 questions processed
+      💾 Progress: 100/900 questions processed
+      💾 Progress: 150/900 questions processed
+      💾 Progress: 200/900 questions processed
+      💾 Progress: 250/900 questions processed
+      💾 Progress: 300/900 questions processed
+      💾 Progress: 350/900 questions processed
+      💾 Progress: 400/900 questions processed
+      💾 Progress: 450/900 questions processed
+      💾 Progress: 500/900 questions processed
+      💾 Progress: 550/900 questions processed
+      💾 Progress: 600/900 questions processed
+      💾 Progress: 650/900 questions processed
+      💾 Progress: 700/900 questions processed
+      💾 Progress: 750/900 questions processed
+      💾 Progress: 800/900 questions processed
+      💾 Progress: 850/900 questions processed
+      💾 Progress: 900/900 questions processed
+   ✅ Saved JSON: /home/xs1/Desktop/Lorena/results/2_models/rag_wikipedia_final/MEDICINA_llama3_rag_wikipedia_final.json
+   ✅ Saved JSON: /home/xs1/Desktop/Lorena/results/2_models/rag_wikipedia_final/MEDICINA_mistral_rag_wikipedia_final.json
+   ✅ Saved JSON: /home/xs1/Desktop/Lorena/results/2_models/rag_wikipedia_final/MEDICINA_gemma_rag_wikipedia_final.json
+
+📊 === Metrics Summary ===
+ Modelo  Total preguntas  Aciertos  Errores  Sin respuesta  Con Wikipedia  Accuracy (%) Titulación  Año
+ llama3              900       445      453              2            699         49.44   MEDICINA 2020
+mistral              900       339      448            113            699         37.67   MEDICINA 2020
+  gemma              900       350      547              3            699         38.89   MEDICINA 2020
+
+🕒 Execution completed in 63.90 min
+📁 CSV saved to:   /home/xs1/Desktop/Lorena/results/2_models/rag_wikipedia_final/rag_wikipedia_final_metrics.csv
+📘 Excel saved to: /home/xs1/Desktop/Lorena/results/2_models/rag_wikipedia_final/rag_wikipedia_final_metrics.xlsx
+🧾 Log file:       /home/xs1/Desktop/Lorena/results/2_models/rag_wikipedia_final/rag_wikipedia_final_log.txt

@@ -1,6 +1,15 @@
-# ================================================================
-# RAG con abstracts de PubMed (consulta en tiempo real) – versión CPU estable
-# ================================================================
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+RAG with PubMed – v2 (Revised, Publication-Ready)
+Author: Lorena Ariceta García
+TFM – Data Science & Bioinformatics for Precision Medicine
+
+✔ Guarda todas las preguntas (aunque no haya contexto)
+✔ Añade 'found_pubmed': True/False
+✔ Calcula métricas globales + con/sin PubMed
+✔ Exporta JSONs + Excel (3 hojas) + log reproducible
+"""
 
 import os
 import json
@@ -14,57 +23,66 @@ from keybert import KeyBERT
 from sentence_transformers import SentenceTransformer
 from transformers import pipeline
 import torch
-from collections import Counter
+from datetime import datetime
+import sys
 
-# ================================================================
-# ⚙️ CONFIGURACIÓN INICIAL
-# ================================================================
+# =============================================================================
+# CONFIGURACIÓN
+# =============================================================================
+MODELOS = ["llama3", "mistral", "gemma"]
 
-print("⏳ Cargando modelos y configuraciones...")
+CARPETA_EXAMENES = "/home/xs1/Desktop/Lorena/MEDICINA/results/1_data_preparation/6_json_final/prueba"
+CARPETA_SALIDA = "/home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/2_pubmed/v2"
+os.makedirs(CARPETA_SALIDA, exist_ok=True)
 
-# Modelos NLP y embeddings
+LOG_FILE = os.path.join(CARPETA_SALIDA, "rag_pubmed_v2_log.txt")
+
+# =============================================================================
+# LOG DUAL (pantalla + archivo)
+# =============================================================================
+class DualLogger:
+    def __init__(self, path):
+        self.terminal = sys.stdout
+        self.log = open(path, "w", encoding="utf-8")
+    def write(self, msg):
+        self.terminal.write(msg)
+        self.log.write(msg)
+    def flush(self):
+        self.terminal.flush()
+        self.log.flush()
+
+sys.stdout = DualLogger(LOG_FILE)
+
+# =============================================================================
+# INICIALIZACIÓN
+# =============================================================================
+print(f"⏳ Starting RAG-PubMed v2 – {datetime.now():%Y-%m-%d %H:%M:%S}")
+
 sentence_model = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
 kw_model = KeyBERT(model=sentence_model)
 nlp = spacy.load("es_core_news_sm")
 
-# Detección de dispositivo
-if not torch.cuda.is_available():
-    device = -1
-    print("⚙️ No se detecta GPU → usando CPU.")
-else:
+if torch.cuda.is_available():
     try:
-        torch.cuda.get_device_name(0)
-        device = 0
         print(f"✅ GPU detectada: {torch.cuda.get_device_name(0)}")
+        device = 0
     except Exception:
         device = -1
-        print("⚠️ GPU no compatible → uso forzado de CPU.")
+        print("⚠️ GPU no compatible, usando CPU.")
+else:
+    device = -1
+    print("⚙️ No se detecta GPU → usando CPU.")
 
-# Traductor (ES→EN)
 try:
     translator = pipeline("translation", model="Helsinki-NLP/opus-mt-es-en", device=device)
-    print("✅ Traductor cargado: Helsinki-NLP/opus-mt-es-en")
+    print("✅ Traductor ES→EN cargado.")
 except Exception as e:
-    print(f"⚠️ No se pudo cargar el traductor ({e}). Se usará texto original en español.")
+    print(f"⚠️ No se pudo cargar el traductor: {e}")
     translator = None
 
-# Modelos a evaluar
-modelos = ["llama3"]
-
-# Directorios
-carpeta_examenes = "/home/xs1/Desktop/Lorena/results/1_data_preparation/6_json_final/prueba"
-carpeta_correctas = carpeta_examenes
-carpeta_salida = "/home/xs1/Desktop/Lorena/results/2_models/2_rag/2_pubmed"
-carpeta_metricas = carpeta_salida
-os.makedirs(carpeta_salida, exist_ok=True)
-os.makedirs(carpeta_metricas, exist_ok=True)
-
-archivos_json = [f for f in os.listdir(carpeta_examenes) if f.endswith(".json")]
-
-# ================================================================
-# 🔍 FUNCIONES AUXILIARES
-# ================================================================
-
+# =============================================================================
+# FUNCIONES AUXILIARES
+# =============================================================================
 def get_keywords_keybert(texto, top_n=3):
     try:
         return [kw[0] for kw in kw_model.extract_keywords(texto, top_n=top_n)]
@@ -73,7 +91,7 @@ def get_keywords_keybert(texto, top_n=3):
 
 def get_keywords_spacy(texto, top_n=5):
     doc = nlp(texto)
-    kws = [token.text.lower() for token in doc if token.pos_ in ["NOUN", "PROPN"]]
+    kws = [t.text.lower() for t in doc if t.pos_ in ["NOUN", "PROPN"]]
     seen, out = set(), []
     for k in kws:
         if k not in seen:
@@ -85,10 +103,8 @@ def ensure_3_keywords(base_kw):
     kws = [k for k in base_kw if k and isinstance(k, str)]
     extras = ["medicina", "diagnóstico", "tratamiento"]
     for e in extras:
-        if len(kws) >= 3:
-            break
-        if e not in kws:
-            kws.append(e)
+        if len(kws) >= 3: break
+        if e not in kws: kws.append(e)
     return kws[:3]
 
 def translate_keywords_es_en(kws_es):
@@ -98,205 +114,177 @@ def translate_keywords_es_en(kws_es):
         phrase = ", ".join(kws_es)
         translated = translator(phrase)[0]["translation_text"]
         parts = [p.strip().lower() for p in re.split(r"[,;/]", translated) if p.strip()]
-        if len(parts) < 3:
-            parts = []
-            for k in kws_es:
-                try:
-                    t1 = translator(k)[0]["translation_text"].strip().lower()
-                    parts.append(t1)
-                except Exception:
-                    parts.append(k)
-        parts = [re.sub(r"[^a-z0-9 \-()]", "", p) for p in parts]
-        return ensure_3_keywords(parts)
+        return ensure_3_keywords(parts or kws_es)
     except Exception:
         return kws_es
 
-# ================================================================
-# 📚 FUNCIONES DE CONSULTA PUBMED
-# ================================================================
-
-def _pubmed_esearch(term, retmax):
+def pubmed_esearch(term, retmax):
     url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term={term}&retmax={retmax}"
     r = requests.get(url, timeout=30)
     tree = ET.fromstring(r.text)
     return [id_elem.text for id_elem in tree.findall(".//Id")]
 
-def _pubmed_efetch(ids):
+def pubmed_efetch(ids):
     id_list = ",".join(ids)
     url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id={id_list}&retmode=text&rettype=abstract"
     r = requests.get(url, timeout=30)
     return r.text.strip()
 
-def _search_tiered(keywords_list, top_k, lang_tag="[EN]"):
-    for n in (3, 2, 1):
-        kws = keywords_list[:n]
-        term = "+".join(kws)
-        print(f"    🔎 PubMed query {lang_tag} ({n} kw): {term}")
-        ids = _pubmed_esearch(term, top_k)
-        if ids:
-            print(f"    📚 PMIDs: {', '.join(ids)}")
-            return ids, kws, term
-        print("    ⚠️ Sin resultados, probando con menos keywords...")
-    return [], [], ""
-
 def retrieve_pubmed_context(query, top_k=3):
     try:
-        kw_kb = get_keywords_keybert(query, top_n=3)
-        kw_sp = get_keywords_spacy(query, top_n=5)
-        base, seen = [], set()
-        for k in kw_kb + kw_sp:
-            k = k.strip().lower()
-            if k and k not in seen:
-                seen.add(k)
-                base.append(k)
-        kws_es = ensure_3_keywords(base[:3])
+        kws_es = ensure_3_keywords(get_keywords_keybert(query) + get_keywords_spacy(query))
         kws_en = translate_keywords_es_en(kws_es)
-        print(f"    🔍 Keywords ES: {', '.join(kws_es)}")
-        print(f"    🌎 Keywords EN: {', '.join(kws_en)}")
-
-        ids, used_kws, term_used = _search_tiered(kws_en, top_k, "[EN]")
+        term = "+".join(kws_en)
+        ids = pubmed_esearch(term, top_k)
         if not ids:
-            ids, used_kws, term_used = _search_tiered(kws_es, top_k, "[ES]")
-        if not ids:
-            return "No se encontraron resultados en PubMed.", [], kws_es, kws_en, term_used
-        raw_text = _pubmed_efetch(ids)
+            return "Sin contexto relevante.", [], kws_es, kws_en, term, False
+        raw_text = pubmed_efetch(ids)
         context = "\n\n".join(raw_text.split("\n\n")[:3])[:2000]
-        time.sleep(0.4)
-        return context, ids, kws_es, kws_en, term_used
+        time.sleep(0.3)
+        return context, ids, kws_es, kws_en, term, True
     except Exception as e:
-        return f"⚠️ Error en búsqueda PubMed: {e}", [], [], [], ""
+        return f"⚠️ Error PubMed: {e}", [], [], [], "", False
 
-# ================================================================
-# 🚀 LOOP PRINCIPAL DE RAG
-# ================================================================
+# =============================================================================
+# MÉTRICAS
+# =============================================================================
+def compute_metrics_fixed(results, modelo):
+    total = len(results)
+    correct = sum(1 for r in results if r.get(modelo) == r.get("respuesta_correcta"))
+    none_cnt = sum(1 for r in results if r.get(modelo) is None)
+    errors = total - correct - none_cnt
+    found = sum(1 for r in results if r.get("found_pubmed"))
+    acc_global = (correct / total * 100) if total > 0 else 0.0
+    return {
+        "Modelo": modelo,
+        "Total preguntas": total,
+        "Aciertos": correct,
+        "Errores": errors,
+        "Sin respuesta": none_cnt,
+        "Con PubMed": found,
+        "Accuracy (%)": round(acc_global, 2)
+    }
 
-resultados_titulacion = {modelo: {} for modelo in modelos}
-metricas_globales = []
+def compute_submetrics(results, modelo, flag):
+    subset = [r for r in results if r.get("found_pubmed") == flag]
+    total = len(subset)
+    correct = sum(1 for r in subset if r.get(modelo) == r.get("respuesta_correcta"))
+    none_cnt = sum(1 for r in subset if r.get(modelo) is None)
+    errors = total - correct - none_cnt
+    acc = (correct / total * 100) if total > 0 else 0.0
+    return {
+        "Modelo": modelo,
+        "Subset": "Con PubMed" if flag else "Sin PubMed",
+        "Total preguntas": total,
+        "Aciertos": correct,
+        "Errores": errors,
+        "Sin respuesta": none_cnt,
+        "Accuracy (%)": round(acc, 2)
+    }
+
+# =============================================================================
+# LOOP PRINCIPAL
+# =============================================================================
+metricas_global, metricas_conpub, metricas_sinpub = [], [], []
+resultados_titulacion = {m: {} for m in MODELOS}
+archivos_json = [f for f in os.listdir(CARPETA_EXAMENES) if f.endswith(".json")]
 
 for archivo_json in archivos_json:
     nombre_examen = os.path.splitext(archivo_json)[0]
-    partes = nombre_examen.split("_")
-    titulacion = partes[0] if len(partes) > 0 else "DESCONOCIDO"
-    ruta_json = os.path.join(carpeta_examenes, archivo_json)
-
+    titulacion = nombre_examen.split("_")[0]
+    ruta_json = os.path.join(CARPETA_EXAMENES, archivo_json)
     with open(ruta_json, "r", encoding="utf-8") as f:
         base_data = json.load(f)
 
-    total_preguntas = len(base_data["preguntas"])
-    print(f"\n🔄 Procesando {titulacion} ({total_preguntas} preguntas)...")
+    preguntas_texto = [p for p in base_data["preguntas"] if p.get("tipo") == "texto"]
+    print(f"\n📘 Procesando {titulacion} ({len(preguntas_texto)} preguntas tipo texto)")
 
-    for modelo in modelos:
+    for modelo in MODELOS:
+        print(f"\n🔹 Modelo: {modelo}")
         resultados_titulacion[modelo][titulacion] = []
-        for i, pregunta in enumerate(base_data["preguntas"], 1):
-            if pregunta.get("tipo") != "texto":
-                continue
+        preguntas_resultado = []
 
-            enunciado = pregunta["enunciado"]
-            print(f"\n🧠 Pregunta {i}/{total_preguntas}: {enunciado[:90]}...")
-            contexto, pmids, kws_es, kws_en, term_usado = retrieve_pubmed_context(enunciado)
-            opciones = "\n".join([f"{idx+1}. {op}" for idx, op in enumerate(pregunta["opciones"])])
+        for i, p in enumerate(preguntas_texto, 1):
+            enunciado = p["enunciado"]
+            contexto, pmids, kws_es, kws_en, term, found_pubmed = retrieve_pubmed_context(enunciado)
 
-            PROMPT_RAG = (
-                "Eres un profesional médico que debe responder una pregunta tipo examen clínico (MIR).\n"
-                "Usa el contexto de PubMed si aporta información útil; si no, responde con tu conocimiento clínico.\n"
-                "Formato obligatorio: 'La respuesta correcta es la número X' (X entre 1 y 4), "
-                "seguido de una breve justificación.\n"
-                "No respondas con 'No estoy seguro'.\n\n"
+            opciones = "\n".join(f"{idx+1}. {op}" for idx, op in enumerate(p["opciones"]))
+            prompt = (
+                "Eres un profesional médico que responde preguntas tipo MIR.\n"
+                "Utiliza PubMed si hay información relevante; si no, responde con tu conocimiento clínico.\n"
+                "Formato: 'La respuesta correcta es la número X.'\n\n"
+                f"📘 CONTEXTO (PubMed):\n{contexto}\n\n"
+                f"❓ PREGUNTA:\n{enunciado}\n\n"
+                f"🔢 OPCIONES:\n{opciones}\n"
             )
 
-            prompt = f"{PROMPT_RAG}📘 CONTEXTO (PubMed):\n{contexto}\n\n❓ PREGUNTA:\n{enunciado}\n\n🔢 OPCIONES:\n{opciones}\n"
-
             try:
-                payload = {"model": modelo, "prompt": prompt, "stream": False}
-                response = requests.post("http://localhost:11434/api/generate", json=payload, timeout=180)
-                data_model = response.json()
-                texto = data_model.get("response", "").strip()
+                resp = requests.post(
+                    "http://localhost:11434/api/generate",
+                    json={"model": modelo, "prompt": prompt, "stream": False},
+                    timeout=180
+                )
+                texto = resp.json().get("response", "").strip()
             except Exception as e:
-                texto = f"❌ Error en pregunta {i}: {e}"
+                texto = f"❌ Error: {e}"
 
             match = re.search(r"\b([1-4])\b", texto)
             seleccion = int(match.group(1)) if match else None
 
-            nueva_pregunta = {
-                "numero": pregunta.get("numero"),
+            preguntas_resultado.append({
+                "numero": p.get("numero"),
                 "enunciado": enunciado,
-                "opciones": pregunta.get("opciones"),
+                "opciones": p.get("opciones"),
                 "keywords_es": kws_es,
                 "keywords_en": kws_en,
-                "pubmed_term": term_usado,
+                "pubmed_term": term,
                 "pmids_usados": pmids,
+                "found_pubmed": found_pubmed,
                 modelo: seleccion,
-                f"{modelo}_texto": texto
-            }
-            resultados_titulacion[modelo][titulacion].append(nueva_pregunta)
+                f"{modelo}_texto": texto,
+                "respuesta_correcta": p.get("respuesta_correcta")
+            })
 
-# ================================================================
-# 📊 CÁLCULO DE MÉTRICAS (por posición)
-# ================================================================
+            if i % 50 == 0:
+                print(f"💾 Progreso: {i}/{len(preguntas_texto)} procesadas")
 
-print("\n📈 Calculando métricas comparando con respuestas correctas...\n")
+        # === Métricas ===
+        m_global = compute_metrics_fixed(preguntas_resultado, modelo)
+        m_con = compute_submetrics(preguntas_resultado, modelo, True)
+        m_sin = compute_submetrics(preguntas_resultado, modelo, False)
 
-for modelo in modelos:
-    for titulacion, preguntas_modelo in resultados_titulacion[modelo].items():
-        ruta_correctas = os.path.join(carpeta_correctas, f"{titulacion}.json")
-        if not os.path.exists(ruta_correctas):
-            print(f"⚠️ No se encontró archivo de respuestas correctas para {titulacion}")
-            continue
+        m_global["Titulación"] = m_con["Titulación"] = m_sin["Titulación"] = titulacion
+        metricas_global.append(m_global)
+        metricas_conpub.append(m_con)
+        metricas_sinpub.append(m_sin)
 
-        with open(ruta_correctas, "r", encoding="utf-8") as f_corr:
-            data_corr = json.load(f_corr)
+        print(f"📊 {modelo.upper()} → Global: {m_global['Accuracy (%)']}% | "
+              f"Con PubMed: {m_con['Accuracy (%)']}% | "
+              f"Sin PubMed: {m_sin['Accuracy (%)']}%")
 
-        total = min(len(preguntas_modelo), len(data_corr["preguntas"]))
-        aciertos = errores = sin_respuesta = 0
+        resultados_titulacion[modelo][titulacion] = preguntas_resultado
 
-        for i in range(total):
-            correcta = data_corr["preguntas"][i].get("respuesta_correcta")
-            pred = preguntas_modelo[i].get(modelo)
-            if pred is None:
-                sin_respuesta += 1
-            elif pred == correcta:
-                aciertos += 1
-            else:
-                errores += 1
-
-        respondidas = total - sin_respuesta
-        accuracy = (aciertos / respondidas * 100) if respondidas > 0 else 0
-
-        metricas_globales.append({
-            "Modelo": modelo,
-            "Titulación": titulacion,
-            "Total preguntas": total,
-            "Respondidas": respondidas,
-            "Aciertos": aciertos,
-            "Errores": errores,
-            "Sin respuesta": sin_respuesta,
-            "Accuracy (%)": round(accuracy, 2)
-        })
-
-        print(f"📘 {titulacion} – {modelo}: {aciertos}/{total} correctas ({accuracy:.2f}%)")
-
-# ================================================================
-# 💾 GUARDADO DE RESULTADOS Y MÉTRICAS
-# ================================================================
-
-# Guardar JSONs
-for modelo in modelos:
+# =============================================================================
+# GUARDADO
+# =============================================================================
+for modelo in MODELOS:
     for titulacion, preguntas in resultados_titulacion[modelo].items():
-        salida_json = os.path.join(carpeta_salida, f"{titulacion}_{modelo}_rag_pubmed_v2.json")
-        with open(salida_json, "w", encoding="utf-8") as f_out:
+        path = os.path.join(CARPETA_SALIDA, f"{titulacion}_{modelo}_rag_pubmed_v2.json")
+        with open(path, "w", encoding="utf-8") as f_out:
             json.dump({"preguntas": preguntas}, f_out, ensure_ascii=False, indent=2)
-        print(f"💾 Guardado: {salida_json}")
+        print(f"💾 Guardado JSON: {path}")
 
-# Guardar métricas CSV + Excel
-df_metricas = pd.DataFrame(metricas_globales)
-csv_path = os.path.join(carpeta_metricas, "rag_pubmed_v2_metrics.csv")
-excel_path = os.path.join(carpeta_metricas, "rag_pubmed_v2_metrics.xlsx")
+# === Export Excel ===
+df_g = pd.DataFrame(metricas_global)
+df_w = pd.DataFrame(metricas_conpub)
+df_n = pd.DataFrame(metricas_sinpub)
+excel_path = os.path.join(CARPETA_SALIDA, "rag_pubmed_v2_metrics.xlsx")
 
-df_metricas.to_csv(csv_path, index=False, encoding="utf-8-sig")
-df_metricas.to_excel(excel_path, index=False)
+with pd.ExcelWriter(excel_path, engine="openpyxl") as writer:
+    df_g.to_excel(writer, sheet_name="Global", index=False)
+    df_w.to_excel(writer, sheet_name="Con PubMed", index=False)
+    df_n.to_excel(writer, sheet_name="Sin PubMed", index=False)
 
-print(f"\n✅ Métricas guardadas en:")
-print(f"   • CSV  : {csv_path}")
-print(f"   • Excel: {excel_path}")
-
-print("\n🏁 Pipeline RAG-PubMed (CPU + traducción ES→EN) completado correctamente.")
+print(f"\n✅ Métricas exportadas correctamente en: {excel_path}")
+print(f"🧾 Log completo: {LOG_FILE}")
+print("\n🏁 Pipeline RAG-PubMed v2 completado correctamente.")

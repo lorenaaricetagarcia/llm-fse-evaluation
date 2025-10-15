@@ -1,195 +1,250 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+RAG with Wikipedia – v1 (Revised, Publication-Ready)
+Author: Lorena Ariceta García  
+TFM – Data Science & Bioinformatics for Precision Medicine  
+
+Description:
+  - Processes MIR-style multiple-choice questions (`tipo == "texto"`)
+  - Retrieves biomedical context from Wikipedia (via KeyBERT → WikipediaAPI)
+  - Queries local Ollama models (llama3, mistral, gemma)
+  - Stores only numeric predictions (1–4) and Wikipedia retrieval flag
+  - Computes and exports metrics (Global / With Wikipedia / Without Wikipedia)
+  - Produces Excel report with 3 sheets and detailed logging
+"""
+
 import os
+import sys
 import json
-import requests
 import re
+import time
+import requests
 import wikipediaapi
 import pandas as pd
+from typing import Optional, Dict, List
 from keybert import KeyBERT
 from sentence_transformers import SentenceTransformer
 from collections import Counter
 
-# ================================================================
-# ⚙️ CONFIGURACIÓN
-# ================================================================
+# =============================================================================
+# Configuration
+# =============================================================================
 
-# Forzar KeyBERT a CPU
+MODELS = ["llama3", "mistral", "gemma"]
+
+EXAMS_DIR = "/home/xs1/Desktop/Lorena/results/1_data_preparation/6_json_final/prueba"
+OUTPUT_DIR = "/home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/1_wikipedia/v1"
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+LOG_FILE = os.path.join(OUTPUT_DIR, "rag_wikipedia_v1_log.txt")
+
+# =============================================================================
+# Dual Logging (console + file)
+# =============================================================================
+
+class DualLogger:
+    """Log all printed output to both terminal and file (for reproducibility)."""
+    def __init__(self, path: str):
+        self.terminal = sys.stdout
+        self.log = open(path, "w", encoding="utf-8")
+    def write(self, msg: str):
+        self.terminal.write(msg)
+        self.log.write(msg)
+    def flush(self):
+        self.terminal.flush()
+        self.log.flush()
+
+sys.stdout = DualLogger(LOG_FILE)
+
+# =============================================================================
+# Initialization
+# =============================================================================
+
+print("⏳ Loading models and Wikipedia API...")
+start_time = time.time()
 sentence_model = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
 kw_model = KeyBERT(model=sentence_model)
-wiki_wiki = wikipediaapi.Wikipedia('es')
+wiki = wikipediaapi.Wikipedia("es")
 
-# Modelos a probar
-modelos = ["llama3", "mistral", "gemma"]
+# =============================================================================
+# Utility Functions
+# =============================================================================
 
-# Carpetas
-carpeta_examenes = "results/1_data_preparation/6_json_final/prueba"
-carpeta_salida_modelos = "/home/xs1/Desktop/Lorena/results/2_models/2_rag/1_wikipedia"
-carpeta_metricas = carpeta_salida_modelos
-os.makedirs(carpeta_examenes, exist_ok=True)
-os.makedirs(carpeta_salida_modelos, exist_ok=True)
-os.makedirs(carpeta_metricas, exist_ok=True)
+def extract_keyword(text: str) -> Optional[str]:
+    """Return the top keyword via KeyBERT, or None if no keyword extracted."""
+    try:
+        kws = kw_model.extract_keywords(text, top_n=1)
+        return kws[0][0] if kws else None
+    except Exception:
+        return None
 
-# ================================================================
-# 🔑 FUNCIÓN PARA EXTRAER KEYWORDS
-# ================================================================
-def get_keywords(texto):
-    keywords = kw_model.extract_keywords(texto, top_n=1)
-    if keywords:
-        return keywords[0][0]
-    return None
+# =============================================================================
+# Metric Computation
+# =============================================================================
 
-# ================================================================
-# 🚀 LOOP PRINCIPAL
-# ================================================================
+def compute_metrics_fixed(results: List[Dict], model: str) -> Dict[str, float]:
+    """Compute evaluation metrics correctly aligned to 'texto' subset."""
+    total = len(results)
+    correct = sum(1 for r in results if r.get(model) == r.get("respuesta_correcta"))
+    none_cnt = sum(1 for r in results if r.get(model) is None)
+    errors = total - correct - none_cnt
+    found = sum(1 for r in results if r.get("found_wikipedia"))
+    acc_global = (correct / total * 100) if total > 0 else 0.0
+    return {
+        "Modelo": model,
+        "Total preguntas": total,
+        "Aciertos": correct,
+        "Errores": errors,
+        "Sin respuesta": none_cnt,
+        "Con Wikipedia": found,
+        "Accuracy (%)": round(acc_global, 2)
+    }
 
-resultados_titulacion = {modelo: {} for modelo in modelos}
-metricas_globales = []
+def compute_submetrics(results: List[Dict], model: str, flag: bool) -> Dict[str, float]:
+    """Compute accuracy for subset with/without Wikipedia."""
+    subset = [r for r in results if r.get("found_wikipedia") == flag]
+    total = len(subset)
+    correct = sum(1 for r in subset if r.get(model) == r.get("respuesta_correcta"))
+    none_cnt = sum(1 for r in subset if r.get(model) is None)
+    errors = total - correct - none_cnt
+    acc = (correct / total * 100) if total > 0 else 0.0
+    return {
+        "Modelo": model,
+        "Subset": "Con Wikipedia" if flag else "Sin Wikipedia",
+        "Total preguntas": total,
+        "Aciertos": correct,
+        "Errores": errors,
+        "Sin respuesta": none_cnt,
+        "Accuracy (%)": round(acc, 2)
+    }
 
-archivos_json = [f for f in os.listdir(carpeta_examenes) if f.endswith(".json")]
+# =============================================================================
+# Core Processing
+# =============================================================================
 
-for archivo_json in archivos_json:
-    nombre_examen = os.path.splitext(archivo_json)[0]
-    ruta_json = os.path.join(carpeta_examenes, archivo_json)
+def process_exam(exam_path: str) -> List[Dict]:
+    """Process a single exam and return per-model predictions."""
+    with open(exam_path, "r", encoding="utf-8") as f:
+        exam = json.load(f)
 
-    partes = nombre_examen.split("_")
-    titulacion = partes[0] if len(partes) > 0 else "DESCONOCIDO"
-    anio = partes[1] if len(partes) > 1 else "SIN_AÑO"
+    titulacion = exam.get("titulacion", os.path.splitext(os.path.basename(exam_path))[0])
+    preguntas = exam.get("preguntas", [])
+    year = next((q.get("convocatoria") for q in preguntas if q.get("convocatoria")), "SIN_AÑO")
 
-    print(f"\n📘 Procesando titulación: {titulacion} | Año: {anio}")
+    texto_qs = [q for q in preguntas if q.get("tipo") == "texto"]
+    total = len(texto_qs)
+    print(f"\n📘 Processing {titulacion} ({year}) → {total} texto questions")
 
-    with open(ruta_json, "r", encoding="utf-8") as f:
-        base_data = json.load(f)
+    results_all = []
+    for model in MODELS:
+        print(f"   🔹 Model: {model}")
+        results = []
 
-    # ⚠️ Comprobar duplicados en número
-    numeros = [p.get("numero") for p in base_data["preguntas"]]
-    dup_count = sum(1 for _, c in Counter(numeros).items() if c > 1)
-    if dup_count > 0:
-        print(f"⚠️ {archivo_json}: detectados {dup_count} duplicados en 'numero' → se comparará por posición.\n")
+        for idx, q in enumerate(texto_qs, 1):
+            keyword = extract_keyword(q["enunciado"])
+            found = False
+            context = ""
+            if keyword:
+                page = wiki.page(keyword)
+                found = page.exists()
+                context = page.summary.strip()[:1500] if found else ""
 
-    for modelo in modelos:
-        if titulacion not in resultados_titulacion[modelo]:
-            resultados_titulacion[modelo][titulacion] = []
-
-        print(f"   🔹 Modelo: {modelo}")
-        preguntas_resultado = []
-
-        for i, pregunta in enumerate(base_data["preguntas"], 1):
-            # Solo tipo texto
-            if pregunta.get("tipo") != "texto":
-                continue
-
-            enunciado = pregunta["enunciado"]
-            keyword = get_keywords(enunciado)
-            if not keyword:
-                print(f"   ❌ No se encontró keyword en la pregunta {i}")
-                continue
-
-            # Descargar contexto de Wikipedia
-            page = wiki_wiki.page(keyword)
-            if not page.exists():
-                print(f"   ❌ No hay artículo de Wikipedia para: {keyword}")
-                continue
-
-            contexto = page.summary[:1500]  # limitar longitud del contexto
-
-            # Construir prompt RAG
-            opciones = "\n".join([f"{idx+1}. {op}" for idx, op in enumerate(pregunta["opciones"])])
-            prompt = f"""Usa el siguiente contexto para responder:
-
-{contexto}
-
-Pregunta:
-{enunciado}
-
-Opciones:
-{opciones}
-
-Responde con el formato: 'La respuesta correcta es la número X.' seguido de una breve explicación.
-Si no estás seguro, responde únicamente: 'No estoy seguro.'
-"""
+            options = "\n".join(f"{i+1}. {opt}" for i, opt in enumerate(q["opciones"]))
+            prompt = (
+                "Eres un profesional médico que debe responder una pregunta tipo MIR.\n"
+                "Si el contexto de Wikipedia es relevante, úsalo.\n\n"
+                f"Contexto: {context}\n"
+                f"Pregunta: {q['enunciado']}\n"
+                f"Opciones:\n{options}\n\n"
+                "Responde exactamente: 'La respuesta correcta es la número X.'"
+            )
 
             try:
-                payload = {"model": modelo, "prompt": prompt, "stream": False}
-                response = requests.post("http://localhost:11434/api/generate", json=payload, timeout=180)
-                data_model = response.json()
-                texto = data_model.get("response", "").strip()
+                resp = requests.post("http://localhost:11434/api/generate",
+                                     json={"model": model, "prompt": prompt, "stream": False},
+                                     timeout=90)
+                text = resp.json().get("response", "").strip()
             except Exception as e:
-                texto = f"❌ Error en pregunta {i}: {e}"
+                print(f"❌ Error on question {idx}: {e}")
+                text = None
 
-            print(f"      🧠 Pregunta {i}: {texto[:80]}...")
+            match = re.search(r"\b([1-4])\b", text or "")
+            pred = int(match.group(1)) if match else None
 
-            match = re.search(r'\b([1-4])\b', texto)
-            seleccion = int(match.group(1)) if match else None
+            results.append({
+                "titulacion": titulacion,
+                "año": year,
+                "numero": q.get("numero"),
+                "respuesta_correcta": q.get("respuesta_correcta"),
+                "found_wikipedia": found,
+                model: pred,
+                f"{model}_texto": text
+            })
 
-            nueva_pregunta = {
-                "año": anio,
-                "numero": pregunta.get("numero"),
-                "enunciado": enunciado,
-                "opciones": pregunta.get("opciones"),
-                modelo: seleccion,
-                f"{modelo}_texto": texto
-            }
-            preguntas_resultado.append(nueva_pregunta)
+            if idx % 50 == 0:
+                print(f"      💾 Progress: {idx}/{total} questions processed")
 
-        # Guardar resultados por modelo y titulación
-        resultados_titulacion[modelo][titulacion].extend(preguntas_resultado)
+        results_all.append((model, results))
 
-        # ============================================================
-        # 📊 CÁLCULO DE MÉTRICAS (por posición)
-        # ============================================================
-        total = len(preguntas_resultado)
-        aciertos = errores = sin_respuesta = 0
+    return results_all, titulacion, year
 
-        for i, pregunta in enumerate(preguntas_resultado):
-            pred = pregunta.get(modelo)
-            correcta = base_data["preguntas"][i].get("respuesta_correcta") if i < len(base_data["preguntas"]) else None
+# =============================================================================
+# Main
+# =============================================================================
 
-            if pred is None:
-                sin_respuesta += 1
-            elif correcta is None:
-                continue
-            elif pred == correcta:
-                aciertos += 1
-            else:
-                errores += 1
+def main():
+    metrics_global, metrics_with, metrics_without = [], [], []
 
-        respondidas = total - sin_respuesta
-        acierto_pct = (aciertos / respondidas * 100) if respondidas > 0 else 0
+    for exam_file in os.listdir(EXAMS_DIR):
+        if not exam_file.endswith(".json"):
+            continue
+        path = os.path.join(EXAMS_DIR, exam_file)
+        model_results, titulacion, year = process_exam(path)
 
-        metricas_globales.append({
-            "Modelo": modelo,
-            "Titulación": titulacion,
-            "Año": anio,
-            "Total preguntas": total,
-            "Respondidas": respondidas,
-            "Aciertos": aciertos,
-            "Errores": errores,
-            "Sin respuesta": sin_respuesta,
-            "Accuracy (%)": round(acierto_pct, 2)
-        })
+        for model, recs in model_results:
+            out_name = f"{titulacion}_{model}_rag_wikipedia_v1.json"
+            out_path = os.path.join(OUTPUT_DIR, out_name)
+            with open(out_path, "w", encoding="utf-8") as fw:
+                json.dump({"preguntas": recs}, fw, ensure_ascii=False, indent=2)
+            print(f"   ✅ Saved JSON: {out_path}")
 
-        print(f"      ✅ Accuracy {modelo.upper()} ({titulacion} {anio}): {acierto_pct:.2f}%")
+            # Global + subsets
+            met_g = compute_metrics_fixed(recs, model)
+            met_w = compute_submetrics(recs, model, True)
+            met_n = compute_submetrics(recs, model, False)
 
-# ================================================================
-# 💾 GUARDAR RESULTADOS FINALES
-# ================================================================
+            met_g["Titulación"] = met_w["Titulación"] = met_n["Titulación"] = titulacion
+            met_g["Año"] = met_w["Año"] = met_n["Año"] = year
 
-# Guardar JSON por modelo y titulación
-for modelo in modelos:
-    for titulacion, preguntas in resultados_titulacion[modelo].items():
-        salida_json = os.path.join(carpeta_salida_modelos, f"{titulacion}_{modelo}_rag_wikipedia_v1.json")
-        with open(salida_json, "w", encoding="utf-8") as f_out:
-            json.dump({"preguntas": preguntas}, f_out, ensure_ascii=False, indent=2)
-        print(f"\n✅ Guardado JSON: {salida_json}")
+            metrics_global.append(met_g)
+            metrics_with.append(met_w)
+            metrics_without.append(met_n)
 
-# Guardar métricas globales
-df_metricas = pd.DataFrame(metricas_globales)
-csv_path = os.path.join(carpeta_metricas, "rag_wikipedia_v1_metrics.csv")
-excel_path = os.path.join(carpeta_metricas, "rag_wikipedia_v1_metrics.xlsx")
+            print(f"📊 {model.upper()} → Global Accuracy: {met_g['Accuracy (%)']}% | "
+                  f"With Wikipedia: {met_w['Accuracy (%)']}% | Without: {met_n['Accuracy (%)']}%")
 
-df_metricas.to_csv(csv_path, index=False, encoding="utf-8-sig")
-df_metricas.to_excel(excel_path, index=False)
+    # Export Excel
+    df_g = pd.DataFrame(metrics_global)
+    df_w = pd.DataFrame(metrics_with)
+    df_n = pd.DataFrame(metrics_without)
 
-print(f"\n✅ Métricas guardadas en:")
-print(f"   • CSV  : {csv_path}")
-print(f"   • Excel: {excel_path}")
-print("\n🏁 Pipeline RAG-Wikipedia completado correctamente.")
+    excel_path = os.path.join(OUTPUT_DIR, "rag_wikipedia_v1_metrics.xlsx")
+    with pd.ExcelWriter(excel_path, engine="openpyxl") as writer:
+        df_g.to_excel(writer, sheet_name="Global", index=False)
+        df_w.to_excel(writer, sheet_name="Con Wikipedia", index=False)
+        df_n.to_excel(writer, sheet_name="Sin Wikipedia", index=False)
+
+    print("\n✅ Metrics successfully computed and exported.")
+    print(f"📘 Excel saved to: {excel_path}")
+
+    duration = (time.time() - start_time) / 60
+    print(f"🕒 Execution time: {duration:.2f} minutes")
+    print(f"🧾 Log file: {LOG_FILE}")
+
+# =============================================================================
+# Entry Point
+# =============================================================================
+
+if __name__ == "__main__":
+    main()

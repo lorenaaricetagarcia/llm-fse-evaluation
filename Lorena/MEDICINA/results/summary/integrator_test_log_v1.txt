@@ -1,0 +1,17 @@
+🧪 TEST MODE – Inicio: 2025-10-12 17:38:54
+================================================================================
+
+Wikipedia_v1    → ✅ OK  (/home/xs1/Desktop/Lorena/MEDICINA/code/3_RAG/1_wikipedia/RAG_wikipedia_v1.py)
+Wikipedia_v2    → ✅ OK  (/home/xs1/Desktop/Lorena/MEDICINA/code/3_RAG/1_wikipedia/RAG_wikipedia_v2.py)
+Wikipedia_v3    → ✅ OK  (/home/xs1/Desktop/Lorena/MEDICINA/code/3_RAG/1_wikipedia/RAG_wikipedia_v3.py)
+PubMed_v1       → ✅ OK  (/home/xs1/Desktop/Lorena/MEDICINA/code/3_RAG/2_pubmed/RAG_pubmed_v1.py)
+PubMed_v2       → ✅ OK  (/home/xs1/Desktop/Lorena/MEDICINA/code/3_RAG/2_pubmed/RAG_pubmed_v2.py)
+PubMed_v3       → ✅ OK  (/home/xs1/Desktop/Lorena/MEDICINA/code/3_RAG/2_pubmed/RAG_pubmed_v3.py)
+Wikipedia_v1    → ✅ EXISTE  (/home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/1_wikipedia/v1/rag_wikipedia_v1_metrics.xlsx)
+Wikipedia_v2    → ✅ EXISTE  (/home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/1_wikipedia/v2/rag_wikipedia_v2_metrics.xlsx)
+Wikipedia_v3    → ✅ EXISTE  (/home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/1_wikipedia/v3/rag_wikipedia_v3_metrics.xlsx)
+PubMed_v1       → ✅ EXISTE  (/home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/2_pubmed/v1/rag_pubmed_v1_metrics.xlsx)
+PubMed_v2       → ✅ EXISTE  (/home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/2_pubmed/v2/rag_pubmed_v2_metrics.xlsx)
+PubMed_v3       → ✅ EXISTE  (/home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/2_pubmed/v3/rag_pubmed_v3_metrics.xlsx)
+
+🏁 TEST COMPLETADO SIN ERRORES.

@@ -1,0 +1,76 @@
+⏳ Starting RAG-Wikipedia v1 [es] – 2025-10-23 13:18:12
+
+✅ Keyword translation active: False
+
+📘 Procesando MEDICINA (2020) → 900 preguntas tipo texto
+   🔹 Modelo: llama3
+
+🔍 [DEBUG] Wikipedia query keywords (ES): ['metabólica']
+
+      💾 Progreso: 50/900 preguntas
+      💾 Progreso: 100/900 preguntas
+      💾 Progreso: 150/900 preguntas
+      💾 Progreso: 200/900 preguntas
+      💾 Progreso: 250/900 preguntas
+      💾 Progreso: 300/900 preguntas
+      💾 Progreso: 350/900 preguntas
+      💾 Progreso: 400/900 preguntas
+      💾 Progreso: 450/900 preguntas
+      💾 Progreso: 500/900 preguntas
+      💾 Progreso: 550/900 preguntas
+      💾 Progreso: 600/900 preguntas
+      💾 Progreso: 650/900 preguntas
+      💾 Progreso: 700/900 preguntas
+      💾 Progreso: 750/900 preguntas
+      💾 Progreso: 800/900 preguntas
+      💾 Progreso: 850/900 preguntas
+      💾 Progreso: 900/900 preguntas
+   🔹 Modelo: mistral
+
+🔍 [DEBUG] Wikipedia query keywords (ES): ['metabólica']
+
+      💾 Progreso: 50/900 preguntas
+      💾 Progreso: 100/900 preguntas
+      💾 Progreso: 150/900 preguntas
+      💾 Progreso: 200/900 preguntas
+      💾 Progreso: 250/900 preguntas
+      💾 Progreso: 300/900 preguntas
+      💾 Progreso: 350/900 preguntas
+      💾 Progreso: 400/900 preguntas
+      💾 Progreso: 450/900 preguntas
+      💾 Progreso: 500/900 preguntas
+      💾 Progreso: 550/900 preguntas
+      💾 Progreso: 600/900 preguntas
+      💾 Progreso: 650/900 preguntas
+      💾 Progreso: 700/900 preguntas
+      💾 Progreso: 750/900 preguntas
+      💾 Progreso: 800/900 preguntas
+      💾 Progreso: 850/900 preguntas
+      💾 Progreso: 900/900 preguntas
+   🔹 Modelo: gemma
+
+🔍 [DEBUG] Wikipedia query keywords (ES): ['metabólica']
+
+      💾 Progreso: 50/900 preguntas
+      💾 Progreso: 100/900 preguntas
+      💾 Progreso: 150/900 preguntas
+      💾 Progreso: 200/900 preguntas
+      💾 Progreso: 250/900 preguntas
+      💾 Progreso: 300/900 preguntas
+      💾 Progreso: 350/900 preguntas
+      💾 Progreso: 400/900 preguntas
+      💾 Progreso: 450/900 preguntas
+      💾 Progreso: 500/900 preguntas
+      💾 Progreso: 550/900 preguntas
+      💾 Progreso: 600/900 preguntas
+      💾 Progreso: 650/900 preguntas
+      💾 Progreso: 700/900 preguntas
+      💾 Progreso: 750/900 preguntas
+      💾 Progreso: 800/900 preguntas
+      💾 Progreso: 850/900 preguntas
+      💾 Progreso: 900/900 preguntas
+
+📊 Métricas exportadas: /home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/1_wikipedia/v1_es/rag_wikipedia_v1_es_metrics.xlsx
+🧾 Log guardado en: /home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/1_wikipedia/v1_es/rag_wikipedia_v1_es_log.txt
+
+🏁 Ejecución completada correctamente.

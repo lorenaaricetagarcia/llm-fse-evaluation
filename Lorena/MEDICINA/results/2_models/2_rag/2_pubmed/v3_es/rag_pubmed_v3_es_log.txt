@@ -1,0 +1,84 @@
+⏳ Starting RAG-PubMed v3 [es] – 2025-10-24 13:53:03
+✅ GPU detected: NVIDIA GeForce RTX 5070
+✅ Translator loaded (ES→EN).
+✅ Loaded 900 text questions
+
+📘 Processing MEDICINA (900 questions)
+🔹 Model: llama3
+      💾 Progress: 50/900 processed
+      💾 Progress: 100/900 processed
+      💾 Progress: 150/900 processed
+      💾 Progress: 200/900 processed
+      💾 Progress: 250/900 processed
+      💾 Progress: 300/900 processed
+      💾 Progress: 350/900 processed
+      💾 Progress: 400/900 processed
+      💾 Progress: 450/900 processed
+      💾 Progress: 500/900 processed
+      💾 Progress: 550/900 processed
+      💾 Progress: 600/900 processed
+      💾 Progress: 650/900 processed
+      💾 Progress: 700/900 processed
+      💾 Progress: 750/900 processed
+      💾 Progress: 800/900 processed
+      💾 Progress: 850/900 processed
+      💾 Progress: 900/900 processed
+✅ LLAMA3 (MEDICINA) → 48.00% | PubMed✔ 48.06% | PubMed✘ 47.96%
+🔹 Model: mistral
+      💾 Progress: 50/900 processed
+      💾 Progress: 100/900 processed
+      💾 Progress: 150/900 processed
+      💾 Progress: 200/900 processed
+      💾 Progress: 250/900 processed
+      💾 Progress: 300/900 processed
+      💾 Progress: 350/900 processed
+      💾 Progress: 400/900 processed
+      💾 Progress: 450/900 processed
+      💾 Progress: 500/900 processed
+      💾 Progress: 550/900 processed
+      💾 Progress: 600/900 processed
+      💾 Progress: 650/900 processed
+      💾 Progress: 700/900 processed
+      💾 Progress: 750/900 processed
+      💾 Progress: 800/900 processed
+      💾 Progress: 850/900 processed
+      💾 Progress: 900/900 processed
+✅ MISTRAL (MEDICINA) → 44.61% | PubMed✔ 48.19% | PubMed✘ 42.22%
+🔹 Model: gemma
+      💾 Progress: 50/900 processed
+      💾 Progress: 100/900 processed
+      💾 Progress: 150/900 processed
+      💾 Progress: 200/900 processed
+      💾 Progress: 250/900 processed
+      💾 Progress: 300/900 processed
+      💾 Progress: 350/900 processed
+      💾 Progress: 400/900 processed
+      💾 Progress: 450/900 processed
+      💾 Progress: 500/900 processed
+      💾 Progress: 550/900 processed
+      💾 Progress: 600/900 processed
+      💾 Progress: 650/900 processed
+      💾 Progress: 700/900 processed
+      💾 Progress: 750/900 processed
+      💾 Progress: 800/900 processed
+      💾 Progress: 850/900 processed
+      💾 Progress: 900/900 processed
+✅ GEMMA (MEDICINA) → 39.67% | PubMed✔ 42.22% | PubMed✘ 37.96%
+💾 Saved: /home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/2_pubmed/v3_es/MEDICINA_llama3_rag_pubmed_v3_es.json
+💾 Saved: /home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/2_pubmed/v3_es/MEDICINA_mistral_rag_pubmed_v3_es.json
+💾 Saved: /home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/2_pubmed/v3_es/MEDICINA_gemma_rag_pubmed_v3_es.json
+
+📊 Metrics exported to: /home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/2_pubmed/v3_es/rag_pubmed_v3_es_metrics.xlsx
+
+🏆 LEADERBOARD (Avg across all exams)
+         Accuracy (%)  Accuracy con PubMed  Accuracy sin PubMed
+Modelo                                                         
+gemma           39.67                42.22                37.96
+llama3          48.00                48.06                47.96
+mistral         44.61                48.19                42.22
+
+🏅 Leaderboard saved to: /home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/2_pubmed/v3_es/rag_pubmed_v3_leaderboard.xlsx
+
+🧾 Log saved: /home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/2_pubmed/v3_es/rag_pubmed_v3_es_log.txt
+
+🏁 RAG-PubMed v3 completed successfully.

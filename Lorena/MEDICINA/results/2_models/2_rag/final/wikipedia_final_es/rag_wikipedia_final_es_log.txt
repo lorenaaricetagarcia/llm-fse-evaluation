@@ -1,0 +1,74 @@
+⏳ Starting RAG-Wikipedia Final [es] – 2025-10-24 16:48:34
+
+📘 Procesando MEDICINA.json → 900 preguntas
+🔹 Modelo: llama3
+      💾 Progreso: 50/900 preguntas
+      💾 Progreso: 100/900 preguntas
+      💾 Progreso: 150/900 preguntas
+      💾 Progreso: 200/900 preguntas
+      💾 Progreso: 250/900 preguntas
+      💾 Progreso: 300/900 preguntas
+      💾 Progreso: 350/900 preguntas
+      💾 Progreso: 400/900 preguntas
+      💾 Progreso: 450/900 preguntas
+      💾 Progreso: 500/900 preguntas
+      💾 Progreso: 550/900 preguntas
+      💾 Progreso: 600/900 preguntas
+      💾 Progreso: 650/900 preguntas
+      💾 Progreso: 700/900 preguntas
+      💾 Progreso: 750/900 preguntas
+      💾 Progreso: 800/900 preguntas
+      💾 Progreso: 850/900 preguntas
+      💾 Progreso: 900/900 preguntas
+✅ LLAMA3 (MEDICINA.json) → 47.67%
+🔹 Modelo: mistral
+      💾 Progreso: 50/900 preguntas
+      💾 Progreso: 100/900 preguntas
+      💾 Progreso: 150/900 preguntas
+      💾 Progreso: 200/900 preguntas
+      💾 Progreso: 250/900 preguntas
+      💾 Progreso: 300/900 preguntas
+      💾 Progreso: 350/900 preguntas
+      💾 Progreso: 400/900 preguntas
+      💾 Progreso: 450/900 preguntas
+      💾 Progreso: 500/900 preguntas
+      💾 Progreso: 550/900 preguntas
+      💾 Progreso: 600/900 preguntas
+      💾 Progreso: 650/900 preguntas
+      💾 Progreso: 700/900 preguntas
+      💾 Progreso: 750/900 preguntas
+      💾 Progreso: 800/900 preguntas
+      💾 Progreso: 850/900 preguntas
+      💾 Progreso: 900/900 preguntas
+✅ MISTRAL (MEDICINA.json) → 43.35%
+🔹 Modelo: gemma
+      💾 Progreso: 50/900 preguntas
+      💾 Progreso: 100/900 preguntas
+      💾 Progreso: 150/900 preguntas
+      💾 Progreso: 200/900 preguntas
+      💾 Progreso: 250/900 preguntas
+      💾 Progreso: 300/900 preguntas
+      💾 Progreso: 350/900 preguntas
+      💾 Progreso: 400/900 preguntas
+      💾 Progreso: 450/900 preguntas
+      💾 Progreso: 500/900 preguntas
+      💾 Progreso: 550/900 preguntas
+      💾 Progreso: 600/900 preguntas
+      💾 Progreso: 650/900 preguntas
+      💾 Progreso: 700/900 preguntas
+      💾 Progreso: 750/900 preguntas
+      💾 Progreso: 800/900 preguntas
+      💾 Progreso: 850/900 preguntas
+      💾 Progreso: 900/900 preguntas
+✅ GEMMA (MEDICINA.json) → 38.22%
+💾 Saved: /home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/final/wikipedia_final_es/MEDICINA.json_llama3_rag_wikipedia_final_es.json
+💾 Saved: /home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/final/wikipedia_final_es/MEDICINA.json_mistral_rag_wikipedia_final_es.json
+💾 Saved: /home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/final/wikipedia_final_es/MEDICINA.json_gemma_rag_wikipedia_final_es.json
+
+📊 Metrics exported to: /home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/final/wikipedia_final_es/rag_wikipedia_final_es_metrics.xlsx
+
+🏅 Leaderboard saved to: /home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/final/wikipedia_final_es/rag_wikipedia_final_leaderboard.xlsx
+
+🧾 Log saved: /home/xs1/Desktop/Lorena/MEDICINA/results/2_models/2_rag/final/wikipedia_final_es/rag_wikipedia_final_es_log.txt
+
+🏁 RAG-Wikipedia Final completed successfully.

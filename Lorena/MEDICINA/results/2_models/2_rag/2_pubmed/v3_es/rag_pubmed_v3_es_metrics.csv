@@ -1,0 +1,4 @@
+﻿Modelo,Titulación,Idioma,Total preguntas,Respondidas,Aciertos,Errores,Sin respuesta,Accuracy (%),Accuracy con PubMed,Accuracy sin PubMed
+llama3,MEDICINA,es,900,900,432,468,0,48.0,48.06,47.96
+mistral,MEDICINA,es,900,899,401,498,1,44.61,48.19,42.22
+gemma,MEDICINA,es,900,900,357,543,0,39.67,42.22,37.96

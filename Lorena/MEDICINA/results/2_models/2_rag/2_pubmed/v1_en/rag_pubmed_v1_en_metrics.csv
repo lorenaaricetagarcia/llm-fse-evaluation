@@ -1,0 +1,4 @@
+﻿Modelo,Titulación,Idioma,Total preguntas,Respondidas,Aciertos,Errores,Sin respuesta,Accuracy (%)
+llama3,MEDICINA,en,900,900,420,480,0,46.67
+mistral,MEDICINA,en,900,894,400,494,6,44.74
+gemma,MEDICINA,en,900,900,363,537,0,40.33

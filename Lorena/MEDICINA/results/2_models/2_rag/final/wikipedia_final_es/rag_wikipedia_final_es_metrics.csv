@@ -1,0 +1,4 @@
+﻿Modelo,Titulación,Idioma,Total preguntas,Respondidas,Aciertos,Errores,Sin respuesta,Accuracy (%)
+llama3,MEDICINA.json,es,900,900,429,471,0,47.67
+mistral,MEDICINA.json,es,900,895,388,507,5,43.35
+gemma,MEDICINA.json,es,900,900,344,556,0,38.22

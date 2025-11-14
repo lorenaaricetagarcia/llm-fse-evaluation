@@ -1,4 +1,3 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
 diff --git a/README.md b/README.md
 new file mode 100644
 index 0000000000000000000000000000000000000000..12c747744182530b59239fdb3ad05c5a5057b165
@@ -78,6 +77,3 @@ index 0000000000000000000000000000000000000000..12c747744182530b59239fdb3ad05c5a
 +3. Estandariza rutas relativas para facilitar la ejecución en otros equipos.
 +
 +¡Disfruta explorando los resultados y extendiendo el análisis de modelos LLM en el contexto del examen MIR!
- 
-EOF
-)

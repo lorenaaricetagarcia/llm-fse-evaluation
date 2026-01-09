@@ -1,4 +1,4 @@
-# TFM_Final
+# Evaluating Large Language Models on the Spanish FSE Medical Examination
 
 This repository contains the code and artifacts for a TFM thesis on evaluating language models for MIR-style medical exam questions, including data preparation, prompt-based model evaluation, and retrieval-augmented generation (RAG) pipelines.
 

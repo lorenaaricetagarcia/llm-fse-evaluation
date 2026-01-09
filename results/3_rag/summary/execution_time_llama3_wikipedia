@@ -1,0 +1,43 @@
+✅ Global summary saved to: /home/xs1/Desktop/Lorena/results/3_rag/summary/rag_selected_summary_GLOBAL_20251222_0138.xlsx
+
+🕒 EXECUTION TIME SUMMARY
+──────────────────────────────────────────────────────────────
+  BIOLOGÍA | llama3-Wikipedia_final-es                         → 01:01:14
+  ENFERMERÍA | llama3-Wikipedia_final-es                       → 00:58:52
+  FARMACIA | llama3-Wikipedia_final-es                         → 00:59:28
+  FÍSICA | llama3-Wikipedia_final-es                           → 01:07:17
+  MEDICINA | llama3-Wikipedia_final-es                         → 00:57:27
+  PSICOLOGÍA | llama3-Wikipedia_final-es                       → 00:58:22
+  QUÍMICA | llama3-Wikipedia_final-es                          → 00:55:42
+──────────────────────────────────────────────────────────────
+  TOTAL TIME → 06:58:25
+🏁 Finished.
+
+✅ Global summary saved to: /home/xs1/Desktop/Lorena/results/3_rag/summary/rag_selected_summary_GLOBAL_20251223_0035.xlsx
+
+🕒 EXECUTION TIME SUMMARY
+──────────────────────────────────────────────────────────────
+  BIOLOGÍA | mistral-Wikipedia_final-es                        → 00:58:44
+  BIOLOGÍA | gemma-Wikipedia_final-es                          → 00:43:35
+  BIOLOGÍA | medllama2-Wikipedia_final-es                      → 00:48:01
+  ENFERMERÍA | mistral-Wikipedia_final-es                      → 00:57:06
+  ENFERMERÍA | gemma-Wikipedia_final-es                        → 00:41:17
+  ENFERMERÍA | medllama2-Wikipedia_final-es                    → 00:54:32
+  FARMACIA | mistral-Wikipedia_final-es                        → 00:44:31
+  FARMACIA | gemma-Wikipedia_final-es                          → 00:29:57
+  FARMACIA | medllama2-Wikipedia_final-es                      → 00:41:16
+  FÍSICA | mistral-Wikipedia_final-es                          → 00:54:09
+  FÍSICA | gemma-Wikipedia_final-es                            → 00:33:37
+  FÍSICA | medllama2-Wikipedia_final-es                        → 00:31:30
+  MEDICINA | mistral-Wikipedia_final-es                        → 00:43:00
+  MEDICINA | gemma-Wikipedia_final-es                          → 00:26:22
+  MEDICINA | medllama2-Wikipedia_final-es                      → 01:21:18
+  PSICOLOGÍA | mistral-Wikipedia_final-es                      → 00:43:56
+  PSICOLOGÍA | gemma-Wikipedia_final-es                        → 00:29:16
+  PSICOLOGÍA | medllama2-Wikipedia_final-es                    → 00:53:05
+  QUÍMICA | mistral-Wikipedia_final-es                         → 00:44:52
+  QUÍMICA | gemma-Wikipedia_final-es                           → 00:29:45
+  QUÍMICA | medllama2-Wikipedia_final-es                       → 00:38:19
+──────────────────────────────────────────────────────────────
+  TOTAL TIME → 15:28:19
+🏁 Finished.

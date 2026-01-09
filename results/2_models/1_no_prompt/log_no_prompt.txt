@@ -1,0 +1,148 @@
+⚠️ ENFERMERÍA.json: 210 duplicated values detected in 'numero' (evaluation will be performed by position/index).
+
+
+🚀 Processing model: llama3 | File: ENFERMERÍA.json
+
+📤 [9] Sending question to llama3...
+🧠 Model response:
+La respuesta correcta es:
+
+1. La Escuela de Enfermería de la Casa de Salud Valdecilla.
+
+La Escuela de Enfermería de la Casa de Salud Valdecilla, ubicada en Madrid, fue fundada en 1886 y considerada como la primera escuela de enfermería en España. Fue creada por la religiosa Marcella Pilet y contó con el apoyo de la Reina Regente María Cristina de Habsburgo. La escuela tenía como objetivo formar a las primeras generaciones de enfermeras españolas y contribuir al desarrollo del cuidado sanitario en el país.
+
+📤 [10] Sending question to llama3...
+🧠 Model response:
+La respuesta correcta es:
+
+3. Ernestine Wiedenbach: Teoría del arte de cuidar de la enfermería clínica.
+
+Ernestine Wiedenbach desarrolló la teoría del arte de cuidar, que enfatiza la importancia de la empatía y la compasión en el cuidado de los pacientes. No está relacionada con el Modelo del Núcleo, el Cuidado y la Curación (abordaje multidisciplinario), ni con el Modelo de Conservación (que no es una teoría enfermera), ni con la Teoría del Proceso Deliberativo de Enfermería (una teoría enfermera que describe el proceso de atención médica).
+
+Las otras opciones son incorrectas:
+
+1. Faye Glenn Abdellah no desarrolló un modelo llamado "Modelo del Núcleo, el Cuidado y la Curación".
+2. Lydia Hall desarrolló la Teoría de la Conservación, que se centra en la prevención y la rehabilitación, pero no es una teoría enfermera.
+4. Nancy Roper desarrolló la Teoría del Proceso Deliberativo de Enfermería, que describe el proceso de atención médica desde la perspectiva de la enfermería, pero no está relacionada con Ernestine Wiedenbach ni su teoría del arte de cuidar.
+
+📤 [11] Sending question to llama3...
+🧠 Model response:
+La respuesta que NO corresponde con las características de un Diagnóstico Enfermero es:
+
+4. Aporta un lenguaje estandarizado para el uso en la Historia Clínica Electrónica (HCE).
+
+Un diagnóstico enfermero se refiere a la descripción clara y concisa de la situación saludable del paciente, enfocándose en las respuestas humanas reales o potenciales a los problemas de salud y procesos vitales. No tiene relación con el lenguaje estandarizado para la Historia Clínica Electrónica.
+
+Las otras opciones:
+
+1. Dirige las actividades enfermeras para obtener resultados y proporciona información sobre la patología del paciente: Esto es una característica principal de un diagnóstico enfermero, ya que guía la toma de decisiones y la planificación del cuidado del paciente.
+
+2. Se encarga de las respuestas humanas reales o potenciales a los problemas de salud y procesos vitales: También es una característica fundamental de un diagnóstico enfermero, ya que se enfoca en entender cómo el paciente responde a su condición médica y como puede ser afectado por sus procesos vitales.
+
+3. Proporciona una comprensión más holística sobre el impacto de la enfermedad sobre el paciente y su familia: Esto es otro aspecto importante de un diagnóstico enfermero, ya que se considera la totalidad del paciente, incluyendo factores como la psicológica, emocional y social, en relación con su condición médica.
+
+📤 [12] Sending question to llama3...
+🧠 Model response:
+La respuesta correcta es:
+
+3. Las etiquetas de resultados deben conceptualizarse y exponerse en niveles medios de abstracción.
+
+Según la estandarización de los resultados sensibles a la práctica enfermera, las etiquetas de resultados deben ser concisas (opcion 1) y describir una conducta o intervención enfermera (opcion 2). Además, las definiciones de los resultados deben ser consistentes con la escala de medición utilizada (opcion 4).
+
+Sin embargo, no hay evidencia en la estandarización de resultados sensibles a la práctica enfermera que indique que las etiquetas de resultados deban conceptualizarse y exponerse en niveles medios de abstracción. En realidad, la estandarización de resultados sensibles a la práctica enfermera busca ser concisa y clara, para facilitar la comprensión y el uso de los resultados.
+
+📤 [13] Sending question to llama3...
+🧠 Model response:
+La respuesta INCORRECTA es:
+
+* 2. Se denominan también líneas de tensión.
+
+Las líneas de Langer no se denominan "líneas de tensión". En realidad, se denominan líneas o arrugas naturales que delimitan el plano sagital del cuerpo dividiéndolo en derecha e izquierda (punto 3).
+
+📤 [14] Sending question to llama3...
+🧠 Model response:
+La respuesta correcta es: 2. Esfenoides.
+
+La silla turca (también conocida como "Turkish seat" o "Turkish saddle") es un estructura ósea en la parte posterior del craneo que se compone de los huesos esfenoides y temporal, así como del hueso occipital.
+
+📤 [15] Sending question to llama3...
+🧠 Model response:
+La respuesta correcta es:
+
+**3. Piel e intestino delgado**
+
+La metabolización de la vitamina D se divide en tres etapas:
+
+1. La piel convierte el 7-dehidrocolecalciferol (D3) presente en la luz solar en calcidiol mediante la enzima hidroxilasa.
+2. El intestino delgado absorbe el calcidiol y lo transporta a la circulación sanguínea, donde es modificado para producir calcitriol, la forma activa de la vitamina D.
+
+El hígado y los riñones están involucrados en la síntesis y eliminación de hormonas relacionadas con la vitamina D, pero no son los órganos más importantes para su metabolización.
+
+📤 [16] Sending question to llama3...
+🧠 Model response:
+La respuesta correcta es: 2. Xerostomía.
+
+En la enfermedad de Parkinson, los pacientes suelen presentar disfunciones del sistema nervioso autónomo, que pueden afectar a varias funciones fisiológicas como el control del sudor, la secreción salival y la evacuación intestinal. La xerostomía (sequedad oral) es una manifestación común en esta enfermedad, debido a la degeneración de neuronas dopaminérgicas en el núcleo subtalámico y la pérdida de control sobre las glándulas salivales.
+
+Las otras opciones no son las más comunes en la enfermedad de Parkinson:
+
+* Diarrea e incontinencia urinaria (opción 1): Aunque pueden ocurrir en pacientes con enfermedad de Parkinson, estas manifestaciones son relativamente infrecuentes.
+* Dermatitis seborreica (opción 3): No está relacionada directamente con la alteración del sistema nervioso autónomo en la enfermedad de Parkinson.
+* Priapismo (opción 4): Es un síntoma que ocurre en algunos pacientes con Parkinson, pero no es el más común.
+
+📤 [17] Sending question to llama3...
+🧠 Model response:
+Excelente información! La Sociedad Española para el Estudio de la Obesidad (SEEDO) establece los siguientes criterios de selección para la cirugía bariátrica en pacientes con obesidad:
+
+1. **Obesidad mórbida**: IMC ≥ 45 kg/m², obesidad establecida durante al menos 5 años y dislipemia asociada que no responde al tratamiento.
+2. **Síndrome metabólico** (Metabolic Syndrome): IMC ≥ 40 kg/m², síndrome caracterizado por la presencia de al menos tres de los siguientes criterios: hipertensión, glucemia alta en ayunas, resistencia a la insulina, triglicéridos elevados y HDL-colesterol bajo. Además, alteración en la conducta alimentaria con fracaso del tratamiento cognitivo-conductual.
+3. **Obesidad asociada a comorbilidades**: IMC ≥ 40 kg/m² o IMC ≥ 35 kg/m², asocia da a comorbilidades que pueden mejorar con la pérdida de peso (por ejemplo, diabetes tipo 2, hipertensión, enfermedad cardiovascular).
+4. **Obesidad severa en pacientes jóvenes**: IMC ≥ 50 kg/m² en pacientes con edad inferior a 50 años y fracaso de tratamiento conservador no supervisado.
+
+Es importante tener en cuenta que estos criterios son guías generales y que cada paciente debe ser evaluado individualmente por un equipo interdisciplinario antes de considerar la cirugía bariátrica.
+
+📤 [18] Sending question to llama3...
+🧠 Model response:
+La respuesta correcta es la opción 1.
+
+Según el Codex Alimentarius y la legislación europea vigente, un alimento puede considerarse "exento de gluten" si está compuesto por uno o más ingredientes procedentes del trigo, el centeno, la cebada, la avena o sus variedades híbridas que han sido procesados de forma especial para eliminar el gluten y cuyo contenido de gluten no sobrepasa los 0 mg/kg en total.
+
+📤 [19] Sending question to llama3...
+🧠 Model response:
+Exacto! La Guía de Nutrición Enteral Domiciliaria del Sistema Nacional de Salud establece las siguientes contraindicaciones para la administración de Nutrición Enteral:
+
+1. Hemorragia digestiva, hiperémesis persistente, pancreatitis aguda severa y riesgo de broncoaspiración.
+2. Hiperémesis persistente no controlada farmacológicamente, pancreatitis hemorrágica necrotizante, íleo paralítico y obstrucción intestinal.
+3. Perforación intestinal, obstrucción intestinal y estenosis esofágica.
+4. Gastrectomía, fístulas intestinales, obstrucción intestinal y pancreatitis aguda.
+
+Estas contraindicaciones son fundamentales para garantizar la seguridad del paciente y evitar posibles complicaciones durante el proceso de administración de Nutrición Enteral.
+
+📤 [20] Sending question to llama3...
+🧠 Model response:
+Correcto! Los aspectos que se valoran en el cribado nutricional NRS-2002 son:
+
+* Opción 1: Pérdida de peso, ingesta, gravedad de la enfermedad e IMC (Indice de Masa Corporal).
+* Opción 2: Pérdida de peso, ingesta, IMC y soporte nutricional reciente.
+* Opción 3: Grado de dependencia, ingesta, IMC y pérdida de peso.
+* Opción 4: Grado de sarcopenia, ingesta y pérdida de peso.
+
+El Cribado Nutricional NRS-2002 (Nutritional Risk Screening) es un instrumento utilizado para evaluar el riesgo nutricional en pacientes hospitalizados o con enfermedades crónicas.
+
+📤 [21] Sending question to llama3...
+🧠 Model response:
+La afirmación correcta es:
+
+2. Las fibras del tejido muscular esquelético son capaces de producir miocinas, un tipo específico de citocinas y otros péptidos que son capaces de ejercer efectos metabólicos en el organismo.
+
+Las miocinas son citocinas producidas por las células musculares esqueléticas que juegan un papel importante en la regulación del metabolismo, la inflamación y la respuesta inmunológica. Estas citocinas pueden influir en la producción de insulina, la lipólisis y otros procesos metabólicos.
+
+Las otras afirmaciones no son correctas:
+
+1. El componente principal del tejido muscular esquelético no es la proteína (aproximadamente un 75%). Aproximadamente el 70% del peso del músculo esquelético se compone de agua, y el resto está formado por proteínas, grasas y otros componentes.
+
+3. El tejido muscular esquelético no almacena lípidos como reserva energética. Los lípidos son almacenados en la grasa corporal y en los músculos lisos (no musculares esqueléticos).
+
+4. La epimisio es una membrana celular que rodea a las fibras musculares, pero no envuelve individualmente cada fibra muscular como se afirma. En lugar de eso, la epimisio es una capa de tejido conectivo que recubre el músculo y ayuda a mantener su estructura y función.
+
+📤 [22] Sending question to llama3...

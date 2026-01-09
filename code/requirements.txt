@@ -1,0 +1,12 @@
+pandas
+requests
+selenium
+webdriver-manager
+beautifulsoup4
+PyMuPDF
+wikipedia-api
+keybert
+sentence-transformers
+transformers
+torch
+spacy

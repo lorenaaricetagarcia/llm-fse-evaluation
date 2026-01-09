@@ -1,4 +1,3 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
 diff --git a/README.md b/README.md
 index fdb7cee9005d2934ad0c151a9200605519422a26..0da3c4dcdc77f285198b719706d5c6f988f91d93 100644
 --- a/README.md
@@ -81,6 +80,3 @@ index fdb7cee9005d2934ad0c151a9200605519422a26..0da3c4dcdc77f285198b719706d5c6f9
 +
 +- Some scripts expect GPUs or large local models (e.g., `llama3`, `mistral`, `gemma`, `medllama2`). Ensure the runtime environment is configured accordingly.
 +- For reproducibility, keep the directory structure under `results/` consistent with the scripts’ expectations.
- 
-EOF
-)ntas ayudan a contextualizar los resultados y conclusiones del TFM.

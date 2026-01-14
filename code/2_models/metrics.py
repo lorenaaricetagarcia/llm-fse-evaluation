@@ -1,20 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Script Title: Prompt-Series Metrics Computation (No Prompt / Spanish Prompt / English Prompt / DeepSeek+Phi3)
+Script Title: Prompt-Series Metrics Computation (No Prompt / Spanish Prompt / English Prompt)
 Author: Lorena Ariceta Garcia
 TFM: AI-Based Diagnosis: Ally or Risk?
      An Analysis of Language Models
 
 Description
 -----------
-This script computes accuracy metrics for four prompt variants used in the
+This script computes accuracy metrics for three prompt variants used in the
 model-evaluation pipeline:
 
     1) No Prompt
     2) Prompt (Spanish)
-    3) Prompt (Spanish) — DeepSeek + Phi3 (specific model IDs)
-    4) Prompt (English)
+    3) Prompt (English)
 
 Predictions are compared against the original ground-truth answers stored in
 the source JSON files. To ensure robustness against potential duplicated
@@ -72,9 +71,8 @@ XLSX_PATH = OUTPUT_DIR / "prompt_series_metrics.xlsx"
 
 PROMPT_VARIANTS = [
     "1_no_prompt",
-    "2_prompt_es",                # Spanish prompt
-    "3_prompt_deepseek_phi3",     # Spanish prompt (DeepSeek + Phi3 specific IDs)
-    "4_prompt_en",                # English prompt
+    "2_prompt_es",  # Spanish prompt
+    "3_prompt_en",  # English prompt
 ]
 
 

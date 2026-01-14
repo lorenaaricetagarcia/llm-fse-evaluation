@@ -17,14 +17,14 @@ For each specialization, the script:
 
 Expected input directory structure (from Script 1_extract_pdf_from_ministerio.py)
 --------------------------------------------------
-mir_exams_v0/
+FSE_exams_v0/
     └── <specialization>/
         ├── text_booklet/
         └── image_booklet/
 
 Output directory structure
 --------------------------
-1_json_per_specialization/
+results/1_data_preparation/1_json_specialization/
     └── <specialization>.json
 
 Requirements
@@ -53,7 +53,7 @@ from typing import List, Dict
 # ---------------------------------------------------------------------
 # 1. PDF text extraction
 # ---------------------------------------------------------------------
-def extract_text_from_pdf(text: str, source_pdf_name: str) -> List[Dict]:
+def extract_text_from_pdf(pdf_path: str) -> str:
     """
     Extracts the full text from all pages of a PDF file.
 
@@ -127,10 +127,10 @@ def extract_questions(text: str, source_pdf_name: str) -> list[dict]:
 
         questions.append(
             {
-                "question_number": question_number,
-                "statement": statement,
-                "options": options,
-                "source_file": source_pdf_name,
+                "numero": question_number,
+                "enunciado": statement,
+                "opciones": options,
+                "archivo_origen": source_pdf_name,
             }
         )
 
@@ -147,7 +147,7 @@ def process_specialization(specialization_path: str, output_dir: str) -> None:
     Parameters
     ----------
     specialization_path : str
-        Path to the specialization folder (e.g., mir_exams_v0/<specialization>).
+        Path to the specialization folder (e.g., FSE_exams_v0/<specialization>).
     output_dir : str
         Output directory where the JSON file will be saved.
     """
@@ -171,8 +171,8 @@ def process_specialization(specialization_path: str, output_dir: str) -> None:
     specialization_name = os.path.basename(specialization_path)
 
     output_payload = {
-        "specialization": specialization_name,
-        "questions": all_questions,
+        "titulacion": specialization_name,
+        "preguntas": all_questions,
     }
 
     os.makedirs(output_dir, exist_ok=True)
@@ -192,8 +192,8 @@ def main() -> None:
     Iterates through all specializations in the base directory and generates
     one JSON file per specialization containing extracted questions.
     """
-    base_dir = "mir_exams_v0"                 # Root directory containing specializations
-    output_dir = "1_json_per_specialization"  # Output directory
+    base_dir = "FSE_exams_v0"  # Root directory containing specializations
+    output_dir = "results/1_data_preparation/1_json_specialization"
 
     if not os.path.isdir(base_dir):
         print(f"❌ Base directory not found: {base_dir}")

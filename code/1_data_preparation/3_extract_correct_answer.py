@@ -1,12 +1,12 @@
 """
-Script Title: Automated Extraction of MIR Official Answer Sheets (Version 0)
+Script Title: Automated Extraction of FSE Official Answer Sheets (Version 0)
 Author: Lorena Ariceta Garcia
 TFM: AI-Based Diagnosis: Ally or Risk?
      An Analysis of Language Models
 
 Description
 -----------
-This script automates the extraction of official MIR answer sheets from the
+This script automates the extraction of official FSE answer sheets from the
 public website of the Spanish Ministry of Health (MSCBS).
 
 For each available medical specialization and examination year, the script

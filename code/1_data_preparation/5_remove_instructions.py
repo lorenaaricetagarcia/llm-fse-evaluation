@@ -6,7 +6,7 @@ TFM: AI-Based Diagnosis: Ally or Risk?
 
 Description
 -----------
-This script applies a post-processing correction to previously enriched MIR
+This script applies a post-processing correction to previously enriched FSE
 question datasets in order to fix formatting artifacts affecting *Question 1*
 in some examinations.
 

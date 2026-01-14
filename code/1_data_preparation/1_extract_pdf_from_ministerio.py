@@ -1,12 +1,12 @@
 """
-Script Title: Automated Download of MIR Examination Booklets
+Script Title: Automated Download of FSE Examination Booklets
 Author: Lorena Ariceta Garcia
 TFM: AI-Based Diagnosis: Ally or Risk?
      An Analysis of Language Models
 
 Description
 -----------
-This script automates the retrieval and download of MIR examination booklets
+This script automates the retrieval and download of FSE examination booklets
 from the public website of the Spanish Ministry of Health (MSCBS).
 For each available medical specialization and examination year,
 only the documents corresponding to Version 0 are downloaded.
@@ -18,7 +18,7 @@ Two types of examination booklets are considered:
 The downloaded files are automatically organized into the following
 directory structure:
 
-    mir_exams_v0/
+    FSE_exams_v0/
         └── <specialization>/
             ├── text_booklet/
             └── image_booklet/
@@ -54,7 +54,7 @@ from selenium.webdriver.chrome.service import Service
 # ---------------------------------------------------------------------
 # 1. Output directory configuration
 # ---------------------------------------------------------------------
-MAIN_OUTPUT_DIRECTORY = os.path.abspath("mir_exams_v0")
+MAIN_OUTPUT_DIRECTORY = os.path.abspath("FSE_exams_v0")
 os.makedirs(MAIN_OUTPUT_DIRECTORY, exist_ok=True)
 
 

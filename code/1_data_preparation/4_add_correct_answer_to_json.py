@@ -1,12 +1,12 @@
 """
-Script Title: Integration of MIR Questions with Official Correct Answers
+Script Title: Integration of FSE Questions with Official Correct Answers
 Author: Lorena Ariceta Garcia
 TFM: AI-Based Diagnosis: Ally or Risk?
      An Analysis of Language Models
 
 Description
 -----------
-This script merges previously extracted MIR examination questions with their
+This script merges previously extracted FSE examination questions with their
 corresponding official correct answers (Version 0 only).
 
 The script:

@@ -1,42 +1,47 @@
 """
-Script Title: LLM Benchmarking on MIR Multiple-Choice Questions
-              (Spanish Prompt Condition)
+Script Title: Batch Evaluation of LLMs on FSE/MIR Multiple-Choice Exams (Spanish Prompt)
 Author: Lorena Ariceta Garcia
 TFM: AI-Based Diagnosis: Ally or Risk?
      An Analysis of Language Models
 
 Description
 -----------
-This script evaluates multiple Large Language Models (LLMs) on MIR-style
-multiple-choice medical questions using an explicit *Spanish-language prompt*.
+This script evaluates multiple local language models (via Ollama) on a set of
+multiple-choice exam questions stored in JSON format, using a Spanish clinical
+instruction prompt.
 
-Compared to the no-prompt baseline, this script prepends a structured
-instructional prompt written in Spanish, designed to:
-- enforce a clinical-exam reasoning style,
-- constrain the response format,
-- and reduce ambiguity in the model outputs.
+For each JSON exam file and each model, the script:
+1) Loads the exam dataset (JSON).
+2) Builds the evaluation question list (optionally filtering to text questions).
+3) Sends each question to the model using the Ollama API, prepending a Spanish prompt.
+4) Extracts the first standalone digit (1..4) from the model’s response.
+5) Saves a per-model JSON containing predictions + raw model text.
+6) Computes evaluation metrics aligned with the evaluated subset of questions.
+7) Aggregates global metrics and exports results to CSV and Excel.
 
-For each examination file and each model, the script:
-1) Sends each question (statement + options) together with the Spanish prompt
-   to the model via the Ollama HTTP API.
-2) Extracts the selected answer option (1–4) from the model response.
-3) Stores both the predicted option and the raw generated text.
-4) Computes accuracy metrics using positional alignment.
-5) Aggregates global results and exports them to CSV and Excel formats.
+Output directory structure
+--------------------------
+<OUTPUT_DIR>/
+    ├── log_prompt_es.txt
+    ├── prompt_es_metrics.csv
+    ├── prompt_es_metrics.xlsx
+    └── <model>/
+        └── <exam>_<model>.json
 
 Requirements
 ------------
 - Python 3.x
 - requests
 - pandas
-- Ollama running locally (http://localhost:11434)
 
 Methodological Notes
 --------------------
-- The Spanish prompt explicitly instructs the model to return a single numeric
-  answer (1–4) followed by a brief justification.
-- Accuracy is computed by positional index to handle duplicated question numbers.
-- Image-based questions are excluded for selected specializations when required.
+- The Ollama endpoint is used with `stream=False` for simple request/response.
+- Answer selection is parsed using a regex capturing the first standalone digit 1..4.
+- The evaluated question list is built once per file to ensure alignment between:
+  (a) ground-truth answers and (b) model predictions.
+- Some files are filtered to include only text-based questions as intended.
+- A Spanish prompt enforces a constrained response format for improved parsing.
 """
 
 import json
@@ -49,9 +54,9 @@ import pandas as pd
 from collections import OrderedDict, Counter
 
 
-# ================================================================
-# OUTPUT CONFIGURATION
-# ================================================================
+# ---------------------------------------------------------------------
+# 1. Output configuration
+# ---------------------------------------------------------------------
 OUTPUT_DIR = "/home/xs1/Desktop/Lorena/results/2_models/1_prompt/2_prompt_es"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -72,49 +77,64 @@ class DualOutput:
         self.log.flush()
 
 
-# Activate output redirection
 sys.stdout = DualOutput(os.path.join(OUTPUT_DIR, "log_prompt_es.txt"))
 
 
-# ================================================================
-# MODELS AND SPANISH PROMPT
-# ================================================================
-MODELS = ["llama3", "mistral", "gemma", "deepseek-coder", "phi3"]
+# ---------------------------------------------------------------------
+# 2. Models and Spanish prompt
+# ---------------------------------------------------------------------
+MODELS = [
+    "llama3",
+    "mistral",
+    "gemma",
+    "deepseek-coder",
+    "deepseek-llm",
+    "phi3",
+    "phi3:instruct",
+]
 
 SPANISH_PROMPT = (
     "Eres un profesional médico que debe responder una pregunta tipo examen clínico (MIR).\n"
-    "Lee cuidadosamente el CONTEXTO recuperado y luego la PREGUNTA.\n"
-    "Si el contexto contiene información útil y directa, utilízala para responder.\n"
-    "Si el contexto no aporta la respuesta, usa tu conocimiento médico general.\n"
-    "Tu respuesta debe seguir estrictamente este formato:\n"
-    "'La respuesta correcta es la número X' (donde X es un número del 1 al 4).\n"
-    "Después, añade una sola frase breve con la justificación principal.\n"
-    "No respondas con 'No estoy seguro', no proporciones varias opciones ni copies el contexto.\n"
-    "Responde siempre con una única opción numérica (1–4) y una frase concisa.\n\n"
+    "Lee cuidadosamente la PREGUNTA y las OPCIONES.\n"
+    "Aplica tu conocimiento clínico general para seleccionar la respuesta correcta.\n"
+    "Responde estrictamente en el formato: 'La respuesta correcta es la número X.'\n"
+    "Después añade una breve frase justificativa.\n"
 )
 
-INPUT_DIR = "results/1_data_preparation/6_json_final"
+INPUT_DIR = "/home/xs1/Desktop/Lorena/results/1_data_preparation/6_json_final"
 json_files = [f for f in os.listdir(INPUT_DIR) if f.endswith(".json")]
 
+OLLAMA_ENDPOINT = "http://localhost:11434/api/generate"
+REQUEST_TIMEOUT_SECONDS = 180
 
-# ================================================================
-# GLOBAL RESULTS STRUCTURE
-# ================================================================
+
+def build_eval_questions(json_filename: str, base_data: dict) -> list:
+    """Build the list of questions that will be prompted AND evaluated."""
+    questions = base_data.get("preguntas", [])
+    if json_filename in ["ENFERMERÍA.json", "MEDICINA.json"]:
+        questions = [q for q in questions if q.get("tipo") == "texto"]
+    return questions
+
+
+# ---------------------------------------------------------------------
+# 3. Global results structure (RAG-like)
+# ---------------------------------------------------------------------
 global_summary = {
     model: {
-        "correct": 0,
-        "incorrect": 0,
-        "no_answer": 0,
         "total": 0,
+        "correct": 0,
+        "errors": 0,
+        "no_answer": 0,
+        "no_available": 0,
         "error_examples": [],
     }
     for model in MODELS
 }
 
 
-# ================================================================
-# MAIN LOOP (PER FILE, PER MODEL)
-# ================================================================
+# ---------------------------------------------------------------------
+# 4. Main loop (per file, per model)
+# ---------------------------------------------------------------------
 for json_filename in json_files:
     exam_name = os.path.splitext(json_filename)[0]
     json_path = os.path.join(INPUT_DIR, json_filename)
@@ -123,13 +143,16 @@ for json_filename in json_files:
         base_data = json.load(f)
 
     # Warn about duplicated question numbers
-    numbers = [q.get("numero") for q in base_data["preguntas"]]
+    numbers = [q.get("numero") for q in base_data.get("preguntas", [])]
     duplicate_count = sum(1 for _, c in Counter(numbers).items() if c > 1)
     if duplicate_count > 0:
         print(
             f"⚠️ {json_filename}: {duplicate_count} duplicated question numbers detected "
             "(evaluation will be positional).\n"
         )
+
+    # ✅ Filter once, then use this list everywhere (prompt + GT)
+    eval_questions = build_eval_questions(json_filename, base_data)
 
     for model in MODELS:
         print(f"\n🚀 Processing exam '{exam_name}' with model: {model}")
@@ -138,27 +161,29 @@ for json_filename in json_files:
         model_dir = os.path.join(OUTPUT_DIR, model)
         os.makedirs(model_dir, exist_ok=True)
 
-        # ------------------------------------------------------------
-        # Generate model responses
-        # ------------------------------------------------------------
-        for idx, question in enumerate(base_data["preguntas"], start=1):
-            if json_filename in ["ENFERMERÍA.json", "MEDICINA.json"] and question.get("tipo") != "texto":
-                continue
-
-            prompt = SPANISH_PROMPT + question["enunciado"] + "\n\n"
-            for opt_i, option in enumerate(question["opciones"], start=1):
+        # -------------------------------------------------------------
+        # 4.1 Generate model responses
+        # -------------------------------------------------------------
+        for idx, question in enumerate(eval_questions, start=1):
+            prompt = SPANISH_PROMPT + question.get("enunciado", "") + "\n\n"
+            for opt_i, option in enumerate(question.get("opciones", []), start=1):
                 prompt += f"{opt_i}. {option}\n"
 
             print(f"\n📤 [{idx}] Sending question to {model}...")
 
             payload = {"model": model, "prompt": prompt, "stream": False}
 
+            raw_text = ""
+            selection = None
+
             try:
                 response = requests.post(
-                    "http://localhost:11434/api/generate",
+                    OLLAMA_ENDPOINT,
                     json=payload,
-                    timeout=180,
+                    timeout=REQUEST_TIMEOUT_SECONDS,
                 )
+                response.raise_for_status()
+
                 data_model = response.json()
                 raw_text = data_model.get("response", "").strip()
 
@@ -168,19 +193,19 @@ for json_filename in json_files:
                 match = re.search(r"\b([1-4])\b", raw_text)
                 selection = int(match.group(1)) if match else None
 
-                new_question = OrderedDict()
-                for key in question:
-                    if key not in (model, f"{model}_texto"):
-                        new_question[key] = question[key]
-
-                new_question[model] = selection
-                new_question[f"{model}_texto"] = raw_text
-                model_data["preguntas"].append(new_question)
-
             except requests.exceptions.Timeout:
                 print("❌ Model timeout.")
             except Exception as exc:
                 print(f"❌ Error on question {idx}: {exc}")
+
+            new_question = OrderedDict()
+            for key in question:
+                if key not in (model, f"{model}_texto"):
+                    new_question[key] = question[key]
+
+            new_question[model] = selection
+            new_question[f"{model}_texto"] = raw_text
+            model_data["preguntas"].append(new_question)
 
         # Save per-model JSON
         output_json = os.path.join(model_dir, f"{exam_name}_{model}.json")
@@ -189,77 +214,98 @@ for json_filename in json_files:
 
         print(f"\n✅ Saved: {output_json}")
 
-        # ------------------------------------------------------------
-        # Metrics (positional comparison)
-        # ------------------------------------------------------------
-        questions = model_data["preguntas"]
+        # -------------------------------------------------------------
+        # 4.2 Metrics (RAG-aligned)
+        # -------------------------------------------------------------
+        questions = model_data.get("preguntas", [])
         total = len(questions)
-        correct = incorrect = no_answer = 0
+
+        correct = 0
+        errors = 0
+        no_answer = 0
+        no_available = 0
         error_examples = []
 
         for i, q in enumerate(questions):
             pred = q.get(model)
-            gt = base_data["preguntas"][i].get("respuesta_correcta") if i < len(base_data["preguntas"]) else None
+            gt = eval_questions[i].get("respuesta_correcta")
+
+            if gt is None:
+                no_available += 1
 
             if pred is None:
                 no_answer += 1
-            elif gt is None:
                 continue
-            elif pred == gt:
+
+            # Only evaluable if GT exists
+            if gt is None:
+                continue
+
+            if pred == gt:
                 correct += 1
             else:
-                incorrect += 1
+                errors += 1
                 error_examples.append(
                     {
                         "index": i + 1,
                         "predicted": pred,
                         "correct": gt,
-                        "stem": q["enunciado"],
+                        "stem": q.get("enunciado", ""),
                     }
                 )
 
-        answered = total - no_answer
-        accuracy = (correct / answered * 100) if answered > 0 else 0
+        answered_evaluable = correct + errors
+        accuracy = (
+            (correct / answered_evaluable * 100) if answered_evaluable > 0 else 0.0
+        )
 
-        global_summary[model]["correct"] += correct
-        global_summary[model]["incorrect"] += incorrect
-        global_summary[model]["no_answer"] += no_answer
         global_summary[model]["total"] += total
+        global_summary[model]["correct"] += correct
+        global_summary[model]["errors"] += errors
+        global_summary[model]["no_answer"] += no_answer
+        global_summary[model]["no_available"] += no_available
         global_summary[model]["error_examples"].extend(error_examples[:3])
 
         print("-" * 60)
-        print(f"Total questions           : {total}")
-        print(f"Answered                  : {answered}")
-        print(f"Correct                   : {correct}")
-        print(f"Incorrect                 : {incorrect}")
-        print(f"No answer (None)          : {no_answer}")
-        print(f"📈 Accuracy               : {accuracy:.2f}%")
+        print(f"Total questions                : {total}")
+        print(f"Correct                        : {correct}")
+        print(f"Errors                         : {errors}")
+        print(f"No answer (pred=None)          : {no_answer}")
+        print(f"No available answer (gt=None)  : {no_available}")
+        print(f"Answered (evaluable)           : {answered_evaluable}")
+        print(f"📈 Accuracy (evaluable)         : {accuracy:.2f}%")
 
 
-# ================================================================
-# GLOBAL SUMMARY EXPORT
-# ================================================================
+# ---------------------------------------------------------------------
+# 5. Global summary export (RAG-like)
+# ---------------------------------------------------------------------
 csv_path = os.path.join(OUTPUT_DIR, "prompt_es_metrics.csv")
 excel_path = os.path.join(OUTPUT_DIR, "prompt_es_metrics.xlsx")
 
 rows = []
-
 for model in MODELS:
     total = global_summary[model]["total"]
     correct = global_summary[model]["correct"]
+    errors = global_summary[model]["errors"]
     no_answer = global_summary[model]["no_answer"]
-    answered = total - no_answer
-    accuracy = (correct / answered * 100) if answered > 0 else 0
+    no_available = global_summary[model]["no_available"]
+
+    answered_evaluable = correct + errors
+    accuracy = (correct / answered_evaluable * 100) if answered_evaluable > 0 else 0.0
+    pct_no_answer = (no_answer / total * 100) if total > 0 else 0.0
+    pct_no_available = (no_available / total * 100) if total > 0 else 0.0
 
     rows.append(
         {
             "Model": model,
-            "Total": total,
-            "Answered": answered,
+            "Total questions": total,
             "Correct": correct,
-            "Incorrect": global_summary[model]["incorrect"],
-            "No answer": no_answer,
+            "Errors": errors,
             "Accuracy (%)": round(accuracy, 2),
+            "No answer": no_answer,
+            "% no answer": round(pct_no_answer, 2),
+            "No available answer": no_available,
+            "% no available": round(pct_no_available, 2),
         }
     )
 

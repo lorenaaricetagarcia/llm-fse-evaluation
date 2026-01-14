@@ -1,0 +1,8 @@
+📘 MÉTRICAS PROMPT SERIES – Inicio: 2025-10-14 10:28:28
+================================================================================
+
+
+📊 Ejecución completada: 2025-10-14 10:28:32
+Archivos generados:
+ - C:/Users/loren/OneDrive/Escritorio/TFM_UCM/Lorena/results/2_models/1_prompt\metrics\prompt_series_metrics.csv
+ - C:/Users/loren/OneDrive/Escritorio/TFM_UCM/Lorena/results/2_models/1_prompt\metrics\prompt_series_metrics.xlsx

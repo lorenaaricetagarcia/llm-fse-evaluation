@@ -1,5 +1,5 @@
 """
-Script Title: Classification of MIR Questions by Content Type (Text vs. Image)
+Script Title: Classification of FSE Questions by Content Type (Text vs. Image)
 Author: Lorena Ariceta Garcia
 TFM: AI-Based Diagnosis: Ally or Risk?
      An Analysis of Language Models
@@ -7,7 +7,7 @@ TFM: AI-Based Diagnosis: Ally or Risk?
 Description
 -----------
 This script performs the final step of the data preparation pipeline by
-classifying each MIR examination question according to its content type:
+classifying each FSE examination question according to its content type:
 - text-based questions
 - image-associated questions
 

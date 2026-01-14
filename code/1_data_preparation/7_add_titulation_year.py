@@ -1,5 +1,5 @@
 """
-Script Title: Final Labeling of MIR Question Datasets by Specialization and Year
+Script Title: Final Labeling of FSE Question Datasets by Specialization and Year
 Author: Lorena Ariceta Garcia
 TFM: AI-Based Diagnosis: Ally or Risk?
      An Analysis of Language Models
@@ -7,7 +7,7 @@ TFM: AI-Based Diagnosis: Ally or Risk?
 Description
 -----------
 This script performs a final labeling step in the data preparation pipeline.
-It enriches each processed MIR dataset with explicit, top-level metadata
+It enriches each processed FSE dataset with explicit, top-level metadata
 indicating:
 
 - the medical specialization (titulación)

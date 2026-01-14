@@ -1,38 +1,48 @@
 """
-Script Title: LLM Benchmarking on MIR Multiple-Choice Questions (No-Prompt Setting)
+Script Title: Batch Evaluation of LLMs on FSE/MIR Multiple-Choice Exams (No Prompt Baseline)
 Author: Lorena Ariceta Garcia
 TFM: AI-Based Diagnosis: Ally or Risk?
      An Analysis of Language Models
 
 Description
 -----------
-This script evaluates multiple local Large Language Models (LLMs) on MIR-style
-multiple-choice questions stored in JSON format. For each input exam file, the
-script sends each question (stem + four options) to each model via the Ollama
-HTTP API and parses the model's response to extract a selected option (1–4).
+This script evaluates multiple local language models (via Ollama) on a set of
+multiple-choice exam questions stored in JSON format. The pipeline runs a
+no-prompt baseline (question + options only), stores each model’s raw output,
+extracts the selected answer (1..4), and computes evaluation metrics.
 
-The script:
-1) Generates a per-model JSON file with the model's predicted option and raw text.
-2) Computes accuracy metrics (correct / incorrect / unanswered) and prints per-file results.
-3) Aggregates global results across all processed files and exports:
-   - CSV:  no_prompt_metrics.csv
-   - Excel: no_prompt_metrics.xlsx
+For each JSON exam file and each model, the script:
+1) Loads the exam dataset (JSON).
+2) Builds the evaluation question list (optionally filtering to text questions).
+3) Sends each question to the model using the Ollama API.
+4) Extracts the first standalone digit (1..4) from the model’s response.
+5) Saves a per-model JSON containing predictions + raw model text.
+6) Computes accuracy metrics aligned with the evaluated subset of questions.
+7) Aggregates global metrics and exports results to CSV and Excel.
+
+Output directory structure
+--------------------------
+<OUTPUT_DIR>/
+    ├── log_no_prompt.txt
+    ├── no_prompt_metrics.csv
+    ├── no_prompt_metrics.xlsx
+    └── <model>/
+        └── <exam>_<model>.json
 
 Requirements
 ------------
 - Python 3.x
 - requests
 - pandas
-- Ollama running locally (default endpoint: http://localhost:11434)
 
 Methodological Notes
 --------------------
-- The first occurrence of an integer in {1,2,3,4} found in the model response is
-  used as the selected option.
-- Some input files may contain duplicated question numbers; in that case,
-  evaluation is performed by positional index rather than question number.
-- For ENFERMERÍA and MEDICINA, non-text questions can be skipped if they are
-  labeled as image-type items.
+- The Ollama endpoint is used with `stream=False` for simple request/response.
+- Answer selection is parsed using a regex capturing the first standalone digit 1..4.
+- The evaluated question list is built once per file to ensure alignment between:
+  (a) ground-truth answers and (b) model predictions.
+- Some files are filtered to include only text-based questions as intended.
+- Global metrics are aggregated across all processed exams per model.
 """
 
 import csv
@@ -46,9 +56,9 @@ import pandas as pd
 import requests
 
 
-# ================================================================
-# 1) OUTPUT CONFIGURATION
-# ================================================================
+# ---------------------------------------------------------------------
+# 1. Output configuration
+# ---------------------------------------------------------------------
 OUTPUT_DIR = "/home/xs1/Desktop/Lorena/results/2_models/1_prompt/1_no_prompt"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -71,13 +81,12 @@ class DualOutput:
         self.log.flush()
 
 
-# Redirect all prints to both console and a log file
 sys.stdout = DualOutput(os.path.join(OUTPUT_DIR, "log_no_prompt.txt"))
 
 
-# ================================================================
-# 2) MODELS AND INPUT FILES
-# ================================================================
+# ---------------------------------------------------------------------
+# 2. Models and input files
+# ---------------------------------------------------------------------
 MODELS = ["llama3", "mistral", "gemma", "deepseek-coder", "phi3"]
 
 INPUT_DIR = "/home/xs1/Desktop/Lorena/results/1_data_preparation/6_json_final"
@@ -86,22 +95,38 @@ json_files = [f for f in os.listdir(INPUT_DIR) if f.endswith(".json")]
 OLLAMA_ENDPOINT = "http://localhost:11434/api/generate"
 REQUEST_TIMEOUT_SECONDS = 180
 
+
 # Global accumulator for metrics
 global_summary = {
     model: {
-        "correct": 0,
-        "incorrect": 0,
-        "no_answer": 0,
         "total": 0,
+        "correct": 0,
+        "errors": 0,
+        "no_answer": 0,
+        "no_available": 0,
         "error_examples": [],
     }
     for model in MODELS
 }
 
 
-# ================================================================
-# 3) MAIN LOOP (PER FILE, PER MODEL)
-# ================================================================
+def build_eval_questions(json_filename: str, base_data: dict) -> list:
+    """
+    Build the list of questions that will be evaluated AND prompted.
+    This guarantees positional alignment between prompts and GT.
+    """
+    questions = base_data.get("preguntas", [])
+
+    # Keep only text questions for ENFERMERÍA and MEDICINA (as you already intended)
+    if json_filename in ["ENFERMERÍA.json", "MEDICINA.json"]:
+        questions = [q for q in questions if q.get("tipo") == "texto"]
+
+    return questions
+
+
+# ---------------------------------------------------------------------
+# 3. Main loop (per file, per model)
+# ---------------------------------------------------------------------
 for json_filename in json_files:
     base_name = os.path.splitext(json_filename)[0]
     json_path = os.path.join(INPUT_DIR, json_filename)
@@ -109,14 +134,16 @@ for json_filename in json_files:
     with open(json_path, "r", encoding="utf-8") as f:
         base_data = json.load(f)
 
-    # Warn if duplicated question numbers exist (evaluation will be positional)
+    # Warn if duplicated question numbers exist
     numbers = [q.get("numero") for q in base_data.get("preguntas", [])]
     duplicate_count = sum(1 for _, c in Counter(numbers).items() if c > 1)
     if duplicate_count > 0:
         print(
-            f"⚠️ {json_filename}: {duplicate_count} duplicated values detected in 'numero' "
-            "(evaluation will be performed by position/index).\n"
+            f"⚠️ {json_filename}: {duplicate_count} duplicated values detected in 'numero'.\n"
         )
+
+    # ✅ Build the *exact* set of questions that we will prompt/evaluate
+    eval_questions = build_eval_questions(json_filename, base_data)
 
     for model in MODELS:
         print(f"\n🚀 Processing model: {model} | File: {json_filename}")
@@ -125,14 +152,10 @@ for json_filename in json_files:
         model_dir = os.path.join(OUTPUT_DIR, model)
         os.makedirs(model_dir, exist_ok=True)
 
-        # ============================================================
-        # 3.1 GENERATE + STORE MODEL RESPONSES
-        # ============================================================
-        for idx, question in enumerate(base_data.get("preguntas", []), start=1):
-            # Optional filtering for image questions in specific files
-            if json_filename in ["ENFERMERÍA.json", "MEDICINA.json"] and question.get("tipo") != "texto":
-                continue
-
+        # -------------------------------------------------------------
+        # 3.1 Generate + store model responses
+        # -------------------------------------------------------------
+        for idx, question in enumerate(eval_questions, start=1):
             prompt = f"{question.get('enunciado', '')}\n\n"
             for opt_i, option in enumerate(question.get("opciones", []), start=1):
                 prompt += f"{opt_i}. {option}\n"
@@ -140,6 +163,9 @@ for json_filename in json_files:
             print(f"\n📤 [{idx}] Sending question to {model}...")
 
             payload = {"model": model, "prompt": prompt, "stream": False}
+
+            raw_text = ""
+            selection = None
 
             try:
                 response = requests.post(
@@ -159,20 +185,20 @@ for json_filename in json_files:
                 match = re.search(r"\b([1-4])\b", raw_text)
                 selection = int(match.group(1)) if match else None
 
-                # Copy original fields while avoiding collisions
-                new_question = OrderedDict()
-                for key in question:
-                    if key not in (model, f"{model}_text"):
-                        new_question[key] = question[key]
-
-                new_question[model] = selection
-                new_question[f"{model}_text"] = raw_text
-                model_output["preguntas"].append(new_question)
-
             except requests.exceptions.Timeout:
                 print("❌ Model timeout.")
             except Exception as exc:
                 print(f"❌ Error on question {idx}: {exc}")
+
+            # Copy original fields while avoiding collisions
+            new_question = OrderedDict()
+            for key in question:
+                if key not in (model, f"{model}_text"):
+                    new_question[key] = question[key]
+
+            new_question[model] = selection
+            new_question[f"{model}_text"] = raw_text
+            model_output["preguntas"].append(new_question)
 
         # Save per-model JSON output
         output_json_path = os.path.join(model_dir, f"{base_name}_{model}.json")
@@ -181,37 +207,40 @@ for json_filename in json_files:
 
         print(f"\n✅ Saved: {output_json_path}")
 
-        # ============================================================
-        # 3.2 METRICS (POSITIONAL COMPARISON)
-        # ============================================================
+        # -------------------------------------------------------------
+        # 3.2 Metrics (aligned with evaluated subset)
+        # -------------------------------------------------------------
         print(f"\n📊 Evaluating model {model.upper()} | Exam: {base_name}")
 
         predicted_questions = model_output.get("preguntas", [])
         total = len(predicted_questions)
 
         correct = 0
-        incorrect = 0
+        errors = 0
         no_answer = 0
+        no_available = 0
         error_examples = []
 
+        # ✅ GT comes from eval_questions, same index as predicted_questions
         for i, q_pred in enumerate(predicted_questions):
             pred = q_pred.get(model)
+            gt = eval_questions[i].get("respuesta_correcta")
 
-            # Positional ground truth (index-based)
-            gt = base_data.get("preguntas", [])[i].get("respuesta_correcta") if i < len(base_data.get("preguntas", [])) else None
+            if gt is None:
+                no_available += 1
 
             if pred is None:
                 no_answer += 1
                 continue
 
+            # Only evaluate if gt exists
             if gt is None:
-                # If ground truth is missing, we ignore it for accuracy
                 continue
 
             if pred == gt:
                 correct += 1
             else:
-                incorrect += 1
+                errors += 1
                 error_examples.append(
                     {
                         "index": i + 1,
@@ -221,35 +250,39 @@ for json_filename in json_files:
                     }
                 )
 
-        answered = total - no_answer
-        accuracy_pct = (correct / answered * 100) if answered > 0 else 0.0
+        answered_evaluable = correct + errors
+        accuracy_pct = (
+            (correct / answered_evaluable * 100) if answered_evaluable > 0 else 0.0
+        )
 
         # Update global summary
-        global_summary[model]["correct"] += correct
-        global_summary[model]["incorrect"] += incorrect
-        global_summary[model]["no_answer"] += no_answer
         global_summary[model]["total"] += total
-
-        # Store a small number of representative errors
+        global_summary[model]["correct"] += correct
+        global_summary[model]["errors"] += errors
+        global_summary[model]["no_answer"] += no_answer
+        global_summary[model]["no_available"] += no_available
         global_summary[model]["error_examples"].extend(error_examples[:3])
 
         print("-" * 60)
-        print(f"Total questions           : {total}")
-        print(f"Answered by the model     : {answered}")
-        print(f"Correct                  : {correct}")
-        print(f"Incorrect                : {incorrect}")
-        print(f"No answer (None)          : {no_answer}")
-        print(f"📈 Accuracy               : {accuracy_pct:.2f}%")
+        print(f"Total questions                : {total}")
+        print(f"Correct                        : {correct}")
+        print(f"Errors                         : {errors}")
+        print(f"No answer (pred=None)          : {no_answer}")
+        print(f"No available answer (gt=None)  : {no_available}")
+        print(f"Answered (evaluable)           : {answered_evaluable}")
+        print(f"📈 Accuracy (evaluable)         : {accuracy_pct:.2f}%")
 
         print("\n🔍 Example errors:")
         for err in error_examples[:5]:
-            print(f"  ➤ Question {err['index']}: predicted {err['predicted']}, correct {err['correct']}")
+            print(
+                f"  ➤ Question {err['index']}: predicted {err['predicted']}, correct {err['correct']}"
+            )
             print(f"    {err['stem']}")
 
 
-# ================================================================
-# 4) GLOBAL SUMMARY + CSV/EXCEL EXPORT
-# ================================================================
+# ---------------------------------------------------------------------
+# 4. Global summary + CSV/Excel export
+# ---------------------------------------------------------------------
 print("\n📊📊📊 GLOBAL SUMMARY BY MODEL 📊📊📊")
 
 csv_path = os.path.join(OUTPUT_DIR, "no_prompt_metrics.csv")
@@ -260,35 +293,36 @@ rows = []
 for model in MODELS:
     total = global_summary[model]["total"]
     correct = global_summary[model]["correct"]
-    incorrect = global_summary[model]["incorrect"]
+    errors = global_summary[model]["errors"]
     no_answer = global_summary[model]["no_answer"]
+    no_available = global_summary[model]["no_available"]
 
-    answered = total - no_answer
-    accuracy_pct = (correct / answered * 100) if answered > 0 else 0.0
+    answered_evaluable = correct + errors
+    accuracy_pct = (correct / answered_evaluable * 100) if answered_evaluable > 0 else 0.0
+    pct_no_answer = (no_answer / total * 100) if total > 0 else 0.0
+    pct_no_available = (no_available / total * 100) if total > 0 else 0.0
 
     print(f"\n🧠 Model: {model.upper()}")
     print("-" * 50)
-    print(f"Total questions           : {total}")
-    print(f"Answered                  : {answered}")
-    print(f"Correct                   : {correct}")
-    print(f"Incorrect                 : {incorrect}")
-    print(f"No answer (None)          : {no_answer}")
-    print(f"📈 Accuracy               : {accuracy_pct:.2f}%")
-
-    print("🔍 Example errors:")
-    for err in global_summary[model]["error_examples"][:5]:
-        print(f"  ➤ Question {err['index']}: predicted {err['predicted']}, correct {err['correct']}")
-        print(f"    {err['stem']}")
+    print(f"Total questions                : {total}")
+    print(f"Correct                        : {correct}")
+    print(f"Errors                         : {errors}")
+    print(f"No answer (pred=None)          : {no_answer}")
+    print(f"No available answer (gt=None)  : {no_available}")
+    print(f"Answered (evaluable)           : {answered_evaluable}")
+    print(f"📈 Accuracy (evaluable)         : {accuracy_pct:.2f}%")
 
     rows.append(
         {
             "Model": model,
-            "Total": total,
-            "Answered": answered,
+            "Total questions": total,
             "Correct": correct,
-            "Incorrect": incorrect,
-            "No answer": no_answer,
+            "Errors": errors,
             "Accuracy (%)": round(accuracy_pct, 2),
+            "No answer": no_answer,
+            "% no answer": round(pct_no_answer, 2),
+            "No available answer": no_available,
+            "% no available": round(pct_no_available, 2),
         }
     )
 

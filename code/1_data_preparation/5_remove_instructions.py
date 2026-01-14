@@ -21,11 +21,11 @@ first answer option due to PDF extraction inconsistencies. This script:
 
 Input directory
 ---------------
-- results/1_data_preparation/3_json_with_answers
+- results/1_data_preparation/3_json_con_respuesta
 
 Output directory
 ----------------
-- results/1_data_preparation/4_json_corrected
+- results/1_data_preparation/4_json_corregido
 
 Requirements
 ------------
@@ -48,8 +48,8 @@ import re
 # ---------------------------------------------------------------------
 # 1. Directory configuration
 # ---------------------------------------------------------------------
-INPUT_DIRECTORY = "results/1_data_preparation/3_json_with_answers"
-OUTPUT_DIRECTORY = "results/1_data_preparation/4_json_corrected"
+INPUT_DIRECTORY = "results/1_data_preparation/3_json_con_respuesta"
+OUTPUT_DIRECTORY = "results/1_data_preparation/4_json_corregido"
 
 os.makedirs(OUTPUT_DIRECTORY, exist_ok=True)
 

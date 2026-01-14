@@ -52,9 +52,7 @@ import pandas as pd
 # 1. Path configuration
 # =============================================================================
 REPO_ROOT = Path(__file__).resolve().parents[2]
-BASE_DIR = Path(
-    os.getenv("FSE_BASE_DIR", REPO_ROOT / "results/2_models/1_prompt")
-)
+BASE_DIR = Path(os.getenv("FSE_BASE_DIR", REPO_ROOT / "results/2_models"))
 GROUND_TRUTH_DIR = Path(
     os.getenv(
         "FSE_GROUND_TRUTH_DIR",

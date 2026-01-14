@@ -48,16 +48,19 @@ The dataset is built in multiple steps:
      Ministry of Health portal.
 2. **Convert PDFs to JSON**
    - `2_convert_all_fse_pdf_to_json.py` extracts raw text from PDFs and converts
-     them to JSON format under `results/1_data_preparation/1_json_specialization/`
+     them to JSON format under `results/1_data_preparation/1_json_por_titulacion/`
      using the base keys `titulacion`, `preguntas`, `numero`, `enunciado`,
      `opciones`, and `archivo_origen`.
 3. **Extract correct answers**
-   - `3_extract_correct_answer.py` parses the answer keys from exam documents.
+   - `3_extract_correct_answer.py` parses the answer keys from exam documents into
+     `results/1_data_preparation/2_respuestas_json/`.
 4. **Merge correct answers into JSON**
    - `4_add_correct_answer_to_json.py` injects `respuesta_correcta` plus
-     per-question `titulacion` and `convocatoria` metadata.
+     per-question `titulacion` and `convocatoria` metadata into
+     `results/1_data_preparation/3_json_con_respuesta/`.
 5. **Remove administrative instructions**
-   - `5_remove_instructions.py` cleans non-question boilerplate.
+   - `5_remove_instructions.py` cleans non-question boilerplate into
+     `results/1_data_preparation/4_json_corregido/`.
 6. **Classify question modality**
    - `6_add_type_text_or_image.py` tags each question as `tipo: "texto"` or
      `tipo: "imagen"`.
@@ -85,17 +88,17 @@ environment variables (defaults are repo-relative):
 
 ```bash
 python code/2_models/metrics.py \
-  --base-dir results/2_models/1_prompt \
+  --base-dir results/2_models \
   --ground-truth-dir results/1_data_preparation/6_json_final \
-  --output-dir results/2_models/1_prompt/metrics
+  --output-dir results/2_models/metrics
 ```
 
 Environment variable equivalents:
 
 ```bash
-FSE_BASE_DIR=results/2_models/1_prompt \
+FSE_BASE_DIR=results/2_models \
 FSE_GROUND_TRUTH_DIR=results/1_data_preparation/6_json_final \
-FSE_OUTPUT_DIR=results/2_models/1_prompt/metrics \
+FSE_OUTPUT_DIR=results/2_models/metrics \
 python code/2_models/metrics.py
 ```
 
@@ -130,6 +133,13 @@ All outputs are stored under `results/`, including:
    ```bash
    pip install -r code/requirements.txt
    ```
+3. **Install spaCy language model (required for PubMed RAG)**
+   ```bash
+   python -m spacy download es_core_news_sm
+   ```
+4. **Ensure an Ollama-compatible endpoint is running**
+   - Default: `http://localhost:11434/api/generate`
+   - Required for prompt and RAG pipelines.
 
 ## Running the pipeline
 
@@ -159,8 +169,12 @@ python code/3_rag/RAG_main_selective.py
 
 ## Reproducibility notes
 
-- The dataset is derived from official FSE PDFs and is **not bundled** in this
-  repository. It must be downloaded via the provided scripts.
+- The official FSE PDFs are **not bundled** in this repository. They must be
+  downloaded via the provided scripts.
+- Preprocessed JSON outputs and experimental results are included under
+  `results/` to support reporting and reproducibility.
+- Some source PDFs contain duplicated question numbers; evaluation scripts
+  therefore compare by positional index to preserve alignment.
 - Some RAG scripts may require GPU acceleration or model-specific setup.
 - Results are deterministic only if the same model versions and inference
   settings are used.

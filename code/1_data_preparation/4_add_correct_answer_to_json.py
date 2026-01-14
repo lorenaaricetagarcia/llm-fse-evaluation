@@ -23,15 +23,15 @@ The script:
 
 Input directories
 -----------------
-- results/1_data_preparation/1_json_specialization
+- results/1_data_preparation/1_json_por_titulacion
   JSON files with extracted questions.
 
-- results/1_data_preparation/2_json_answers
+- results/1_data_preparation/2_respuestas_json
   JSON files with official answers (Version 0 only).
 
 Output directory
 ----------------
-- results/1_data_preparation/3_json_with_answers
+- results/1_data_preparation/3_json_con_respuesta
 
 Requirements
 ------------
@@ -46,9 +46,9 @@ import re
 # ---------------------------------------------------------------------
 # 1. Directory configuration
 # ---------------------------------------------------------------------
-QUESTIONS_DIR = "results/1_data_preparation/1_json_specialization"
-ANSWERS_DIR = "results/1_data_preparation/2_json_answers"
-OUTPUT_DIR = "results/1_data_preparation/3_json_with_answers"
+QUESTIONS_DIR = "results/1_data_preparation/1_json_por_titulacion"
+ANSWERS_DIR = "results/1_data_preparation/2_respuestas_json"
+OUTPUT_DIR = "results/1_data_preparation/3_json_con_respuesta"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 

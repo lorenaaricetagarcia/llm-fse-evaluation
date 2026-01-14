@@ -24,7 +24,7 @@ FSE_exams_v0/
 
 Output directory structure
 --------------------------
-results/1_data_preparation/1_json_specialization/
+results/1_data_preparation/1_json_por_titulacion/
     └── <specialization>.json
 
 Requirements
@@ -193,7 +193,7 @@ def main() -> None:
     one JSON file per specialization containing extracted questions.
     """
     base_dir = "FSE_exams_v0"  # Root directory containing specializations
-    output_dir = "results/1_data_preparation/1_json_specialization"
+    output_dir = "results/1_data_preparation/1_json_por_titulacion"
 
     if not os.path.isdir(base_dir):
         print(f"❌ Base directory not found: {base_dir}")

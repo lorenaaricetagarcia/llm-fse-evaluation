@@ -10,8 +10,8 @@ This script performs a final labeling step in the data preparation pipeline.
 It enriches each processed FSE dataset with explicit, top-level metadata
 indicating:
 
-- the medical specialization (titulación)
-- the examination year (convocatoria)
+- the medical specialization (etiqueta_titulacion)
+- the examination year (etiqueta_convocatoria)
 
 The examination year is inferred from the original PDF filename associated
 with the questions. Once identified, the metadata is added at the dataset
@@ -79,9 +79,9 @@ for filename in os.listdir(INPUT_DIRECTORY):
             examination_year = match.group(1)
             break
 
-    # Add dataset-level labels
-    data["label_specialization"] = specialization
-    data["label_examination_year"] = examination_year
+    # Add dataset-level labels (consistent with existing JSON naming)
+    data["etiqueta_titulacion"] = specialization
+    data["etiqueta_convocatoria"] = examination_year
 
     # Save updated dataset
     output_path = os.path.join(OUTPUT_DIRECTORY, filename)

@@ -16,7 +16,7 @@ statement and is restricted to specific specializations in which image-based
 questions are known to appear.
 
 For each processed dataset, the script:
-1) Assigns a `type` attribute ("text" or "image") to every question.
+1) Assigns a `tipo` attribute ("texto" or "imagen") to every question.
 2) Produces per-file statistics on question types.
 3) Computes and displays global summary statistics across all datasets.
 4) Writes the updated JSON files to a new output directory.
@@ -94,10 +94,10 @@ for filename in os.listdir(INPUT_DIRECTORY):
             specialization in SPECIALIZATIONS_WITH_IMAGES
             and "pregunta asociada a la imagen" in statement
         ):
-            question["type"] = "image"
+            question["tipo"] = "imagen"
             image_count += 1
         else:
-            question["type"] = "text"
+            question["tipo"] = "texto"
             text_count += 1
 
     # Update global counters

@@ -96,7 +96,7 @@ for filename in os.listdir(QUESTIONS_DIR):
         )
 
         if not match:
-            question["correct_answer"] = None
+            question["respuesta_correcta"] = None
             continue
 
         year = match.group(1)
@@ -106,13 +106,13 @@ for filename in os.listdir(QUESTIONS_DIR):
         answers = answers_by_file.get(answers_filename)
 
         if answers:
-            question["correct_answer"] = answers.get(question_number)
+            question["respuesta_correcta"] = answers.get(question_number)
         else:
-            question["correct_answer"] = None
+            question["respuesta_correcta"] = None
 
         # Add explicit metadata
-        question["specialization"] = specialization
-        question["examination_year"] = year
+        question["titulacion"] = specialization
+        question["convocatoria"] = year
 
     # -----------------------------------------------------------------
     # 4. Save enriched output file

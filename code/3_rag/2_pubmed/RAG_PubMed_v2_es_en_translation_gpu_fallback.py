@@ -26,11 +26,12 @@ Outputs:
     (important: *_metrics.xlsx so main can find it)
 """
 
-import os
 import json
+import os
 import re
 import time
 from datetime import datetime
+from pathlib import Path
 from typing import Optional, List, Tuple, Dict, Any
 import xml.etree.ElementTree as ET
 
@@ -85,9 +86,14 @@ except Exception as e:
     print(f"⚠️ Translator unavailable, continuing without translation: {e}", flush=True)
     translator = None
 
-BASE_DIR = "/home/xs1/Desktop/Lorena"
-OUTPUT_DIR = f"{BASE_DIR}/results/3_rag/2_pubmed"
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+BASE_DIR = Path(os.getenv("FSE_BASE_DIR", Path(__file__).resolve().parents[3]))
+OUTPUT_DIR = Path(
+    os.getenv(
+        "FSE_OUTPUT_DIR",
+        BASE_DIR / "results/3_rag/2_pubmed",
+    )
+)
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 PUBMED_SLEEP_SECONDS = 0.4
 PUBMED_TOP_K = 3
@@ -339,8 +345,14 @@ answered = total - no_answer
 acc = (correct / answered * 100.0) if answered > 0 else 0.0
 
 stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-json_out = os.path.join(OUTPUT_DIR, f"{RAG_SPECIALIZATION}_{RAG_MODEL}_pubmed_v2_{RAG_LANG}_{stamp}.json")
-xlsx_out = os.path.join(OUTPUT_DIR, f"{RAG_SPECIALIZATION}_{RAG_MODEL}_pubmed_v2_{RAG_LANG}_{stamp}_metrics.xlsx")
+json_out = (
+    OUTPUT_DIR
+    / f"{RAG_SPECIALIZATION}_{RAG_MODEL}_pubmed_v2_{RAG_LANG}_{stamp}.json"
+)
+xlsx_out = (
+    OUTPUT_DIR
+    / f"{RAG_SPECIALIZATION}_{RAG_MODEL}_pubmed_v2_{RAG_LANG}_{stamp}_metrics.xlsx"
+)
 
 with open(json_out, "w", encoding="utf-8") as f:
     json.dump({"preguntas": rows}, f, ensure_ascii=False, indent=2)
@@ -356,7 +368,7 @@ df_metrics = pd.DataFrame([{
     "No answer": no_answer,
     "Accuracy (%)": round(acc, 2),
     "Seconds": round(time.time() - t_start, 2),
-    "JSON": os.path.basename(json_out),
+    "JSON": json_out.name,
 }])
 df_metrics.to_excel(xlsx_out, index=False)
 

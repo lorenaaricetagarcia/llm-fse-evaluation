@@ -44,21 +44,29 @@ Methodological Notes
 - A Spanish prompt enforces a constrained response format for improved parsing.
 """
 
-import json
-import requests
-import re
-import os
-import sys
 import csv
+import json
+import os
+import re
+import sys
+from collections import Counter, OrderedDict
+from pathlib import Path
+
 import pandas as pd
-from collections import OrderedDict, Counter
+import requests
 
 
 # ---------------------------------------------------------------------
 # 1. Output configuration
 # ---------------------------------------------------------------------
-OUTPUT_DIR = "/home/xs1/Desktop/Lorena/results/2_models/1_prompt/2_prompt_es"
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+BASE_DIR = Path(os.getenv("FSE_BASE_DIR", Path(__file__).resolve().parents[2]))
+OUTPUT_DIR = Path(
+    os.getenv(
+        "FSE_OUTPUT_DIR",
+        BASE_DIR / "results/2_models/1_prompt/2_prompt_es",
+    )
+)
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
 class DualOutput:
@@ -77,7 +85,7 @@ class DualOutput:
         self.log.flush()
 
 
-sys.stdout = DualOutput(os.path.join(OUTPUT_DIR, "log_prompt_es.txt"))
+sys.stdout = DualOutput(str(OUTPUT_DIR / "log_prompt_es.txt"))
 
 
 # ---------------------------------------------------------------------
@@ -101,8 +109,13 @@ SPANISH_PROMPT = (
     "Después añade una breve frase justificativa.\n"
 )
 
-INPUT_DIR = "/home/xs1/Desktop/Lorena/results/1_data_preparation/6_json_final"
-json_files = [f for f in os.listdir(INPUT_DIR) if f.endswith(".json")]
+INPUT_DIR = Path(
+    os.getenv(
+        "FSE_INPUT_DIR",
+        BASE_DIR / "results/1_data_preparation/6_json_final",
+    )
+)
+json_files = [path.name for path in INPUT_DIR.glob("*.json")]
 
 OLLAMA_ENDPOINT = "http://localhost:11434/api/generate"
 REQUEST_TIMEOUT_SECONDS = 180
@@ -137,7 +150,7 @@ global_summary = {
 # ---------------------------------------------------------------------
 for json_filename in json_files:
     exam_name = os.path.splitext(json_filename)[0]
-    json_path = os.path.join(INPUT_DIR, json_filename)
+    json_path = INPUT_DIR / json_filename
 
     with open(json_path, "r", encoding="utf-8") as f:
         base_data = json.load(f)
@@ -158,8 +171,8 @@ for json_filename in json_files:
         print(f"\n🚀 Processing exam '{exam_name}' with model: {model}")
         model_data = {"preguntas": []}
 
-        model_dir = os.path.join(OUTPUT_DIR, model)
-        os.makedirs(model_dir, exist_ok=True)
+        model_dir = OUTPUT_DIR / model
+        model_dir.mkdir(parents=True, exist_ok=True)
 
         # -------------------------------------------------------------
         # 4.1 Generate model responses
@@ -208,7 +221,7 @@ for json_filename in json_files:
             model_data["preguntas"].append(new_question)
 
         # Save per-model JSON
-        output_json = os.path.join(model_dir, f"{exam_name}_{model}.json")
+        output_json = model_dir / f"{exam_name}_{model}.json"
         with open(output_json, "w", encoding="utf-8") as f_out:
             json.dump(model_data, f_out, ensure_ascii=False, indent=2)
 
@@ -279,8 +292,8 @@ for json_filename in json_files:
 # ---------------------------------------------------------------------
 # 5. Global summary export (RAG-like)
 # ---------------------------------------------------------------------
-csv_path = os.path.join(OUTPUT_DIR, "prompt_es_metrics.csv")
-excel_path = os.path.join(OUTPUT_DIR, "prompt_es_metrics.xlsx")
+csv_path = OUTPUT_DIR / "prompt_es_metrics.csv"
+excel_path = OUTPUT_DIR / "prompt_es_metrics.xlsx"
 
 rows = []
 for model in MODELS:

@@ -1,22 +1,30 @@
-import os, json
+import json
+import os
+from pathlib import Path
 
-EXAMS_DIR = "/home/xs1/Desktop/Lorena/MEDICINA/results/1_data_preparation/6_json_final/prueba"
+import pandas as pd
 
-files = [f for f in os.listdir(EXAMS_DIR) if f.endswith(".json")]
+BASE_DIR = Path(os.getenv("FSE_BASE_DIR", Path(__file__).resolve().parents[3]))
+EXAMS_DIR = Path(
+    os.getenv(
+        "FSE_INPUT_DIR",
+        BASE_DIR / "results/1_data_preparation/6_json_final",
+    )
+)
+
+if not EXAMS_DIR.exists():
+    raise FileNotFoundError(f"EXAMS_DIR not found: {EXAMS_DIR}")
+
+files = [path.name for path in EXAMS_DIR.glob("*.json")]
 print(f"Found {len(files)} JSONs")
 
-for f in files[:3]:
-    path = os.path.join(EXAMS_DIR, f)
+for filename in files[:3]:
+    path = EXAMS_DIR / filename
     with open(path, "r", encoding="utf-8") as infile:
         data = json.load(infile)
         preguntas = [q for q in data.get("preguntas", []) if q.get("tipo") == "texto"]
-        print(f"{f}: {len(preguntas)} preguntas tipo texto")
+        print(f"{filename}: {len(preguntas)} preguntas tipo texto")
 
-
-import pandas as pd
-import os
-
-out = "/home/xs1/Desktop/Lorena/MEDICINA/results/test_metrics.xlsx"
-pd.DataFrame({"a":[1,2],"b":[3,4]}).to_excel(out, index=False)
-print("OK:", os.path.exists(out))
-
+out = Path(os.getenv("FSE_OUTPUT_DIR", BASE_DIR / "results/test_metrics.xlsx"))
+pd.DataFrame({"a": [1, 2], "b": [3, 4]}).to_excel(out, index=False)
+print("OK:", out.exists())

@@ -8,6 +8,7 @@ import re
 import glob
 from datetime import datetime
 import sys
+from pathlib import Path
 
 import pandas as pd
 
@@ -15,14 +16,14 @@ import pandas as pd
 # ---------------------------------------------------------------------
 # 1. Configuration
 # ---------------------------------------------------------------------
-BASE_DIR = "/home/xs1/Desktop/Lorena"
+BASE_DIR = Path(os.getenv("FSE_BASE_DIR", Path(__file__).resolve().parents[2]))
 
-RESULTS_DIR = f"{BASE_DIR}/results/3_rag"
-SUMMARY_DIR = f"{RESULTS_DIR}/summary"
-PROMPT_FILE = f"{BASE_DIR}/code/3_RAG/prompt_config.py"
-JSON_FINAL_DIR = f"{BASE_DIR}/results/1_data_preparation/6_json_final"
+RESULTS_DIR = BASE_DIR / "results/3_rag"
+SUMMARY_DIR = RESULTS_DIR / "summary"
+PROMPT_FILE = BASE_DIR / "code/3_rag/prompt_config.py"
+JSON_FINAL_DIR = BASE_DIR / "results/1_data_preparation/6_json_final"
 
-os.makedirs(SUMMARY_DIR, exist_ok=True)
+SUMMARY_DIR.mkdir(parents=True, exist_ok=True)
 
 
 # ---------------------------------------------------------------------
@@ -30,16 +31,52 @@ os.makedirs(SUMMARY_DIR, exist_ok=True)
 # ---------------------------------------------------------------------
 RUNS = [
     # Wikipedia
-    ("Wikipedia_v1", f"{BASE_DIR}/code/3_RAG/1_wikipedia/RAG_Wikipedia_v1_basic_single_keyword.py"),
-    ("Wikipedia_v2", f"{BASE_DIR}/code/3_RAG/1_wikipedia/RAG_Wikipedia_v2_multikey_suggestions.py"),
-    ("Wikipedia_v3", f"{BASE_DIR}/code/3_RAG/1_wikipedia/RAG_Wikipedia_v3_strict_prompt_multikey.py"),
-    ("Wikipedia_final", f"{BASE_DIR}/code/3_RAG/1_wikipedia/RAG_Wikipedia_final_multilingual_dynamic_model.py"),
+    (
+        "Wikipedia_v1",
+        str(BASE_DIR / "code/3_rag/1_wikipedia/RAG_Wikipedia_v1_basic_single_keyword.py"),
+    ),
+    (
+        "Wikipedia_v2",
+        str(BASE_DIR / "code/3_rag/1_wikipedia/RAG_Wikipedia_v2_multikey_suggestions.py"),
+    ),
+    (
+        "Wikipedia_v3",
+        str(BASE_DIR / "code/3_rag/1_wikipedia/RAG_Wikipedia_v3_strict_prompt_multikey.py"),
+    ),
+    (
+        "Wikipedia_final",
+        str(
+            BASE_DIR
+            / "code/3_rag/1_wikipedia/RAG_Wikipedia_final_multilingual_dynamic_model.py"
+        ),
+    ),
 
     # PubMed
-    ("PubMed_v1", f"{BASE_DIR}/code/3_RAG/2_pubmed/RAG_PubMed_v1_basic_es.py"),
-    ("PubMed_v2", f"{BASE_DIR}/code/3_RAG/2_pubmed/RAG_PubMed_v2_es_en_translation_gpu_fallback.py"),
-    ("PubMed_v3", f"{BASE_DIR}/code/3_RAG/2_pubmed/RAG_PubMed_v3_progressive_saves_strict_prompt.py"),
-    ("PubMed_final", f"{BASE_DIR}/code/3_RAG/2_pubmed/RAG_PubMed_final_multilingual_dynamic_model.py"),
+    (
+        "PubMed_v1",
+        str(BASE_DIR / "code/3_rag/2_pubmed/RAG_PubMed_v1_basic_es.py"),
+    ),
+    (
+        "PubMed_v2",
+        str(
+            BASE_DIR
+            / "code/3_rag/2_pubmed/RAG_PubMed_v2_es_en_translation_gpu_fallback.py"
+        ),
+    ),
+    (
+        "PubMed_v3",
+        str(
+            BASE_DIR
+            / "code/3_rag/2_pubmed/RAG_PubMed_v3_progressive_saves_strict_prompt.py"
+        ),
+    ),
+    (
+        "PubMed_final",
+        str(
+            BASE_DIR
+            / "code/3_rag/2_pubmed/RAG_PubMed_final_multilingual_dynamic_model.py"
+        ),
+    ),
 ]
 
 
@@ -93,26 +130,23 @@ def format_time(seconds: float) -> str:
     return f"{h:02d}:{m:02d}:{s:02d}"
 
 
-def list_specialization_files(folder: str):
+def list_specialization_files(folder: Path):
     items = []
-    if not os.path.isdir(folder):
+    if not folder.is_dir():
         raise FileNotFoundError(f"JSON_FINAL_DIR not found: {folder}")
 
-    for entry in sorted(os.listdir(folder)):
-        if entry.startswith("."):
+    for entry in sorted(folder.iterdir()):
+        if entry.name.startswith(".") or entry.is_dir():
             continue
-        full = os.path.join(folder, entry)
-        if os.path.isdir(full):
-            continue
-        if entry.lower().endswith(".json") or "." not in entry:
-            spec_name = os.path.splitext(entry)[0]
-            items.append((spec_name, full))
+        if entry.name.lower().endswith(".json") or "." not in entry.name:
+            spec_name = entry.stem
+            items.append((spec_name, str(entry)))
 
     return items
 
 
 def find_latest_metrics_file(after_ts: float):
-    pattern = os.path.join(RESULTS_DIR, "**", "*_metrics.xlsx")
+    pattern = str(RESULTS_DIR / "**" / "*_metrics.xlsx")
     candidates = glob.glob(pattern, recursive=True)
 
     recent = []
@@ -246,8 +280,8 @@ for spec_name, spec_json_path in specializations:
 
     per_spec_frames = []
 
-    spec_summary_dir = os.path.join(SUMMARY_DIR, spec_name)
-    os.makedirs(spec_summary_dir, exist_ok=True)
+    spec_summary_dir = SUMMARY_DIR / spec_name
+    spec_summary_dir.mkdir(parents=True, exist_ok=True)
 
     for model in selected_models:
         for pipeline_name, script in selected_runs:
@@ -336,9 +370,9 @@ for spec_name, spec_json_path in specializations:
         ]
         merged_spec = merged_spec[[c for c in preferred_cols if c in merged_spec.columns]]
 
-        out_path = os.path.join(
-            spec_summary_dir,
-            f"rag_summary_{spec_name}_{datetime.now().strftime('%Y%m%d_%H%M')}.xlsx"
+        out_path = (
+            spec_summary_dir
+            / f"rag_summary_{spec_name}_{datetime.now().strftime('%Y%m%d_%H%M')}.xlsx"
         )
         merged_spec.to_excel(out_path, index=False)
         print(f"\n✅ Per-specialization summary saved to: {out_path}")
@@ -367,9 +401,9 @@ if global_frames:
     ]
     merged_global = merged_global[[c for c in preferred_cols if c in merged_global.columns]]
 
-    global_out = os.path.join(
-        SUMMARY_DIR,
-        f"rag_selected_summary_GLOBAL_{datetime.now().strftime('%Y%m%d_%H%M')}.xlsx"
+    global_out = (
+        SUMMARY_DIR
+        / f"rag_selected_summary_GLOBAL_{datetime.now().strftime('%Y%m%d_%H%M')}.xlsx"
     )
     merged_global.to_excel(global_out, index=False)
     print(f"\n✅ Global summary saved to: {global_out}")

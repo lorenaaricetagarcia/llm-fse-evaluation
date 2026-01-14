@@ -13,15 +13,19 @@ from pathlib import Path
 # =============================================================================
 # ⚙️ CONFIGURACIÓN
 # =============================================================================
-BASE_DIR = Path("/home/xs1/Desktop/Lorena/MEDICINA")
-CODE_DIR = BASE_DIR / "code/3_RAG"
-RESULTS_DIR = BASE_DIR / "results/2_models/2_rag"
-SUMMARY_DIR = BASE_DIR / "results/summary"
-EXAM_DIR = BASE_DIR / "results/1_data_preparation/6_json_final/prueba"
+BASE_DIR = Path(os.getenv("FSE_BASE_DIR", Path(__file__).resolve().parents[3]))
+CODE_DIR = BASE_DIR / "code/3_rag"
+RESULTS_DIR = BASE_DIR / "results/3_rag"
+SUMMARY_DIR = RESULTS_DIR / "summary"
+EXAM_DIR = Path(
+    os.getenv(
+        "FSE_INPUT_DIR",
+        BASE_DIR / "results/1_data_preparation/6_json_final",
+    )
+)
 
 WIKI_DIR = RESULTS_DIR / "1_wikipedia"
 PUBMED_DIR = RESULTS_DIR / "2_pubmed"
-FINAL_DIR = CODE_DIR / "final"
 
 VERSIONS = ["v1", "v2", "v3", "final"]
 LANGS = ["es", "en"]
@@ -30,18 +34,21 @@ LANGS = ["es", "en"]
 # 🎨 MAPA DE SCRIPTS
 # =============================================================================
 SCRIPTS = {
-    f"Wikipedia_{v}": CODE_DIR / f"1_wikipedia/RAG_wikipedia_{v}.py"
-    for v in ["v1", "v2", "v3"]
+    "Wikipedia_v1": CODE_DIR / "1_wikipedia/RAG_Wikipedia_v1_basic_single_keyword.py",
+    "Wikipedia_v2": CODE_DIR / "1_wikipedia/RAG_Wikipedia_v2_multikey_suggestions.py",
+    "Wikipedia_v3": CODE_DIR / "1_wikipedia/RAG_Wikipedia_v3_strict_prompt_multikey.py",
+    "Wikipedia_final": (
+        CODE_DIR / "1_wikipedia/RAG_Wikipedia_final_multilingual_dynamic_model.py"
+    ),
+    "PubMed_v1": CODE_DIR / "2_pubmed/RAG_PubMed_v1_basic_es.py",
+    "PubMed_v2": (
+        CODE_DIR / "2_pubmed/RAG_PubMed_v2_es_en_translation_gpu_fallback.py"
+    ),
+    "PubMed_v3": CODE_DIR / "2_pubmed/RAG_PubMed_v3_progressive_saves_strict_prompt.py",
+    "PubMed_final": (
+        CODE_DIR / "2_pubmed/RAG_PubMed_final_multilingual_dynamic_model.py"
+    ),
 }
-SCRIPTS.update({
-    f"PubMed_{v}": CODE_DIR / f"2_pubmed/RAG_pubmed_{v}.py"
-    for v in ["v1", "v2", "v3"]
-})
-# Añadir finales
-SCRIPTS.update({
-    "Wikipedia_final": FINAL_DIR / "RAG_wikipedia_final.py",
-    "PubMed_final": FINAL_DIR / "RAG_pubmed_final.py",
-})
 
 # =============================================================================
 # 🎨 FUNCIONES AUXILIARES
@@ -70,42 +77,23 @@ for name, script_path in SCRIPTS.items():
 # =============================================================================
 print("\n📂 Verificando carpetas de salida (creando si no existen)...\n")
 
-for sub in ["1_wikipedia", "2_pubmed"]:
-    for v in ["v1", "v2", "v3"]:
-        for lang in LANGS:
-            folder = RESULTS_DIR / sub / f"{v}_{lang}"
-            created = check_exists(folder, create=True)
-            print(f"{sub}/{v}_{lang:<10} → {status_icon(created)}  ({folder})")
-
-# Carpetas de FINAL
-for source in ["wikipedia", "pubmed"]:
-    for lang in LANGS:
-        folder = RESULTS_DIR / "final" / f"{source}_final_{lang}"
-        created = check_exists(folder, create=True)
-        print(f"final/{source}_{lang:<10} → {status_icon(created)}  ({folder})")
+for folder in [WIKI_DIR, PUBMED_DIR, SUMMARY_DIR]:
+    created = check_exists(folder, create=True)
+    print(f"{status_icon(created)} {folder}")
 
 # =============================================================================
 # 📊 COMPROBACIÓN DE MÉTRICAS ESPERADAS
 # =============================================================================
-print("\n📊 Verificando rutas de métricas esperadas...\n")
+print("\n📊 Verificando métricas generadas...\n")
 
-expected_metrics = []
-# Para versiones v1–v3
-for source in ["wikipedia", "pubmed"]:
-    prefix = "1_" if source == "wikipedia" else "2_"
-    for v in ["v1", "v2", "v3"]:
-        for lang in LANGS:
-            folder = RESULTS_DIR / f"{prefix}{source}" / f"{v}_{lang}"
-            metrics_xlsx = folder / f"rag_{source}_{v}_{lang}_metrics.xlsx"
-            expected_metrics.append(metrics_xlsx)
-            print(f"{status_icon(metrics_xlsx.exists())} {metrics_xlsx}")
+expected_metrics = sorted(WIKI_DIR.glob("*_metrics.xlsx")) + sorted(
+    PUBMED_DIR.glob("*_metrics.xlsx")
+)
 
-# Para FINAL
-for source in ["wikipedia", "pubmed"]:
-    for lang in LANGS:
-        folder = RESULTS_DIR / "final" / f"{source}_final_{lang}"
-        metrics_xlsx = folder / f"rag_{source}_final_{lang}_metrics.xlsx"
-        expected_metrics.append(metrics_xlsx)
+if not expected_metrics:
+    print("⚠️ No se encontraron archivos *_metrics.xlsx en results/3_rag.")
+else:
+    for metrics_xlsx in expected_metrics:
         print(f"{status_icon(metrics_xlsx.exists())} {metrics_xlsx}")
 
 # =============================================================================

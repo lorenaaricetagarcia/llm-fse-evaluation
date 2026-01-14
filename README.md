@@ -48,17 +48,22 @@ The dataset is built in multiple steps:
      Ministry of Health portal.
 2. **Convert PDFs to JSON**
    - `2_convert_all_fse_pdf_to_json.py` extracts raw text from PDFs and converts
-     them to JSON format.
+     them to JSON format under `results/1_data_preparation/1_json_specialization/`
+     using the base keys `titulacion`, `preguntas`, `numero`, `enunciado`,
+     `opciones`, and `archivo_origen`.
 3. **Extract correct answers**
    - `3_extract_correct_answer.py` parses the answer keys from exam documents.
 4. **Merge correct answers into JSON**
-   - `4_add_correct_answer_to_json.py` injects answer labels into the questions.
+   - `4_add_correct_answer_to_json.py` injects `respuesta_correcta` plus
+     per-question `titulacion` and `convocatoria` metadata.
 5. **Remove administrative instructions**
    - `5_remove_instructions.py` cleans non-question boilerplate.
 6. **Classify question modality**
-   - `6_add_type_text_or_image.py` tags each question as *text* or *image*.
+   - `6_add_type_text_or_image.py` tags each question as `tipo: "texto"` or
+     `tipo: "imagen"`.
 7. **Add metadata**
-   - `7_add_titulation_year.py` adds specialization and year metadata.
+   - `7_add_titulation_year.py` adds dataset-level `etiqueta_titulacion` and
+     `etiqueta_convocatoria` fields.
 
 Outputs for each step are stored under `results/1_data_preparation/` to preserve
 intermediate artifacts for traceability and auditability.
@@ -128,8 +133,9 @@ All outputs are stored under `results/`, including:
 
 ## Running the pipeline
 
-> ⚠️ Many scripts contain **hard-coded paths** (e.g., `/home/xs1/Desktop/Lorena`).
-> Update these base paths before executing to match your local environment.
+> ⚠️ Some scripts assume repo-relative defaults (for example `results/...` or
+> `FSE_exams_v0/`). If you run the pipeline from a different working directory,
+> set the provided environment variables or update the base paths accordingly.
 
 ### Data preparation
 Run scripts in order from `code/1_data_preparation/`.

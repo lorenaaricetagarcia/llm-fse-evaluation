@@ -23,7 +23,7 @@ For each processed dataset, the script:
 
 Input directory
 ---------------
-- results/1_data_preparation/4_json_corrected
+- results/1_data_preparation/4_json_corregido
 
 Output directory
 ----------------
@@ -50,7 +50,7 @@ import json
 # ---------------------------------------------------------------------
 # 1. Directory configuration
 # ---------------------------------------------------------------------
-INPUT_DIRECTORY = "results/1_data_preparation/4_json_corrected"
+INPUT_DIRECTORY = "results/1_data_preparation/4_json_corregido"
 OUTPUT_DIRECTORY = "results/1_data_preparation/5_json_type"
 
 os.makedirs(OUTPUT_DIRECTORY, exist_ok=True)

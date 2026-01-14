@@ -64,7 +64,7 @@ BASE_DIR = Path(os.getenv("FSE_BASE_DIR", Path(__file__).resolve().parents[2]))
 OUTPUT_DIR = Path(
     os.getenv(
         "FSE_OUTPUT_DIR",
-        BASE_DIR / "results/2_models/1_prompt/3_prompt_en",
+        BASE_DIR / "results/2_models/3_prompt_en",
     )
 )
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

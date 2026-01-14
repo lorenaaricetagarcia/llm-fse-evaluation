@@ -20,7 +20,7 @@ Output
 ------
 The script creates the following output directory:
 
-    results/1_data_preparation/2_json_answers/
+    results/1_data_preparation/2_respuestas_json/
 
 Each JSON file is named as:
 
@@ -62,7 +62,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 # ---------------------------------------------------------------------
 # 1. Output directory configuration
 # ---------------------------------------------------------------------
-OUTPUT_DIRECTORY = "results/1_data_preparation/2_json_answers"
+OUTPUT_DIRECTORY = "results/1_data_preparation/2_respuestas_json"
 os.makedirs(OUTPUT_DIRECTORY, exist_ok=True)
 
 

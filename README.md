@@ -75,6 +75,25 @@ The model-evaluation pipeline compares multiple prompting strategies:
 **Key metric:** accuracy on **text-only questions** (image-based questions are
 excluded), computed as `correct / answered` with `None` counted as unanswered.
 
+The metrics script now supports configurable paths via CLI flags or
+environment variables (defaults are repo-relative):
+
+```bash
+python code/2_models/metrics.py \
+  --base-dir results/2_models/1_prompt \
+  --ground-truth-dir results/1_data_preparation/6_json_final \
+  --output-dir results/2_models/1_prompt/metrics
+```
+
+Environment variable equivalents:
+
+```bash
+FSE_BASE_DIR=results/2_models/1_prompt \
+FSE_GROUND_TRUTH_DIR=results/1_data_preparation/6_json_final \
+FSE_OUTPUT_DIR=results/2_models/1_prompt/metrics \
+python code/2_models/metrics.py
+```
+
 ## RAG experiments (code/3_rag)
 
 RAG pipelines retrieve evidence from external knowledge sources and feed it into
@@ -159,4 +178,3 @@ An Analysis of Language Models. Master’s Thesis.
 
 For questions about the thesis or the pipeline, please contact the author listed
 in the script headers.
-

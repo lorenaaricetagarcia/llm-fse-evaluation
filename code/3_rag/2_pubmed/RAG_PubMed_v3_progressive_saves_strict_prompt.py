@@ -7,11 +7,12 @@ PubMed-RAG Pipeline (v3) — Single specialization runner
 - Adds checkpoint saves every CHECKPOINT_EVERY questions
 """
 
+import json
 import os
 import re
-import json
 import time
 from datetime import datetime
+from pathlib import Path
 from typing import List, Tuple, Optional
 import xml.etree.ElementTree as ET
 
@@ -44,9 +45,14 @@ CHECKPOINT_EVERY = int(os.environ.get("RAG_CHECKPOINT_EVERY", "50"))
 if not RAG_INPUT_JSON or not os.path.exists(RAG_INPUT_JSON):
     raise FileNotFoundError(f"RAG_INPUT_JSON not found: {RAG_INPUT_JSON}")
 
-BASE_DIR = "/home/xs1/Desktop/Lorena"
-OUTPUT_DIR = f"{BASE_DIR}/results/3_rag/2_pubmed"
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+BASE_DIR = Path(os.getenv("FSE_BASE_DIR", Path(__file__).resolve().parents[3]))
+OUTPUT_DIR = Path(
+    os.getenv(
+        "FSE_OUTPUT_DIR",
+        BASE_DIR / "results/3_rag/2_pubmed",
+    )
+)
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
 # =========================
@@ -239,7 +245,10 @@ correct = wrong = no_answer = 0
 t0 = time.time()
 
 stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-tmp_json_path = os.path.join(OUTPUT_DIR, f"{RAG_SPECIALIZATION}_{RAG_MODEL}_pubmed_v3_{RAG_LANG}_{stamp}_checkpoint.json")
+tmp_json_path = (
+    OUTPUT_DIR
+    / f"{RAG_SPECIALIZATION}_{RAG_MODEL}_pubmed_v3_{RAG_LANG}_{stamp}_checkpoint.json"
+)
 
 for idx, q in enumerate(questions, start=1):
     statement = q.get("enunciado", "")
@@ -307,8 +316,14 @@ for idx, q in enumerate(questions, start=1):
 answered = total - no_answer
 acc = (correct / answered * 100.0) if answered > 0 else 0.0
 
-json_out = os.path.join(OUTPUT_DIR, f"{RAG_SPECIALIZATION}_{RAG_MODEL}_pubmed_v3_{RAG_LANG}_{stamp}.json")
-xlsx_out = os.path.join(OUTPUT_DIR, f"{RAG_SPECIALIZATION}_{RAG_MODEL}_pubmed_v3_{RAG_LANG}_{stamp}_metrics.xlsx")
+json_out = (
+    OUTPUT_DIR
+    / f"{RAG_SPECIALIZATION}_{RAG_MODEL}_pubmed_v3_{RAG_LANG}_{stamp}.json"
+)
+xlsx_out = (
+    OUTPUT_DIR
+    / f"{RAG_SPECIALIZATION}_{RAG_MODEL}_pubmed_v3_{RAG_LANG}_{stamp}_metrics.xlsx"
+)
 
 with open(json_out, "w", encoding="utf-8") as f:
     json.dump({"preguntas": model_results}, f, ensure_ascii=False, indent=2)
@@ -324,7 +339,7 @@ df_metrics = pd.DataFrame([{
     "No answer": no_answer,
     "Accuracy (%)": round(acc, 2),
     "Seconds": round(time.time() - t0, 2),
-    "JSON": os.path.basename(json_out),
+    "JSON": json_out.name,
 }])
 df_metrics.to_excel(xlsx_out, index=False)
 

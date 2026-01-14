@@ -25,11 +25,12 @@ Console output:
 - Prints progress: "SPEC | lang | model | Q i/total | status | kws | snippet"
 """
 
-import os
 import json
+import os
 import re
 import time
 from datetime import datetime
+from pathlib import Path
 from typing import Optional, Tuple, List
 
 import requests
@@ -57,9 +58,14 @@ if not RAG_INPUT_JSON or not os.path.exists(RAG_INPUT_JSON):
 # ================================================================
 # 1) Config
 # ================================================================
-BASE_DIR = "/home/xs1/Desktop/Lorena"
-OUTPUT_DIR = f"{BASE_DIR}/results/3_rag/1_wikipedia"
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+BASE_DIR = Path(os.getenv("FSE_BASE_DIR", Path(__file__).resolve().parents[3]))
+OUTPUT_DIR = Path(
+    os.getenv(
+        "FSE_OUTPUT_DIR",
+        BASE_DIR / "results/3_rag/1_wikipedia",
+    )
+)
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # KeyBERT CPU
 SENTENCE_MODEL = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
@@ -316,13 +322,13 @@ answered = total - no_answer
 acc = (correct / answered * 100.0) if answered > 0 else 0.0
 
 stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-json_out = os.path.join(
-    OUTPUT_DIR,
-    f"{RAG_SPECIALIZATION}_{RAG_MODEL}_wikipedia_v3_{RAG_LANG}_{stamp}.json"
+json_out = (
+    OUTPUT_DIR
+    / f"{RAG_SPECIALIZATION}_{RAG_MODEL}_wikipedia_v3_{RAG_LANG}_{stamp}.json"
 )
-xlsx_out = os.path.join(
-    OUTPUT_DIR,
-    f"{RAG_SPECIALIZATION}_{RAG_MODEL}_wikipedia_v3_{RAG_LANG}_{stamp}_metrics.xlsx"
+xlsx_out = (
+    OUTPUT_DIR
+    / f"{RAG_SPECIALIZATION}_{RAG_MODEL}_wikipedia_v3_{RAG_LANG}_{stamp}_metrics.xlsx"
 )
 
 with open(json_out, "w", encoding="utf-8") as f:
@@ -359,7 +365,7 @@ df_metrics = pd.DataFrame([{
     "No answer": no_answer,
     "Accuracy (%)": round(acc, 2),
     "Seconds": round(time.time() - t_start, 2),
-    "JSON": os.path.basename(json_out),
+    "JSON": json_out.name,
     "No keywords (KeyBERT)": stats["no_keywords_keybert"],
     "No keywords (spaCy)": stats["no_keywords_spacy"],
     "Overlap questions": stats["questions_with_overlap"],

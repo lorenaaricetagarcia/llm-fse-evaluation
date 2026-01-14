@@ -22,11 +22,12 @@ Behavior:
   - Saves JSON + *_metrics.xlsx (so main selector can find it)
 """
 
-import os
 import json
+import os
 import re
 import time
 from datetime import datetime
+from pathlib import Path
 from typing import Optional, List, Tuple
 from urllib.parse import quote
 
@@ -57,9 +58,14 @@ if RAG_LANG not in ("es", "en"):
 # ================================================================
 # 1) Paths
 # ================================================================
-BASE_DIR = "/home/xs1/Desktop/Lorena"
-OUTPUT_DIR = f"{BASE_DIR}/results/3_rag/1_wikipedia"
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+BASE_DIR = Path(os.getenv("FSE_BASE_DIR", Path(__file__).resolve().parents[3]))
+OUTPUT_DIR = Path(
+    os.getenv(
+        "FSE_OUTPUT_DIR",
+        BASE_DIR / "results/3_rag/1_wikipedia",
+    )
+)
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
 # ================================================================
@@ -318,8 +324,14 @@ answered = total - no_answer
 acc = (correct / answered * 100.0) if answered > 0 else 0.0
 stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
-json_out = os.path.join(OUTPUT_DIR, f"{RAG_SPECIALIZATION}_{RAG_MODEL}_wikipedia_final_{RAG_LANG}_{stamp}.json")
-xlsx_out = os.path.join(OUTPUT_DIR, f"{RAG_SPECIALIZATION}_{RAG_MODEL}_wikipedia_final_{RAG_LANG}_{stamp}_metrics.xlsx")
+json_out = (
+    OUTPUT_DIR
+    / f"{RAG_SPECIALIZATION}_{RAG_MODEL}_wikipedia_final_{RAG_LANG}_{stamp}.json"
+)
+xlsx_out = (
+    OUTPUT_DIR
+    / f"{RAG_SPECIALIZATION}_{RAG_MODEL}_wikipedia_final_{RAG_LANG}_{stamp}_metrics.xlsx"
+)
 
 with open(json_out, "w", encoding="utf-8") as f:
     json.dump({"preguntas": model_results}, f, ensure_ascii=False, indent=2)
@@ -335,7 +347,7 @@ df_metrics = pd.DataFrame([{
     "No answer": no_answer,
     "Accuracy (%)": round(acc, 2),
     "Seconds": round(time.time() - t0, 2),
-    "JSON": os.path.basename(json_out),
+    "JSON": json_out.name,
 }])
 df_metrics.to_excel(xlsx_out, index=False)
 

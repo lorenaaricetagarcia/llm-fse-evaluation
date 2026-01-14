@@ -51,6 +51,7 @@ import os
 import re
 import sys
 from collections import Counter, OrderedDict
+from pathlib import Path
 
 import pandas as pd
 import requests
@@ -59,8 +60,14 @@ import requests
 # ---------------------------------------------------------------------
 # 1. Output configuration
 # ---------------------------------------------------------------------
-OUTPUT_DIR = "/home/xs1/Desktop/Lorena/results/2_models/1_prompt/1_no_prompt"
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+BASE_DIR = Path(os.getenv("FSE_BASE_DIR", Path(__file__).resolve().parents[2]))
+OUTPUT_DIR = Path(
+    os.getenv(
+        "FSE_OUTPUT_DIR",
+        BASE_DIR / "results/2_models/1_prompt/1_no_prompt",
+    )
+)
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
 class DualOutput:
@@ -81,7 +88,7 @@ class DualOutput:
         self.log.flush()
 
 
-sys.stdout = DualOutput(os.path.join(OUTPUT_DIR, "log_no_prompt.txt"))
+sys.stdout = DualOutput(str(OUTPUT_DIR / "log_no_prompt.txt"))
 
 
 # ---------------------------------------------------------------------
@@ -89,8 +96,13 @@ sys.stdout = DualOutput(os.path.join(OUTPUT_DIR, "log_no_prompt.txt"))
 # ---------------------------------------------------------------------
 MODELS = ["llama3", "mistral", "gemma", "deepseek-coder", "phi3"]
 
-INPUT_DIR = "/home/xs1/Desktop/Lorena/results/1_data_preparation/6_json_final"
-json_files = [f for f in os.listdir(INPUT_DIR) if f.endswith(".json")]
+INPUT_DIR = Path(
+    os.getenv(
+        "FSE_INPUT_DIR",
+        BASE_DIR / "results/1_data_preparation/6_json_final",
+    )
+)
+json_files = [path.name for path in INPUT_DIR.glob("*.json")]
 
 OLLAMA_ENDPOINT = "http://localhost:11434/api/generate"
 REQUEST_TIMEOUT_SECONDS = 180
@@ -129,7 +141,7 @@ def build_eval_questions(json_filename: str, base_data: dict) -> list:
 # ---------------------------------------------------------------------
 for json_filename in json_files:
     base_name = os.path.splitext(json_filename)[0]
-    json_path = os.path.join(INPUT_DIR, json_filename)
+    json_path = INPUT_DIR / json_filename
 
     with open(json_path, "r", encoding="utf-8") as f:
         base_data = json.load(f)
@@ -149,8 +161,8 @@ for json_filename in json_files:
         print(f"\n🚀 Processing model: {model} | File: {json_filename}")
 
         model_output = {"preguntas": []}
-        model_dir = os.path.join(OUTPUT_DIR, model)
-        os.makedirs(model_dir, exist_ok=True)
+        model_dir = OUTPUT_DIR / model
+        model_dir.mkdir(parents=True, exist_ok=True)
 
         # -------------------------------------------------------------
         # 3.1 Generate + store model responses
@@ -201,7 +213,7 @@ for json_filename in json_files:
             model_output["preguntas"].append(new_question)
 
         # Save per-model JSON output
-        output_json_path = os.path.join(model_dir, f"{base_name}_{model}.json")
+        output_json_path = model_dir / f"{base_name}_{model}.json"
         with open(output_json_path, "w", encoding="utf-8") as f_out:
             json.dump(model_output, f_out, ensure_ascii=False, indent=2)
 
@@ -285,8 +297,8 @@ for json_filename in json_files:
 # ---------------------------------------------------------------------
 print("\n📊📊📊 GLOBAL SUMMARY BY MODEL 📊📊📊")
 
-csv_path = os.path.join(OUTPUT_DIR, "no_prompt_metrics.csv")
-excel_path = os.path.join(OUTPUT_DIR, "no_prompt_metrics.xlsx")
+csv_path = OUTPUT_DIR / "no_prompt_metrics.csv"
+excel_path = OUTPUT_DIR / "no_prompt_metrics.xlsx"
 
 rows = []
 

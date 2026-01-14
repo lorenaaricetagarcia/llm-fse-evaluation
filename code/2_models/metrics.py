@@ -41,9 +41,10 @@ Methodological Notes
 - Text-only filtering is applied using the field: pregunta["tipo"] == "texto"
 """
 
-import os
 import json
+import os
 from datetime import datetime
+from pathlib import Path
 
 import pandas as pd
 
@@ -51,15 +52,23 @@ import pandas as pd
 # =============================================================================
 # 1. Path configuration
 # =============================================================================
-BASE_DIR = "/home/xs1/Desktop/Lorena/results/2_models/1_prompt"
-GROUND_TRUTH_DIR = "/home/xs1/Desktop/Lorena/results/1_data_preparation/6_json_final"
+REPO_ROOT = Path(__file__).resolve().parents[2]
+BASE_DIR = Path(
+    os.getenv("FSE_BASE_DIR", REPO_ROOT / "results/2_models/1_prompt")
+)
+GROUND_TRUTH_DIR = Path(
+    os.getenv(
+        "FSE_GROUND_TRUTH_DIR",
+        REPO_ROOT / "results/1_data_preparation/6_json_final",
+    )
+)
 
-OUTPUT_DIR = os.path.join(BASE_DIR, "metrics")
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+OUTPUT_DIR = Path(os.getenv("FSE_OUTPUT_DIR", BASE_DIR / "metrics"))
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-LOG_FILE = os.path.join(OUTPUT_DIR, "metrics_prompt_series_log.txt")
-CSV_PATH = os.path.join(OUTPUT_DIR, "prompt_series_metrics.csv")
-XLSX_PATH = os.path.join(OUTPUT_DIR, "prompt_series_metrics.xlsx")
+LOG_FILE = OUTPUT_DIR / "metrics_prompt_series_log.txt"
+CSV_PATH = OUTPUT_DIR / "prompt_series_metrics.csv"
+XLSX_PATH = OUTPUT_DIR / "prompt_series_metrics.xlsx"
 
 PROMPT_VARIANTS = [
     "1_no_prompt",
@@ -72,7 +81,7 @@ PROMPT_VARIANTS = [
 # =============================================================================
 # 2. Helper function
 # =============================================================================
-def compute_metrics_for_folder(prompt_variant_path: str, prompt_name: str) -> list[dict]:
+def compute_metrics_for_folder(prompt_variant_path: Path, prompt_name: str) -> list[dict]:
     """
     Compute metrics for a given prompt-variant folder.
 
@@ -89,26 +98,22 @@ def compute_metrics_for_folder(prompt_variant_path: str, prompt_name: str) -> li
     metrics: list[dict] = []
     print(f"\nProcessing prompt variant: {prompt_name}")
 
-    for model_name in os.listdir(prompt_variant_path):
-        model_dir = os.path.join(prompt_variant_path, model_name)
-        if not os.path.isdir(model_dir):
+    for model_dir in prompt_variant_path.iterdir():
+        if not model_dir.is_dir():
             continue
 
+        model_name = model_dir.name
         print(f"  Model: {model_name}")
 
-        for filename in os.listdir(model_dir):
-            if not filename.endswith(".json"):
-                continue
+        for pred_path in model_dir.glob("*.json"):
+            exam_name = pred_path.stem.split("_")[0]
+            ground_truth_path = GROUND_TRUTH_DIR / f"{exam_name}.json"
 
-            exam_name = filename.split("_")[0]
-            ground_truth_path = os.path.join(GROUND_TRUTH_DIR, f"{exam_name}.json")
-
-            if not os.path.exists(ground_truth_path):
+            if not ground_truth_path.exists():
                 print(f"  Warning: ground-truth file not found for exam '{exam_name}'")
                 continue
 
             # Load prediction data
-            pred_path = os.path.join(model_dir, filename)
             with open(pred_path, "r", encoding="utf-8") as f:
                 pred_data = json.load(f)
 
@@ -178,9 +183,9 @@ def main() -> None:
 
     # Compute metrics per prompt variant
     for variant in PROMPT_VARIANTS:
-        variant_path = os.path.join(BASE_DIR, variant)
+        variant_path = BASE_DIR / variant
 
-        if not os.path.exists(variant_path):
+        if not variant_path.exists():
             print(f"Warning: folder not found: {variant_path}")
             continue
 

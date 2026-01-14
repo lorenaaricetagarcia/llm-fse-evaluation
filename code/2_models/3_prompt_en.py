@@ -45,21 +45,29 @@ Methodological Notes
 - The English prompt enforces a constrained response format for improved parsing.
 """
 
+import csv
 import json
 import os
 import re
 import sys
-import csv
-import requests
+from collections import Counter, OrderedDict
+from pathlib import Path
+
 import pandas as pd
-from collections import OrderedDict, Counter
+import requests
 
 
 # ---------------------------------------------------------------------
 # 1. Configuration and output
 # ---------------------------------------------------------------------
-OUTPUT_DIR = "/home/xs1/Desktop/Lorena/results/2_models/1_prompt/4_prompt_en"
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+BASE_DIR = Path(os.getenv("FSE_BASE_DIR", Path(__file__).resolve().parents[2]))
+OUTPUT_DIR = Path(
+    os.getenv(
+        "FSE_OUTPUT_DIR",
+        BASE_DIR / "results/2_models/1_prompt/4_prompt_en",
+    )
+)
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
 class DualOutput:
@@ -78,7 +86,7 @@ class DualOutput:
         self.log.flush()
 
 
-sys.stdout = DualOutput(os.path.join(OUTPUT_DIR, "log_prompt_en.txt"))
+sys.stdout = DualOutput(str(OUTPUT_DIR / "log_prompt_en.txt"))
 
 
 # ---------------------------------------------------------------------
@@ -103,8 +111,13 @@ EN_PROMPT = (
     "Then add a short explanatory sentence.\n"
 )
 
-INPUT_DIR = "/home/xs1/Desktop/Lorena/results/1_data_preparation/6_json_final"
-exam_files = [f for f in os.listdir(INPUT_DIR) if f.endswith(".json")]
+INPUT_DIR = Path(
+    os.getenv(
+        "FSE_INPUT_DIR",
+        BASE_DIR / "results/1_data_preparation/6_json_final",
+    )
+)
+exam_files = [path.name for path in INPUT_DIR.glob("*.json")]
 
 OLLAMA_ENDPOINT = "http://localhost:11434/api/generate"
 REQUEST_TIMEOUT_SECONDS = 180
@@ -139,7 +152,7 @@ global_summary = {
 # ---------------------------------------------------------------------
 for exam_file in exam_files:
     exam_name = os.path.splitext(exam_file)[0]
-    exam_path = os.path.join(INPUT_DIR, exam_file)
+    exam_path = INPUT_DIR / exam_file
 
     with open(exam_path, "r", encoding="utf-8") as f:
         base_data = json.load(f)
@@ -160,8 +173,8 @@ for exam_file in exam_files:
         print(f"\n🚀 Running model: {model} on exam: {exam_name}")
 
         run_data = {"preguntas": []}
-        model_dir = os.path.join(OUTPUT_DIR, model)
-        os.makedirs(model_dir, exist_ok=True)
+        model_dir = OUTPUT_DIR / model
+        model_dir.mkdir(parents=True, exist_ok=True)
 
         # -------------------------------------------------------------
         # 4.1 Generate and store model outputs
@@ -210,7 +223,7 @@ for exam_file in exam_files:
             run_data["preguntas"].append(new_question)
 
         # Save per-model JSON
-        out_json = os.path.join(model_dir, f"{exam_name}_{model}.json")
+        out_json = model_dir / f"{exam_name}_{model}.json"
         with open(out_json, "w", encoding="utf-8") as f_out:
             json.dump(run_data, f_out, ensure_ascii=False, indent=2)
         print(f"\n✅ Saved: {out_json}")
@@ -292,9 +305,9 @@ for exam_file in exam_files:
 # ---------------------------------------------------------------------
 print("\n📊📊📊 GLOBAL MODEL SUMMARY 📊📊📊")
 
-csv_path = os.path.join(OUTPUT_DIR, "prompt_en_metrics.csv")
-excel_path = os.path.join(OUTPUT_DIR, "prompt_en_metrics.xlsx")
-json_path = os.path.join(OUTPUT_DIR, "prompt_en_metrics.json")
+csv_path = OUTPUT_DIR / "prompt_en_metrics.csv"
+excel_path = OUTPUT_DIR / "prompt_en_metrics.xlsx"
+json_path = OUTPUT_DIR / "prompt_en_metrics.json"
 
 rows = []
 
